@@ -1,0 +1,16 @@
+/* Hide scrollbar for horizontal navigation on mobile */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+/* Responsive table improvements */
+@media (max-width: 640px) {
+  .table-container {
+    font-size: 12px;
+  }
+}
