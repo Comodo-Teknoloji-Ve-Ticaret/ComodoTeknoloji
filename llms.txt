@@ -1,0 +1,64 @@
+# Comodo Teknoloji
+
+> Antalya merkezli teknoloji firması: kurumsal web sitesi, güvenlik kamerası, yazılım, bilişim altyapısı (network, zayıf akım, 5651) ve danışmanlık hizmetlerini işletmelere tek elden sunar. Hizmet bölgesi: Antalya ve tüm ilçeleri (Antalya Merkez, Muratpaşa, Kepez, Konyaaltı, Lara, Belek, Serik, Manavgat, Side, Alanya, Kemer, Kaş, Kumluca).
+
+- Adres: Kızılsaray, Şarampol Cd Burak Apt, 07000 Muratpaşa/Antalya, Türkiye
+- Telefon: 0507 850 52 87
+- E-posta: comodoteknoloji@gmail.com
+- Çalışma saatleri: Pzt–Cmt 09:00–18:00 · 7/24 acil destek hattı
+- Web: https://comodoteknoloji.com
+
+## Çözümler
+
+- [Antalya Kurumsal Web Sitesi Tasarımı: Google ve Yapay Zekâ Aramalarına Hazır Siteler](https://comodoteknoloji.com/cozumler/web-tasarim): Hızlı, güvenli, mobil uyumlu; Google ve ChatGPT gibi yapay zekâ aramalarında bulunabilen web siteleri.
+- [Antalya Güvenlik Kamerası ve IP Kamera Sistemleri](https://comodoteknoloji.com/cozumler/guvenlik-kameralari): DORI hesabıyla planlanan IP kamera, termal kamera, video analitik ve merkezi izleme.
+- [Antalya Yazılım Geliştirme: Özel Yazılım, Mobil Uygulama, Yapay Zekâ ve Entegrasyon](https://comodoteknoloji.com/cozumler/yazilim): Özel yazılım, mobil uygulama, yapay zekâ ve IoT çözümleri; PMS, PTS ve ERP entegrasyonları.
+- [Antalya İşletme Reklamı: Google Ads, Meta Reklamları ve Yerel SEO Yönetimi](https://comodoteknoloji.com/cozumler/dijital-reklam): Google Ads, Meta reklamları ve Google İşletme Profili; dönüşüm takipli, güvenli açılış sayfalarıyla.
+- [Antalya Bilişim Altyapısı ve Güvenlik Danışmanlığı](https://comodoteknoloji.com/cozumler/bilisim-danismanligi): Yatırım öncesi ihtiyaç analizi, teknik şartname, teklif karşılaştırma ve kurulum denetimi.
+- [Antalya Kurumsal Network ve Otel Wi-Fi Kurulumu](https://comodoteknoloji.com/cozumler/kurumsal-network): Site survey ile planlanan Wi-Fi 6/7, yönetilebilir switch, firewall ve merkezi izleme.
+- [Antalya Otel ve İşletmeler İçin Zayıf Akım Projelendirme ve Kurulum](https://comodoteknoloji.com/cozumler/zayif-akim): CAT6A, fiber omurga, etiketli kabinetler ve Fluke test raporuyla teslim edilen altyapı.
+- [Antalya Siber Güvenlik: Uç Nokta Güvenliği, EDR ve Firewall Yönetimi](https://comodoteknoloji.com/cozumler/siber-guvenlik): EDR, yönetilen firewall, yedekleme ve fidye yazılımına karşı katmanlı koruma.
+- [Antalya 5651 Loglama, Hotspot ve Misafir Wi-Fi Çözümleri](https://comodoteknoloji.com/cozumler/5651-loglama-hotspot): Zaman damgalı 5651 loglama, captive portal ve kişiyle eşleşen misafir Wi-Fi kayıtları.
+- [Antalya Plaka Tanıma Sistemi (PTS) ve Bariyer Kurulumu](https://comodoteknoloji.com/cozumler/plaka-tanima-sistemi): Plaka okuyan kamera, bariyer/bollard ve yazılım entegrasyonuyla temassız araç geçişi.
+
+## Sektörler
+
+- [Otel ve Resort](https://comodoteknoloji.com/sektorler/otel-ve-resort): Wi-Fi şikayetlerini sezon öncesi bitirin; kamera, 5651 ve zayıf akım tek muhatapta.
+- [Fabrika ve OSB](https://comodoteknoloji.com/sektorler/fabrika-ve-osb): Fiber omurga, endüstriyel switch, çevre güvenliği ve üretim ağlarının korunması.
+- [AVM ve Site Yönetimi](https://comodoteknoloji.com/sektorler/avm-ve-site-yonetimi): Plaka tanıma, bariyer, CCTV ve ortak alan Wi-Fi'si ile raporlanabilir güvenlik.
+- [Restoran ve Kafe](https://comodoteknoloji.com/sektorler/restoran-ve-kafe): 5651 uyumlu misafir Wi-Fi, ayrılmış POS ağı ve kasa/mutfak kameraları.
+- [Klinik, Hukuk Bürosu ve Ofis](https://comodoteknoloji.com/sektorler/klinik-ve-ofis): Güven veren web sitesi, randevu, güvenlik kamerası ve hasta/müvekkil verisi için siber güvenlik.
+
+## Bölgeler
+
+- [Belek](https://comodoteknoloji.com/bolgeler/belek): Belek'teki resort oteller ve golf tesisleri için geniş alan Wi-Fi, dış mekan kamera, fiber omurga ve 5651 loglama. Sezon öncesi kurulum planı.
+- [Alanya](https://comodoteknoloji.com/bolgeler/alanya): Alanya'daki oteller, rezidanslar ve konut siteleri için Wi-Fi, CCTV, plaka tanıma ve 5651 loglama. Yerinde keşif ve kurulum.
+- [Manavgat](https://comodoteknoloji.com/bolgeler/manavgat): Manavgat, Side, Kızılağaç ve Kumköy'deki oteller için Wi-Fi yenileme, CCTV, 5651 loglama ve zayıf akım. Sezon öncesi kurulum.
+- [Kemer](https://comodoteknoloji.com/bolgeler/kemer): Kemer, Beldibi, Göynük, Çamyuva ve Tekirova'daki oteller ile tatil köyleri için Wi-Fi, kamera, 5651 loglama ve kablosuz köprü çözümleri.
+- [Kepez](https://comodoteknoloji.com/bolgeler/kepez): Kepez ve çevresindeki sanayi siteleri, fabrikalar ve depolar için fiber, endüstriyel network, termal kamera ve plaka tanıma.
+- [Konyaaltı](https://comodoteknoloji.com/bolgeler/konyaalti): Konyaaltı'ndaki konut siteleri, sahil restoranları, kafeler ve şehir otelleri için plaka tanıma, CCTV, 5651 uyumlu Wi-Fi.
+- [Muratpaşa](https://comodoteknoloji.com/bolgeler/muratpasa): Muratpaşa ve Lara'daki ofisler, şehir otelleri, klinikler ve mağazalar için network, siber güvenlik, kamera ve 5651 çözümleri.
+
+## Araçlar
+
+- [Ağ Yenileme Tasarruf Hesaplayıcı](https://comodoteknoloji.com/araclar/ag-yenileme-hesaplayici): Wi-Fi yenilemesinin iş gücü tasarrufunu ve önerilen AP sayısını hesaplayın.
+- [CCTV Planlayıcı](https://comodoteknoloji.com/araclar/cctv-planlayici): Kamera sayısı, lens, NVR kapasitesi, depolama ve PoE bütçesini hesaplayın.
+- [5651 Risk Skor Kartı](https://comodoteknoloji.com/araclar/5651-risk-testi): 10 soruda 5651 loglama uyumluluk riskinizi öğrenin.
+
+## Rehberler
+
+- [İşletme Web Sitesi Neden Önemli? Antalya'daki İşletmeler İçin 2026 Rehberi](https://comodoteknoloji.com/bilgi-bankasi/isletme-web-sitesi-neden-onemli): Sosyal medya yeterli mi? İşletmeler için web sitesinin önemi, Google ve yapay zekâ aramalarında görünürlük, güven, reklam verimliliği ve maliyet unsurları.
+- [Güvenli İşletme Web Sitesi: Sitenizi Saldırılara Karşı Korumanın 10 Yolu](https://comodoteknoloji.com/bilgi-bankasi/guvenli-isletme-web-sitesi-rehberi): İşletme web siteleri neden saldırıya uğrar? HTTPS, güvenlik başlıkları, form koruması, güncellemeler, yedekleme ve KVKK ile güvenli web sitesi kontrol listesi.
+- [Antalya'da İşletme Reklamı Nasıl Yapılır? Google, Meta ve Yerel SEO Rehberi](https://comodoteknoloji.com/bilgi-bankasi/antalya-isletme-reklami-rehberi): Antalya'daki işletmeler için reklam kanalı seçimi, Google İşletme Profili, Google Ads, Instagram reklamları, bütçe ve güvenlik destekli reklam.
+- [Antalya'da Güvenlik Kamerası Fiyatları Neye Göre Belirlenir? (2026)](https://comodoteknoloji.com/bilgi-bankasi/antalya-guvenlik-kamerasi-fiyatlari-neye-gore-belirlenir): Güvenlik kamerası sistemi fiyatını belirleyen unsurlar: kamera sayısı ve tipi, çözünürlük, DORI seviyesi, kayıt süresi, kablolama, montaj ve uzaktan izleme.
+- [5651 Sayılı Kanun: Oteller ve Kafeler İçin Loglama Rehberi (2026)](https://comodoteknoloji.com/bilgi-bankasi/5651-sayili-kanun-otel-kafe-loglama-rehberi): Otel, kafe ve işletmeler için 5651 loglama yükümlülüğü: kimler kapsamda, hangi kayıtlar tutulur, zaman damgası neden şart, kayıtlar ne kadar saklanır.
+
+## İletişim
+
+- [Ücretsiz Keşif Randevusu](https://comodoteknoloji.com/ucretsiz-kesif): Sahada ücretsiz altyapı incelemesi ve yazılı rapor
+- [İletişim](https://comodoteknoloji.com/iletisim): 0507 850 52 87 · comodoteknoloji@gmail.com
+- [Bakım ve Destek](https://comodoteknoloji.com/bakim-ve-destek): SLA'lı 7/24 izleme ve destek paketleri
+
+## Optional
+
+- [Tüm içerik (llms-full.txt)](https://comodoteknoloji.com/llms-full.txt): Çözüm, ürün, SSS ve rehber içeriklerinin tamamı

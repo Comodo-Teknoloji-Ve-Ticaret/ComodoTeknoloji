@@ -1,0 +1,1886 @@
+# Comodo Teknoloji
+
+> Antalya merkezli teknoloji firması: kurumsal web sitesi, güvenlik kamerası, yazılım, bilişim altyapısı (network, zayıf akım, 5651) ve danışmanlık hizmetlerini işletmelere tek elden sunar. Hizmet bölgesi: Antalya ve tüm ilçeleri (Antalya Merkez, Muratpaşa, Kepez, Konyaaltı, Lara, Belek, Serik, Manavgat, Side, Alanya, Kemer, Kaş, Kumluca).
+
+- Adres: Kızılsaray, Şarampol Cd Burak Apt, 07000 Muratpaşa/Antalya, Türkiye
+- Telefon: 0507 850 52 87
+- E-posta: comodoteknoloji@gmail.com
+- Çalışma saatleri: Pzt–Cmt 09:00–18:00 · 7/24 acil destek hattı
+- Web: https://comodoteknoloji.com
+
+---
+
+## Antalya Kurumsal Web Sitesi Tasarımı: Google ve Yapay Zekâ Aramalarına Hazır Siteler
+
+Kaynak: https://comodoteknoloji.com/cozumler/web-tasarim · Son güncelleme: 2026-10-25
+
+Kurumsal web sitesi; işletmenin hizmetlerini, iletişim bilgilerini ve güven unsurlarını 7/24 sunan, Google'da ve ChatGPT gibi yapay zekâ asistanlarında bulunabilen dijital vitrinidir. Antalya'daki işletmeler için hızlı, mobil uyumlu, güvenlik başlıkları ve KVKK ayarları yapılmış, teknik SEO ve GEO altyapısıyla teslim edilen web siteleri tasarlıyoruz.
+
+### Kimin için?
+
+- Klinik, hukuk bürosu ve ofisler
+- Otel, restoran ve turizm işletmeleri
+- Üretici ve e-ticaret yapan firmalar
+- Yeni kurulan Antalya işletmeleri
+
+### Hangi sorunu çözer?
+
+- **Sadece Instagram hesabı var:** Sosyal medya hesabı sizin değil platformun; Google'da hizmetinizi arayan müşteri sizi değil rakibi bulur.
+- **Site var ama telefon çalmıyor:** Yavaş açılan, mobilde dağılan ve net bir çağrı butonu olmayan site ziyaretçiyi müşteriye çeviremez.
+- **Yapay zekâ aramalarında yoksunuz:** ChatGPT, Perplexity ve Google AI Overviews kaynak gösterirken yapılandırılmış, net bilgi sunan siteleri seçer.
+
+### İşletmeler için web sitesi neden önemli?
+
+Web sitesi, müşterinin işletmenizi araştırırken ulaştığı ve kontrolü tamamen sizde olan tek dijital adrestir; sosyal medya hesapları, harita kaydı ve reklamlar trafiği getirir, güveni ve dönüşümü ise web sitesi tamamlar.
+
+- 7/24 çalışan satış temsilcisi: hizmetler, fiyatı etkileyen unsurlar ve iletişim her an erişilebilir
+- Google İşletme Profili ile birlikte yerel aramalarda ("Antalya güvenlik kamerası", "Muratpaşa diş kliniği") görünürlük
+- Yapay zekâ asistanlarının işletmenizi kaynak göstermesi için gereken yapılandırılmış veri ve net tanımlar
+- Google ve Meta reklamlarının yönleneceği ölçülebilir açılış sayfaları
+- Güven sinyalleri: SSL, KVKK metinleri, referanslar, gerçek fotoğraflar ve adres bilgisi
+- Veri sahipliği: platform kuralları veya hesap kapanmaları işinizi durdurmaz
+
+### SEO ile GEO arasındaki fark nedir?
+
+SEO, sitenin Google gibi arama motorlarında üst sıralarda listelenmesini; GEO (Generative Engine Optimization) ise ChatGPT, Perplexity ve Google AI Overviews gibi yapay zekâ cevap motorlarının sitenizi kaynak olarak göstermesini hedefler.
+
+SEO ve GEO karşılaştırması
+
+| Konu | SEO | GEO |
+| --- | --- | --- |
+| Hedef | Arama sonuçlarında üst sıralar | Yapay zekâ cevaplarında kaynak gösterilmek |
+| İçerik biçimi | Anahtar kelime odaklı sayfalar | Soru-cevap, net tanımlar, tablolar |
+| Teknik altyapı | Hız, mobil uyum, site haritası | Sunucu taraflı içerik, JSON-LD, llms.txt |
+| Güven sinyali | Bağlantılar, yerel kayıtlar | Tutarlı firma bilgisi, uzman yazarlar, kaynaklar |
+
+
+### Güvenli bir işletme web sitesi nasıl olmalı?
+
+Güvenli bir işletme sitesi HTTPS ve HSTS ile şifreli çalışır, güvenlik başlıkları tanımlıdır, formları bot ve spam korumalıdır, bileşenleri günceldir, düzenli yedeklenir ve KVKK'ya uygun çerez onayı sunar.
+
+Siber güvenlik ekibimizle birlikte çalıştığımız için siteleri yalnızca tasarlamıyor, saldırı yüzeyini küçülterek teslim ediyoruz. Statik üretim (SSG) kullandığımız sitelerde veri tabanı ve eklenti kaynaklı açıkların büyük kısmı baştan ortadan kalkar.
+
+### Web sitesi yaptırmak ne kadar sürer?
+
+Süre kapsama bağlıdır: birkaç sayfalık kurumsal tanıtım siteleri genellikle birkaç haftada, e-ticaret ve özel yazılım entegrasyonu içeren projeler daha uzun sürede tamamlanır; kesin takvim keşif görüşmesinin ardından iş planında yazılır.
+
+### Web sitesi projesi nasıl ilerler?
+
+1. **Keşif ve hedef:** İşletmenizi, rakiplerinizi ve müşterilerinizin Google'da ne aradığını birlikte çıkarıyoruz.
+2. **Site haritası ve içerik:** Her hizmet için ayrı, soru-cevap yapılı, alıntılanabilir içerik planı hazırlanır.
+3. **Tasarım:** Markanıza özel, mobil öncelikli tasarım; onayınızla geliştirmeye geçilir.
+4. **Geliştirme ve güvenlik:** Hızlı altyapı, güvenlik başlıkları, form koruması, KVKK ve çerez onayı.
+5. **SEO / GEO kurulumu:** JSON-LD şemaları, site haritası, llms.txt, Google İşletme Profili ve Search Console bağlantısı.
+6. **Yayın ve büyüme:** Analitik ve dönüşüm takibi kurulur; içerik ve reklamla büyüme planı devreye alınır.
+
+### Karşılaştırma
+
+Web sitesi yaptırma seçeneklerinin karşılaştırması
+
+| Özellik | Site kurucu platformlar | Hazır tema | Özel geliştirme (Comodo) |
+| --- | --- | --- | --- |
+| Hız ve Core Web Vitals | Platforma bağlı | Eklentilerle yavaşlayabilir | Hedefe göre optimize |
+| SEO / GEO kontrolü | Sınırlı | Eklentilerle kısmi | Tam (şema, llms.txt, SSR) |
+| Güvenlik | Platformun sorumluluğunda | Eklenti güncellemelerine bağlı | Saldırı yüzeyi küçük, başlıklar tanımlı |
+| Tasarım özgünlüğü | Şablon | Şablon + düzenleme | Markaya özel |
+| Veri ve kod sahipliği | Platformda | Sizde | Sizde |
+
+### Fiyatı belirleyen unsurlar
+
+Web sitesi fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Sayfa ve içerik sayısı | Yüksek | Hizmet, bölge ve blog sayfalarının adedi; içerik yazımının kimde olduğu |
+| E-ticaret ve ödeme | Yüksek | Ürün sayısı, sanal POS, kargo ve stok entegrasyonları |
+| Özel fonksiyonlar | Orta | Randevu, teklif hesaplayıcı, çok dil, üye girişi |
+| Tasarım kapsamı | Orta | Kurumsal kimlik, ikon ve görsel üretimi |
+| SEO / GEO ve içerik desteği | Orta | Teknik kurulum + aylık içerik ve raporlama |
+| Barındırma ve bakım | Düşük | Yıllık hosting, alan adı, güvenlik güncellemeleri |
+
+### Sık sorulan sorular
+
+**Antalya'da web sitesi yaptırmak istiyorum, nereden başlamalıyım?**
+Önce hangi hizmetler için bulunmak istediğinizi ve müşterilerinizin sizi nasıl aradığını netleştirin. Ücretsiz keşif görüşmesinde bunu birlikte çıkarıp site haritası ve takvim öneriyoruz.
+
+**Web sitem ChatGPT gibi yapay zekâ aramalarında çıkar mı?**
+Garanti verilemez; ancak sunucu taraflı içerik, yapılandırılmış veri (JSON-LD), net tanım paragrafları, soru-cevap başlıkları ve llms.txt gibi GEO teknikleri kaynak gösterilme olasılığını artırır. Tüm sitelerimizi bu altyapıyla teslim ediyoruz.
+
+**Siteyi kendim güncelleyebilir miyim?**
+Evet. İhtiyaca göre yönetim paneli veya basit içerik dosyalarıyla güncelleme imkânı sunuyor, teslimde kısa bir eğitim veriyoruz.
+
+**Alan adı ve hosting kimin adına olur?**
+Alan adı ve barındırma hesabı işletmeniz adına açılır; erişim bilgileri size teslim edilir.
+
+**Mevcut sitemi yenilerken Google sıralamalarım düşer mi?**
+Doğru yönlendirmeler (301), korunan URL yapısı ve Search Console takibiyle geçiş planlandığında sıralama kaybı en aza indirilir.
+
+**Daha önce hangi siteleri yaptınız?**
+Hukuk bürosu, diş kliniği, radyoloji merkezi, rafting işletmesi ve e-ticaret projelerimizi Projeler sayfasında inceleyebilirsiniz.
+
+### Kaynaklar
+
+1. [Arama Motoru Optimizasyonu (SEO) Başlangıç Rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr) — Google Search Central
+2. [Yapılandırılmış veri işaretlemesinin işleyiş şekline giriş](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=tr) — Google Search Central
+3. [Core Web Vitals (Önemli Web Verileri)](https://web.dev/articles/vitals?hl=tr) — web.dev (Google)
+4. [GEO: Generative Engine Optimization (Aggarwal, Murahari, Rajpurohit, Kalyan, Narasimhan, Deshpande)](https://arxiv.org/abs/2311.09735) — KDD 2024 / arXiv:2311.09735, 2024
+5. [The /llms.txt file — yapay zekâ sistemleri için site özeti önerisi](https://llmstxt.org/) — llmstxt.org
+6. [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/) — OWASP Foundation
+7. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Antalya Güvenlik Kamerası ve IP Kamera Sistemleri
+
+Kaynak: https://comodoteknoloji.com/cozumler/guvenlik-kameralari · Son güncelleme: 2026-10-24
+
+Profesyonel güvenlik kamerası sistemi; IP kameralar, kayıt cihazı (NVR), depolama ve izleme yazılımından oluşan, olayları yalnızca kaydetmekle kalmayıp tanımlanabilir görüntü üreten bir altyapıdır. Antalya'da her kamerayı IEC 62676-4 DORI değerlerine göre konumlandırıyor, kör noktaları kat planı üzerinde sıfırlıyor ve depolama süresini hesaplayarak kuruyoruz.
+
+### Kimin için?
+
+- Oteller ve siteler
+- Fabrika ve depolar
+- AVM ve mağazalar
+- Restoran ve kafeler
+
+### Hangi sorunu çözer?
+
+- **Olay var, yüz yok:** Geniş açılı lensle uzaktan çekilen görüntüde kişi görünür ama tanınamaz; kayıt delil değeri taşımaz.
+- **Kayıtlar 7 günde siliniyor:** Yanlış hesaplanan disk kapasitesi, olay fark edildiğinde kaydın çoktan üzerine yazılmasına neden olur.
+- **Kameralar var ama kör noktalar da:** Kat planı üzerinde görüş konisi analizi yapılmadan yerleştirilen kameralar kritik geçişleri kaçırır.
+
+### DORI nedir ve kamera seçimini nasıl etkiler?
+
+DORI; bir kameranın belirli bir mesafede kişiyi algılama, gözlemleme, tanıma veya kimliklendirme yeteneğini metre başına piksel yoğunluğuyla tanımlayan IEC 62676-4 standardıdır.
+
+IEC 62676-4 DORI piksel yoğunlukları
+
+| Seviye | Piksel / metre | Ne sağlar? |
+| --- | --- | --- |
+| Algılama (Detection) | 25 px/m | Bir kişinin varlığını fark etme |
+| Gözlem (Observation) | 62,5 px/m | Kıyafet, hareket gibi genel detaylar |
+| Tanıma (Recognition) | 125 px/m | Bilinen bir kişiyi tanıma |
+| Kimlik (Identification) | 250 px/m | Yabancı bir kişiyi şüphesiz kimliklendirme |
+
+
+### Kayıtlar kaç gün saklanabilir?
+
+Saklama süresi kamera sayısı, çözünürlük, bit hızı ve disk kapasitesine bağlıdır; doğru hesapla 30, 60 veya 90 günlük kayıt planlanabilir.
+
+Formül basittir: toplam bit hızı (Mbps) × 0,0108 × saat × gün = gereken TB. H.265 sıkıştırma ve hareket bazlı kayıt depolama ihtiyacını belirgin şekilde azaltır. CCTV Planlayıcı aracımızla kendi senaryonuzu hesaplayabilirsiniz.
+
+### Video analitik ne işe yarar?
+
+Video analitik; alan ihlali, çizgi geçme, kalabalık yoğunluğu ve terk edilmiş nesne gibi olayları otomatik algılayarak operatörün tüm ekranları izlemesine gerek bırakmaz.
+
+### Karşılaştırma
+
+Analog (HD) ve IP kamera sistemlerinin karşılaştırması
+
+| Özellik | Analog HD (AHD/TVI) | IP Kamera |
+| --- | --- | --- |
+| Çözünürlük | Genellikle 2–8 MP | 2–12 MP ve üzeri |
+| Kablolama | Koaksiyel + ayrı enerji | Tek CAT6 kablo (PoE) |
+| Video analitik | Sınırlı | Kamerada ve NVR'da gelişmiş |
+| Ölçeklenebilirlik | Kayıt cihazı kanal sayısıyla sınırlı | Ağ üzerinden esnek |
+| Uzaktan erişim güvenliği | Temel | Şifreleme, kullanıcı yetkileri, VLAN izolasyonu |
+| Önerilen kullanım | Küçük bütçeli mevcut sistem genişletmesi | Tüm yeni projeler |
+
+### Fiyatı belirleyen unsurlar
+
+Kamera projesinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Kamera sayısı ve tipi | Yüksek | Dome, bullet, PTZ, termal, fisheye |
+| İstenen DORI seviyesi | Yüksek | Kimlik seviyesi daha fazla kamera veya daha dar lens ister |
+| Depolama süresi | Orta | 30/60/90 gün ve RAID yedekliliği |
+| Kablolama ve direk/montaj | Orta | Dış mekan direkleri, yükseklik, fiber ihtiyacı |
+| Video analitik ve lisanslar | Değişken | Yüz, plaka, kalabalık analitiği, VMS lisansları |
+
+### Sık sorulan sorular
+
+**Kaç kameraya ihtiyacım var?**
+Kamera sayısı alan büyüklüğü, giriş sayısı ve istenen DORI seviyesine bağlıdır. CCTV Planlayıcı aracımız ilk tahmini verir; kesin sayı keşifte kat planı üzerinde belirlenir.
+
+**Gece görüşü yeterli olur mu?**
+IR menzili ve düşük ışık sensörü doğru seçildiğinde gece de tanıma seviyesinde görüntü alınır. Çok karanlık veya geniş alanlarda termal kamera öneriyoruz.
+
+**Telefondan izleyebilir miyim?**
+Evet. Güvenli uzaktan erişim; kullanıcı bazlı yetkilerle mobil uygulama ve web üzerinden sağlanır.
+
+**Kamera kayıtları KVKK'ya tabi mi?**
+Evet, görüntü kişisel veridir. Aydınlatma levhaları, saklama süresi ve erişim yetkileri için KVKK'ya uygun kurulum ve dokümantasyon öneriyoruz.
+
+**Mevcut analog kameralarımı kullanabilir miyim?**
+Hibrit kayıt cihazlarıyla mevcut analog kameralar geçiş döneminde korunabilir; yeni noktalar IP olarak eklenir.
+
+**Hangi markaları kuruyorsunuz?**
+Hikvision, Dahua ve Hanwha başta olmak üzere projeye uygun markaları öneriyoruz.
+
+### Kaynaklar
+
+1. IEC 62676-4: Video surveillance systems for use in security applications — Part 4: Application guidelines (DORI piksel yoğunlukları) — International Electrotechnical Commission (IEC), 2014
+2. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+3. [Kişisel Verileri Koruma Kurumu](https://www.kvkk.gov.tr/) — KVKK
+4. [IEEE 802.11 Wireless LAN Working Group](https://www.ieee802.org/11/) — IEEE
+
+---
+
+## Antalya Yazılım Geliştirme: Özel Yazılım, Mobil Uygulama, Yapay Zekâ ve Entegrasyon
+
+Kaynak: https://comodoteknoloji.com/cozumler/yazilim · Son güncelleme: 2026-10-24
+
+Özel yazılım geliştirme; işletmenin iş süreçlerine birebir uyan web uygulamaları, mobil uygulamalar, raporlama panelleri ve sistem entegrasyonlarının tasarlanıp geliştirilmesidir. Antalya'da otel yorumlarını yapay zekâyla analiz eden platformdan uzaktan sayaç okuma sistemine kadar işletmelere özel yazılımlar geliştiriyor, mevcut PMS, PTS, kamera ve ERP sistemlerini birbirine bağlıyoruz.
+
+### Kimin için?
+
+- Oteller ve otel zincirleri
+- Site ve AVM yönetimleri
+- Fabrikalar
+- Çok şubeli işletmeler
+
+### Hangi sorunu çözer?
+
+- **Aynı veri üç sisteme elle giriliyor:** Misafir, araç veya personel bilgisinin her sisteme ayrı girilmesi hata ve zaman kaybı yaratır.
+- **Raporlar Excel'de birleştiriliyor:** Yönetim raporları için farklı sistemlerden veri toplamak her ay günler alır.
+- **Hazır yazılım ihtiyaca uymuyor:** İş süreci yazılıma uydurulmaya çalışılır, çalışanlar yan çözümler üretir.
+
+### Hangi sistemler birbirine entegre edilebilir?
+
+API, veri tabanı veya dosya aktarımı sunan hemen her sistem entegre edilebilir; en sık yaptığımız entegrasyonlar PMS–hotspot, PTS–site yönetimi ve kamera–alarm senaryolarıdır.
+
+- Otel PMS ↔ misafir Wi-Fi (oda no + soyad ile giriş)
+- Plaka tanıma ↔ site/aidat yönetim yazılımı
+- Kamera video analitiği ↔ alarm ve bildirim sistemleri
+- Network izleme ↔ e-posta/WhatsApp alarm bildirimleri
+- ERP/muhasebe ↔ özel raporlama panelleri
+
+### Comodo Teknoloji hangi yazılımları geliştirdi?
+
+Turizm, enerji ve perakende alanlarında yapay zekâ destekli analiz platformları, IoT tabanlı ölçüm sistemleri, iş zekâsı raporlamalı anket sistemleri ve e-ticaret platformları geliştirdik.
+
+- Hotalyze: otel yorumlarını yapay zekâyla duygu ve departman bazında analiz eden platform (hotalyze.com)
+- Uzaktan elektrik sayacı okuma: IoT tabanlı tüketim izleme sistemi
+- Enerji ve karbon ayak izi hesaplama: otel ve işletmeler için misafir başına tüketim raporlaması
+- Müşteri anket sistemi: iş zekâsı (BI) raporlamalı memnuniyet analizi
+- E-ticaret platformları: Comodo Bee (arıcılık ürünleri) ve Comodo Print (dijital baskı, tasarım editörü ve baskı hesaplama)
+
+### Hazır yazılım mı, özel geliştirme mi?
+
+İhtiyacınızı karşılayan bir hazır yazılım varsa önce onu öneriyoruz; özel geliştirme yalnızca süreç farklılığı gerçek bir rekabet avantajı veya ciddi zaman tasarrufu sağlıyorsa mantıklıdır.
+
+### Karşılaştırma
+
+Hazır paket ve özel yazılımın karşılaştırması
+
+| Özellik | Hazır paket | Özel yazılım / entegrasyon |
+| --- | --- | --- |
+| Başlangıç süresi | Hızlı | Geliştirme süresi gerekir |
+| Süreç uyumu | Sınırlı | Tam uyum |
+| Lisans modeli | Kullanıcı/yıllık | Proje bazlı + bakım |
+| Mevcut sistemlerle bağlantı | Üreticinin desteklediği kadar | İhtiyaca göre |
+| Veri sahipliği | Üreticiye bağlı | Sizde |
+
+### Fiyatı belirleyen unsurlar
+
+Yazılım projesinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Entegre edilecek sistem sayısı | Yüksek | Her sistemin API/erişim durumu |
+| Ekran ve rapor sayısı | Yüksek | Kullanıcı arayüzü kapsamı |
+| Kullanıcı ve yetki yapısı | Orta | Rol bazlı erişim, çok şube |
+| Barındırma | Düşük | Yerinde sunucu veya bulut |
+| Bakım ve destek | Düşük | Aylık destek ve geliştirme saatleri |
+
+### Sık sorulan sorular
+
+**Kaynak kod bize teslim ediliyor mu?**
+[DOLDURULACAK: kaynak kod ve fikri mülkiyet politikası]
+
+**Hangi teknolojilerle geliştiriyorsunuz?**
+[DOLDURULACAK: kullanılan teknoloji yığını]
+
+**PMS markamız entegrasyonu destekliyor mu?**
+Keşifte PMS markanızın API veya arayüz desteğini kontrol ediyor, entegrasyon yöntemini netleştiriyoruz.
+
+**Geliştirme süreci nasıl ilerliyor?**
+İhtiyaç analizi, ekran taslakları, onay, iki haftalık geliştirme döngüleri, test ve canlıya geçiş adımlarıyla ilerliyoruz.
+
+**Yazılım bulutta mı çalışır?**
+İhtiyaca göre işletmenizdeki sunucuda veya bulutta barındırılabilir.
+
+**Canlıya geçtikten sonra destek veriyor musunuz?**
+Evet, aylık bakım ve destek paketleriyle hata giderme ve küçük geliştirmeleri sürdürüyoruz.
+
+### Kaynaklar
+
+1. [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) — OWASP Foundation
+2. [OWASP Top 10 — en kritik web uygulaması güvenlik riskleri](https://owasp.org/www-project-top-ten/) — OWASP Foundation
+3. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Antalya İşletme Reklamı: Google Ads, Meta Reklamları ve Yerel SEO Yönetimi
+
+Kaynak: https://comodoteknoloji.com/cozumler/dijital-reklam · Son güncelleme: 2026-10-25
+
+Dijital işletme reklamı; Google Ads, Meta (Instagram ve Facebook) reklamları, Google İşletme Profili ve yerel SEO çalışmalarıyla işletmenizi, hizmetinizi arayan Antalya'daki doğru kişilere ölçülebilir bir bütçeyle gösterme işidir. Reklamları dönüşüm takibi kurulmuş, hızlı ve güvenli açılış sayfalarına yönlendirip her harcamayı raporluyoruz.
+
+### Kimin için?
+
+- Hizmet işletmeleri (klinik, avukat, tamirci, kurs)
+- Restoran, kafe ve turizm işletmeleri
+- B2B firmalar ve üreticiler
+- Yeni açılan Antalya işletmeleri
+
+### Hangi sorunu çözer?
+
+- **Reklama para gidiyor, dönüş belli değil:** Dönüşüm takibi olmayan reklam hesabı, hangi kampanyanın telefon getirdiğini gösteremez.
+- **Haritada görünmüyorsunuz:** Eksik veya tutarsız Google İşletme Profili, "yakınımdaki" aramalarda sizi rakiplerin arkasına iter.
+- **Sahte tıklama ve spam form:** Korumasız formlar ve takip edilmeyen tıklamalar bütçeyi ve satış ekibinin zamanını tüketir.
+
+### Antalya'da bir işletme hangi reklam kanalını seçmeli?
+
+Müşteri hizmetinizi aktif olarak arıyorsa Google Ads ve yerel SEO, ürününüz veya mekânınız görsel olarak ilgi uyandırıyorsa Instagram/Facebook reklamları önceliklidir; çoğu yerel işletme için en verimli başlangıç Google İşletme Profili ile birlikte arama reklamlarıdır.
+
+### Google İşletme Profili neden ilk adım?
+
+Google İşletme Profili, haritada ve yerel aramalarda ücretsiz görünmenizi sağlar; doğru kategori, tutarlı ad-adres-telefon, gerçek fotoğraflar ve yanıtlanan yorumlar yerel sıralamayı doğrudan etkiler.
+
+- Ad, adres ve telefonun web sitesi ve tüm profillerle birebir aynı olması (NAP tutarlılığı)
+- Doğru birincil ve ikincil kategoriler
+- Hizmet bölgeleri ve çalışma saatleri
+- Düzenli gerçek fotoğraf ve gönderi paylaşımı
+- Yorumlara hızlı ve profesyonel yanıt
+
+### Güvenlik destekli reklam ne demek?
+
+Güvenlik destekli reklam; reklam tıklamalarının yönlendiği sitenin hızlı ve güvenli olması, formların bot ve spam korumalı olması, ölçümün KVKK'ya uygun çerez onayıyla yapılması ve şüpheli trafiğin düzenli izlenmesidir.
+
+Reklam bütçesi en çok güvensiz ve ölçümsüz sitelerde boşa gider. Bilişim ve siber güvenlik altyapısını bildiğimiz için açılış sayfalarını Turnstile bot koruması, rate limit ve doğru dönüşüm etiketleriyle kuruyoruz.
+
+### Reklam bütçesi nasıl belirlenir?
+
+Bütçe; hedeflenen ilçe ve hizmetin rekabeti, tıklama maliyetleri ve bir müşterinin işletmenize getirdiği gelire göre belirlenir; küçük bir test bütçesiyle başlayıp dönüşüm verisine göre artırmak en güvenli yoldur.
+
+### Karşılaştırma
+
+Dijital reklam kanallarının karşılaştırması
+
+| Özellik | Google Ads (arama) | Meta reklamları | Yerel SEO + İşletme Profili |
+| --- | --- | --- | --- |
+| Kullanıcı niyeti | Aktif arıyor | Keşfediyor | Aktif arıyor (yakınında) |
+| Sonuç hızı | Hemen | Hemen | Haftalar–aylar |
+| Maliyet modeli | Tıklama başı | Gösterim / tıklama | Emek ve içerik |
+| Kalıcılık | Bütçe bitince durur | Bütçe bitince durur | Birikerek kalıcı |
+| En uygun | Acil hizmet, B2B, yüksek değerli iş | Restoran, turizm, ürün | Tüm yerel işletmeler |
+
+### Fiyatı belirleyen unsurlar
+
+Reklam hizmetinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Reklam bütçesi | Yüksek | Platformlara doğrudan ödenen tutar; yönetim ücretinden ayrıdır |
+| Kanal sayısı | Orta | Google, Meta, YouTube, Google İşletme Profili |
+| Kreatif üretimi | Orta | Görsel, video ve metin üretimi |
+| Açılış sayfası | Orta | Kampanyaya özel sayfa tasarımı ve hız optimizasyonu |
+| Raporlama sıklığı | Düşük | Haftalık / aylık rapor ve toplantı |
+
+### Sık sorulan sorular
+
+**Reklam vermek için web sitesi şart mı?**
+Zorunlu değil ama verimlilik için kritik. Kendi sitenizde dönüşüm ölçülür, güven sinyalleri sunulur ve platform kurallarından bağımsız kalırsınız.
+
+**Google'da ilk sırada çıkmayı garanti ediyor musunuz?**
+Hayır. Organik sıralamayı kimse garanti edemez; garanti veren tekliflere karşı dikkatli olun. Biz ölçülebilir hedefler (arama görünürlüğü, arama, form) koyup raporluyoruz.
+
+**Instagram hesabımı da yönetir misiniz?**
+[DOLDURULACAK: sosyal medya içerik yönetimi hizmet kapsamı]
+
+**Sonuçları ne zaman görürüm?**
+Arama reklamlarında ilk tıklamalar yayına alındığı gün gelir; yerel SEO ve organik içerik ise haftalar içinde birikerek etkisini gösterir.
+
+**Hangi ilçelerde reklam verebilirim?**
+Reklamlar ilçe, mahalle veya belirli bir yarıçap bazında hedeflenebilir; örneğin yalnızca Muratpaşa ve Konyaaltı'nda gösterim yapılabilir.
+
+**Reklam hesabı kimin adına açılır?**
+Hesaplar işletmeniz adına açılır, biz yönetici olarak eklenir; hesap ve veri her zaman sizde kalır.
+
+### Kaynaklar
+
+1. [Google'da yerel sıralamanızı iyileştirme ipuçları](https://support.google.com/business/answer/7091?hl=tr) — Google İşletme Profili Yardım
+2. [Dönüşüm izleme hakkında](https://support.google.com/google-ads/answer/1722022?hl=tr) — Google Ads Yardım
+3. [Consent Mode (izin modu) kurulumu](https://developers.google.com/tag-platform/security/guides/consent?hl=tr) — Google for Developers
+4. [Arama Motoru Optimizasyonu (SEO) Başlangıç Rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr) — Google Search Central
+5. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Antalya Bilişim Altyapısı ve Güvenlik Danışmanlığı
+
+Kaynak: https://comodoteknoloji.com/cozumler/bilisim-danismanligi · Son güncelleme: 2026-10-25
+
+Bilişim danışmanlığı; işletmenin network, güvenlik kamerası, yazılım ve siber güvenlik yatırımlarını ihtiyaç analizi, teknik şartname, tedarikçi teklif karşılaştırması ve proje denetimiyle doğru kararlara bağlayan uzmanlık hizmetidir. Antalya'daki işletmelere yatırım öncesi yol haritası, kurulum sırasında denetim ve sonrasında periyodik kontrol sunuyoruz.
+
+### Kimin için?
+
+- IT ekibi olmayan KOBİ'ler
+- Yeni tesis veya renovasyon yapan oteller
+- Çok şubeli işletmeler
+- Yönetim kurulu kararı bekleyen siteler
+
+### Hangi sorunu çözer?
+
+- **Üç teklif, üç farklı sistem:** Farklı marka ve kapsamdaki teklifler karşılaştırılamaz; en ucuz teklif çoğu zaman eksik kapsamdır.
+- **Kurulum bitti, kalite bilinmiyor:** Test raporu ve dokümantasyon istenmeyen projelerde sorunlar garanti süresi bittikten sonra çıkar.
+- **KVKK teknik tedbirleri belirsiz:** Kamera kayıtları, erişim yetkileri ve loglar için hangi teknik tedbirin gerektiği netleşmemiştir.
+
+### Bilişim danışmanlığı ne zaman gerekir?
+
+Bilişim danışmanlığı; yeni tesis veya renovasyon öncesinde, birden fazla teklifin karşılaştırılması gerektiğinde, sık arıza yaşayan bir altyapıda kök neden aranırken ve KVKK ya da siber güvenlik denetimine hazırlanırken gerekir.
+
+### Danışmanlık sonunda size ne teslim edilir?
+
+Her danışmanlık projesinin sonunda yazılı mevcut durum raporu, önceliklendirilmiş risk listesi, yol haritası ve gerekiyorsa teknik şartname ile teklif karşılaştırma tablosu teslim edilir.
+
+- Mevcut durum ve envanter raporu
+- Öncelik sıralı risk ve iyileştirme listesi
+- Bütçe aralıklarıyla fazlı yol haritası
+- Tedarikçilere gönderilecek teknik şartname
+- Teklif karşılaştırma tablosu ve öneri
+- Kurulum sonrası kabul testi kontrol listesi
+
+### Danışmanlık ile kurulum hizmetini aynı firmadan almak doğru mu?
+
+İkisi de mümkündür; şeffaflık için danışmanlık raporunu ve şartnameyi marka bağımsız hazırlıyor, kurulumu bizden almak zorunda olmadığınızı baştan belirtiyoruz.
+
+### Karşılaştırma
+
+Altyapı kararını verme yöntemlerinin karşılaştırması
+
+| Özellik | Tedarikçi önerisiyle | Kendi ekibinizle | Danışmanlık ile |
+| --- | --- | --- | --- |
+| Teklif karşılaştırılabilirliği | Düşük | Orta | Yüksek (ortak şartname) |
+| Marka bağımsızlığı | Düşük | Değişken | Yüksek |
+| Zaman yükü | Düşük | Yüksek | Düşük |
+| Kurulum kalitesi kontrolü | Tedarikçinin beyanı | Ekibin deneyimine bağlı | Kabul testiyle |
+
+### Fiyatı belirleyen unsurlar
+
+Danışmanlık ücretini belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Tesis sayısı ve büyüklüğü | Yüksek | İncelenecek bina, blok ve şube sayısı |
+| Kapsam | Yüksek | Network, kamera, yazılım, siber güvenlik başlıklarından hangileri |
+| Çalışma modeli | Orta | Proje bazlı, saatlik veya aylık danışmanlık |
+| Denetim ihtiyacı | Orta | Kurulum sırasında saha denetimi ve kabul testi |
+
+### Sık sorulan sorular
+
+**Danışmanlık için ücret alıyor musunuz?**
+İlk keşif görüşmesi ücretsizdir. Yazılı rapor, şartname ve denetim içeren danışmanlık projeleri kapsamına göre fiyatlandırılır.
+
+**Hangi konularda danışmanlık veriyorsunuz?**
+Network ve Wi-Fi, zayıf akım, güvenlik kamerası ve plaka tanıma, 5651 loglama, siber güvenlik, yazılım seçimi, web sitesi ve dijital reklam yatırımları.
+
+**KVKK danışmanlığı veriyor musunuz?**
+Hukuki danışmanlık vermiyoruz; KVKK kapsamındaki teknik ve idari tedbirlerin bilişim tarafını (erişim yetkileri, loglama, şifreleme, yedekleme) hukuk danışmanınızla birlikte uyguluyoruz.
+
+**Raporu başka bir firmaya kurulum için verebilir miyiz?**
+Evet. Şartnameler marka bağımsız hazırlanır ve dilediğiniz tedarikçiyle kullanabilirsiniz.
+
+**Uzaktan danışmanlık mümkün mü?**
+Yazılım, web ve dijital reklam konularında evet; altyapı ve kamera konularında saha keşfi gerekir.
+
+**Aylık danışmanlık modeliniz var mı?**
+Evet. IT ekibi olmayan işletmeler için aylık sabit saatli danışmanlık ve periyodik denetim paketleri sunuyoruz.
+
+### Kaynaklar
+
+1. [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) — National Institute of Standards and Technology (NIST)
+2. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+3. [Kişisel Verileri Koruma Kurumu](https://www.kvkk.gov.tr/) — KVKK
+4. IEC 62676-4: Video surveillance systems for use in security applications — Part 4: Application guidelines (DORI piksel yoğunlukları) — International Electrotechnical Commission (IEC), 2014
+5. ISO/IEC 11801-1: Information technology — Generic cabling for customer premises — ISO / IEC, 2017
+
+---
+
+## Antalya Kurumsal Network ve Otel Wi-Fi Kurulumu
+
+Kaynak: https://comodoteknoloji.com/cozumler/kurumsal-network · Son güncelleme: 2026-10-24
+
+Kurumsal network; erişim noktaları (AP), switch, firewall ve yönetim yazılımından oluşan, işletmenin tüm cihazlarını güvenli ve kesintisiz bağlayan altyapıdır. Antalya'daki oteller ve işletmeler için site survey ile Wi-Fi kapsama planı çıkarıyor, VLAN ile misafir ve personel trafiğini ayırıyor ve ağı merkezi olarak izliyoruz.
+
+### Kimin için?
+
+- Oteller ve tatil köyleri
+- Fabrikalar ve depolar
+- Ofis ve plazalar
+- Siteler ve rezidanslar
+
+### Hangi sorunu çözer?
+
+- **Odada çeken ama bağlanmayan Wi-Fi:** Koridora yerleştirilmiş az sayıda AP sinyal gösterir ama betonarme duvarlardan geçemeyen kapasite misafiri bağlantısız bırakır.
+- **Misafir ve personel aynı ağda:** VLAN ayrımı olmayan ağda bir misafir cihazı POS, PMS ve kamera sistemlerine erişebilir.
+- **Arızayı misafir haber veriyor:** Merkezi izleme yoksa kapanan bir switch'i ancak şikayet geldiğinde fark edersiniz.
+
+### Bir otel için kaç access point gerekir?
+
+Betonarme otellerde genellikle her 2–4 odaya bir erişim noktası gerekir; kesin sayı ise duvar yapısı, oda büyüklüğü ve eşzamanlı kullanıcı sayısına göre yapılan site survey ile belirlenir.
+
+Kapsama tek başına yeterli değildir; asıl hedef kapasitedir. Bir resort otelde lobi, havuz başı ve restoran gibi yoğun alanlar ayrı kapasite planlaması ister. Oda içi (in-room) AP çözümleri, koridor tipi yerleşime göre misafir başına çok daha iyi performans verir.
+
+### Wi-Fi 6 mı, Wi-Fi 7 mi tercih edilmeli?
+
+Bugün kurulacak çoğu otel ve ofis için Wi-Fi 6/6E fiyat-performans açısından yeterlidir; yüksek yoğunluklu alanlar ve 5+ yıllık yatırım ufku için Wi-Fi 7 değerlendirilmelidir.
+
+Wi-Fi 7'nin avantajlarından yararlanmak için switch tarafında multi-gigabit portlar ve yeterli PoE bütçesi gerekir. 6 GHz bandının Türkiye'deki kullanım koşullarını kurulum öncesinde güncel BTK düzenlemesine göre doğruluyoruz.
+
+### Ağ kurulduktan sonra nasıl izleniyor?
+
+Tüm AP, switch ve firewall cihazları merkezi yönetim panelinden izlenir; cihaz düştüğünde veya trafik anormalleştiğinde ekibimize otomatik alarm gelir.
+
+### Karşılaştırma
+
+Wi-Fi nesillerinin karşılaştırması
+
+| Özellik | Wi-Fi 5 (802.11ac) | Wi-Fi 6/6E (802.11ax) | Wi-Fi 7 (802.11be) |
+| --- | --- | --- | --- |
+| Frekans bantları | 5 GHz | 2.4 / 5 GHz (6E: + 6 GHz) | 2.4 / 5 / 6 GHz |
+| Maks. kanal genişliği | 160 MHz | 160 MHz | 320 MHz |
+| Yoğun ortam verimi | Düşük | Yüksek (OFDMA) | Çok yüksek (MLO) |
+| Switch gereksinimi | 1 GbE | 1–2.5 GbE | 2.5–10 GbE önerilir |
+| Önerilen kullanım | Yenilenmesi gereken altyapı | Otel, ofis, depo | Kongre, yoğun alanlar, uzun vadeli yatırım |
+
+### Fiyatı belirleyen unsurlar
+
+Network projesinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| AP sayısı ve modeli | Yüksek | İç/dış mekan, Wi-Fi nesli, oda içi veya tavan tipi |
+| Switch ve PoE bütçesi | Yüksek | Port sayısı, multi-gigabit ihtiyacı, yedeklilik |
+| Firewall ve lisanslar | Orta | Kullanıcı sayısı, UTM özellikleri, yıllık lisans |
+| Kablolama durumu | Değişken | Yeni hat ihtiyacı varsa zayıf akım kalemi eklenir |
+| Yönetim modeli | Düşük | Bulut yönetim lisansı veya yerel kontrolör |
+
+### Sık sorulan sorular
+
+**Site survey nedir, neden gerekli?**
+Site survey, binada ölçüm cihazlarıyla sinyal ve parazit analizi yapılarak AP yerlerinin belirlenmesidir. Tahmine dayalı yerleşim, ya fazla cihaz maliyetine ya da kör noktalara yol açar.
+
+**Mevcut AP'lerimizle yeni sistem birlikte çalışır mı?**
+Aynı üreticinin aynı yönetim platformundaki cihazlar genellikle birlikte çalışır. Farklı markalarda geçiş dönemi için ayrı SSID ile paralel çalışma planlanır.
+
+**Hangi markalarla çalışıyorsunuz?**
+Cisco, Aruba, Ruijie, TP-Link Omada, MikroTik ve FortiGate gibi markalarla çalışıyoruz; marka seçimini bütçe, ölçek ve yönetim tercihinize göre öneriyoruz.
+
+**Misafir Wi-Fi'si 5651'e uygun olur mu?**
+Evet. Misafir ağını hotspot/captive portal ve 5651 loglama çözümüyle birlikte kuruyoruz; detaylar 5651 Loglama sayfamızda.
+
+**Ağ yenilemesi ne kadar sürer?**
+Kablolama hazırsa orta ölçekli bir otelde cihaz değişimi blok blok birkaç günde tamamlanabilir. Kesin süre keşif sonrası iş programında belirtilir.
+
+**Uzaktan destek veriyor musunuz?**
+Evet. Merkezi yönetim sayesinde arızaların önemli kısmını uzaktan çözüyoruz; gerekirse ekip sahaya yönlendirilir.
+
+### Kaynaklar
+
+1. [Wi-Fi CERTIFIED 7](https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7) — Wi-Fi Alliance
+2. [IEEE 802.11 Wireless LAN Working Group](https://www.ieee802.org/11/) — IEEE
+3. [Bilgi Teknolojileri ve İletişim Kurumu](https://www.btk.gov.tr/) — BTK
+
+---
+
+## Antalya Otel ve İşletmeler İçin Zayıf Akım Projelendirme ve Kurulum
+
+Kaynak: https://comodoteknoloji.com/cozumler/zayif-akim · Son güncelleme: 2026-10-24
+
+Zayıf akım, bir binadaki veri, ses, görüntü ve güvenlik sistemlerini taşıyan düşük gerilimli altyapıdır. Antalya'daki otel, fabrika ve sitelerde CAT6/CAT6A bakır ve fiber optik kablolamayı TIA-568 ve ISO/IEC 11801 standartlarına göre projelendirip kuruyor, her hattı Fluke cihazıyla test ederek etiketli kabinet ve ağ şemasıyla teslim ediyoruz.
+
+### Kimin için?
+
+- Yeni inşa veya renovasyondaki oteller
+- Fabrika ve OSB tesisleri
+- Konut siteleri ve rezidanslar
+- AVM ve ofis binaları
+
+### Hangi sorunu çözer?
+
+- **Kimin hangi kablo olduğu bilinmiyor:** Etiketsiz kabinetler her arızada saatlerce hat aramaya, yanlış portun sökülmesine yol açar.
+- **Sezon ortasında çıkan kablo arızaları:** Test edilmeden bırakılan hatlar yük altında paket kaybı yapar; Wi-Fi ve kamera şikayeti olarak geri döner.
+- **Her sistem ayrı firmadan, ayrı kabloyla:** Kamera, Wi-Fi, IPTV ve santral için çekilen ayrı hatlar tavaları doldurur, bakımı imkansızlaştırır.
+
+### CAT6 mı CAT6A mı, yoksa fiber mi kullanılmalı?
+
+Yeni projelerde yatay kablolamada CAT6A, binalar ve katlar arası omurgada fiber optik tercih edilmelidir; CAT6 yalnızca kısa mesafeli ve 1 Gbps yeterli olan uç noktalarda ekonomik bir seçenektir.
+
+CAT6A, 100 metreye kadar 10 Gbps taşır ve Wi-Fi 6/7 erişim noktalarının yüksek PoE güç ihtiyacını daha düşük ısınmayla karşılar. Fiber; uzun mesafe, yıldırım/topraklama farkı olan bloklar arası bağlantılar ve elektromanyetik gürültülü fabrika ortamları için tek doğru cevaptır.
+
+### Kablolama işi bittiğinde size ne teslim edilir?
+
+Her projede port bazlı Fluke sertifika test raporu, etiketlenmiş kabinet ve patch paneller, IP planı ve güncel ağ topoloji şeması teslim edilir.
+
+- Fluke DSX serisi kablo sertifika raporu (her link için geçti/kaldı ve marj değerleri)
+- Kabinet, patch panel, priz ve kablo uçlarında aynı kodla etiketleme
+- Kat planı üzerinde priz yerleşim çizimi ve kabinet ön görünüş çizimi
+- IP planı, VLAN tablosu ve ağ topoloji şeması (PDF + düzenlenebilir format)
+- Malzeme listesi, garanti belgeleri ve bakım önerileri
+
+### Otelde zayıf akım kurulumu operasyonu durdurur mu?
+
+Hayır; kurulumu blok blok, doluluk takvimine göre ve gerekirse gece saatlerinde yaparak misafir alanlarında kesintiyi en aza indiriyoruz.
+
+Keşif sırasında otelin doluluk planını ve kritik alanlarını (resepsiyon, mutfak, toplantı salonları) birlikte çıkarıyoruz. Geçiş dönemi boyunca eski ve yeni altyapı paralel çalıştırılır; geçiş anı onayınızla yapılır.
+
+### Karşılaştırma
+
+Kablo türlerinin karşılaştırması
+
+| Özellik | CAT6 | CAT6A | Fiber (OM4 / OS2) |
+| --- | --- | --- | --- |
+| Bant genişliği | 250 MHz | 500 MHz | Pratikte mesafe ile sınırlı |
+| 10 Gbps mesafe | ~55 m | 100 m | OM4: ~400 m · OS2: km seviyesi |
+| PoE ısı performansı | Orta | İyi | PoE taşımaz |
+| Elektromanyetik gürültü | Etkilenir | Daha az etkilenir (ekranlı tipler) | Etkilenmez |
+| Tipik kullanım | Ofis uç noktası, telefon | Wi-Fi AP, kamera, yeni projeler | Omurga, bloklar arası, fabrika |
+
+### Fiyatı belirleyen unsurlar
+
+Zayıf akım projesinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Toplam metraj ve nokta sayısı | Yüksek | Priz/uç nokta sayısı ve kabinete olan ortalama mesafe |
+| Kablo kategorisi | Orta | CAT6, CAT6A veya fiber seçimi ve ekranlı/ekransız tip |
+| Mevcut tava ve boru altyapısı | Yüksek | Sıfırdan tava/kanal açılması işçiliği belirgin artırır |
+| Kabinet sayısı ve donanımı | Orta | Kat kabinetleri, enerji, havalandırma, UPS |
+| Çalışma saatleri | Orta | Gece veya sezon içi çalışma ek ekip planlaması gerektirir |
+| Test ve dokümantasyon kapsamı | Düşük | Fluke sertifikası, çizim ve as-built teslimi |
+
+### Sık sorulan sorular
+
+**Zayıf akım hangi sistemleri kapsar?**
+Data/network kablolaması, fiber omurga, CCTV, IPTV/uydu dağıtımı, IP santral, yangın algılama altyapısı, kartlı geçiş, seslendirme ve otomasyon sistemleri zayıf akım kapsamındadır.
+
+**Mevcut kablolamamız yeniden kullanılabilir mi?**
+Keşifte mevcut hatları örnekleme ile test ediyoruz. Kategori ve test sonuçları yeterliyse kablolama korunur, yalnızca kabinet düzeni ve etiketleme yenilenir.
+
+**Fluke testi neden önemli?**
+Fluke sertifika testi her hattın standart değerleri karşıladığını belgeler. Arıza durumunda kablonun suçlu olup olmadığını dakikalar içinde ayırt etmenizi sağlar ve üretici garantisi için genellikle şarttır.
+
+**Proje çizimlerini kim hazırlıyor?**
+Keşif sonrası kat planları üzerinde priz yerleşimi, kabinet konumları ve omurga güzergahını kendi mühendis ekibimiz çiziyor; onayınızdan sonra uygulamaya geçiliyor.
+
+**Kurulum ne kadar sürer?**
+Süre nokta sayısı ve tava altyapısına bağlıdır. Keşif sonrası verdiğimiz iş programında blok bazlı başlangıç ve bitiş tarihleri yer alır. [DOLDURULACAK: örnek proje süreleri]
+
+**Kurulum sonrası destek veriyor musunuz?**
+Evet. Teslim sonrası garanti süresi boyunca ücretsiz müdahale ve isteğe bağlı SLA'lı bakım paketleri sunuyoruz.
+
+### Kaynaklar
+
+1. ANSI/TIA-568 Commercial Building Telecommunications Cabling Standard serisi — Telecommunications Industry Association (TIA)
+2. ISO/IEC 11801-1: Information technology — Generic cabling for customer premises — ISO / IEC, 2017
+
+---
+
+## Antalya Siber Güvenlik: Uç Nokta Güvenliği, EDR ve Firewall Yönetimi
+
+Kaynak: https://comodoteknoloji.com/cozumler/siber-guvenlik · Son güncelleme: 2026-10-24
+
+Kurumsal siber güvenlik; bilgisayar ve sunucuları koruyan uç nokta güvenliği (EDR), ağ trafiğini denetleyen yeni nesil firewall, düzenli yedekleme ve kullanıcı farkındalığından oluşan katmanlı bir savunmadır. Antalya'daki işletmeler için bu katmanları kuruyor, yapılandırıyor ve sürekli izliyoruz.
+
+### Kimin için?
+
+- Oteller (PMS, POS, muhasebe)
+- Fabrikalar (ERP, üretim ağları)
+- Muhasebe, hukuk ve sağlık ofisleri
+- Çok şubeli işletmeler
+
+### Hangi sorunu çözer?
+
+- **Fidye yazılımı tüm dosyaları kilitledi:** Güncel olmayan antivirüs ve ağdan ayrılmamış yedekler, tek bir e-posta ekiyle tüm işletmeyi durdurabilir.
+- **Firewall var ama kimse bakmıyor:** Kurulumdan beri güncellenmeyen kurallar ve takip edilmeyen alarmlar firewall'u işlevsiz bırakır.
+- **Hangi bilgisayarda ne kurulu bilinmiyor:** Envanteri olmayan ağda yamasız bir cihaz saldırganın giriş kapısı olur.
+
+### Antivirüs ile EDR arasındaki fark nedir?
+
+Klasik antivirüs bilinen zararlıları imza ile engellerken, EDR uç noktadaki davranışları sürekli izleyerek bilinmeyen tehditleri de tespit eder, olayı kayıt altına alır ve cihazı uzaktan izole edebilir.
+
+### Fidye yazılımına karşı en etkili önlem nedir?
+
+Tek bir önlem yeterli değildir; en etkili koruma EDR, güncel yamalar, çok faktörlü kimlik doğrulama ve ağdan ayrılmış (offline veya değiştirilemez) yedeklerin birlikte uygulanmasıdır.
+
+- 3-2-1 yedekleme: 3 kopya, 2 farklı ortam, 1 kopya ağ dışında
+- Uzak erişim ve e-postada çok faktörlü kimlik doğrulama (MFA)
+- Ağ segmentasyonu: misafir, personel, POS ve kamera ağlarının ayrılması
+- Düzenli yama yönetimi ve envanter takibi
+
+### Karşılaştırma
+
+Uç nokta koruma yaklaşımlarının karşılaştırması
+
+| Özellik | Klasik antivirüs | EDR | Yönetilen EDR (MDR) |
+| --- | --- | --- | --- |
+| Bilinen zararlılar | Engeller | Engeller | Engeller |
+| Bilinmeyen / sıfırıncı gün tehditler | Sınırlı | Davranış analiziyle tespit | Tespit + uzman müdahalesi |
+| Olay kaydı ve analiz | Yok | Var | Var, raporlanır |
+| Uzaktan izolasyon | Yok | Var | Var, ekip tarafından uygulanır |
+| İç kaynak ihtiyacı | Düşük | Orta (izleyen biri gerekir) | Düşük |
+
+### Fiyatı belirleyen unsurlar
+
+Siber güvenlik hizmetinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Uç nokta (cihaz) sayısı | Yüksek | Bilgisayar, sunucu ve sanal makine adedi |
+| Firewall modeli ve lisans | Yüksek | Throughput, UTM ve abonelik süresi |
+| Yönetim modeli | Orta | Kurulum + devir veya sürekli yönetilen hizmet |
+| Yedekleme kapsamı | Orta | Veri miktarı, bulut/yerel, saklama süresi |
+| Uyumluluk ihtiyacı | Değişken | KVKK, ISO 27001 hazırlığı, raporlama |
+
+### Sık sorulan sorular
+
+**Küçük bir işletme de hedef olur mu?**
+Evet. Otomatik saldırılar ölçek ayırt etmez; korunmasız her cihaz hedeftir.
+
+**Mevcut firewall'umuzu yönetebilir misiniz?**
+FortiGate, Sophos, MikroTik gibi yaygın markaların yapılandırma denetimini ve sürekli yönetimini üstleniyoruz.
+
+**Sızma testi yapıyor musunuz?**
+[DOLDURULACAK: sızma testi hizmeti sunuluyor mu, kapsam ve sertifikalar]
+
+**Bir saldırı yaşarsak ne yapmalıyız?**
+Etkilenen cihazları ağdan ayırın, kapatmayın ve hemen 7/24 acil hattımızı arayın. Delilleri koruyarak müdahale ve kurtarma planını birlikte yürütürüz.
+
+**Lisansları sizden mi almalıyız?**
+Lisansı bizden alabilir veya mevcut lisanslarınızı yönetimimize devredebilirsiniz.
+
+**Çalışanlara eğitim veriyor musunuz?**
+Oltalama (phishing) farkındalığı ve temel güvenlik alışkanlıkları için kısa eğitimler planlayabiliyoruz.
+
+### Kaynaklar
+
+1. [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) — National Institute of Standards and Technology (NIST)
+2. [#StopRansomware — fidye yazılımı rehberi ve kaynakları](https://www.cisa.gov/stopransomware) — CISA (ABD Siber Güvenlik ve Altyapı Güvenliği Ajansı)
+3. [Ulusal Siber Olaylara Müdahale Merkezi](https://www.usom.gov.tr/) — USOM (BTK)
+4. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Antalya 5651 Loglama, Hotspot ve Misafir Wi-Fi Çözümleri
+
+Kaynak: https://comodoteknoloji.com/cozumler/5651-loglama-hotspot · Son güncelleme: 2026-10-24
+
+5651 loglama; internet hizmeti sunan otel, kafe, işletme ve kurumların, misafir ve çalışanlara verdikleri bağlantıların iç IP dağıtım kayıtlarını zaman damgasıyla değiştirilemez biçimde saklamasıdır. Antalya'da hotspot (captive portal) ile bağlantıları kişiyle eşleştiriyor, kayıtları otomatik imzalayıp mevzuata uygun süre boyunca saklıyoruz.
+
+### Kimin için?
+
+- Oteller ve pansiyonlar
+- Kafe ve restoranlar
+- Fabrikalar ve ofisler
+- Okullar, yurtlar ve hastaneler
+
+### Hangi sorunu çözer?
+
+- **Log var ama kime ait olduğu belli değil:** Sadece IP-MAC kaydı tutulan ağda, adli bir talepte bağlantının hangi kişiye ait olduğu gösterilemez.
+- **Excel'e elle girilen kayıtlar:** Elle tutulan veya zaman damgası olmayan kayıtlar değiştirilebilir olduğu için ispat değeri taşımaz.
+- **Cihaz değişince loglar kayboldu:** Firewall veya modem değişiminde silinen kayıtlar, saklama yükümlülüğünün ihlali anlamına gelir.
+
+### 5651 loglama kimler için zorunludur?
+
+5651 sayılı Kanun ve İnternet Toplu Kullanım Sağlayıcıları Hakkında Yönetmelik kapsamında; misafirlerine veya çalışanlarına internet erişimi sağlayan otel, kafe, restoran, işletme, okul ve kurumlar toplu kullanım sağlayıcı sayılır ve loglama yükümlülüğü taşır.
+
+### 5651 loglama kayıtları ne kadar süre saklanmalı?
+
+İç IP dağıtım logları zaman damgasıyla imzalanarak mevzuatta öngörülen süre boyunca saklanmalıdır; uygulamada en az 2 yıllık saklama güvenli kabul edilir.
+
+Saklama süresi ve teknik şartlar mevzuat değişikliklerine bağlı olarak güncellenebilir. Kurulumda güncel düzenlemeyi esas alıyor, hukuk danışmanınızla birlikte doğrulamanızı öneriyoruz.
+
+### Zaman damgası neden gerekli?
+
+Zaman damgası, log dosyasının belirli bir anda var olduğunu ve sonradan değiştirilmediğini, yetkili bir elektronik sertifika hizmet sağlayıcısının (örn. Kamu SM) imzasıyla kanıtlar.
+
+Zaman damgasının doğru çalışması için cihaz saatlerinin NTP ile senkronize olması gerekir. Saat farkı olan bir sistemde kayıtlar ile olay zamanı eşleştirilemez.
+
+### Hotspot (captive portal) ile kullanıcı nasıl doğrulanır?
+
+Misafir Wi-Fi'ye bağlandığında açılan karşılama sayfasında SMS kodu, oda numarası + soyad (otel PMS entegrasyonu) veya kimlik bilgisi ile doğrulanır; böylece her bağlantı bir kişiyle eşleşir.
+
+### 5651 uyumluluğuna giden yol
+
+1. **Mevcut durum analizi:** Firewall, DHCP, hotspot ve log saklama yapınız 5651 gereksinimlerine göre denetlenir.
+2. **Doğrulama yöntemi seçimi:** SMS, PMS entegrasyonu veya kimlik doğrulaması işletme tipinize göre belirlenir.
+3. **Hotspot ve loglama kurulumu:** Captive portal, log toplama ve zaman damgası servisi devreye alınır.
+4. **NTP ve saklama yapılandırması:** Tüm cihaz saatleri senkronize edilir, yedekli saklama alanı ayarlanır.
+5. **Test ve dışa aktarım denemesi:** Örnek bir tarih/IP için kayıt sorgulanıp zaman damgası doğrulanır.
+6. **Periyodik kontrol:** Log akışı ve imzalama süreci düzenli olarak izlenir, aksama alarm üretir.
+
+### Karşılaştırma
+
+Loglama yöntemlerinin karşılaştırması
+
+| Özellik | Modem/firewall varsayılan logu | Elle tutulan kayıt | Hotspot + 5651 loglama |
+| --- | --- | --- | --- |
+| Kişi ile eşleşme | Yok | Kısmi, hataya açık | Var (SMS/PMS/kimlik) |
+| Zaman damgası | Genellikle yok | Yok | Otomatik |
+| Değiştirilemezlik | Zayıf | Yok | Hash + zaman damgası |
+| Cihaz değişiminde koruma | Kayıtlar kaybolabilir | — | Ayrı, yedekli depolama |
+| Pazarlama verisi | Yok | Yok | Onaylı misafir iletişim izni |
+
+### Fiyatı belirleyen unsurlar
+
+5651 çözümünün fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Eşzamanlı kullanıcı sayısı | Yüksek | Donanım ve lisans kapasitesini belirler |
+| Doğrulama yöntemi | Orta | SMS paketi, PMS entegrasyonu, sosyal giriş |
+| Donanım veya bulut | Orta | Yerinde cihaz ya da bulut tabanlı loglama |
+| Lokasyon sayısı | Orta | Zincir işletmelerde merkezi yönetim |
+| Saklama ve yedekleme | Düşük | Disk kapasitesi ve harici yedek |
+
+### Sık sorulan sorular
+
+**Küçük bir kafe için de 5651 loglama gerekli mi?**
+Evet. Ölçeğinden bağımsız olarak müşterilerine internet erişimi sunan işletmeler toplu kullanım sağlayıcı yükümlülüğü taşır.
+
+**Mevcut firewall'umuz 5651 loglama yapıyor mu?**
+Birçok firewall log tutar ancak zaman damgası, kişi eşleşmesi ve uzun süreli saklama şartlarını tek başına karşılamayabilir. 5651 Risk Testimiz mevcut durumunuzu hızlıca puanlar.
+
+**Otel PMS sistemiyle entegrasyon yapılabiliyor mu?**
+Evet. Misafir oda numarası ve soyadıyla giriş yapar; check-out ile erişim otomatik sona erer. Entegrasyon PMS markasına göre planlanır.
+
+**Misafir verileri KVKK'ya uygun saklanıyor mu?**
+Captive portal üzerinde aydınlatma metni ve açık rıza onayları sunulur, veriler yetkili erişimle korunur.
+
+**Denetimde kayıtları nasıl sunarız?**
+Belirli bir tarih ve IP için ilgili kayıtlar zaman damgası doğrulamasıyla birlikte dışa aktarılabilir.
+
+**Kurulum interneti keser mi?**
+Kurulum genellikle kısa bir bakım penceresinde yapılır; otellerde düşük doluluk saatleri tercih edilir.
+
+### Kaynaklar
+
+1. [5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5651&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2007
+2. İnternet Toplu Kullanım Sağlayıcıları Hakkında Yönetmelik — Resmî Gazete
+3. [Bilgi Teknolojileri ve İletişim Kurumu](https://www.btk.gov.tr/) — BTK
+4. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Antalya Plaka Tanıma Sistemi (PTS) ve Bariyer Kurulumu
+
+Kaynak: https://comodoteknoloji.com/cozumler/plaka-tanima-sistemi · Son güncelleme: 2026-10-24
+
+Plaka tanıma sistemi (PTS veya ANPR), araç plakasını kamera ile okuyup yetkili listeyle karşılaştırarak bariyeri otomatik açan, tüm giriş-çıkışları raporlayan bir geçiş kontrol çözümüdür. Antalya'daki siteler, AVM'ler, oteller ve fabrikalar için kamera, bariyer, bollard ve yönetim yazılımını tek projede kuruyoruz.
+
+### Kimin için?
+
+- Konut siteleri ve rezidanslar
+- AVM ve otoparklar
+- Oteller
+- Fabrika ve lojistik depoları
+
+### Hangi sorunu çözer?
+
+- **Kapıda kuyruk ve uzaktan kumanda karmaşası:** Kaybolan kumandalar, kopyalanan kartlar ve güvenlik görevlisine bağımlı geçişler hem zaman hem güvenlik kaybıdır.
+- **Misafir aracın kaydı yok:** Kim ne zaman girdi, ne kadar kaldı sorularına kağıt deftere bakarak cevap aranır.
+- **Plaka okunuyor ama bariyer açılmıyor:** Yanlış açı ve ışık koşullarında kurulan kamera özellikle gece ve yağmurda okuma oranını düşürür.
+
+### Plaka tanıma sistemi nasıl çalışır?
+
+Araç algılandığında kamera yüksek enstantaneyle görüntü alır, yazılım plaka karakterlerini okur, yetkili listeyle karşılaştırır ve yetkiliyse bariyere açma komutu gönderir; tüm işlem tipik olarak bir saniyenin altında tamamlanır.
+
+- Araç algılama: döngü dedektörü (loop) veya kamera içi hareket algılama
+- Görüntü yakalama: IR aydınlatmalı, yüksek enstantaneli plaka kamerası
+- Karakter okuma (OCR) ve beyaz/kara liste kontrolü
+- Bariyer, bollard veya kapı motoruna kuru kontak ya da ağ üzerinden komut
+- Giriş-çıkış kaydı, fotoğraf arşivi ve raporlama
+
+### Plaka okuma oranını ne etkiler?
+
+Okuma oranını en çok kamera açısı, plakadaki piksel genişliği, araç hızı ve IR aydınlatma belirler; doğru montajda yüksek okuma oranı elde edilir.
+
+Kamera ile plaka arasındaki yatay ve dikey açının dar tutulması, aracın kontrollü hızda yaklaşması ve plakanın yeterli piksel genişliğinde görüntülenmesi gerekir. Keşifte giriş noktasının geometrisini ölçerek kamera konumunu belirliyoruz.
+
+### Plaka kayıtları KVKK kapsamında mı?
+
+Evet, plaka bilgisi kişisel veri kabul edilir; aydınlatma metni, saklama süresi ve erişim yetkilerinin tanımlanması gerekir.
+
+### Plaka tanıma projesi nasıl ilerler?
+
+1. **Giriş geometrisi keşfi:** Şerit genişliği, yaklaşma mesafesi, eğim ve ışık koşulları ölçülür.
+2. **Kamera ve bariyer seçimi:** Okuma açısına uygun kamera, trafik yoğunluğuna uygun bariyer/bollard belirlenir.
+3. **Altyapı ve montaj:** Kanal, enerji, loop dedektörü ve direk montajı yapılır.
+4. **Yazılım ve liste tanımı:** Yetkili plakalar, misafir kuralları ve kullanıcı yetkileri tanımlanır.
+5. **Gece/gündüz okuma testi:** Farklı araç tipleri ve ışık koşullarında okuma doğrulanır, raporlanır.
+6. **Eğitim ve destek:** Yönetime eğitim verilir, sistem uzaktan izlemeye alınır.
+
+### Karşılaştırma
+
+Araç geçiş kontrol yöntemlerinin karşılaştırması
+
+| Özellik | Uzaktan kumanda | RFID kart / etiket | Plaka tanıma (PTS) |
+| --- | --- | --- | --- |
+| Kullanıcı deneyimi | Kumanda gerekir | Etiket/kart gerekir | Tamamen temassız |
+| Kopyalanma riski | Yüksek | Orta | Düşük (plaka + kayıt) |
+| Misafir yönetimi | Yok | Geçici kart dağıtımı | Süreli plaka tanımı |
+| Raporlama | Yok | Kart bazlı | Fotoğraflı, plaka bazlı |
+| Kurulum maliyeti | Düşük | Orta | Orta–yüksek |
+
+### Fiyatı belirleyen unsurlar
+
+PTS projesinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Şerit (giriş/çıkış) sayısı | Yüksek | Her şerit için kamera ve kontrol donanımı |
+| Bariyer veya bollard tipi | Yüksek | Kol uzunluğu, hız, darbe dayanımı |
+| Yazılım ve entegrasyon | Orta | Site yönetim, otopark ücretlendirme, PMS entegrasyonu |
+| Altyapı işleri | Orta | Kazı, kanal, loop dedektörü, enerji hattı |
+| Ek kameralar | Düşük | Genel görüş/sürücü kamerası |
+
+### Sık sorulan sorular
+
+**Gece ve yağmurda plaka okunur mu?**
+IR aydınlatmalı plaka kameraları gece de çalışır. Yağmur ve far parlaması etkilerini azaltmak için kamera açısı ve enstantane ayarı keşifte belirlenir.
+
+**Misafir araçları nasıl tanımlanıyor?**
+Yönetici veya daire sakini, misafir plakasını süreli olarak yazılıma veya mobil uygulamaya ekler; süre bitince yetki otomatik sona erer.
+
+**Mevcut bariyerimizle çalışır mı?**
+Çoğu bariyer kuru kontak girişiyle kontrol edilebilir. Keşifte mevcut motoru inceleyerek entegrasyon uygunluğunu belirtiyoruz.
+
+**Elektrik kesintisinde ne olur?**
+UPS ile sistem çalışmaya devam eder; bariyerlerde manuel açma ve acil durum senaryoları tanımlanır.
+
+**Site yönetim yazılımımıza bağlanabilir mi?**
+API veya veri tabanı entegrasyonuyla mümkündür. Yazılım ve entegrasyon hizmetimiz kapsamında değerlendiriyoruz.
+
+**Kurulum ne kadar sürer?**
+Altyapı hazırsa tek giriş-çıkışlı bir sitede kurulum birkaç gün sürer. Kazı ve kanal işleri gerekiyorsa süre keşifte netleşir.
+
+### Kaynaklar
+
+1. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+2. [Kişisel Verileri Koruma Kurumu](https://www.kvkk.gov.tr/) — KVKK
+3. IEC 62676-4: Video surveillance systems for use in security applications — Part 4: Application guidelines (DORI piksel yoğunlukları) — International Electrotechnical Commission (IEC), 2014
+
+---
+
+## Antalya Otelleri İçin Wi-Fi, Kamera ve 5651 Altyapısı
+
+Kaynak: https://comodoteknoloji.com/sektorler/otel-ve-resort
+
+Otel bilişim altyapısı; misafir Wi-Fi'si, personel ağı, PMS ve POS bağlantıları, güvenlik kameraları, IPTV ve 5651 loglamanın tek bir planla kurulup yönetilmesidir. Antalya'daki şehir otellerinden Belek ve Side'deki büyük resortlara kadar bu altyapıyı sezon takvimine göre projelendiriyoruz.
+
+- **TripAdvisor'da Wi-Fi yorumları:** Odalarda zayıf bağlantı, misafir memnuniyeti ve puanları doğrudan düşürür.
+- **Sezon ortasında arıza:** Doluluk %100'ken çıkan bir switch arızası resepsiyonu, POS'u ve kameraları aynı anda durdurur.
+- **5651 ve KVKK baskısı:** Misafir bağlantılarının kişiyle eşleşmemesi denetimde ciddi risk yaratır.
+- **Her sisteme ayrı firma:** Kamera, Wi-Fi ve IPTV için ayrı tedarikçi; arızada herkes birbirini işaret eder.
+
+### Otel Wi-Fi'si ne zaman yenilenmeli?
+
+İdeal yenileme zamanı sezon kapanışından sonraki kış dönemidir; keşif ve projelendirme sonbaharda tamamlanırsa kurulum Mart'tan önce bitirilebilir.
+
+### Otelde hangi ağlar birbirinden ayrılmalı?
+
+Misafir, personel, PMS/POS, kamera, IPTV ve yönetim trafiği ayrı VLAN'larda tutulmalı ve aralarındaki erişim firewall kurallarıyla sınırlandırılmalıdır.
+
+### Sık sorulan sorular
+
+**Sezon ortasında kurulum yaparsak operasyonunuz durur mu?**
+Durmaz. Kurulumu blok blok, düşük doluluk saatlerinde yapıyor, eski ve yeni sistemi geçiş anına kadar paralel çalıştırıyoruz.
+
+**Bütçemiz sınırlı, her şeyi bir anda yenilemek zorunda mıyız?**
+Hayır. Öncelikli alanlardan başlayan, yıllara yayılmış fazlı bir yenileme planı hazırlıyoruz.
+
+**Mevcut cihazlarımız çöpe mi gidecek?**
+Keşifte kullanılabilir cihazları tespit ediyor, yeni sisteme dahil ediyoruz.
+
+**Otel için kaç access point gerekir?**
+Betonarme otellerde genellikle her 2–4 odaya bir AP gerekir; kesin sayı site survey ile belirlenir. Ağ Yenileme Hesaplayıcımız ilk tahmini verir.
+
+**Misafir Wi-Fi'si PMS ile entegre olabilir mi?**
+Evet, misafirler oda numarası ve soyadlarıyla giriş yapar; check-out ile erişim sona erer.
+
+**IPTV altyapısı kuruyor musunuz?**
+[DOLDURULACAK: IPTV hizmet kapsamı]
+
+**Zincir otellerde merkezi yönetim mümkün mü?**
+Evet, bulut yönetimli ağ ve merkezi 5651 loglama ile tüm tesisleri tek panelden izlemek mümkündür.
+
+---
+
+## Fabrikalar ve OSB Tesisleri İçin Endüstriyel Network ve Güvenlik
+
+Kaynak: https://comodoteknoloji.com/sektorler/fabrika-ve-osb
+
+Fabrika bilişim altyapısı; üretim hatları, ofisler, depolar ve güvenlik noktalarını birbirine bağlayan fiber omurga, endüstriyel ağ cihazları, çevre güvenliği kameraları ve üretim ağını ofis ağından ayıran siber güvenlik katmanlarından oluşur. Antalya ve çevresindeki sanayi tesisleri için bu altyapıyı üretimi durdurmadan kuruyoruz.
+
+- **Bloklar arası kopan bağlantı:** Uzun bakır hatlar ve topraklama farkları depoların ve üretim binalarının bağlantısını düşürür.
+- **Geniş çevre, az kamera:** Uzun çit hatları ve karanlık alanlar klasik kameralarla etkin izlenemez.
+- **Üretim ağı ofisle aynı:** Ofisteki bir fidye yazılımı üretim hattındaki sistemlere sıçrayabilir.
+- **Kamyon ve personel girişi kontrolsüz:** Kantar, yükleme ve personel girişlerinde kayıt eksikliği.
+
+### Fabrikada fiber mi bakır mı kullanılmalı?
+
+Binalar arası ve 90 metreyi aşan tüm bağlantılarda fiber kullanılmalı; bakır kablo yalnızca aynı bina içindeki kısa uç nokta bağlantılarında tercih edilmelidir.
+
+### Fabrika çevre güvenliği için hangi kamera seçilmeli?
+
+Uzun çit hatları ve karanlık alanlarda termal kameralar, video analitikle birlikte kullanıldığında ışık koşullarından bağımsız ihlal tespiti sağlar.
+
+### Sık sorulan sorular
+
+**Kurulum sırasında üretim durur mu?**
+Hayır. Kritik hatlarda geçişleri vardiya aralarına veya planlı duruşlara denk getiriyoruz.
+
+**Endüstriyel ortamda cihazlar dayanır mı?**
+Toz, nem ve sıcaklık koşullarına uygun endüstriyel sınıf switch ve dış mekan kabinleri kullanıyoruz.
+
+**IT ekibimiz var, sizi neden çağıralım?**
+Projelendirme, saha kurulumu ve test yükünü üstleniyoruz; IT ekibiniz dokümantasyonu eksiksiz devralıyor.
+
+**Endüstriyel switch ile normal switch arasındaki fark nedir?**
+Endüstriyel switchler geniş sıcaklık aralığı, DIN ray montajı, yedekli enerji girişi ve titreşim dayanımıyla zorlu ortamlar için tasarlanır.
+
+**Kantar ve kamyon girişinde plaka tanıma kullanılabilir mi?**
+Evet, plaka tanıma kayıtları kantar ve sevkiyat yazılımlarıyla entegre edilebilir.
+
+**OT (üretim) ağını nasıl koruyorsunuz?**
+Üretim ağını ayrı segmentte tutuyor, ofis ağıyla arasındaki trafiği firewall kurallarıyla sınırlıyoruz.
+
+**Depo Wi-Fi'si el terminalleri için uygun olur mu?**
+Raf yükseklikleri ve malzeme yoğunluğu dikkate alınarak yapılan site survey ile kesintisiz dolaşım sağlanır.
+
+---
+
+## AVM'ler ve Konut Siteleri İçin Plaka Tanıma, Kamera ve Network
+
+Kaynak: https://comodoteknoloji.com/sektorler/avm-ve-site-yonetimi
+
+Site ve AVM güvenlik altyapısı; araç ve yaya girişlerini kontrol eden plaka tanıma ve bariyer sistemleri, ortak alanları izleyen kameralar, ortak alan Wi-Fi'si ve bunları taşıyan zayıf akım altyapısından oluşur. Antalya'daki konut siteleri, rezidanslar ve AVM'ler için bu sistemleri tek projede kuruyoruz.
+
+- **Kumanda ve kart karmaşası:** Kaybolan kumandalar ve yetkisiz araç girişleri yönetimin sürekli gündemi olur.
+- **Olay sonrası kayıt bulunamıyor:** Yetersiz depolama ve kötü kamera konumu nedeniyle olay görüntüsü yoktur.
+- **Ortak alanlarda bağlantı yok:** Havuz, spor salonu ve otopark gibi alanlarda Wi-Fi ve kamera altyapısı eksiktir.
+
+### Sitelerde plaka tanıma sistemi ne kazandırır?
+
+Plaka tanıma sistemi kumanda dağıtımını ortadan kaldırır, misafir araçları süreli tanımlanır ve tüm giriş-çıkışlar fotoğraflı olarak raporlanır.
+
+### Sık sorulan sorular
+
+**Yönetim kurulu bütçe onayı için ne sunabiliriz?**
+Keşif sonrası kalem kalem teklif, alternatif paketler ve fazlı uygulama planı hazırlıyoruz.
+
+**Daire sakinleri sistemi kullanabilecek mi?**
+Misafir tanımlama gibi işlemler basit bir mobil arayüzle yapılır; ilk kurulumda yönetime eğitim veriyoruz.
+
+**Mevcut bariyerimize plaka tanıma eklenebilir mi?**
+Çoğu bariyer kuru kontakla kontrol edilebildiği için mevcut sisteme plaka tanıma eklenebilir.
+
+**Kamera kayıtlarını yönetim dışında kimler görebilir?**
+Erişim yetkileri kullanıcı bazlı tanımlanır; KVKK gereği kimin hangi kayda eriştiği loglanır.
+
+**AVM otoparkında doluluk takibi yapılabilir mi?**
+Giriş-çıkış sayımıyla anlık doluluk hesaplanabilir; detaylı otopark yönlendirme sistemleri için ayrıca projelendirme yapılır.
+
+---
+
+## Restoran ve Kafeler İçin 5651 Uyumlu Wi-Fi ve Kamera Sistemleri
+
+Kaynak: https://comodoteknoloji.com/sektorler/restoran-ve-kafe
+
+Restoran ve kafe bilişim altyapısı; müşterilere sunulan 5651 uyumlu misafir Wi-Fi'si, POS ve sipariş sistemlerini koruyan ayrılmış personel ağı ve kasa, mutfak ve salon kameralarından oluşur. Antalya'daki restoran ve kafeler için bu altyapıyı hızlı ve işletmeyi kapatmadan kuruyoruz.
+
+- **Müşteri Wi-Fi'si POS ile aynı ağda:** Ayrılmamış ağda müşteri cihazları ödeme sistemlerine erişebilir.
+- **5651 cezası riski:** Şifreyi masaya yazmak, bağlantıyı kişiyle eşleştirmez.
+- **Kasa farkları ve mutfak hijyeni:** Kasa ve mutfak alanları net görüntülenmediğinde anlaşmazlıklar çözülemez.
+
+### Kafede müşteri Wi-Fi'si için şifre yeterli mi?
+
+Hayır; ortak şifre bağlantıyı bir kişiyle eşleştirmediği için 5651 yükümlülüğünü karşılamaz, SMS doğrulamalı hotspot ve zaman damgalı loglama gerekir.
+
+### Sık sorulan sorular
+
+**Kurulum için işletmeyi kapatmamız gerekir mi?**
+Hayır. Kurulum genellikle kapanış sonrası veya sakin saatlerde tamamlanır.
+
+**Küçük bir işletme için maliyetli olmaz mı?**
+Tek lokasyonlu işletmeler için bulut tabanlı, düşük başlangıç maliyetli paketler sunuyoruz.
+
+**Hotspot sayfasında kendi logomuz olabilir mi?**
+Evet, karşılama sayfası işletmenizin logosu ve renkleriyle tasarlanır; kampanya duyurusu da eklenebilir.
+
+**Müşterilerin internet kullanımı sınırlanabilir mi?**
+Kişi başı süre ve hız limitleri tanımlanabilir.
+
+**Şubelerimizi tek yerden yönetebilir miyiz?**
+Evet, bulut yönetimiyle tüm şubelerin ağ ve loglama durumunu tek panelden izleyebilirsiniz.
+
+---
+
+## Antalya Klinik, Hukuk Bürosu ve Ofisler İçin Web Sitesi, Kamera ve Siber Güvenlik
+
+Kaynak: https://comodoteknoloji.com/sektorler/klinik-ve-ofis
+
+Klinik ve ofis bilişim altyapısı; hasta veya müvekkillerin işletmeyi bulduğu güven veren bir web sitesi, randevu ve iletişim kanalları, giriş ve bekleme alanlarını izleyen güvenlik kameraları ve hassas verileri koruyan siber güvenlik katmanlarından oluşur. Antalya'daki klinik, hukuk ve muhasebe bürolarına bu altyapıyı tek elden kuruyoruz.
+
+- **Google'da rakip klinik çıkıyor:** "Muratpaşa diş kliniği" arayan hasta, güncel bir web sitesi ve işletme profili olmayan kliniği bulamaz.
+- **Hassas veriler korumasız:** Hasta ve müvekkil dosyaları yedeksiz, şifresiz bilgisayarlarda tutulduğunda tek bir fidye yazılımı işi durdurur.
+- **Kamera var ama KVKK belirsiz:** Bekleme salonu kayıtları için aydınlatma, saklama süresi ve erişim yetkisi tanımlanmamıştır.
+
+### Bir klinik veya hukuk bürosu için web sitesi neden önemli?
+
+Hasta ve müvekkiller hizmet almadan önce uzmanı, adresi ve yorumları internette araştırır; güncel, hızlı ve güven veren bir web sitesi bu araştırmanın sonunda arama veya randevuya dönüşen tek noktadır.
+
+### Klinik ve ofislerde hasta/müvekkil verisi nasıl korunur?
+
+Veriler; cihaz şifreleme, uç nokta güvenliği (EDR), rol bazlı erişim, çok faktörlü kimlik doğrulama ve ağdan ayrılmış düzenli yedeklerle korunmalıdır.
+
+### Sık sorulan sorular
+
+**Küçük bir muayenehane için bu kadar sistem gerekli mi?**
+Hayır, ihtiyacınız kadarını kuruyoruz. Çoğu muayenehane için web sitesi, işletme profili, yedekleme ve temel uç nokta güvenliği yeterli bir başlangıçtır.
+
+**Web sitesinde hangi bilgileri paylaşabiliriz?**
+Meslek kuralları ve reklam yasakları kapsamında yalnızca bilgilendirici içerik yayınlıyoruz; metinlerin son onayı sizdedir.
+
+**Online randevu sistemi kurabilir misiniz?**
+Evet. Web sitesine entegre randevu formu veya mevcut randevu yazılımınızla bağlantı kurulabilir.
+
+**Daha önce klinik siteleri yaptınız mı?**
+Diş kliniği, radyoloji merkezi ve hukuk bürosu için hazırladığımız tasarım örneklerini Projeler sayfasında inceleyebilirsiniz.
+
+**Bekleme salonuna kamera koymak KVKK'ya aykırı mı?**
+Aydınlatma levhası, makul saklama süresi ve sınırlı erişim yetkisiyle güvenlik amaçlı kamera kullanılabilir; muayene odası gibi özel alanlar kapsam dışında tutulmalıdır. Hukuki değerlendirme için hukuk danışmanınıza başvurun.
+
+---
+
+## Belek Resort ve Golf Tesisleri İçin Network, Kamera ve 5651
+
+Kaynak: https://comodoteknoloji.com/bolgeler/belek
+
+Belek, büyük yüzölçümlü 5 yıldızlı resort otellerin ve golf sahalarının yoğunlaştığı, Serik ilçesine bağlı bir turizm bölgesidir. Bu tesislerde bloklar arası fiber omurga, villa ve plaj alanlarını kapsayan dış mekan Wi-Fi, geniş çevre güvenliği ve binlerce misafirin 5651 loglaması tek planla yönetilmelidir.
+
+Belek'teki tesisler genellikle onlarca bloktan, villalardan, aquaparklardan ve kongre merkezlerinden oluşan kampüs yapısındadır. Golf sahaları ise yüzlerce dönümlük açık alanlar, kulüp binaları ve bakım tesisleri içerir. Bu ölçek, şehir oteli mantığıyla kurulmuş ağların sezon yoğunluğunda neden çöktüğünü açıklar.
+
+- **Kampüs ölçeğinde fiber omurga:** Bloklar, villalar ve teknik binalar arasında yedekli fiber halka topolojisi.
+- **Açık alan Wi-Fi'si:** Havuz, plaj ve bahçe alanlarında dış mekan sınıfı AP'lerle kesintisiz dolaşım.
+- **Geniş çevre güvenliği:** Sahil hattı ve çevre duvarlarında termal kamera ve video analitik.
+- **Yüksek eşzamanlı 5651 loglama:** Binlerce misafir cihazını PMS entegrasyonuyla kişiyle eşleştiren hotspot.
+
+**Belek'teki bir resort için Wi-Fi yenileme ne zaman planlanmalı?**
+Kasım–Şubat arası kurulum için keşif ve projelendirmenin Ekim ayında tamamlanması önerilir; böylece Nisan açılışından önce test süresi kalır.
+
+**Golf sahasında kamera ve Wi-Fi kurulabilir mi?**
+Evet. Güneş enerjili direkler, kablosuz köprüler (point-to-point) ve dış mekan kabinleriyle saha içi noktalara altyapı taşınabilir.
+
+**Sezon içinde arıza olursa ne kadar sürede gelirsiniz?**
+[DOLDURULACAK: Belek için müdahale süresi taahhüdü]
+
+---
+
+## Alanya Otel ve Siteleri İçin Wi-Fi, Kamera ve Plaka Tanıma
+
+Kaynak: https://comodoteknoloji.com/bolgeler/alanya
+
+Alanya, şehir merkezine yayılmış orta ölçekli oteller ile yabancı yerleşiklerin yoğun olduğu rezidans ve konut sitelerinin birlikte bulunduğu bir ilçedir. Bu karma yapı; otellerde 5651 uyumlu Wi-Fi, sitelerde ise plaka tanıma, kamera ve ortak alan altyapısı ihtiyacını öne çıkarır.
+
+Mahmutlar, Kestel, Oba ve Avsallar gibi mahallelerde havuzlu, güvenlikli konut siteleri; merkez ve Kleopatra çevresinde ise dikey yapılaşmış oteller yaygındır. Sitelerde yönetim kurulları şeffaf, raporlanabilir güvenlik ister; otellerde ise dar parsellerde yüksek oda yoğunluğu Wi-Fi planlamasını zorlaştırır.
+
+- **Sitelerde plaka tanıma:** Kumanda karmaşasını bitiren, misafir aracı süreli tanımlanabilen geçiş sistemi.
+- **Dikey otellerde oda içi Wi-Fi:** Koridor AP'leri yerine oda içi erişim noktalarıyla betonarme kayıplarının önüne geçme.
+- **Çok dilli captive portal:** Yabancı misafirler için Türkçe, İngilizce, Almanca ve Rusça karşılama sayfası.
+
+**Alanya'daki sitemiz için plaka tanıma kurulumu ne kadar sürer?**
+Altyapısı hazır tek giriş-çıkışlı bir sitede kurulum birkaç gün sürer; kazı ve kanal ihtiyacı varsa süre keşifte netleşir.
+
+**Captive portal yabancı dillerde olabilir mi?**
+Evet, karşılama ve aydınlatma metinleri birden fazla dilde sunulabilir.
+
+**Alanya'ya keşif için ücret alıyor musunuz?**
+[DOLDURULACAK: Alanya keşif ücret politikası]
+
+---
+
+## Manavgat ve Side Otelleri İçin Network, Kamera ve 5651 Çözümleri
+
+Kaynak: https://comodoteknoloji.com/bolgeler/manavgat
+
+Manavgat; Side, Kumköy, Çolaklı, Kızılağaç ve Titreyengöl hattındaki büyük resort otelleriyle Antalya'nın en yüksek yatak kapasitesine sahip turizm bölgelerinden biridir. Burada otellerin ihtiyacı, sezon boyunca on binlerce misafir cihazını kesintisiz taşıyan ağ ve 5651 altyapısıdır.
+
+Bölgedeki otellerin önemli bir kısmı 1990'lar ve 2000'lerde inşa edilmiş, ek bloklarla büyümüştür. Bu nedenle farklı dönemlerde çekilmiş kablolar, farklı markalarda AP'ler ve dokümantasyonu olmayan kabinetler sık karşılaşılan bir tablodur.
+
+- **Altyapı envanteri ve sadeleştirme:** Farklı dönemlerden kalan kablolama ve cihazların tespiti, etiketlenmesi ve tek yönetime alınması.
+- **Sezon öncesi Wi-Fi yenilemesi:** Kış döneminde blok bazlı AP ve switch değişimi.
+- **Merkezi 5651 loglama:** Tüm blokları tek hotspot altında toplayan, PMS entegre loglama.
+
+**Otelimizin kabinetleri dokümansız; nereden başlamalıyız?**
+İlk adım altyapı envanteridir: kabinetleri, portları ve hatları test edip etiketliyor, mevcut durum şemasını çıkarıyoruz. Yenileme planı bu şemaya göre yapılır.
+
+**Side'deki butik otelimiz için de uygun paket var mı?**
+Evet, küçük ölçekli tesisler için bulut yönetimli, düşük başlangıç maliyetli Wi-Fi ve hotspot paketleri sunuyoruz.
+
+**Manavgat'ta yerinde destek veriyor musunuz?**
+[DOLDURULACAK: Manavgat için müdahale süresi taahhüdü]
+
+---
+
+## Kemer Otelleri ve Tatil Köyleri İçin Wi-Fi, Kamera ve 5651
+
+Kaynak: https://comodoteknoloji.com/bolgeler/kemer
+
+Kemer; Beldibi'den Tekirova'ya uzanan, dağ ile deniz arasındaki dar sahil şeridine yayılmış oteller, tatil köyleri ve marinadan oluşan bir turizm ilçesidir. Engebeli arazi ve yamaçlara dağılmış bloklar, kablosuz köprü ve dış mekan ağ çözümlerini bu bölgede özellikle önemli kılar.
+
+Tatil köyü tipindeki tesislerde bungalovlar ve bloklar ağaçlık, eğimli alanlara dağılmıştır. Kazı yapmanın zor ya da yasak olduğu yerlerde noktadan noktaya kablosuz köprüler ve doğru konumlanmış dış mekan AP'leri fiber kadar kritik hale gelir.
+
+- **Kablosuz köprü bağlantıları:** Kazı yapılamayan alanlarda bloklar arası yüksek kapasiteli kablosuz bağlantı.
+- **Ağaçlık alanlarda Wi-Fi:** Bitki örtüsü ve eğimin sinyal kaybını hesaba katan site survey.
+- **Marina ve iskele güvenliği:** Nem ve tuzlu ortama dayanıklı kamera ve kabinler.
+
+**Bungalovlara kablo çekmeden internet verilebilir mi?**
+Evet. Noktadan noktaya veya noktadan çok noktaya kablosuz köprülerle bungalov gruplarına yüksek kapasiteli bağlantı taşınabilir.
+
+**Deniz kenarındaki cihazlar paslanmaz mı?**
+Tuzlu ve nemli ortamlar için uygun IP koruma sınıfına sahip, korozyona dayanıklı ekipman ve kabinler kullanıyoruz.
+
+**Kemer'e acil müdahale süreniz nedir?**
+[DOLDURULACAK: Kemer için müdahale süresi taahhüdü]
+
+---
+
+## Kepez Fabrika, Depo ve İşletmeleri İçin Network ve Güvenlik Sistemleri
+
+Kaynak: https://comodoteknoloji.com/bolgeler/kepez
+
+Kepez, Antalya'nın en kalabalık ilçelerinden biridir ve sanayi siteleri, depolar, toptan ticaret işletmeleri ile konut alanlarını bir arada barındırır. Bölgedeki işletmelerin ihtiyacı turizmden farklıdır: geniş depo alanları, araç trafiği ve üretim ağlarının güvenliği önceliklidir.
+
+Kepez ve çevresindeki sanayi bölgelerinde (Antalya OSB'ye yakın tesisler dahil) çelik konstrüksiyon depolar, yükleme rampaları ve geniş açık alanlar yaygındır. Metal yapılar Wi-Fi'yi zorlar, uzun mesafeler fiber gerektirir, kamyon trafiği ise plaka tanıma ihtiyacı doğurur.
+
+- **Depo Wi-Fi'si:** Metal raf ve konstrüksiyonların yansımalarını hesaba katan, el terminali dostu kablosuz ağ.
+- **Kamyon girişinde plaka tanıma:** Sevkiyat ve kantar kayıtlarıyla eşleşen araç geçiş kayıtları.
+- **Çevre güvenliği:** Geniş açık alanlarda termal kamera ve alan ihlali analitiği.
+
+**Çelik depoda Wi-Fi neden kopuyor?**
+Metal raflar ve konstrüksiyon sinyali yansıtıp zayıflatır. Raf koridorlarına göre konumlanan, yönlü antenli AP'lerle bu sorun çözülür.
+
+**Kantar kayıtlarımız plaka tanımayla eşleşebilir mi?**
+Evet, entegrasyonla her tartım kaydına aracın giriş-çıkış fotoğrafı ve saati eklenebilir.
+
+**Kepez'e yerinde destek süreniz nedir?**
+[DOLDURULACAK: Kepez için müdahale süresi taahhüdü]
+
+---
+
+## Konyaaltı Siteleri, Restoranları ve Otelleri İçin Güvenlik ve Network
+
+Kaynak: https://comodoteknoloji.com/bolgeler/konyaalti
+
+Konyaaltı; sahil şeridi boyunca uzanan restoran, kafe ve beach club'ları, Hurma, Liman ve Sarısu çevresindeki yeni konut siteleri ve şehir otelleriyle yerleşik yaşam ile turizmin iç içe geçtiği bir ilçedir. Bu yapı, sitelerde geçiş güvenliğini, sahil işletmelerinde ise 5651 uyumlu misafir Wi-Fi'sini öne çıkarır.
+
+Yeni inşa edilen konut sitelerinde altyapı genellikle müteahhit standardında bırakılır; yönetimler kısa süre içinde plaka tanıma, kamera ve ortak alan Wi-Fi'si ihtiyacıyla karşılaşır. Sahil işletmeleri ise yazın çok yüksek, kışın düşük müşteri trafiğine göre ölçeklenen esnek çözümler arar.
+
+- **Yeni sitelerde geçiş kontrolü:** Plaka tanıma, bariyer ve yaya turnikesiyle tamamlanan giriş güvenliği.
+- **Sahil işletmelerinde 5651:** Dış mekan AP ve SMS doğrulamalı hotspot ile uyumlu misafir Wi-Fi'si.
+- **Ortak alan kameraları:** Havuz, otopark ve çocuk oyun alanlarında net görüntü.
+
+**Yeni teslim aldığımız sitede altyapı yetersiz; ne yapmalıyız?**
+Önce mevcut zayıf akım altyapısını keşifte inceliyoruz. Boş borular ve kabinet kapasitesi yeterliyse plaka tanıma ve kamera sistemleri büyük inşaat işi gerektirmeden eklenir.
+
+**Beach club için dış mekan Wi-Fi kurulabilir mi?**
+Evet, dış mekan sınıfı AP'lerle sahil alanı kapsanır ve 5651 loglama hotspot üzerinden yapılır.
+
+**Konyaaltı'nda yerinde destek süreniz nedir?**
+[DOLDURULACAK: Konyaaltı için müdahale süresi taahhüdü]
+
+---
+
+## Muratpaşa ve Lara'daki Ofisler, Oteller ve Kliniklere Bilişim Çözümleri
+
+Kaynak: https://comodoteknoloji.com/bolgeler/muratpasa
+
+Muratpaşa; Kaleiçi'nin butik otelleri, Lara'nın büyük otelleri, şehir merkezindeki ofis binaları, klinikler ve mağazalarıyla Antalya'nın ticari kalbidir. Burada öne çıkan ihtiyaç, çok sayıda küçük ve orta ölçekli işletmenin veri güvenliği, ofis ağı ve 5651 yükümlülükleridir.
+
+Ofisimiz Muratpaşa'da, Kızılsaray Mahallesi'nde Şarampol Caddesi üzerindedir; bu yüzden Muratpaşa, Kaleiçi ve Lara'daki işletmelere en kısa sürede yerinde ulaşabiliyoruz. Kaleiçi'nde tarihi dokudaki butik otellerde kablo güzergahı bulmak ve koruma kurallarına uymak özel çözümler ister. Ofis ve kliniklerde ise hasta/müşteri verilerinin KVKK'ya uygun korunması, yedekleme ve fidye yazılımı koruması önceliklidir.
+
+- **Tarihi yapılarda görünmez altyapı:** Dekorasyonu bozmayan güzergah ve oda içi AP çözümleri.
+- **Ofis siber güvenliği:** EDR, yönetilen firewall ve 3-2-1 yedekleme.
+- **Klinik veri koruması:** Hasta verileri için ağ segmentasyonu ve erişim kayıtları.
+
+**Kaleiçi'ndeki tarihi binamıza kablo çekilebilir mi?**
+Mevcut boşluklar, dekoratif kanallar ve gerekiyorsa kablosuz köprülerle yapıya zarar vermeden altyapı kurulabilir; koruma kurallarına uygunluğu proje öncesinde değerlendiriyoruz.
+
+**Küçük ofisimiz için yönetilen güvenlik hizmeti var mı?**
+Evet, cihaz sayısına göre ölçeklenen aylık EDR ve firewall yönetimi paketleri sunuyoruz.
+
+**Muratpaşa'da aynı gün müdahale ediyor musunuz?**
+[DOLDURULACAK: Muratpaşa için müdahale süresi taahhüdü]
+
+---
+
+## İşletme Web Sitesi Neden Önemli? Antalya'daki İşletmeler İçin 2026 Rehberi
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/isletme-web-sitesi-neden-onemli · Yazar: [DOLDURULACAK: Yazar adı] · Son güncelleme: 2026-10-25
+
+**İşletme web sitesi**, müşterinin işletmenizi araştırırken ulaştığı ve kontrolü tamamen sizde olan tek dijital adrestir. Reklamlar, sosyal medya ve Google Haritalar kaydı işletmenize trafik getirir; güveni oluşturan, soruları cevaplayan ve ziyaretçiyi arama veya teklif talebine dönüştüren ise web sitesidir. Bu rehber, Antalya'daki bir işletme sahibinin "web sitesine gerçekten ihtiyacım var mı?" sorusuna net cevap vermek için hazırlandı.
+
+## İşletmeler için web sitesi neden önemli?
+
+**Çünkü müşteriler satın almadan önce araştırır ve bu araştırmanın sonunda güvenecekleri, kontrolü işletmeye ait bir kaynak ararlar.** Bir diş kliniği, avukat, güvenlik kamerası firması ya da restoran arayan kişi önce Google'a, giderek artan şekilde de ChatGPT gibi yapay zekâ asistanlarına sorar. Karşısına çıkan işletmelerin web sitelerine bakar, hizmetleri, adresi, fiyatı etkileyen unsurları ve referansları karşılaştırır.
+
+Web sitesinin işletmeye kattığı temel değerler şunlardır:
+
+1. **Bulunabilirlik:** "Antalya güvenlik kamerası", "Konyaaltı diş kliniği" gibi aramalarda görünmenin temel şartı.
+2. **Güven:** Gerçek adres, telefon, referans projeler, ekip bilgisi ve güvenli bağlantı (HTTPS).
+3. **7/24 bilgi:** Mesai dışında da hizmetleriniz, sık sorulan sorular ve iletişim yollarınız erişilebilir.
+4. **Reklam verimliliği:** Reklamlar ölçülebilir, hızlı ve ikna edici bir açılış sayfasına yönlenir.
+5. **Bağımsızlık:** Platform kuralları değişse veya bir sosyal medya hesabı kapansa da alan adınız sizindir.
+
+## Sosyal medya hesabı web sitesinin yerini tutar mı?
+
+**Tutmaz; sosyal medya keşif ve iletişim için güçlüdür, ancak aramalarda bulunma, güven ve ölçüm konularında web sitesinin yerini alamaz.** En iyi sonuç ikisinin birlikte kullanılmasıyla alınır: sosyal medya ilgiyi çeker, web sitesi kararı kolaylaştırır.
+
+| Kriter | Sosyal medya hesabı | İşletme web sitesi |
+| --- | --- | --- |
+| Sahiplik | Platforma ait | İşletmeye ait (alan adı) |
+| Google aramalarında görünürlük | Sınırlı | Hizmet ve bölge bazında sayfalarla yüksek |
+| Yapay zekâ aramalarında kaynak olma | Sınırlı | Yapılandırılmış içerikle uygun |
+| Detaylı bilgi (hizmet, fiyat unsurları, SSS) | Kısa gönderilerle sınırlı | Sınırsız ve düzenli |
+| Reklam ölçümü ve dönüşüm takibi | Platform içinde | Tüm kanallar için tek noktada |
+| Hesap kapanma / kural değişikliği riski | Var | Yok |
+
+## Web sitesi Google ve yapay zekâ aramalarında nasıl bulunur?
+
+**Bir web sitesinin bulunması için arama motorlarının içeriği okuyabilmesi, anlayabilmesi ve güvenilir bulması gerekir; bunun teknik karşılığı SEO, yapay zekâ cevap motorlarındaki karşılığı ise GEO'dur.**
+
+Google'ın kendi [SEO Başlangıç Rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr), arama motorunun içeriği bulmasını, anlamasını ve kullanıcıya doğru sayfayı göstermesini kolaylaştırmayı SEO'nun temeli olarak tanımlar. Sayfa deneyimi tarafında ise Google'ın [Core Web Vitals](https://web.dev/articles/vitals?hl=tr) metrikleri (yükleme, etkileşim ve görsel kararlılık) ölçüt olarak kullanılır.
+
+**SEO (arama motoru optimizasyonu)** için temel unsurlar:
+
+- Her hizmet ve bölge için ayrı, özgün sayfa
+- Hızlı açılış ve mobil uyum (Core Web Vitals)
+- Doğru başlık, açıklama ve başlık hiyerarşisi
+- Site haritası ve Search Console bağlantısı
+- Google İşletme Profili ile birebir aynı firma adı, adres ve telefon
+
+**GEO (yapay zekâ arama optimizasyonu)** için ek unsurlar:
+
+- Her sayfanın başında bağlamından koparılsa da anlaşılan net bir tanım paragrafı
+- Soru biçiminde başlıklar ve ilk cümlesi doğrudan cevap olan bölümler
+- Gerçek HTML tablolar ve listeler
+- JSON-LD yapılandırılmış veri (işletme, hizmet, SSS, yazar)
+- Yapay zekâ sistemleri için özet sunan [`llms.txt`](https://llmstxt.org/) dosyası
+- İçeriğin JavaScript çalıştırmadan okunabilmesi (sunucu taraflı üretim)
+- Yetkili kaynaklara açık atıf yapılması
+
+Bu yaklaşımın akademik bir dayanağı da var: KDD 2024'te yayımlanan [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) çalışmasında araştırmacılar, içeriğe kaynak göstermenin, alıntı ve istatistik eklemenin üretken arama motorlarının cevaplarındaki görünürlüğü artırdığını raporlamıştır. Google da [yapılandırılmış verinin](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=tr) sayfanın içeriğini anlamasına yardımcı olduğunu belirtir.
+
+## Web sitesi işletme reklamlarını nasıl etkiler?
+
+**Reklam bütçesinin ne kadar verimli kullanılacağını büyük ölçüde reklamın yönlendiği sayfa belirler.** Yavaş açılan, mobilde dağılan veya ne yapılacağı belli olmayan bir sayfa, aynı tıklamadan daha az arama ve form üretir.
+
+İyi bir açılış sayfasında şunlar bulunur:
+
+- Reklamdaki vaadi tekrar eden net bir başlık
+- Tek ve belirgin bir çağrı (ara, WhatsApp, teklif al)
+- Güven unsurları: referanslar, adres, gerçek fotoğraflar
+- Kısa ve bot korumalı bir form
+- KVKK uyumlu çerez onayı ve doğru dönüşüm takibi
+
+Bu yaklaşımı **güvenlik destekli reklam** olarak adlandırıyoruz: reklam trafiği güvenli, hızlı ve doğru ölçülen bir siteye gelir; sahte form ve spam baştan filtrelenir.
+
+## İyi bir işletme web sitesinde neler olmalı?
+
+**İyi bir işletme web sitesi hızlı, güvenli, mobil uyumlu olur; ziyaretçinin sorularını cevaplar ve onu tek bir sonraki adıma yönlendirir.** Kontrol listesi:
+
+| Bölüm | Neden gerekli? |
+| --- | --- |
+| Net değer önerisi (ana sayfa başlığı) | Ziyaretçi ilk saniyede doğru yerde olduğunu anlar |
+| Her hizmet için ayrı sayfa | Aramalarda hizmet bazında bulunma |
+| Bölge sayfaları (ilçeler) | Yerel aramalarda görünürlük |
+| Referanslar ve projeler | Güven ve sosyal kanıt |
+| Sık sorulan sorular | Hem ziyaretçi hem yapay zekâ için net cevaplar |
+| İletişim, harita, WhatsApp | Dönüşümün tamamlanması |
+| KVKK ve çerez metinleri | Yasal uyum ve güven |
+| Güvenlik (HTTPS, güvenlik başlıkları, yedek) | Ziyaretçinin ve işletmenin korunması |
+
+## Web sitesi yaptırırken nelere dikkat edilmeli?
+
+**Alan adı ve hesapların işletme adına açılmasına, sitenin hız ve güvenlik testlerinden geçmesine ve SEO altyapısının baştan kurulmasına dikkat edilmelidir.**
+
+- Alan adı, barındırma ve analitik hesapları işletmeniz adına olsun.
+- Teslimde hız (PageSpeed / Lighthouse) ve güvenlik başlığı kontrolü isteyin.
+- Mevcut bir siteniz varsa eski adreslerin yeni sayfalara yönlendirileceği (301) bir geçiş planı isteyin.
+- İçeriklerin kimin tarafından yazılacağını ve güncelleneceğini netleştirin.
+- "Google'da birinci sıra garantisi" gibi vaatlere karşı dikkatli olun; organik sıralamayı kimse garanti edemez.
+
+## Sonuç: Web sitesi bir masraf mı, yatırım mı?
+
+**Doğru kurulmuş bir web sitesi; müşteriyi bulan, güven veren ve reklam bütçesini verimli kullanan bir yatırımdır.** Antalya'da işletmenizi kurumsal web sitesi, yerel SEO ve reklamla büyütmek isterseniz [web sitesi çözümlerimizi](/cozumler/web-tasarim) ve [işletme reklamı hizmetimizi](/cozumler/dijital-reklam) inceleyebilir, hazırladığımız [projelere](/projeler) göz atabilir veya [ücretsiz keşif görüşmesi planlayabilirsiniz](/ucretsiz-kesif).
+
+### Sık sorulan sorular
+
+**Küçük bir işletmenin web sitesine ihtiyacı var mı?**
+Evet. Müşteriler küçük işletmeleri de satın almadan önce internette araştırır. Basit, hızlı ve güncel birkaç sayfalık bir site bile Google'da bulunmanızı, güven vermenizi ve reklamlarınızı ölçmenizi sağlar.
+
+**Instagram hesabım var, web sitesine yine de gerek var mı?**
+Sosyal medya hesabı platforma aittir ve Google aramalarında sınırlı görünür. Web sitesi; kendi alan adınızda, kontrolü sizde olan, aramalarda ve yapay zekâ asistanlarında kaynak gösterilebilen dijital adresinizdir. İkisi birlikte en iyi sonucu verir.
+
+**Web sitesi yapay zekâ aramalarında görünür mü?**
+Garanti edilemez, ancak içeriği sunucu tarafında üretilen, net tanımlar ve soru-cevap başlıkları içeren, yapılandırılmış veri (JSON-LD) ve llms.txt kullanan siteler ChatGPT, Perplexity ve Google AI Overviews gibi sistemlerde kaynak gösterilmeye daha uygundur.
+
+**Web sitesi yaptırmanın maliyeti neye göre değişir?**
+Sayfa ve içerik sayısı, e-ticaret ihtiyacı, randevu veya çok dil gibi özel fonksiyonlar, tasarım kapsamı, SEO ve içerik desteği ile barındırma ve bakım maliyeti belirler.
+
+**Web sitesi ne kadar sürede hazır olur?**
+Birkaç sayfalık kurumsal tanıtım siteleri genellikle birkaç haftada hazırlanır; e-ticaret ve özel entegrasyon içeren projeler daha uzun sürer. Kesin takvim kapsam netleştikten sonra belirlenir.
+
+### Kaynaklar
+
+1. [Arama Motoru Optimizasyonu (SEO) Başlangıç Rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr) — Google Search Central
+2. [Yapılandırılmış veri işaretlemesinin işleyiş şekline giriş](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=tr) — Google Search Central
+3. [Core Web Vitals (Önemli Web Verileri)](https://web.dev/articles/vitals?hl=tr) — web.dev (Google)
+4. [Google'da yerel sıralamanızı iyileştirme ipuçları](https://support.google.com/business/answer/7091?hl=tr) — Google İşletme Profili Yardım
+5. [GEO: Generative Engine Optimization (Aggarwal, Murahari, Rajpurohit, Kalyan, Narasimhan, Deshpande)](https://arxiv.org/abs/2311.09735) — KDD 2024 / arXiv:2311.09735, 2024
+6. [The /llms.txt file — yapay zekâ sistemleri için site özeti önerisi](https://llmstxt.org/) — llmstxt.org
+7. [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/) — OWASP Foundation
+
+---
+
+## Güvenli İşletme Web Sitesi: Sitenizi Saldırılara Karşı Korumanın 10 Yolu
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/guvenli-isletme-web-sitesi-rehberi · Yazar: [DOLDURULACAK: Yazar adı] · Son güncelleme: 2026-10-25
+
+**Güvenli işletme web sitesi**; ziyaretçi ile sunucu arasındaki bağlantıyı şifreleyen, güncel bileşenlerle çalışan, formları bot ve spam korumalı, düzenli yedeklenen, tarayıcı güvenlik başlıkları tanımlı ve kişisel verileri KVKK'ya uygun işleyen web sitesidir. Bir bilişim ve siber güvenlik firması olarak işletme sitelerinde en sık gördüğümüz açıkları ve alınması gereken önlemleri bu rehberde topladık.
+
+## İşletme web siteleri neden saldırıya uğrar?
+
+**İşletme siteleri çoğunlukla hedef seçildikleri için değil, otomatik taramalarda açık bulundukları için saldırıya uğrar.** Saldırganlar güncel olmayan eklentileri, varsayılan yönetici adreslerini ve zayıf şifreleri tarayan araçlar kullanır. Ele geçirilen siteler genellikle spam sayfa yayınlamak, ziyaretçileri dolandırıcılık sitelerine yönlendirmek veya zararlı yazılım dağıtmak için kullanılır.
+
+Sonuçları:
+
+- Google'da güvenlik uyarısı ve sıralama kaybı
+- Müşteri güveninin zedelenmesi
+- Form verilerinin sızması ve KVKK sorumluluğu
+- Reklam hesaplarının askıya alınması
+
+## Güvenli web sitesi için 10 adım nelerdir?
+
+**Aşağıdaki 10 adım, işletme sitelerindeki saldırı riskinin büyük kısmını ortadan kaldırır.** Liste; web uygulamalarındaki en kritik riskleri sıralayan [OWASP Top 10](https://owasp.org/www-project-top-ten/), tarayıcı güvenlik başlıklarını tanımlayan [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/) ve [MDN'nin Content Security Policy dokümantasyonu](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) temel alınarak hazırlanmıştır.
+
+| # | Önlem | Ne sağlar? |
+| --- | --- | --- |
+| 1 | HTTPS ve HSTS | Bağlantıyı şifreler, tarayıcıyı her zaman güvenli bağlantıya zorlar |
+| 2 | Güvenlik başlıkları (CSP, X-Frame-Options vb.) | Script enjeksiyonu ve sahte çerçeve saldırılarını zorlaştırır |
+| 3 | Güncel çekirdek, tema ve eklentiler | Bilinen açıkların kapatılması |
+| 4 | Gereksiz eklentilerin kaldırılması | Saldırı yüzeyinin küçülmesi |
+| 5 | Güçlü şifre ve çok faktörlü doğrulama | Yönetim paneli ve hosting hesabının korunması |
+| 6 | Form koruması (bot doğrulama, rate limit) | Spam, sahte talep ve kaba kuvvet denemelerinin engellenmesi |
+| 7 | Düzenli ve ayrı konumda yedek | Saldırı veya hata sonrası hızlı geri dönüş |
+| 8 | En az yetki ilkesi | Her kullanıcının yalnızca ihtiyacı kadar yetkisi olması |
+| 9 | İzleme ve uyarı | Erişilemezlik, değişiklik ve şüpheli trafiğin fark edilmesi |
+| 10 | KVKK uyumlu veri işleme | Aydınlatma metni, çerez onayı, gereksiz veri toplamama |
+
+## Statik site neden daha güvenlidir?
+
+**Statik (önceden üretilmiş) siteler, her ziyarette veri tabanı sorgusu ve eklenti kodu çalıştırmadığı için saldırı yüzeyi çok daha küçüktür.** Klasik içerik yönetim sistemlerindeki eklenti ve veri tabanı kaynaklı açıkların önemli bir kısmı bu mimaride baştan ortadan kalkar. Ayrıca statik siteler daha hızlı açılır; bu da hem SEO'ya hem reklam verimliliğine katkı sağlar.
+
+| Özellik | Klasik CMS + eklentiler | Statik / sunucu taraflı üretilmiş site |
+| --- | --- | --- |
+| Saldırı yüzeyi | Geniş (eklenti, panel, veri tabanı) | Dar |
+| Güncelleme yükü | Sürekli | Düşük |
+| Hız | Eklenti sayısına bağlı | Yüksek |
+| İçerik güncelleme | Panelden kolay | Panel veya içerik dosyalarıyla |
+
+## Web sitesi formları nasıl korunur?
+
+**Formlar; görünmez bot doğrulaması, aynı kaynaktan gelen tekrar eden denemeleri sınırlayan rate limit, botların doldurduğu gizli bal küpü (honeypot) alanı ve sunucu tarafında veri doğrulamasıyla korunur.** Bu önlemler hem spam'i azaltır hem de reklamlardan gelen gerçek talepleri sahte taleplerden ayırmayı kolaylaştırır.
+
+## KVKK açısından web sitesinde nelere dikkat edilmeli?
+
+**[6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) kapsamında, web sitesinde kişisel veri toplanıyorsa aydınlatma metni sunulmalı, gerekli durumlarda onay alınmalı ve analitik çerezler kullanıcı onay vermeden yüklenmemelidir.** Formlarda yalnızca gerçekten ihtiyaç duyulan bilgiler istenmeli, onay kutuları önceden işaretli olmamalıdır. Hukuki değerlendirme için hukuk danışmanınıza başvurmanızı öneririz.
+
+## Sonuç
+
+**Güvenli bir web sitesi; işletmenizin itibarını, müşteri verilerini ve reklam bütçesini korur.** Web sitelerimizi siber güvenlik ekibimizle birlikte, saldırı yüzeyi küçük ve güvenlik başlıkları tanımlı olarak teslim ediyoruz. [Web sitesi çözümlerimizi](/cozumler/web-tasarim) ve [siber güvenlik hizmetlerimizi](/cozumler/siber-guvenlik) inceleyebilir veya [ücretsiz keşif görüşmesi planlayabilirsiniz](/ucretsiz-kesif).
+
+### Sık sorulan sorular
+
+**Küçük işletmelerin web siteleri de saldırıya uğrar mı?**
+Evet. Saldırıların büyük kısmı otomatik araçlarla, güncel olmayan eklenti ve zayıf şifre arayan taramalarla yapılır; işletmenin büyüklüğü değil sitenin açığı hedef seçimini belirler.
+
+**SSL sertifikası siteyi tamamen güvenli yapar mı?**
+Hayır. SSL (HTTPS) yalnızca ziyaretçi ile site arasındaki bağlantıyı şifreler. Güncel olmayan yazılım, zayıf şifre veya korumasız formlar gibi açıkları kapatmaz.
+
+**Web sitem hacklendiğini nasıl anlarım?**
+Tanımadığınız sayfalar, yönlendirmeler, Google'da yabancı dilde spam sonuçlar, tarayıcı güvenlik uyarıları, beklenmeyen yönetici hesapları veya ani trafik değişimleri hacklenme belirtisi olabilir.
+
+**Web sitesi yedeği ne sıklıkla alınmalı?**
+Sık güncellenen sitelerde günlük, nadir güncellenen sitelerde haftalık otomatik yedek önerilir. Yedeklerin site sunucusundan ayrı bir yerde tutulması ve geri yüklemenin test edilmesi gerekir.
+
+### Kaynaklar
+
+1. [OWASP Top 10 — en kritik web uygulaması güvenlik riskleri](https://owasp.org/www-project-top-ten/) — OWASP Foundation
+2. [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/) — OWASP Foundation
+3. [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) — MDN Web Docs (Mozilla)
+4. [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) — OWASP Foundation
+5. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+6. [Ulusal Siber Olaylara Müdahale Merkezi](https://www.usom.gov.tr/) — USOM (BTK)
+
+---
+
+## Antalya'da İşletme Reklamı Nasıl Yapılır? Google, Meta ve Yerel SEO Rehberi
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/antalya-isletme-reklami-rehberi · Yazar: [DOLDURULACAK: Yazar adı] · Son güncelleme: 2026-10-25
+
+**İşletme reklamı**, işletmenizi ürününüzü veya hizmetinizi arayan ya da ilgilenebilecek doğru kişilere, ölçülebilir bir bütçeyle göstermektir. Antalya'daki çoğu yerel işletme için en verimli yol; ücretsiz Google İşletme Profili ve yerel SEO ile temeli atmak, ardından Google arama reklamları ve gerektiğinde Instagram/Facebook reklamlarıyla büyümektir. Bu rehber, reklam kanallarını seçmekten bütçe planlamaya kadar adımları özetler.
+
+## Antalya'da hangi reklam kanalı hangi işletmeye uygun?
+
+**Kanal seçimini işletmenin sektörü değil, müşterinin niyeti belirler: hizmeti aktif olarak arayan müşteriye Google, keşfeden müşteriye sosyal medya ulaşır.**
+
+| İşletme tipi | Öncelikli kanal | Neden? |
+| --- | --- | --- |
+| Güvenlik kamerası, tesisat, teknik servis | Google arama + İşletme Profili | Müşteri ihtiyaç anında arar |
+| Klinik, hukuk bürosu, danışmanlık | Google arama + yerel SEO | Araştırarak ve güvenerek karar verilir |
+| Restoran, kafe, beach club | Instagram/Facebook + İşletme Profili | Görsel ilgi ve konum önemli |
+| Otel ve turizm | Google + Meta + çok dilli site | Yurt içi ve yurt dışı ziyaretçi |
+| B2B ve üretici | Google arama + LinkedIn | Az ama yüksek değerli talep |
+
+## Google İşletme Profili neden ilk adım olmalı?
+
+**Google İşletme Profili, haritada ve yerel aramalarda ücretsiz görünmenizi sağlar ve yerel aramalarda en önemli sıralama unsurlarından biridir.** Profil eksik, kategori yanlış ya da adres ve telefon web sitenizden farklıysa, reklam bütçeniz ne olursa olsun yerel aramalarda geride kalırsınız.
+
+Google'ın [İşletme Profili yardım sayfasına](https://support.google.com/business/answer/7091?hl=tr) göre yerel sonuçlar temel olarak **alaka düzeyi, mesafe ve öne çıkma** ölçütlerine dayanır; eksiksiz ve doğru işletme bilgileri, gerçek fotoğraflar ve yorumlara verilen yanıtlar bu ölçütleri doğrudan etkiler.
+
+Kontrol listesi:
+
+- Firma adı, adres ve telefonun web sitesi ve diğer profillerle **birebir aynı** olması
+- Doğru birincil kategori ve ilgili ikincil kategoriler
+- Hizmet verilen ilçelerin tanımlanması
+- Çalışma saatleri ve özel gün saatleri
+- Gerçek işletme, ekip ve proje fotoğrafları
+- Gelen yorumlara hızlı ve profesyonel yanıt
+- Web sitenizin doğru sayfasına bağlantı
+
+## Google Ads ile işletme reklamı nasıl kurulur?
+
+**Etkili bir Google Ads kampanyası; dar ve niyetli anahtar kelimeler, doğru bölge hedeflemesi, hizmete özel açılış sayfası ve kurulmuş dönüşüm takibiyle başlar.**
+
+1. **Anahtar kelimeleri hizmet + bölge olarak seçin:** "Antalya güvenlik kamerası kurulumu", "Muratpaşa web sitesi yaptırma" gibi.
+2. **Negatif kelimeler ekleyin:** "ücretsiz", "iş ilanı", "nasıl yapılır" gibi alakasız aramaları dışlayın.
+3. **Bölgeyi daraltın:** Hizmet verdiğiniz ilçeleri veya belirli bir yarıçapı hedefleyin.
+4. **Her reklam grubunu kendi sayfasına yönlendirin:** Kamera reklamı kamera sayfasına, web sitesi reklamı web sitesi sayfasına gitsin.
+5. **Dönüşümleri ölçün:** Telefon araması, WhatsApp tıklaması ve form gönderimi ayrı ayrı takip edilsin ([Google Ads dönüşüm izleme](https://support.google.com/google-ads/answer/1722022?hl=tr)). Ölçüm etiketleri, [izin modu (Consent Mode)](https://developers.google.com/tag-platform/security/guides/consent?hl=tr) ile ziyaretçinin çerez tercihine göre çalışmalıdır.
+6. **Haftalık optimize edin:** Arama terimleri raporunu inceleyip bütçeyi dönüşüm getiren kelimelere kaydırın.
+
+## Instagram ve Facebook reklamları ne zaman mantıklı?
+
+**Meta reklamları, ürün veya mekânın görsel olarak ilgi uyandırdığı, müşterinin henüz aktif arama yapmadığı durumlarda en verimlidir.** Restoranlar, turizm işletmeleri, e-ticaret ve etkinlikler için güçlü bir kanaldır. Hizmet işletmelerinde ise yeniden pazarlama (sitenizi ziyaret edenlere tekrar gösterim) için etkilidir.
+
+## Güvenlik destekli reklam nedir ve neden önemli?
+
+**Güvenlik destekli reklam, reklam trafiğinin güvenli, hızlı ve doğru ölçülen bir siteye gelmesini ve sahte tıklama ile spam formların filtrelenmesini sağlayan yaklaşımdır.** Bütçenin önemli bir kısmı çoğu zaman reklam ayarlarında değil, reklamın gittiği sitede kaybolur.
+
+| Risk | Sonucu | Önlem |
+| --- | --- | --- |
+| Yavaş açılan sayfa | Ziyaretçi sayfa açılmadan çıkar | Hız optimizasyonu, statik üretim |
+| Korumasız form | Spam ve sahte talepler | Bot doğrulama (Turnstile), rate limit, honeypot |
+| Ölçüm eksikliği | Hangi reklamın satış getirdiği bilinmez | Dönüşüm takibi, KVKK uyumlu çerez onayı |
+| Güvensiz site | Tarayıcı uyarısı, güven kaybı | HTTPS, HSTS, güvenlik başlıkları |
+| Tutarsız firma bilgisi | Yerel aramada güven kaybı | Site ve profillerde birebir aynı bilgiler |
+
+## Reklam bütçesi nasıl planlanır?
+
+**Reklam bütçesi, bir müşterinin işletmeye getirdiği gelirden geriye doğru hesaplanmalıdır.** Basit bir yaklaşım:
+
+1. Bir müşterinin ortalama getirisini tahmin edin.
+2. Kabul edilebilir müşteri edinme maliyetini belirleyin.
+3. Küçük bir test bütçesiyle birkaç hafta veri toplayın.
+4. Dönüşüm başına maliyete göre bütçeyi artırın veya kanalı değiştirin.
+
+Unutmayın: reklam yönetim ücreti ile platformlara ödenen reklam bütçesi farklı kalemlerdir ve teklifte ayrı gösterilmelidir.
+
+## Sonuç
+
+**Antalya'da işletme reklamının en sağlam temeli; güvenli ve hızlı bir web sitesi, eksiksiz bir Google İşletme Profili ve ölçülen reklam kampanyalarıdır.** [İşletme reklamı ve yerel SEO hizmetimizi](/cozumler/dijital-reklam), [web sitesi çözümlerimizi](/cozumler/web-tasarim) ve [web sitesinin neden önemli olduğunu anlatan rehberimizi](/bilgi-bankasi/isletme-web-sitesi-neden-onemli) inceleyebilir, [ücretsiz keşif görüşmesi planlayabilirsiniz](/ucretsiz-kesif).
+
+### Sık sorulan sorular
+
+**Antalya'da küçük bir işletme reklama nereden başlamalı?**
+Önce ücretsiz Google İşletme Profili'ni eksiksiz doldurun ve web sitenizdeki bilgilerle birebir aynı yapın. Ardından hizmetinizi arayan kişilere ulaşmak için küçük bütçeli bir Google arama reklamı kampanyasıyla başlayın.
+
+**Google reklamı mı, Instagram reklamı mı daha iyi?**
+Müşteri hizmetinizi aktif olarak arıyorsa Google arama reklamları, ürününüz veya mekânınız görsel olarak ilgi çekiyorsa Instagram ve Facebook reklamları daha verimlidir. Birçok işletme için ikisinin dengeli kullanımı en iyi sonucu verir.
+
+**Reklam bütçesi ne kadar olmalı?**
+Sabit bir doğru rakam yoktur. Bütçe hedef ilçedeki rekabete, tıklama maliyetlerine ve bir müşterinin size getirdiği gelire göre belirlenir. Küçük bir test bütçesiyle başlayıp dönüşüm verisine göre artırmak en güvenli yoldur.
+
+**Yerel SEO nedir?**
+Yerel SEO, işletmenin "yakınımdaki" veya "Antalya + hizmet" aramalarında, Google Haritalar'da ve yerel sonuçlarda üst sıralarda görünmesi için yapılan çalışmalardır: İşletme Profili, tutarlı firma bilgileri, bölge sayfaları ve yorumlar.
+
+**Güvenlik destekli reklam ne demek?**
+Reklam trafiğinin yönlendiği sitenin hızlı ve güvenli olması, formların bot ve spam korumalı olması, ölçümün KVKK'ya uygun çerez onayıyla yapılması ve şüpheli trafiğin izlenmesidir. Böylece bütçe sahte tıklama ve formlarla boşa harcanmaz.
+
+### Kaynaklar
+
+1. [Google'da yerel sıralamanızı iyileştirme ipuçları](https://support.google.com/business/answer/7091?hl=tr) — Google İşletme Profili Yardım
+2. [Dönüşüm izleme hakkında](https://support.google.com/google-ads/answer/1722022?hl=tr) — Google Ads Yardım
+3. [Consent Mode (izin modu) kurulumu](https://developers.google.com/tag-platform/security/guides/consent?hl=tr) — Google for Developers
+4. [Arama Motoru Optimizasyonu (SEO) Başlangıç Rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr) — Google Search Central
+5. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Antalya'da Güvenlik Kamerası Fiyatları Neye Göre Belirlenir? (2026)
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/antalya-guvenlik-kamerasi-fiyatlari-neye-gore-belirlenir · Yazar: [DOLDURULACAK: Yazar adı] · Son güncelleme: 2026-10-25
+
+**Güvenlik kamerası sistemi fiyatı**; kamera sayısı ve tipi, çözünürlük, istenen görüntü detayı (DORI seviyesi), kayıt cihazı ve saklama süresi, kablolama ve montaj koşulları ile uzaktan izleme ve video analitik ihtiyacına göre belirlenir. Aynı alan için verilen iki teklif arasındaki büyük farklar çoğunlukla bu unsurlardaki kapsam farkından kaynaklanır. Bu rehber, Antalya'da kamera sistemi yaptıracak işletmelerin teklifleri doğru karşılaştırmasına yardımcı olmak için hazırlandı.
+
+## Güvenlik kamerası fiyatını hangi unsurlar belirler?
+
+**Fiyatı en çok kamera sayısı ve tipi, istenen görüntü detayı, kayıt süresi ve kablolama/montaj koşulları belirler.**
+
+| Unsur | Fiyata etkisi | Açıklama |
+| --- | --- | --- |
+| Kamera sayısı | Yüksek | Kapsanacak alan ve giriş sayısıyla doğru orantılı |
+| Kamera tipi | Yüksek | Dome, bullet, PTZ, fisheye, termal, plaka tanıma |
+| Çözünürlük ve sensör | Orta | 4 MP, 8 MP; düşük ışık performansı |
+| DORI seviyesi | Yüksek | Kimlik seviyesi daha fazla kamera veya daha dar lens gerektirir |
+| Kayıt süresi | Orta | 30, 60, 90 gün; disk kapasitesi ve RAID |
+| Kablolama | Değişken | Mesafe, kanal/boru durumu, dış mekân, fiber ihtiyacı |
+| Montaj koşulları | Değişken | Yükseklik, direk, cephe, iskele/platform ihtiyacı |
+| Video analitik ve yazılım | Değişken | Alan ihlali, kalabalık, yüz veya plaka analitiği, lisanslar |
+
+## DORI seviyesi neden fiyatı değiştirir?
+
+**DORI, kameranın bir kişiyi algılama, gözlemleme, tanıma veya kimliklendirme yeteneğini metre başına piksel yoğunluğuyla tanımlar; daha yüksek seviye, aynı alan için daha fazla kamera veya daha dar açılı lens demektir.**
+
+| Seviye | Piksel / metre (IEC 62676-4) | Tipik kullanım |
+| --- | --- | --- |
+| Algılama | 25 | Geniş alan, çevre takibi |
+| Gözlem | 62,5 | Otopark, bahçe, depo genel görüş |
+| Tanıma | 125 | Koridor, lobi, kasa çevresi |
+| Kimlik | 250 | Giriş kapıları, turnikeler |
+
+Bir teklifte "kaç kamera" kadar "hangi noktada hangi seviyede görüntü" sorusunun da cevaplanması gerekir. Girişlerde kimlik seviyesinde görüntü sağlamayan bir sistem, olay anında işe yaramayabilir.
+
+## Kayıt süresi maliyeti nasıl etkiler?
+
+**Kayıt süresi uzadıkça gereken disk kapasitesi doğrusal olarak artar.** Pratik hesap: 1 Mbps bit hızındaki bir kamera günde yaklaşık 10,8 GB kayıt üretir. H.265 sıkıştırma ve hareket bazlı kayıt depolama ihtiyacını belirgin biçimde azaltır. Kendi senaryonuzu [CCTV Planlayıcı](/araclar/cctv-planlayici) ile hesaplayabilirsiniz.
+
+## IP kamera ile analog kamera arasında fiyat farkı var mı?
+
+**Kamera başına maliyet benzer aralıklarda olabilir; asıl fark kablolama, ölçeklenebilirlik ve özelliklerdedir.**
+
+| Özellik | Analog HD | IP kamera |
+| --- | --- | --- |
+| Kablolama | Koaksiyel + ayrı enerji | Tek CAT6 kablo (PoE) |
+| Çözünürlük | Genellikle daha düşük | Daha yüksek seçenekler |
+| Video analitik | Sınırlı | Gelişmiş |
+| Uzaktan erişim güvenliği | Temel | Şifreleme, yetki, VLAN ayrımı |
+| En uygun | Mevcut sistem genişletme | Yeni projeler |
+
+## Teklifleri karşılaştırırken nelere dikkat edilmeli?
+
+**Teklifleri yalnızca toplam fiyata göre değil, aynı kapsamı içerip içermediklerine göre karşılaştırın.** Kontrol listesi:
+
+- Kamera marka, model ve çözünürlüğü açıkça yazılı mı?
+- Her kameranın konumu ve hedeflenen DORI seviyesi belirtilmiş mi?
+- Kayıt süresi ve disk kapasitesi hesaplanmış mı?
+- Kablolama metrajı, kanal ve montaj işçiliği dahil mi?
+- Uzaktan izleme kurulumu ve kullanıcı eğitimi dahil mi?
+- Garanti süresi ve servis koşulları yazılı mı?
+- KVKK aydınlatma levhaları ve erişim yetkileri planlanmış mı?
+
+## Antalya'da kamera sistemi kurulumunda bölgesel farklar var mı?
+
+**Evet; kıyı bölgelerinde nem ve tuzlu hava, dış mekân kameralarında uygun koruma sınıfı ve korozyona dayanıklı ekipman gerektirir.** Belek, Kemer ve Alanya gibi turizm bölgelerinde geniş alanlı tesisler termal kamera ve fiber omurga ihtiyacını, Kepez'deki sanayi tesisleri ise çevre güvenliği ve plaka tanıma ihtiyacını öne çıkarır.
+
+## Sonuç
+
+**Doğru fiyatlandırılmış bir kamera sistemi, ihtiyacın doğru tanımlanmasıyla başlar.** [Güvenlik kamerası çözümlerimizi](/cozumler/guvenlik-kameralari) inceleyebilir, [CCTV Planlayıcı](/araclar/cctv-planlayici) ile ön hesap yapabilir veya [ücretsiz keşif planlayarak](/ucretsiz-kesif) kalem kalem teklif alabilirsiniz.
+
+### Sık sorulan sorular
+
+**Güvenlik kamerası fiyatını en çok ne etkiler?**
+Kamera sayısı ve tipi, istenen görüntü detayı (DORI seviyesi), kayıt saklama süresi ve kablolama ile montaj koşulları fiyatı en çok etkileyen unsurlardır.
+
+**Ucuz kamera seti almak yeterli olur mu?**
+Küçük ve basit alanlarda yeterli olabilir; ancak yanlış lens, yetersiz gece görüşü ve kısa kayıt süresi nedeniyle olay anında kişiyi tanımlayamayan sistemler en pahalı sistemdir. Önce ihtiyacı belirleyip sonra ürün seçmek gerekir.
+
+**Kaç kameraya ihtiyacım olduğunu nasıl öğrenirim?**
+Alan büyüklüğü, giriş sayısı ve istenen görüntü detayına göre ücretsiz CCTV Planlayıcı aracımızla ön tahmin yapabilirsiniz. Kesin sayı keşifte kat planı üzerinde belirlenir.
+
+**IP kamera mı analog kamera mı daha uygun?**
+Yeni projelerde IP kamera; tek kabloyla enerji ve veri taşıma (PoE), daha yüksek çözünürlük, video analitik ve güvenli uzaktan erişim avantajları nedeniyle önerilir. Analog sistemler mevcut altyapının genişletilmesinde ekonomik olabilir.
+
+**Keşif ücretli mi?**
+Antalya'daki işletmeler için ilk keşif ve ihtiyaç analizi ücretsizdir; keşif sonrası kalem kalem teklif sunulur.
+
+### Kaynaklar
+
+1. IEC 62676-4: Video surveillance systems for use in security applications — Part 4: Application guidelines (DORI piksel yoğunlukları) — International Electrotechnical Commission (IEC), 2014
+2. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+3. [Kişisel Verileri Koruma Kurumu](https://www.kvkk.gov.tr/) — KVKK
+
+---
+
+## 5651 Sayılı Kanun: Oteller ve Kafeler İçin Loglama Rehberi (2026)
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/5651-sayili-kanun-otel-kafe-loglama-rehberi · Yazar: [DOLDURULACAK: Mühendis adı] · Son güncelleme: 2026-10-24
+
+**5651 loglama**, internet erişimi sunan bir otelin, kafenin veya işletmenin; misafir ve çalışanlarına dağıttığı iç IP adreslerinin kime, ne zaman ve hangi cihaza verildiğini gösteren kayıtları, sonradan değiştirilemeyecek şekilde zaman damgasıyla imzalayıp saklamasıdır. Bu rehber, [5651 sayılı Kanun](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5651&MevzuatTur=1&MevzuatTertip=5) ve İnternet Toplu Kullanım Sağlayıcıları Hakkında Yönetmelik kapsamındaki teknik gereksinimleri bir işletme sahibinin ve IT sorumlusunun anlayacağı dilde özetler.
+
+> Bu yazı teknik bir rehberdir, hukuki görüş değildir. Yükümlülüklerinizin güncel hâlini hukuk danışmanınızla doğrulayın.
+
+## 5651 sayılı Kanun otelleri ve kafeleri neden ilgilendiriyor?
+
+**Misafirine Wi-Fi veren her işletme, mevzuat açısından "toplu kullanım sağlayıcı" kabul edilir ve bu nedenle loglama yükümlülüğü taşır.** Otel, pansiyon, kafe, restoran, AVM, hastane, okul, yurt ve ofisler bu tanıma girer.
+
+Yükümlülüğün amacı basittir: İnternet üzerinden bir suç işlendiğinde, adli makamlar ilgili IP adresinin hangi tarihte hangi işletmede, hangi cihaza ve mümkünse hangi kişiye verildiğini öğrenebilmelidir. İşletme bu bilgiyi sunamazsa idari yaptırım riskiyle karşılaşır ve en önemlisi, kendi ağında yaşanan bir olayda masum olduğunu ispat edemez.
+
+## Hangi kayıtlar tutulmalı?
+
+**Temel gereksinim, iç IP dağıtım loglarıdır: hangi iç IP adresinin, hangi MAC adresine, hangi tarih ve saat aralığında verildiği.** Bu kayıtların bir kişiyle eşleşmesi ise kaydın gerçek değerini belirler.
+
+| Kayıt | Ne içerir? | Neden önemli? |
+| --- | --- | --- |
+| DHCP / iç IP dağıtım logu | İç IP, MAC adresi, başlangıç ve bitiş zamanı | Yönetmeliğin temel şartı |
+| Kimlik eşleşmesi | SMS doğrulanmış telefon, oda no + soyad veya kimlik bilgisi | Bağlantının kime ait olduğunu gösterir |
+| Zaman damgası | Log dosyasının imzalandığı an ve sağlayıcı | Kaydın sonradan değiştirilmediğini kanıtlar |
+| NAT / oturum kaydı (isteğe bağlı) | Dış IP ve port eşleşmesi | Ortak dış IP arkasındaki kullanıcıyı ayırt eder |
+
+Sadece IP–MAC eşleşmesi tutmak teknik olarak bir kayıttır; ancak MAC adresi bir kişiyi tanımlamaz ve kolayca değiştirilebilir. Bu yüzden misafir ağlarında **captive portal (hotspot)** ile kullanıcı doğrulaması yapılması pratikte şarttır.
+
+## 5651 loglama kayıtları ne kadar süre saklanmalı?
+
+**Kayıtlar, mevzuatta öngörülen süre boyunca zaman damgalı ve değiştirilemez biçimde saklanmalıdır; uygulamada en az 2 yıllık saklama güvenli kabul edilir.**
+
+Saklama süresini planlarken iki noktaya dikkat edin:
+
+1. **Kayıt cihazdan bağımsız olmalı.** Firewall veya modem değiştiğinde ya da arızalandığında silinen loglar, saklama yükümlülüğünün ihlali anlamına gelir.
+2. **Kapasite baştan planlanmalı.** Yoğun bir resort otelde günlük log hacmi, sezon boyunca hızla büyür. Disk kapasitesi ve yedekleme, en yoğun ay esas alınarak hesaplanmalıdır.
+
+## Zaman damgası neden şart?
+
+**Zaman damgası, bir log dosyasının belirli bir anda var olduğunu ve o andan sonra değiştirilmediğini, yetkili bir elektronik sertifika hizmet sağlayıcısının imzasıyla kanıtlar.** İmzasız bir log dosyası, metin düzenleyiciyle değiştirilebileceği için ispat değeri zayıftır.
+
+Zaman damgasının işe yaraması için cihaz saatlerinin doğru olması gerekir. Bu nedenle firewall, hotspot ve loglama sunucusu **NTP** ile aynı zaman kaynağına senkronize edilmelidir. Birkaç dakikalık saat farkı bile, adli bir talepte belirtilen saat ile kayıttaki saatin eşleşmemesine yol açabilir.
+
+## Otel ve kafeler için doğru kurulum nasıl olmalı?
+
+**Doğru kurulum; misafir ağını diğer ağlardan ayırmak, her bağlantıyı bir kişiyle doğrulamak, logları otomatik toplayıp zaman damgasıyla imzalamak ve cihazdan bağımsız, yedekli bir ortamda saklamaktır.**
+
+Önerdiğimiz mimari şu katmanlardan oluşur:
+
+- **VLAN ayrımı:** Misafir, personel, PMS/POS ve kamera ağları ayrı VLAN'larda tutulur.
+- **Captive portal:** Misafir ağına bağlanan kullanıcı, karşılama sayfasında doğrulanır. Otellerde en pratik yöntem PMS entegrasyonudur: misafir oda numarası ve soyadıyla giriş yapar, check-out ile erişim kendiliğinden sona erer. Kafelerde SMS doğrulaması yaygındır.
+- **Log toplama:** DHCP ve oturum kayıtları merkezi loglama sistemine otomatik aktarılır.
+- **Zaman damgası:** Log dosyaları periyodik olarak (genellikle günlük) imzalanır.
+- **Saklama ve yedek:** İmzalı dosyalar ayrı ve yedekli bir depolamada tutulur.
+- **İzleme:** Log akışı veya imzalama durursa sistem alarm üretir.
+
+### Otel ile kafe arasında fark var mı?
+
+**Yükümlülük aynıdır; fark ölçek ve doğrulama yöntemindedir.** Bir resort otelde aynı anda binlerce cihaz bağlanır ve PMS entegrasyonu misafir deneyimini bozmadan doğrulama sağlar. Tek şubeli bir kafede ise bulut tabanlı bir hotspot ve SMS doğrulaması genellikle yeterli ve ekonomiktir.
+
+| Kriter | Resort otel | Şehir oteli | Kafe / restoran |
+| --- | --- | --- | --- |
+| Eşzamanlı kullanıcı | Binlerce | Yüzlerce | Onlarca |
+| Önerilen doğrulama | PMS (oda no + soyad) | PMS veya SMS | SMS |
+| Donanım | Yerinde, yedekli | Yerinde veya bulut | Bulut |
+| Kritik ek ihtiyaç | Bloklar arası merkezi yönetim | Konferans alanları | POS ağının ayrılması |
+
+## En sık yapılan 5651 hataları nelerdir?
+
+**En sık hata, modemin veya firewall'un kendi logunu yeterli sanmaktır.** Diğer yaygın hatalar şunlardır:
+
+1. Wi-Fi şifresini masaya veya duvara yazıp bunu "kayıt" saymak.
+2. Kayıtları Excel'e veya deftere elle girmek.
+3. Zaman damgası almamak veya imzalamayı yalnızca kurulum günü test etmek.
+4. Cihaz saatlerini NTP'ye bağlamamak.
+5. Logları firewall'un kendi diskinde tutmak; cihaz değişince kayıpları fark etmemek.
+6. Misafir ağını POS ve personel ağıyla aynı segmentte bırakmak.
+
+## Mevcut durumunuzu nasıl kontrol edebilirsiniz?
+
+**En hızlı yöntem, 10 soruluk 5651 Risk Testimizi çözmektir;** test, kişi eşleşmesi, zaman damgası, NTP, saklama ve yedekleme gibi kritik noktaları puanlar ve eksikleri öncelik sırasına göre listeler.
+
+- [5651 Risk Testini çözün](/araclar/5651-risk-testi)
+- [5651 Loglama ve Hotspot çözümlerimizi inceleyin](/cozumler/5651-loglama-hotspot)
+- [Otel ve resortlar için altyapı çözümlerimize göz atın](/sektorler/otel-ve-resort)
+
+Sezon başlamadan önce mevcut altyapınızı yerinde incelemek isterseniz [ücretsiz keşif planlayabilirsiniz](/ucretsiz-kesif).
+
+### Sık sorulan sorular
+
+**5651 loglama kimler için zorunludur?**
+Misafirlerine, müşterilerine veya çalışanlarına internet erişimi sağlayan otel, kafe, restoran, işletme, okul ve kurumlar toplu kullanım sağlayıcı sayılır ve loglama yükümlülüğü taşır.
+
+**Modemin tuttuğu loglar 5651 için yeterli mi?**
+Genellikle hayır. Modem ve firewall'ların varsayılan logları çoğu zaman zaman damgasıyla imzalanmaz, uzun süre saklanmaz ve bağlantıyı bir kişiyle eşleştirmez.
+
+**5651 kayıtları ne kadar süre saklanmalı?**
+İç IP dağıtım logları mevzuatta öngörülen süre boyunca, değiştirilemez biçimde saklanmalıdır. Uygulamada en az 2 yıllık saklama güvenli kabul edilir; güncel süreyi hukuk danışmanınızla doğrulayın.
+
+**Wi-Fi şifresini masaya yazmak yeterli mi?**
+Hayır. Ortak şifre bağlantıyı bir kişiyle eşleştirmez. SMS, oda numarası + soyad veya kimlik doğrulamalı bir hotspot gerekir.
+
+**Zaman damgası nereden alınır?**
+Zaman damgası, yetkili elektronik sertifika hizmet sağlayıcılarından (örneğin Kamu SM) alınır ve loglama yazılımı tarafından kayıt dosyalarına otomatik uygulanır.
+
+### Kaynaklar
+
+1. [5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5651&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2007
+2. İnternet Toplu Kullanım Sağlayıcıları Hakkında Yönetmelik — Resmî Gazete
+3. [Bilgi Teknolojileri ve İletişim Kurumu](https://www.btk.gov.tr/) — BTK
+4. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Genel sık sorulan sorular
+
+**Comodo Teknoloji hangi hizmetleri veriyor?**
+Antalya'da kurumsal web sitesi ve e-ticaret, güvenlik kamerası ve plaka tanıma, özel yazılım ve mobil uygulama, network ve zayıf akım altyapısı, 5651 loglama, siber güvenlik, işletme reklamı ve bilişim danışmanlığı hizmetleri veriyoruz.
+
+**İşletmeler için web sitesi neden önemli?**
+Web sitesi, müşterinin işletmenizi araştırırken ulaştığı ve kontrolü tamamen sizde olan tek dijital adrestir. Google ve yapay zekâ aramalarında bulunmanızı, reklamların ölçülebilir olmasını ve sosyal medyanın tek başına veremediği güveni sağlar.
+
+**Güvenlik kamerası ve web sitesini aynı firmadan almanın avantajı nedir?**
+Tek muhatapla çalışırsınız: kamera, network, web sitesi ve reklam aynı ekip tarafından planlandığı için uyumsuzluk, sorumluluk tartışması ve tekrar eden maliyetler ortadan kalkar.
+
+**Hangi bölgelerde hizmet veriyorsunuz?**
+Antalya merkez ve tüm ilçelerde hizmet veriyoruz: Muratpaşa, Kepez, Konyaaltı, Lara, Belek, Serik, Manavgat, Side, Alanya, Kemer, Kaş ve Kumluca.
+
+**Ücretsiz keşif neleri kapsıyor?**
+Sahada mevcut altyapının incelenmesi, ihtiyaç analizi ve sonrasında yazılı öneri ile kalem kalem teklif. Keşif için herhangi bir taahhüt istemiyoruz.
+
+**5651 loglama yapmazsam ne olur?**
+5651 sayılı Kanun kapsamındaki toplu kullanım sağlayıcıların loglama yükümlülüğünü yerine getirmemesi idari yaptırım riskini doğurur. 5651 Risk Testimizle mevcut durumunuzu birkaç dakikada görebilirsiniz.
+
+**Tek seferlik kurulum mu yapıyorsunuz, yoksa bakım da veriyor musunuz?**
+Her ikisi de. Kurulum sonrası SLA'lı bakım ve destek paketleriyle sistemlerinizi 7/24 izliyoruz.
+
+**Hangi markalarla çalışıyorsunuz?**
+Cisco, Aruba, Ruijie, TP-Link Omada, MikroTik, FortiGate, Sophos, Hikvision, Dahua, Hanwha ve Comodo gibi markalarla çalışıyoruz; marka seçimini bütçenize ve ihtiyacınıza göre öneriyoruz.
+
+**Teklif ne kadar sürede hazırlanır?**
+[DOLDURULACAK: keşif sonrası teklif teslim süresi]
+
+## İletişim
+
+- [Ücretsiz Keşif Randevusu](https://comodoteknoloji.com/ucretsiz-kesif): Sahada ücretsiz altyapı incelemesi ve yazılı rapor
+- [İletişim](https://comodoteknoloji.com/iletisim): 0507 850 52 87 · comodoteknoloji@gmail.com
+- [Bakım ve Destek](https://comodoteknoloji.com/bakim-ve-destek): SLA'lı 7/24 izleme ve destek paketleri

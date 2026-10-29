@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fbilgi-bankasi\u002F[slug]","\u002Fbolgeler\u002F[ilce]","\u002Fcozumler\u002F[slug]","\u002Fog\u002F[key]","\u002Fprojeler\u002F[slug]","\u002Fsektorler\u002F[slug]","\u002Furunler\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
