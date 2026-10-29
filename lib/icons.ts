@@ -1,0 +1,42 @@
+import {
+  Building2,
+  Cable,
+  Camera,
+  Car,
+  Code2,
+  Compass,
+  Factory,
+  FileLock2,
+  Globe,
+  Hotel,
+  Megaphone,
+  Network,
+  ShieldCheck,
+  ShoppingBag,
+  Stethoscope,
+  UtensilsCrossed,
+  Wifi,
+  type LucideIcon,
+} from "lucide-react";
+
+export const icons = {
+  cable: Cable,
+  network: Network,
+  wifi: Wifi,
+  camera: Camera,
+  car: Car,
+  log: FileLock2,
+  shield: ShieldCheck,
+  code: Code2,
+  hotel: Hotel,
+  factory: Factory,
+  mall: ShoppingBag,
+  building: Building2,
+  restaurant: UtensilsCrossed,
+  globe: Globe,
+  megaphone: Megaphone,
+  compass: Compass,
+  clinic: Stethoscope,
+} satisfies Record<string, LucideIcon>;
+
+export type IconName = keyof typeof icons;

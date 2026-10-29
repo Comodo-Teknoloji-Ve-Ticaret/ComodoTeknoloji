@@ -1,0 +1,77 @@
+---
+title: "Güvenli İşletme Web Sitesi: Sitenizi Saldırılara Karşı Korumanın 10 Yolu"
+description: "İşletme web siteleri neden saldırıya uğrar? HTTPS, güvenlik başlıkları, form koruması, güncellemeler, yedekleme ve KVKK ile güvenli web sitesi kontrol listesi."
+date: "2026-10-25"
+updated: "2026-10-25"
+draft: false
+tags: ["web güvenliği", "siber güvenlik", "web sitesi", "KVKK"]
+sources: ["owasp-top10", "owasp-secure-headers", "mdn-csp", "owasp-asvs", "kvkk-6698", "usom"]
+author:
+  name: "[DOLDURULACAK: Yazar adı]"
+  jobTitle: "[DOLDURULACAK: Unvan]"
+  certifications: []
+  linkedin: ""
+  knowsAbout: ["Web güvenliği", "Siber güvenlik", "Web geliştirme"]
+faqs:
+  - q: "Küçük işletmelerin web siteleri de saldırıya uğrar mı?"
+    a: "Evet. Saldırıların büyük kısmı otomatik araçlarla, güncel olmayan eklenti ve zayıf şifre arayan taramalarla yapılır; işletmenin büyüklüğü değil sitenin açığı hedef seçimini belirler."
+  - q: "SSL sertifikası siteyi tamamen güvenli yapar mı?"
+    a: "Hayır. SSL (HTTPS) yalnızca ziyaretçi ile site arasındaki bağlantıyı şifreler. Güncel olmayan yazılım, zayıf şifre veya korumasız formlar gibi açıkları kapatmaz."
+  - q: "Web sitem hacklendiğini nasıl anlarım?"
+    a: "Tanımadığınız sayfalar, yönlendirmeler, Google'da yabancı dilde spam sonuçlar, tarayıcı güvenlik uyarıları, beklenmeyen yönetici hesapları veya ani trafik değişimleri hacklenme belirtisi olabilir."
+  - q: "Web sitesi yedeği ne sıklıkla alınmalı?"
+    a: "Sık güncellenen sitelerde günlük, nadir güncellenen sitelerde haftalık otomatik yedek önerilir. Yedeklerin site sunucusundan ayrı bir yerde tutulması ve geri yüklemenin test edilmesi gerekir."
+---
+
+**Güvenli işletme web sitesi**; ziyaretçi ile sunucu arasındaki bağlantıyı şifreleyen, güncel bileşenlerle çalışan, formları bot ve spam korumalı, düzenli yedeklenen, tarayıcı güvenlik başlıkları tanımlı ve kişisel verileri KVKK'ya uygun işleyen web sitesidir. Bir bilişim ve siber güvenlik firması olarak işletme sitelerinde en sık gördüğümüz açıkları ve alınması gereken önlemleri bu rehberde topladık.
+
+## İşletme web siteleri neden saldırıya uğrar?
+
+**İşletme siteleri çoğunlukla hedef seçildikleri için değil, otomatik taramalarda açık bulundukları için saldırıya uğrar.** Saldırganlar güncel olmayan eklentileri, varsayılan yönetici adreslerini ve zayıf şifreleri tarayan araçlar kullanır. Ele geçirilen siteler genellikle spam sayfa yayınlamak, ziyaretçileri dolandırıcılık sitelerine yönlendirmek veya zararlı yazılım dağıtmak için kullanılır.
+
+Sonuçları:
+
+- Google'da güvenlik uyarısı ve sıralama kaybı
+- Müşteri güveninin zedelenmesi
+- Form verilerinin sızması ve KVKK sorumluluğu
+- Reklam hesaplarının askıya alınması
+
+## Güvenli web sitesi için 10 adım nelerdir?
+
+**Aşağıdaki 10 adım, işletme sitelerindeki saldırı riskinin büyük kısmını ortadan kaldırır.** Liste; web uygulamalarındaki en kritik riskleri sıralayan [OWASP Top 10](https://owasp.org/www-project-top-ten/), tarayıcı güvenlik başlıklarını tanımlayan [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/) ve [MDN'nin Content Security Policy dokümantasyonu](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) temel alınarak hazırlanmıştır.
+
+| # | Önlem | Ne sağlar? |
+| --- | --- | --- |
+| 1 | HTTPS ve HSTS | Bağlantıyı şifreler, tarayıcıyı her zaman güvenli bağlantıya zorlar |
+| 2 | Güvenlik başlıkları (CSP, X-Frame-Options vb.) | Script enjeksiyonu ve sahte çerçeve saldırılarını zorlaştırır |
+| 3 | Güncel çekirdek, tema ve eklentiler | Bilinen açıkların kapatılması |
+| 4 | Gereksiz eklentilerin kaldırılması | Saldırı yüzeyinin küçülmesi |
+| 5 | Güçlü şifre ve çok faktörlü doğrulama | Yönetim paneli ve hosting hesabının korunması |
+| 6 | Form koruması (bot doğrulama, rate limit) | Spam, sahte talep ve kaba kuvvet denemelerinin engellenmesi |
+| 7 | Düzenli ve ayrı konumda yedek | Saldırı veya hata sonrası hızlı geri dönüş |
+| 8 | En az yetki ilkesi | Her kullanıcının yalnızca ihtiyacı kadar yetkisi olması |
+| 9 | İzleme ve uyarı | Erişilemezlik, değişiklik ve şüpheli trafiğin fark edilmesi |
+| 10 | KVKK uyumlu veri işleme | Aydınlatma metni, çerez onayı, gereksiz veri toplamama |
+
+## Statik site neden daha güvenlidir?
+
+**Statik (önceden üretilmiş) siteler, her ziyarette veri tabanı sorgusu ve eklenti kodu çalıştırmadığı için saldırı yüzeyi çok daha küçüktür.** Klasik içerik yönetim sistemlerindeki eklenti ve veri tabanı kaynaklı açıkların önemli bir kısmı bu mimaride baştan ortadan kalkar. Ayrıca statik siteler daha hızlı açılır; bu da hem SEO'ya hem reklam verimliliğine katkı sağlar.
+
+| Özellik | Klasik CMS + eklentiler | Statik / sunucu taraflı üretilmiş site |
+| --- | --- | --- |
+| Saldırı yüzeyi | Geniş (eklenti, panel, veri tabanı) | Dar |
+| Güncelleme yükü | Sürekli | Düşük |
+| Hız | Eklenti sayısına bağlı | Yüksek |
+| İçerik güncelleme | Panelden kolay | Panel veya içerik dosyalarıyla |
+
+## Web sitesi formları nasıl korunur?
+
+**Formlar; görünmez bot doğrulaması, aynı kaynaktan gelen tekrar eden denemeleri sınırlayan rate limit, botların doldurduğu gizli bal küpü (honeypot) alanı ve sunucu tarafında veri doğrulamasıyla korunur.** Bu önlemler hem spam'i azaltır hem de reklamlardan gelen gerçek talepleri sahte taleplerden ayırmayı kolaylaştırır.
+
+## KVKK açısından web sitesinde nelere dikkat edilmeli?
+
+**[6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) kapsamında, web sitesinde kişisel veri toplanıyorsa aydınlatma metni sunulmalı, gerekli durumlarda onay alınmalı ve analitik çerezler kullanıcı onay vermeden yüklenmemelidir.** Formlarda yalnızca gerçekten ihtiyaç duyulan bilgiler istenmeli, onay kutuları önceden işaretli olmamalıdır. Hukuki değerlendirme için hukuk danışmanınıza başvurmanızı öneririz.
+
+## Sonuç
+
+**Güvenli bir web sitesi; işletmenizin itibarını, müşteri verilerini ve reklam bütçesini korur.** Web sitelerimizi siber güvenlik ekibimizle birlikte, saldırı yüzeyi küçük ve güvenlik başlıkları tanımlı olarak teslim ediyoruz. [Web sitesi çözümlerimizi](/cozumler/web-tasarim) ve [siber güvenlik hizmetlerimizi](/cozumler/siber-guvenlik) inceleyebilir veya [ücretsiz keşif görüşmesi planlayabilirsiniz](/ucretsiz-kesif).

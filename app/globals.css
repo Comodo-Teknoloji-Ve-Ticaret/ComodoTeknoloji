@@ -1,0 +1,297 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------- Tasarım token'ları ---------- */
+:root {
+  /* Açık tema — marka: turuncu #F09020, altın sarısı #FFC040, siyah */
+  --bg: #fbf8f4;
+  --surface: #ffffff;
+  --surface-2: #f4eee6;
+  --fg: #141210;
+  --muted: #5c554e;
+  --border: rgb(20 18 16 / 0.11);
+  --grid-line: rgb(20 18 16 / 0.05);
+  --primary: #e8780f;
+  --primary-fg: #140c02;
+  --accent: #b4580a;
+  --amber: #a15c00;
+  --danger: #d92d20;
+  --success: #067647;
+  --ring: #e8780f;
+  --glass: rgb(255 255 255 / 0.75);
+  /* Grafik paleti (validate_palette.js ile doğrulandı) */
+  --chart-before: #3f6fc4;
+  --chart-after: #c96a0c;
+}
+
+.dark {
+  --bg: #09090b;
+  --surface: #121214;
+  --surface-2: #1a1a1e;
+  --fg: #f2efea;
+  --muted: #a8a29e;
+  --border: rgb(255 200 140 / 0.12);
+  --grid-line: rgb(255 200 140 / 0.05);
+  --primary: #f7931e;
+  --primary-fg: #140c02;
+  --accent: #ffc23d;
+  --amber: #ffb020;
+  --danger: #f04438;
+  --success: #17b26a;
+  --ring: #ffc23d;
+  --glass: rgb(18 18 20 / 0.62);
+  --chart-before: #4f7fd6;
+  --chart-after: #d2700e;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-fg: var(--primary-fg);
+  --color-accent: var(--accent);
+  --color-amber: var(--amber);
+  --color-danger: var(--danger);
+  --color-success: var(--success);
+  --color-ring: var(--ring);
+  --color-glass: var(--glass);
+
+  --font-sans: var(--font-inter), var(--font-inter-ext), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono-jb), var(--font-mono-jb-ext), ui-monospace, monospace;
+
+  --text-display: clamp(2.25rem, 1.4rem + 3.6vw, 4.5rem);
+  --text-h1: clamp(2rem, 1.4rem + 2.4vw, 3.5rem);
+  --text-h2: clamp(1.6rem, 1.25rem + 1.4vw, 2.5rem);
+  --text-h3: clamp(1.2rem, 1.1rem + 0.5vw, 1.5rem);
+
+  --animate-marquee: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    font-weight: 700;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  ::selection { background: color-mix(in srgb, var(--primary) 35%, transparent); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+/* ---------- Yardımcı sınıflar ---------- */
+@utility container-page {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (width >= 640px) { padding-inline: 1.5rem; }
+  @media (width >= 1024px) { padding-inline: 2rem; }
+}
+
+@utility bg-grid {
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@utility text-gradient {
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility glass {
+  background: var(--glass);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid var(--border);
+}
+
+/* Kenarda ince gradyan çizgi */
+@utility border-gradient {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--primary) 60%, transparent), transparent 40%, transparent 60%, color-mix(in srgb, var(--accent) 60%, transparent));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+
+/* Uzun içerik (MDX, yasal metinler) */
+@utility prose-site {
+  max-width: 72ch;
+  & h2 { font-size: var(--text-h3); margin: 2.5rem 0 0.75rem; }
+  & h3 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
+  & p { margin: 0 0 1rem; color: color-mix(in srgb, var(--fg) 88%, transparent); }
+  & ul, & ol { margin: 0 0 1rem 1.25rem; }
+  & ul { list-style: disc; }
+  & ol { list-style: decimal; }
+  & li { margin: 0.25rem 0; }
+  & a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+  & strong { color: var(--fg); }
+  & table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; display: block; overflow-x: auto; }
+  & th, & td { border: 1px solid var(--border); padding: 0.6rem 0.8rem; text-align: left; vertical-align: top; }
+  & th { background: var(--surface-2); font-weight: 600; }
+  & blockquote { border-left: 3px solid var(--primary); padding-left: 1rem; color: var(--muted); margin: 1.5rem 0; }
+  & code { font-family: var(--font-mono); font-size: 0.9em; background: var(--surface-2); padding: 0.1em 0.35em; border-radius: 4px; }
+}
+
+@media print {
+  header, footer, nav, .no-print { display: none !important; }
+  body { background: #fff; color: #000; }
+}
+
+/* ---------- Giriş animasyonu (IntroCurtain) ---------- */
+.intro-curtain { display: none; }
+html[data-intro] .intro-curtain {
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  animation: intro-failsafe 0.3s 3.2s forwards;
+}
+html[data-intro] body { overflow: hidden; }
+.intro-half {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50.5%;
+  background: #09090b;
+  transition: transform 0.85s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.intro-top { top: 0; border-bottom: 1px solid rgb(247 147 30 / 0.25); }
+.intro-bottom { bottom: 0; }
+html.intro-exit .intro-top { transform: translateY(-101%); }
+html.intro-exit .intro-bottom { transform: translateY(101%); }
+.intro-scan {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ffc23d, transparent);
+  box-shadow: 0 0 24px 4px rgb(247 147 30 / 0.5);
+  animation: intro-scan 1.4s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+html.intro-exit .intro-scan { opacity: 0; }
+.intro-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  color: #f2efea;
+  transition: opacity 0.35s ease, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+html.intro-exit .intro-center { opacity: 0; transform: scale(0.92); }
+.intro-logo {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 176px;
+  height: 176px;
+  animation: intro-pop 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.intro-logo img { filter: drop-shadow(0 0 32px rgb(247 147 30 / 0.45)); }
+.intro-ring { position: absolute; inset: 0; animation: intro-spin 2.4s linear infinite; }
+.intro-brand { font-family: var(--font-mono); font-size: 0.95rem; letter-spacing: 0.42em; }
+.intro-letter { display: inline-block; animation: intro-letter 0.5s cubic-bezier(0.22, 1, 0.36, 1) both; animation-delay: calc(var(--i) * 32ms + 280ms); }
+.intro-tagline { font-size: 0.85rem; color: #a8a29e; animation: intro-fade 0.6s 0.85s both; }
+.intro-bar { width: 180px; height: 2px; border-radius: 2px; background: rgb(255 255 255 / 0.08); overflow: hidden; }
+.intro-bar span { display: block; height: 100%; background: linear-gradient(90deg, #f7931e, #ffc23d); transform-origin: left; animation: intro-bar 1.35s cubic-bezier(0.65, 0, 0.35, 1) both; }
+@keyframes intro-pop { from { opacity: 0; transform: scale(0.6) rotate(-12deg); } to { opacity: 1; transform: none; } }
+@keyframes intro-spin { to { transform: rotate(360deg); } }
+@keyframes intro-letter { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes intro-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes intro-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes intro-scan { from { transform: translateY(0); } to { transform: translateY(100vh); } }
+@keyframes intro-failsafe { to { opacity: 0; visibility: hidden; pointer-events: none; } }
+
+/* ---------- Comodo logosu: ışık geçişi + kırmızı göz ---------- */
+.comodo-shine {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  -webkit-mask: url(/logo-mask.webp) center / contain no-repeat;
+  mask: url(/logo-mask.webp) center / contain no-repeat;
+}
+.comodo-shine > span {
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: 0;
+  width: 42%;
+  background: linear-gradient(100deg, transparent 10%, rgb(255 246 220 / 0.85) 50%, transparent 90%);
+  transform: translateX(-170%) skewX(-18deg);
+  animation: comodo-shine 4.2s cubic-bezier(0.45, 0, 0.2, 1) 0.6s infinite;
+}
+.comodo-shine-slow > span { animation-duration: 8s; animation-delay: 2s; }
+.comodo-eye { animation: comodo-eye 2.8s ease-in-out infinite; }
+.comodo-eye-halo {
+  transform-box: fill-box;
+  transform-origin: center;
+  mix-blend-mode: screen;
+  animation: comodo-eye-halo 2.8s ease-in-out infinite;
+}
+.comodo-eye-spark { animation: comodo-eye 2.8s ease-in-out infinite; }
+@keyframes comodo-shine {
+  0% { transform: translateX(-170%) skewX(-18deg); }
+  45%, 100% { transform: translateX(340%) skewX(-18deg); }
+}
+@keyframes comodo-eye {
+  0%, 100% { opacity: 0.75; }
+  8% { opacity: 1; }
+  12% { opacity: 0.55; }
+  16%, 60% { opacity: 1; }
+}
+@keyframes comodo-eye-halo {
+  0%, 100% { opacity: 0.45; transform: scale(0.85); }
+  16%, 60% { opacity: 1; transform: scale(1.15); }
+}
