@@ -1,0 +1,61 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3351],{93351:(e,t,o)=>{o.r(t),o.d(t,{default:()=>P});var r=o(95155),i=o(81808),n=o(67140),a=o(32034),l=o(88945),s=o(12115),c=o(7720),u=o(86595);let f=parseInt(c.sPf.replace(/\D+/g,"")),d=function(e,t,o,r){var i;return(i=class extends c.BKk{constructor(r){for(let i in super({vertexShader:t,fragmentShader:o,...r}),e)this.uniforms[i]=new c.nc$(e[i]),Object.defineProperty(this,i,{get(){return this.uniforms[i].value},set(e){this.uniforms[i].value=e}});this.uniforms=c.LlO.clone(this.uniforms)}}).key=c.cj9.generateUUID(),i}({cellSize:.5,sectionSize:1,fadeDistance:100,fadeStrength:1,fadeFrom:1,cellThickness:.5,sectionThickness:1,cellColor:new c.Q1f,sectionColor:new c.Q1f,infiniteGrid:!1,followCamera:!1,worldCamProjPosition:new c.Pq0,worldPlanePosition:new c.Pq0},`
+    varying vec3 localPosition;
+    varying vec4 worldPosition;
+
+    uniform vec3 worldCamProjPosition;
+    uniform vec3 worldPlanePosition;
+    uniform float fadeDistance;
+    uniform bool infiniteGrid;
+    uniform bool followCamera;
+
+    void main() {
+      localPosition = position.xzy;
+      if (infiniteGrid) localPosition *= 1.0 + fadeDistance;
+      
+      worldPosition = modelMatrix * vec4(localPosition, 1.0);
+      if (followCamera) {
+        worldPosition.xyz += (worldCamProjPosition - worldPlanePosition);
+        localPosition = (inverse(modelMatrix) * worldPosition).xyz;
+      }
+
+      gl_Position = projectionMatrix * viewMatrix * worldPosition;
+    }
+  `,`
+    varying vec3 localPosition;
+    varying vec4 worldPosition;
+
+    uniform vec3 worldCamProjPosition;
+    uniform float cellSize;
+    uniform float sectionSize;
+    uniform vec3 cellColor;
+    uniform vec3 sectionColor;
+    uniform float fadeDistance;
+    uniform float fadeStrength;
+    uniform float fadeFrom;
+    uniform float cellThickness;
+    uniform float sectionThickness;
+
+    float getGrid(float size, float thickness) {
+      vec2 r = localPosition.xz / size;
+      vec2 grid = abs(fract(r - 0.5) - 0.5) / fwidth(r);
+      float line = min(grid.x, grid.y) + 1.0 - thickness;
+      return 1.0 - min(line, 1.0);
+    }
+
+    void main() {
+      float g1 = getGrid(cellSize, cellThickness);
+      float g2 = getGrid(sectionSize, sectionThickness);
+
+      vec3 from = worldCamProjPosition*vec3(fadeFrom);
+      float dist = distance(from, worldPosition.xyz);
+      float d = 1.0 - min(dist / fadeDistance, 1.0);
+      vec3 color = mix(cellColor, sectionColor, min(1.0, sectionThickness * g2));
+
+      gl_FragColor = vec4(color, (g1 + g2) * pow(d, fadeStrength));
+      gl_FragColor.a = mix(0.75 * gl_FragColor.a, gl_FragColor.a, g2);
+      if (gl_FragColor.a <= 0.0) discard;
+
+      #include <tonemapping_fragment>
+      #include <${f>=154?"colorspace_fragment":"encodings_fragment"}>
+    }
+  `),p=s.forwardRef(({args:e,cellColor:t="#000000",sectionColor:o="#2080ff",cellSize:r=.5,sectionSize:i=1,followCamera:n=!1,infiniteGrid:a=!1,fadeDistance:f=100,fadeStrength:p=1,fadeFrom:m=1,cellThickness:g=.5,sectionThickness:h=1,side:v=c.hsX,...x},y)=>{(0,u.e)({GridMaterial:d});let w=s.useRef(null);s.useImperativeHandle(y,()=>w.current,[]);let M=new c.Zcv,P=new c.Pq0(0,1,0),C=new c.Pq0(0,0,0);return(0,u.F)(e=>{M.setFromNormalAndCoplanarPoint(P,C).applyMatrix4(w.current.matrixWorld);let t=w.current.material,o=t.uniforms.worldCamProjPosition,r=t.uniforms.worldPlanePosition;M.projectPoint(e.camera.position,o.value),r.value.set(0,0,0).applyMatrix4(w.current.matrixWorld)}),s.createElement("mesh",(0,l.A)({ref:w,frustumCulled:!1},x),s.createElement("gridMaterial",(0,l.A)({transparent:!0,"extensions-derivatives":!0,side:v},{cellSize:r,sectionSize:i,cellColor:t,sectionColor:o,cellThickness:g,sectionThickness:h},{fadeDistance:f,fadeStrength:p,fadeFrom:m,infiniteGrid:a,followCamera:n})),s.createElement("planeGeometry",{args:e}))});var m=o(30258);let g=-Math.PI/2+.55;function h(e){let{url:t,reduceMotion:o,pointer:a,scroll:l,drag:f,scanSignal:d,mouth:p}=e,m=(0,s.useRef)(null),{scene:h,animations:x}=(0,i.p)(t,!1,!0),{actions:w,names:M}=(0,n.f)(x,m),P=(0,s.useRef)(null),{offset:C,scale:j,snout:z}=(0,s.useMemo)(()=>{h.updateMatrixWorld(!0);let e=new c.NRn,t=new c.Pq0,o=null;h.traverse(r=>{if(!r.isMesh)return;let i=r.geometry.attributes.position,n=new c.NRn().setFromBufferAttribute(i);e.union(n.applyMatrix4(r.matrixWorld));for(let e=0;e<i.count;e++){let n=t.fromBufferAttribute(i,e).applyMatrix4(r.matrixWorld).z;(!o||n>o.z)&&(o={mesh:r,index:e,z:n})}});let r=e.getSize(new c.Pq0),i=e.getCenter(new c.Pq0),n=2.4/Math.max(r.x,r.y,r.z);return{offset:new c.Pq0(-i.x,-e.min.y,-i.z),scale:n,snout:o}},[h]);(0,s.useEffect)(()=>{if(z&&m.current)return p.current={mesh:z.mesh,index:z.index,group:m.current},()=>{p.current=null}},[z,p]),(0,s.useLayoutEffect)(()=>{h.traverse(e=>{if(!e.isMesh)return;e.castShadow=!1,e.frustumCulled=!1;let t=e.material;(null==t?void 0:t.isMeshStandardMaterial)&&(t.roughness=.62,t.metalness=.05,t.envMapIntensity=0)})},[h]),(0,s.useEffect)(()=>{let e=M[0]?w[M[0]]:void 0;if(e)return e.reset().setLoop(c.aMy,1/0),e.play(),P.current=e,e.paused=o,()=>{e.stop()}},[w,M,o]);let S=(0,s.useRef)(0);return(0,s.useEffect)(()=>{d>0&&(S.current=performance.now()+1e3*y+250)},[d]),(0,u.F)((e,t)=>{var r,i,n;let s=m.current;if(!s||o)return;let u=null!=(r=a.current)?r:{x:0,y:0},d=null!=(i=l.current)?i:0,p=f.current;p&&!p.dragging&&Math.abs(p.velocity)>1e-4&&(p.offset+=p.velocity,p.velocity*=.93);let h=Math.pow(Math.min(1,1.15*d),1.5),v=performance.now()<S.current?.6*(1-h):0,x=g+.35*u.x*(1-h)+(null!=(n=null==p?void 0:p.offset)?n:0)+v,y=-(.06*u.y)*(1-h);s.rotation.y=c.cj9.damp(s.rotation.y,x,(null==p?void 0:p.dragging)?14:4,t);let w=6.5*h;s.position.x=c.cj9.damp(s.position.x,Math.sin(s.rotation.y)*w,9,t),s.position.z=c.cj9.damp(s.position.z,Math.cos(s.rotation.y)*w,9,t),s.position.y=h>.02?.04*Math.abs(Math.sin(performance.now()/70))*Math.min(1,4*h):c.cj9.damp(s.position.y,0,8,t),P.current&&(P.current.timeScale=1+3.5*h),s.rotation.x=c.cj9.damp(s.rotation.x,y,3,t)}),(0,r.jsxs)("group",{ref:m,rotation:[0,g,0],scale:j,children:[(0,r.jsx)("primitive",{object:h,position:C}),(0,r.jsx)(v,{reduceMotion:o,signal:d})]})}function v(e){let{reduceMotion:t,signal:o}=e,i=(0,s.useRef)(null),n=(0,s.useRef)(null),a=(0,s.useRef)({pending:!1,start:-10});return((0,s.useEffect)(()=>{o>0&&(a.current.pending=!0)},[o]),(0,u.F)(e=>{let{clock:t}=e;if(!i.current||!n.current)return;let o=t.getElapsedTime();a.current.pending&&(a.current={pending:!1,start:o});let r=o-a.current.start,l=r<2.2?r:o%6,s=l<2?l/2:1,u=1-Math.pow(1-s,3);i.current.position.z=c.cj9.lerp(1.55,-1.55,u),n.current.opacity=l<2?Math.sin(s*Math.PI)*(r<2.2?1:.85):0}),t)?null:(0,r.jsxs)("mesh",{ref:i,position:[0,.26,0],children:[(0,r.jsx)("torusGeometry",{args:[.46,.008,8,96]}),(0,r.jsx)("meshBasicMaterial",{ref:n,color:"#FFC23D",transparent:!0,opacity:0,blending:c.EZo,depthWrite:!1,toneMapped:!1})]})}let x=[[0,1,.96,.78],[.15,1,.76,.24],[.5,.97,.45,.07],[1,.55,.08,.02]],y=1.1;function w(e){let{mouth:t,signal:o,lite:i}=e,n=i?140:260,a=(0,s.useRef)(null),l=(0,s.useRef)(!1),{size:f,viewport:d,camera:p}=(0,u.D)(),m=(0,s.useMemo)(()=>({pos:new Float32Array(3*n),vel:new Float32Array(3*n),color:new Float32Array(3*n),size:new Float32Array(n),alpha:new Float32Array(n),age:new Float32Array(n).fill(1),life:new Float32Array(n).fill(1),next:0,carry:0,emitUntil:-1,origin:new c.Pq0,dir:new c.Pq0,quat:new c.PTz,toCam:new c.Pq0}),[n]),g=(0,s.useMemo)(()=>{let e=new c.LoY;return e.setAttribute("position",new c.THS(m.pos,3)),e.setAttribute("aColor",new c.THS(m.color,3)),e.setAttribute("aSize",new c.THS(m.size,1)),e.setAttribute("aAlpha",new c.THS(m.alpha,1)),e},[m]),h=(0,s.useMemo)(()=>new c.BKk({uniforms:{uScale:{value:1}},vertexShader:"\nattribute float aSize;\nattribute float aAlpha;\nattribute vec3 aColor;\nuniform float uScale;\nvarying vec3 vColor;\nvarying float vAlpha;\nvoid main() {\n  vColor = aColor;\n  vAlpha = aAlpha;\n  vec4 mv = modelViewMatrix * vec4(position, 1.0);\n  gl_PointSize = aSize * uScale / -mv.z;\n  gl_Position = projectionMatrix * mv;\n}",fragmentShader:"\nvarying vec3 vColor;\nvarying float vAlpha;\nvoid main() {\n  float a = smoothstep(0.5, 0.0, length(gl_PointCoord - 0.5));\n  gl_FragColor = vec4(vColor, a * a * vAlpha);\n}",transparent:!0,depthWrite:!1,blending:c.EZo}),[]);return(0,s.useEffect)(()=>()=>{g.dispose(),h.dispose()},[g,h]),(0,s.useEffect)(()=>{o>0&&(l.current=!0)},[o]),(0,u.F)((e,o)=>{var r;let{clock:i}=e,s=Math.min(o,1/30),u=i.getElapsedTime(),v=t.current;l.current&&(l.current=!1,m.emitUntil=u+y);let w=!!v&&u<m.emitUntil;if(v&&(v.mesh.getVertexPosition(v.index,m.origin).applyMatrix4(v.mesh.matrixWorld),m.dir.set(0,-.12,1).applyQuaternion(v.group.getWorldQuaternion(m.quat)).normalize(),m.toCam.copy(p.position).sub(m.origin).normalize(),m.dir.addScaledVector(m.toCam,.6).normalize()),w)for(m.carry+=n/.75*s;m.carry>=1;m.carry--){let e=m.next;m.next=(e+1)%n;let t=1.5+.9*Math.random(),o=m.dir.x+(Math.random()-.5)*.55,r=m.dir.y+(Math.random()-.5)*.55,i=m.dir.z+(Math.random()-.5)*.55,a=Math.hypot(o,r,i);m.vel[3*e]=o/a*t,m.vel[3*e+1]=r/a*t,m.vel[3*e+2]=i/a*t,m.pos[3*e]=m.origin.x,m.pos[3*e+1]=m.origin.y,m.pos[3*e+2]=m.origin.z,m.age[e]=0,m.life[e]=.55+.4*Math.random()}let M=Math.exp(-1.8*s);for(let e=0;e<n;e++){if(m.age[e]>=m.life[e]){m.alpha[e]=0;continue}m.age[e]+=s;let t=Math.min(1,m.age[e]/m.life[e]);m.vel[3*e]*=M,m.vel[3*e+1]=m.vel[3*e+1]*M+1.1*s,m.vel[3*e+2]*=M,m.pos[3*e]+=m.vel[3*e]*s,m.pos[3*e+1]+=m.vel[3*e+1]*s,m.pos[3*e+2]+=m.vel[3*e+2]*s,m.size[e]=.07+.5*Math.sqrt(t),m.alpha[e]=Math.pow(1-t,1.3)*Math.min(1,25*m.age[e])*.45;let o=1;for(;o<x.length-1&&x[o][0]<t;)o++;let[r,i,n,a]=x[o-1],[l,c,u,f]=x[o],d=(t-r)/(l-r);m.color[3*e]=i+(c-i)*d,m.color[3*e+1]=n+(u-n)*d,m.color[3*e+2]=a+(f-a)*d}for(let e of["position","aColor","aSize","aAlpha"])g.attributes[e].needsUpdate=!0;let P=null!=(r=p.fov)?r:30;if(h.uniforms.uScale.value=f.height*d.dpr*.5/Math.tan(c.cj9.degToRad(P)/2),a.current){let e=w?8+1.2*Math.sin(47*u)+1.5*Math.random():0;a.current.intensity=c.cj9.damp(a.current.intensity,e,w?18:6,s),a.current.position.copy(m.origin).addScaledVector(m.dir,.35)}}),(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)("points",{geometry:g,material:h,frustumCulled:!1}),(0,r.jsx)("pointLight",{ref:a,intensity:0,color:"#ff8a2a",distance:3,decay:1.5})]})}function M(e){let{pointer:t,reduceMotion:o}=e,r=(0,s.useMemo)(()=>new c.Pq0(0,.28,0),[]);return(0,u.F)((e,i)=>{var n;let{camera:a}=e,l=null!=(n=t.current)?n:{x:0,y:0},s=o?0:.25*l.x,u=o?0:.12*l.y;a.position.x=c.cj9.damp(a.position.x,s,2,i),a.position.y=c.cj9.damp(a.position.y,1.35+u,2,i),a.lookAt(r)}),null}function P(e){let{url:t,lite:o,reduceMotion:i,active:n,pointer:l,scroll:u,drag:f,scanSignal:d}=e,g=(0,s.useRef)(null);return(0,r.jsxs)(m.Hl,{dpr:o?[1,1.25]:[1,1.75],frameloop:n?i?"demand":"always":"never",camera:{position:[0,1.35,3.9],fov:30,near:.1,far:50},gl:{antialias:!o,alpha:!0,powerPreference:"high-performance"},onCreated:e=>{let{gl:t}=e;t.toneMapping=c.FV,t.toneMappingExposure=1.45,t.outputColorSpace=c.er$},"aria-hidden":!0,children:[(0,r.jsx)("hemisphereLight",{args:["#ffe2bf","#24180c",.85]}),(0,r.jsx)("directionalLight",{position:[2.5,3.5,3],intensity:2.8,color:"#fff1dc"}),(0,r.jsx)("directionalLight",{position:[-3,1.6,-2.5],intensity:4.2,color:"#FFC23D"}),(0,r.jsx)("directionalLight",{position:[3,1.2,-3],intensity:3.4,color:"#F7931E"}),(0,r.jsx)("pointLight",{position:[0,.25,1.4],intensity:.8,color:"#F5A524",distance:3}),(0,r.jsxs)(s.Suspense,{fallback:null,children:[(0,r.jsx)(h,{url:t,reduceMotion:i,pointer:l,scroll:u,drag:f,scanSignal:d,mouth:g}),!i&&(0,r.jsx)(w,{mouth:g,signal:d,lite:o}),(0,r.jsx)(a._,{position:[0,.001,0],opacity:.55,scale:5,blur:2.6,far:1.2,resolution:o?256:512,frames:i?1:1/0,color:"#000000"})]}),(0,r.jsx)(p,{position:[0,0,0],args:[12,12],cellSize:.25,cellThickness:.6,cellColor:"#5c3a14",sectionSize:1,sectionThickness:1,sectionColor:"#F7931E",fadeDistance:8,fadeStrength:1.6,infiniteGrid:!0}),(0,r.jsx)(M,{pointer:l,reduceMotion:i})]})}}}]);
