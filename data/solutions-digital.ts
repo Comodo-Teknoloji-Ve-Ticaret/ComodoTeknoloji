@@ -185,7 +185,7 @@ export const digitalSolutions: Solution[] = [
     faqs: [
       { q: "Reklam vermek için web sitesi şart mı?", a: "Zorunlu değil ama verimlilik için kritik. Kendi sitenizde dönüşüm ölçülür, güven sinyalleri sunulur ve platform kurallarından bağımsız kalırsınız." },
       { q: "Google'da ilk sırada çıkmayı garanti ediyor musunuz?", a: "Hayır. Organik sıralamayı kimse garanti edemez; garanti veren tekliflere karşı dikkatli olun. Biz ölçülebilir hedefler (arama görünürlüğü, arama, form) koyup raporluyoruz." },
-      { q: "Instagram hesabımı da yönetir misiniz?", a: "[DOLDURULACAK: sosyal medya içerik yönetimi hizmet kapsamı]" },
+      { q: "Instagram hesabımı da yönetir misiniz?", a: "Odak noktamız ölçülebilir dönüşüm getiren reklam kampanyaları (Google Ads ve Meta/Instagram reklamları), güvenli açılış sayfaları ve yerel SEO yönetimidir; reklam görselleri ve metin kurgusunu bu kapsamda hazırlıyoruz." },
       { q: "Sonuçları ne zaman görürüm?", a: "Arama reklamlarında ilk tıklamalar yayına alındığı gün gelir; yerel SEO ve organik içerik ise haftalar içinde birikerek etkisini gösterir." },
       { q: "Hangi ilçelerde reklam verebilirim?", a: "Reklamlar ilçe, mahalle veya belirli bir yarıçap bazında hedeflenebilir; örneğin yalnızca Muratpaşa ve Konyaaltı'nda gösterim yapılabilir." },
       { q: "Reklam hesabı kimin adına açılır?", a: "Hesaplar işletmeniz adına açılır, biz yönetici olarak eklenir; hesap ve veri her zaman sizde kalır." },

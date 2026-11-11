@@ -14,6 +14,8 @@ npm run deploy     # build + out/ klasörünü gh-pages dalına yayınlar
 - Site **statik** olarak dışa aktarılır (`output: "export"`) ve `gh-pages` dalından GitHub Pages ile yayınlanır.
   Alan adı `public/CNAME` dosyasındadır; `public/.nojekyll` GitHub'ın `_next/` klasörünü yok saymasını engeller.
 - Güncelleme: `main` dalına kodu gönderin, ardından `npm run deploy` çalıştırın.
+- **Alt dizin önizlemesi** (alan adı bağlı değilken `github.io/ComodoTeknoloji/`): `NEXT_PUBLIC_BASE_PATH=/ComodoTeknoloji` ile derleyin
+  ve `CNAME` dosyası olmadan yayınlayın. Public klasöründeki dosyalara giden yollar `asset()` ile yazılmalıdır (`lib/base-path.ts`).
 - Eski site yedekleri: `eski-site-kaynak` (eski Vite kaynak kodu) ve `eski-site-yayin` (eski yayın) etiketleri.
 - **Formlar:** sunucu olmadığı için talep, ziyaretçinin tek dokunuşla göndereceği hazır bir WhatsApp mesajına dönüşür
   (`lib/lead-client.ts`). Taleplerin e-postaya da düşmesi için [web3forms.com](https://web3forms.com) üzerinden ücretsiz

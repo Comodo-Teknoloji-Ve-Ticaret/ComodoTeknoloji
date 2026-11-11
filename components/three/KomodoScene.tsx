@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactShadows, Grid, useAnimations, useGLTF } from "@react-three/drei";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { Suspense, useEffect, useLayoutEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 
@@ -12,7 +12,7 @@ import * as THREE from "three";
  * - Gövde boyunca altın sarısı tarama halkası geçer (CCTV/NOC motifi)
  * - İmleç ile hafif dönüş; fareyle sürükleyerek çevirme (ataletli)
  * - Sayfa aşağı kaydırıldıkça baktığı yöne doğru hızla koşup kadrajın kenarından çıkar (geri kaydırınca döner)
- * - Tıklayınca tarama halkası hemen geçer
+ * - Tıklayınca ağzından ateş püskürtür ve tarama halkası hemen geçer
  * Kaynak model: "Komodo Dragon Lizard" — Nyilonelycompany (Sketchfab Standard lisans)
  */
 
@@ -25,14 +25,17 @@ export type KomodoSceneProps = {
   scroll: React.RefObject<number>;
   /** Sürükleme durumu: offset (radyan), velocity (radyan/kare), dragging */
   drag: React.RefObject<{ offset: number; velocity: number; dragging: boolean }>;
-  /** Her artışta manuel tarama tetiklenir */
+  /** Her artışta ateş püskürtme + manuel tarama tetiklenir */
   scanSignal: number;
 };
+
+/** Ateşin çıktığı nokta: burun ucundaki vertex (animasyonla birlikte her karede yeniden okunur) */
+type Mouth = { mesh: THREE.Mesh; index: number; group: THREE.Group };
 
 // Model dünya koordinatlarında ~2.7 birim uzun; baş +Z, kuyruk -Z yönünde
 const BASE_YAW = -Math.PI / 2 + 0.55; // başı sola (metne doğru) ve hafif kameraya çevir
 
-function Dragon({ url, reduceMotion, pointer, scroll, drag, scanSignal }: Omit<KomodoSceneProps, "lite" | "active">) {
+function Dragon({ url, reduceMotion, pointer, scroll, drag, scanSignal, mouth }: Omit<KomodoSceneProps, "lite" | "active"> & { mouth: React.RefObject<Mouth | null> }) {
   const group = useRef<THREE.Group>(null);
   const { scene, animations } = useGLTF(url, false, true);
   const { actions, names } = useAnimations(animations, group);
@@ -41,20 +44,36 @@ function Dragon({ url, reduceMotion, pointer, scroll, drag, scanSignal }: Omit<K
   // Modeli ortala, zemine oturt, boyunu normalize et.
   // Box3.setFromObject morph hedeflerinin uç değerlerini de katıp kutuyu şişirdiği için
   // sınırlar yalnızca temel pozun vertex'lerinden hesaplanır.
-  const { offset, scale } = useMemo(() => {
+  // Aynı geçişte burun ucu (en büyük Z) vertex'i de bulunur.
+  const { offset, scale, snout } = useMemo(() => {
     scene.updateMatrixWorld(true);
     const box = new THREE.Box3();
+    const v = new THREE.Vector3();
+    let snout: { mesh: THREE.Mesh; index: number; z: number } | null = null;
     scene.traverse((o) => {
       const mesh = o as THREE.Mesh;
       if (!mesh.isMesh) return;
-      const b = new THREE.Box3().setFromBufferAttribute(mesh.geometry.attributes.position as THREE.BufferAttribute);
+      const pos = mesh.geometry.attributes.position as THREE.BufferAttribute;
+      const b = new THREE.Box3().setFromBufferAttribute(pos);
       box.union(b.applyMatrix4(mesh.matrixWorld));
+      for (let i = 0; i < pos.count; i++) {
+        const z = v.fromBufferAttribute(pos, i).applyMatrix4(mesh.matrixWorld).z;
+        if (!snout || z > snout.z) snout = { mesh, index: i, z };
+      }
     });
     const size = box.getSize(new THREE.Vector3());
     const center = box.getCenter(new THREE.Vector3());
     const s = 2.4 / Math.max(size.x, size.y, size.z);
-    return { offset: new THREE.Vector3(-center.x, -box.min.y, -center.z), scale: s };
+    return { offset: new THREE.Vector3(-center.x, -box.min.y, -center.z), scale: s, snout: snout as { mesh: THREE.Mesh; index: number } | null };
   }, [scene]);
+
+  useEffect(() => {
+    if (!snout || !group.current) return;
+    mouth.current = { mesh: snout.mesh, index: snout.index, group: group.current };
+    return () => {
+      mouth.current = null;
+    };
+  }, [snout, mouth]);
 
   useLayoutEffect(() => {
     scene.traverse((o) => {
@@ -83,6 +102,12 @@ function Dragon({ url, reduceMotion, pointer, scroll, drag, scanSignal }: Omit<K
     };
   }, [actions, names, reduceMotion]);
 
+  // Ateş püskürtürken başını kameraya doğru çevirir (alev kadrajda kalsın)
+  const fireUntil = useRef(0);
+  useEffect(() => {
+    if (scanSignal > 0) fireUntil.current = performance.now() + FIRE_DURATION * 1000 + 250;
+  }, [scanSignal]);
+
   useFrame((_, delta) => {
     const g = group.current;
     if (!g || reduceMotion) return;
@@ -96,7 +121,8 @@ function Dragon({ url, reduceMotion, pointer, scroll, drag, scanSignal }: Omit<K
     }
     // Kaçış: kaydırma ilerledikçe (s: 0→1) baktığı yöne doğru hızla kadraj dışına koşar
     const run = Math.pow(Math.min(1, s * 1.15), 1.5);
-    const targetYaw = BASE_YAW + p.x * 0.35 * (1 - run) + (d?.offset ?? 0);
+    const fireTurn = performance.now() < fireUntil.current ? 0.6 * (1 - run) : 0;
+    const targetYaw = BASE_YAW + p.x * 0.35 * (1 - run) + (d?.offset ?? 0) + fireTurn;
     const targetPitch = -p.y * 0.06 * (1 - run);
     g.rotation.y = THREE.MathUtils.damp(g.rotation.y, targetYaw, d?.dragging ? 14 : 4, delta);
     const dist = run * 6.5;
@@ -149,6 +175,174 @@ function ScanRing({ reduceMotion, signal }: { reduceMotion: boolean; signal: num
   );
 }
 
+const FIRE_VERTEX = /* glsl */ `
+attribute float aSize;
+attribute float aAlpha;
+attribute vec3 aColor;
+uniform float uScale;
+varying vec3 vColor;
+varying float vAlpha;
+void main() {
+  vColor = aColor;
+  vAlpha = aAlpha;
+  vec4 mv = modelViewMatrix * vec4(position, 1.0);
+  gl_PointSize = aSize * uScale / -mv.z;
+  gl_Position = projectionMatrix * mv;
+}`;
+
+const FIRE_FRAGMENT = /* glsl */ `
+varying vec3 vColor;
+varying float vAlpha;
+void main() {
+  float a = smoothstep(0.5, 0.0, length(gl_PointCoord - 0.5));
+  gl_FragColor = vec4(vColor, a * a * vAlpha);
+}`;
+
+// Alev rengi yaşa göre: beyaz-sarı çekirdek → marka altını → turuncu → koyu kırmızı
+const FIRE_RAMP: [number, number, number, number][] = [
+  [0, 1, 0.96, 0.78],
+  [0.15, 1, 0.76, 0.24],
+  [0.5, 0.97, 0.45, 0.07],
+  [1, 0.55, 0.08, 0.02],
+];
+const FIRE_DURATION = 1.1;
+
+/** Tıklamayla ağızdan püsküren alev: dünya uzayında parçacıklar + ağızda titreyen ışık */
+function FireBreath({ mouth, signal, lite }: { mouth: React.RefObject<Mouth | null>; signal: number; lite: boolean }) {
+  const count = lite ? 140 : 260;
+  const light = useRef<THREE.PointLight>(null);
+  const pending = useRef(false);
+  const { size, viewport, camera } = useThree();
+
+  const sim = useMemo(
+    () => ({
+      pos: new Float32Array(count * 3),
+      vel: new Float32Array(count * 3),
+      color: new Float32Array(count * 3),
+      size: new Float32Array(count),
+      alpha: new Float32Array(count),
+      age: new Float32Array(count).fill(1),
+      life: new Float32Array(count).fill(1),
+      next: 0,
+      carry: 0,
+      emitUntil: -1,
+      origin: new THREE.Vector3(),
+      dir: new THREE.Vector3(),
+      quat: new THREE.Quaternion(),
+      toCam: new THREE.Vector3(),
+    }),
+    [count],
+  );
+  const geometry = useMemo(() => {
+    const g = new THREE.BufferGeometry();
+    g.setAttribute("position", new THREE.BufferAttribute(sim.pos, 3));
+    g.setAttribute("aColor", new THREE.BufferAttribute(sim.color, 3));
+    g.setAttribute("aSize", new THREE.BufferAttribute(sim.size, 1));
+    g.setAttribute("aAlpha", new THREE.BufferAttribute(sim.alpha, 1));
+    return g;
+  }, [sim]);
+  const material = useMemo(
+    () =>
+      new THREE.ShaderMaterial({
+        uniforms: { uScale: { value: 1 } },
+        vertexShader: FIRE_VERTEX,
+        fragmentShader: FIRE_FRAGMENT,
+        transparent: true,
+        depthWrite: false,
+        blending: THREE.AdditiveBlending,
+      }),
+    [],
+  );
+  useEffect(() => () => {
+    geometry.dispose();
+    material.dispose();
+  }, [geometry, material]);
+
+  useEffect(() => {
+    if (signal > 0) pending.current = true;
+  }, [signal]);
+
+  useFrame(({ clock }, delta) => {
+    const dt = Math.min(delta, 1 / 30);
+    const t = clock.getElapsedTime();
+    const m = mouth.current;
+    if (pending.current) {
+      pending.current = false;
+      sim.emitUntil = t + FIRE_DURATION;
+    }
+    const emitting = !!m && t < sim.emitUntil;
+    if (m) {
+      m.mesh.getVertexPosition(m.index, sim.origin).applyMatrix4(m.mesh.matrixWorld);
+      // Başın baktığı yön, hafif aşağı eğik ve biraz kameraya dönük (alev kadrajda kalsın)
+      sim.dir.set(0, -0.12, 1).applyQuaternion(m.group.getWorldQuaternion(sim.quat)).normalize();
+      sim.toCam.copy(camera.position).sub(sim.origin).normalize();
+      sim.dir.addScaledVector(sim.toCam, 0.6).normalize();
+    }
+    if (emitting) {
+      sim.carry += dt * (count / 0.75);
+      for (; sim.carry >= 1; sim.carry--) {
+        const i = sim.next;
+        sim.next = (i + 1) % count;
+        const speed = 1.5 + Math.random() * 0.9;
+        const vx = sim.dir.x + (Math.random() - 0.5) * 0.55;
+        const vy = sim.dir.y + (Math.random() - 0.5) * 0.55;
+        const vz = sim.dir.z + (Math.random() - 0.5) * 0.55;
+        const len = Math.hypot(vx, vy, vz);
+        sim.vel[i * 3] = (vx / len) * speed;
+        sim.vel[i * 3 + 1] = (vy / len) * speed;
+        sim.vel[i * 3 + 2] = (vz / len) * speed;
+        sim.pos[i * 3] = sim.origin.x;
+        sim.pos[i * 3 + 1] = sim.origin.y;
+        sim.pos[i * 3 + 2] = sim.origin.z;
+        sim.age[i] = 0;
+        sim.life[i] = 0.55 + Math.random() * 0.4;
+      }
+    }
+    const drag = Math.exp(-1.8 * dt);
+    for (let i = 0; i < count; i++) {
+      if (sim.age[i] >= sim.life[i]) {
+        sim.alpha[i] = 0;
+        continue;
+      }
+      sim.age[i] += dt;
+      const k = Math.min(1, sim.age[i] / sim.life[i]);
+      sim.vel[i * 3] *= drag;
+      sim.vel[i * 3 + 1] = sim.vel[i * 3 + 1] * drag + 1.1 * dt; // sıcak hava yükselir
+      sim.vel[i * 3 + 2] *= drag;
+      sim.pos[i * 3] += sim.vel[i * 3] * dt;
+      sim.pos[i * 3 + 1] += sim.vel[i * 3 + 1] * dt;
+      sim.pos[i * 3 + 2] += sim.vel[i * 3 + 2] * dt;
+      sim.size[i] = 0.07 + 0.5 * Math.sqrt(k);
+      sim.alpha[i] = Math.pow(1 - k, 1.3) * Math.min(1, sim.age[i] * 25) * 0.45;
+      let s = 1;
+      while (s < FIRE_RAMP.length - 1 && FIRE_RAMP[s][0] < k) s++;
+      const [k0, r0, g0, b0] = FIRE_RAMP[s - 1];
+      const [k1, r1, g1, b1] = FIRE_RAMP[s];
+      const f = (k - k0) / (k1 - k0);
+      sim.color[i * 3] = r0 + (r1 - r0) * f;
+      sim.color[i * 3 + 1] = g0 + (g1 - g0) * f;
+      sim.color[i * 3 + 2] = b0 + (b1 - b0) * f;
+    }
+    for (const name of ["position", "aColor", "aSize", "aAlpha"]) geometry.attributes[name].needsUpdate = true;
+
+    const fov = (camera as THREE.PerspectiveCamera).fov ?? 30;
+    material.uniforms.uScale.value = (size.height * viewport.dpr * 0.5) / Math.tan(THREE.MathUtils.degToRad(fov) / 2);
+
+    if (light.current) {
+      const flicker = emitting ? 8 + Math.sin(t * 47) * 1.2 + Math.random() * 1.5 : 0;
+      light.current.intensity = THREE.MathUtils.damp(light.current.intensity, flicker, emitting ? 18 : 6, dt);
+      light.current.position.copy(sim.origin).addScaledVector(sim.dir, 0.35);
+    }
+  });
+
+  return (
+    <>
+      <points geometry={geometry} material={material} frustumCulled={false} />
+      <pointLight ref={light} intensity={0} color="#ff8a2a" distance={3} decay={1.5} />
+    </>
+  );
+}
+
 function Rig({ pointer, reduceMotion }: { pointer: KomodoSceneProps["pointer"]; reduceMotion: boolean }) {
   const look = useMemo(() => new THREE.Vector3(0, 0.28, 0), []);
   useFrame(({ camera }, delta) => {
@@ -163,6 +357,7 @@ function Rig({ pointer, reduceMotion }: { pointer: KomodoSceneProps["pointer"]; 
 }
 
 export default function KomodoScene({ url, lite, reduceMotion, active, pointer, scroll, drag, scanSignal }: KomodoSceneProps) {
+  const mouth = useRef<Mouth | null>(null);
   return (
     <Canvas
       dpr={lite ? [1, 1.25] : [1, 1.75]}
@@ -184,7 +379,8 @@ export default function KomodoScene({ url, lite, reduceMotion, active, pointer, 
       <pointLight position={[0, 0.25, 1.4]} intensity={0.8} color="#F5A524" distance={3} />
 
       <Suspense fallback={null}>
-        <Dragon url={url} reduceMotion={reduceMotion} pointer={pointer} scroll={scroll} drag={drag} scanSignal={scanSignal} />
+        <Dragon url={url} reduceMotion={reduceMotion} pointer={pointer} scroll={scroll} drag={drag} scanSignal={scanSignal} mouth={mouth} />
+        {!reduceMotion && <FireBreath mouth={mouth} signal={scanSignal} lite={lite} />}
         <ContactShadows position={[0, 0.001, 0]} opacity={0.55} scale={5} blur={2.6} far={1.2} resolution={lite ? 256 : 512} frames={reduceMotion ? 1 : Infinity} color="#000000" />
       </Suspense>
 

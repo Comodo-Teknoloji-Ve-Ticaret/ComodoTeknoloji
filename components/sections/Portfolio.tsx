@@ -1,5 +1,6 @@
 import { ArrowUpRight, BarChart3, BrainCircuit, Cpu, Leaf } from "lucide-react";
 import Image from "next/image";
+import { asset } from "@/lib/base-path";
 import { Stagger, StaggerItem } from "@/components/motion/Reveal";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { portfolio, type PortfolioItem } from "@/data/portfolio";
@@ -46,7 +47,7 @@ export function Portfolio({
             >
               <div className="relative aspect-[2/1] overflow-hidden border-b border-border bg-surface-2">
                 <Image
-                  src={p.image!}
+                  src={asset(p.image!)}
                   alt={p.alt ?? p.title}
                   fill
                   sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"

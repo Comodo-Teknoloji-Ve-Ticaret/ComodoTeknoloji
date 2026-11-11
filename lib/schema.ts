@@ -51,6 +51,8 @@ export function businessSchema(): Thing {
       closes: h.closes,
     })),
     areaServed,
+    /** GEO: yapay zekâ asistanlarının uzmanlık alanlarını okuyabildiği sinyal */
+    knowsAbout: solutions.map((s) => s.name),
     ...(site.googleMapsUrl ? { hasMap: site.googleMapsUrl } : {}),
     ...(site.sameAs.length ? { sameAs: site.sameAs } : {}),
     ...(site.googleRating

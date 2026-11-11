@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { ComodoLogo } from "./ComodoLogo";
+import { basePath } from "@/lib/base-path";
 
 const BRAND = "COMODO TEKNOLOJİ";
 
@@ -62,4 +63,4 @@ export function IntroCurtain() {
 }
 
 /** <head> içine basılan, perdeyi boyamadan önce açan satır içi script */
-export const introScript = `try{var d=document.documentElement;if(location.pathname==="/"&&!sessionStorage.getItem("intro-seen")&&!matchMedia("(prefers-reduced-motion: reduce)").matches){d.dataset.intro="1"}}catch(e){}`;
+export const introScript = `try{var d=document.documentElement;if(location.pathname.replace(/\\/$/,"")==="${basePath}"&&!sessionStorage.getItem("intro-seen")&&!matchMedia("(prefers-reduced-motion: reduce)").matches){d.dataset.intro="1"}}catch(e){}`;

@@ -5,6 +5,7 @@ import { regions } from "@/data/regions";
 import { sectors } from "@/data/sectors";
 import { solutions } from "@/data/solutions";
 import { tools } from "@/lib/nav";
+import { asset } from "@/lib/base-path";
 import { fullAddress, site, telLink } from "@/lib/site";
 import { Logo } from "./Logo";
 
@@ -84,7 +85,7 @@ export function Footer() {
             <Link href="/kvkk" className="hover:text-fg">KVKK Aydınlatma Metni</Link>
             <Link href="/cerez-politikasi" className="hover:text-fg">Çerez Politikası</Link>
             <CookieSettingsButton className="hover:text-fg" />
-            <a href="/llms.txt" className="hover:text-fg">llms.txt</a>
+            <a href={asset("/llms.txt")} className="hover:text-fg">llms.txt</a>
           </div>
         </div>
       </div>

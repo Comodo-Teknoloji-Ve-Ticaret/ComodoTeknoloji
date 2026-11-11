@@ -22,8 +22,8 @@ export const metadata = pageMetadata({
 const faqs = [
   { q: "SLA nedir?", a: "SLA (hizmet seviyesi sözleşmesi), arıza bildiriminden sonra ne kadar sürede müdahale edileceğini ve sistemin ne kadar sürede çalışır hale getirileceğini sözleşmeyle garanti eden anlaşmadır." },
   { q: "Başka firmanın kurduğu sistemi bakıma alıyor musunuz?", a: "Evet. Önce bir devralma denetimi yapıyor, dokümantasyonu ve şemaları çıkarıyor, ardından sistemi bakım kapsamına alıyoruz." },
-  { q: "Bakım paketine yedek parça dahil mi?", a: "[DOLDURULACAK: yedek parça ve cihaz değişim politikası]" },
-  { q: "Sözleşme süresi ne kadar?", a: "[DOLDURULACAK: sözleşme süreleri ve fesih koşulları]" },
+  { q: "Bakım paketine yedek parça dahil mi?", a: "Üretici garantisi devam eden cihazlarda garanti süreçlerini biz yürütüyoruz. Garanti dışı arızalarda yedek parça ve cihaz değişimi onayınızla ayrıca faturalandırılır; Kurumsal SLA paketinde ise kritik noktalar için yedek cihaz stoğu seçeneği sunulur." },
+  { q: "Sözleşme süresi ne kadar?", a: "SLA bakım sözleşmeleri işletmenin ihtiyacına göre yıllık veya turizm tesisleri için sezonluk olarak düzenlenir. Hizmet seviyesi taahhütleri ve fesih koşulları sözleşmede açıkça belirtilir." },
 ];
 
 export default function SupportPage() {

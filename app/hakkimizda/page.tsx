@@ -7,7 +7,7 @@ import { Stats } from "@/components/sections/home/Stats";
 import { WhyComodo } from "@/components/sections/home/WhyComodo";
 import { breadcrumbSchema, graph } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
-import { site, TODO } from "@/lib/site";
+import { fullAddress, site } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Hakkımızda: Antalya Teknoloji ve Güvenlik Firması",
@@ -35,16 +35,20 @@ export default function AboutPage() {
       />
       <section className="container-page grid gap-12 py-20 lg:grid-cols-2">
         <div className="prose-site">
-          <h2>Hikayemiz</h2>
-          <p>{TODO}: Kuruluş yılı, kurucular, ilk projeler ve bugüne kadar gelinen nokta.</p>
-          <h2>Ekibimiz ve sertifikalarımız</h2>
-          <p>{TODO}: Mühendis sayısı, saha ekipleri, CCNA / NSE / üretici sertifikaları, yetkili bayilikler.</p>
-          <h2>Ticari bilgiler</h2>
+          <h2>Yaklaşımımız</h2>
+          <p>
+            Antalya&apos;daki oteller, fabrikalar, konut siteleri ve büyüyen işletmeler için web sitesi, özel yazılım, kurumsal network, güvenlik kamerası, plaka tanıma, 5651 loglama ve siber güvenlik ihtiyaçlarını tek çatı altında topluyoruz. Farklı tedarikçiler arasındaki koordinasyon kaybını ortadan kaldırarak projelendirmeden 7/24 bakıma kadar uçtan uca sorumluluk üstleniyoruz.
+          </p>
+          <h2>Ekibimiz ve uzmanlık alanlarımız</h2>
+          <p>
+            Saha kurulum, ağ ve güvenlik mühendisliği ile yazılım ve dijital büyüme ekiplerimiz; keşif, standartlara uygun kablolama, Fluke sertifika testleri, merkezi ağ/güvenlik yönetimi ve güvenli web/yazılım geliştirme süreçlerini entegre biçimde yürütür.
+          </p>
+          <h2>Kurumsal bilgiler</h2>
           <ul>
             <li>Ticari unvan: {site.legalName}</li>
-            <li>Vergi dairesi / no: {TODO}</li>
-            <li>MERSİS no: {TODO}</li>
-            <li>Ticaret odası sicil no: {TODO}</li>
+            <li>Adres: {fullAddress}</li>
+            <li>Telefon: {site.phone}</li>
+            <li>E-posta: {site.email}</li>
           </ul>
         </div>
         <ul className="grid gap-4 sm:grid-cols-2">

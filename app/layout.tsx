@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { Analytics } from "@/components/analytics/Analytics";
+import { ClickTracker } from "@/components/analytics/ClickTracker";
 import { CookieConsent } from "@/components/analytics/CookieConsent";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
@@ -84,6 +85,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </noscript>
       </head>
       <body className="min-h-dvh font-sans">
+        {/* Google Ads tıklama kimliklerini (gclid vb.) yakalar — form gönderiminde kullanılır */}
+        <ClickTracker />
         <a
           href="#icerik"
           className="sr-only z-[100] rounded-lg bg-primary px-4 py-2 text-primary-fg focus:not-sr-only focus:fixed focus:left-4 focus:top-4"

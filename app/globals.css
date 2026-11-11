@@ -259,8 +259,9 @@ html.intro-exit .intro-center { opacity: 0; transform: scale(0.92); }
   inset: 0;
   overflow: hidden;
   pointer-events: none;
-  -webkit-mask: url(/logo-mask.webp) center / contain no-repeat;
-  mask: url(/logo-mask.webp) center / contain no-repeat;
+  /* --logo-mask ComodoLogo içinde atanır (alt dizin önekiyle) */
+  -webkit-mask: var(--logo-mask) center / contain no-repeat;
+  mask: var(--logo-mask) center / contain no-repeat;
 }
 .comodo-shine > span {
   position: absolute;

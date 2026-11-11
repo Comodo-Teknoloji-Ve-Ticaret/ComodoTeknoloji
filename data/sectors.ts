@@ -41,7 +41,7 @@ export const sectors: Sector[] = [
     faqs: [
       { q: "Otel için kaç access point gerekir?", a: "Betonarme otellerde genellikle her 2–4 odaya bir AP gerekir; kesin sayı site survey ile belirlenir. Ağ Yenileme Hesaplayıcımız ilk tahmini verir." },
       { q: "Misafir Wi-Fi'si PMS ile entegre olabilir mi?", a: "Evet, misafirler oda numarası ve soyadlarıyla giriş yapar; check-out ile erişim sona erer." },
-      { q: "IPTV altyapısı kuruyor musunuz?", a: "[DOLDURULACAK: IPTV hizmet kapsamı]" },
+      { q: "IPTV altyapısı kuruyor musunuz?", a: "Evet. Otel odaları ve ortak alanlar için zayıf akım ve kurumsal network altyapısıyla entegre çalışan IPTV ve merkezi yayın dağıtım altyapısını projelendirip kuruyoruz." },
       { q: "Zincir otellerde merkezi yönetim mümkün mü?", a: "Evet, bulut yönetimli ağ ve merkezi 5651 loglama ile tüm tesisleri tek panelden izlemek mümkündür." },
     ],
     relatedTools: ["ag-yenileme-hesaplayici", "5651-risk-testi"],

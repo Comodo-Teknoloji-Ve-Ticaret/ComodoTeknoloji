@@ -1,5 +1,7 @@
 "use client";
 
+import { getStoredClickIds } from "./click-ids";
+import { hashContact } from "./hash-user-data";
 import { site, whatsappLink } from "./site";
 import { businessTypes, leadSchema, needs, sizes, type LeadInput } from "./validations";
 
@@ -40,7 +42,25 @@ export async function submitLead(input: LeadInput): Promise<LeadResult> {
   const lead = parsed.data;
 
   const rows = summarize(lead);
-  const message = `Merhaba, web sitenizden talep bırakıyorum.\n${rows.map(([k, v]) => `${k}: ${v}`).join("\n")}`;
+
+  // Reklam atıfı (Google Ads çevrimdışı / gelişmiş dönüşümler):
+  // Tıklama kimlikleri ham haliyle (büyük/küçük harfe duyarlı), iletişim bilgisi
+  // normalleştirilip SHA-256 ile hash'lenerek iletilir. Hash'lenmiş veri e-posta
+  // kaydına girer; Google'ın tıklama kimliğini indekslemesi 4-6 saat sürebildiğinden
+  // Ads'e yükleme tıklamadan en erken 4-6 saat sonra yapılmalıdır.
+  const clickIds = getStoredClickIds();
+  const { hashedEmail, hashedPhone } = await hashContact(lead.contact);
+  const attribution: Record<string, string> = {
+    ...(clickIds.gclid ? { "Reklam tıklaması (gclid)": clickIds.gclid } : {}),
+    ...(clickIds.wbraid ? { "Reklam tıklaması (wbraid)": clickIds.wbraid } : {}),
+    ...(clickIds.gbraid ? { "Reklam tıklaması (gbraid)": clickIds.gbraid } : {}),
+    ...(hashedEmail ? { "Hash e-posta (SHA-256)": hashedEmail } : {}),
+    ...(hashedPhone ? { "Hash telefon (SHA-256)": hashedPhone } : {}),
+  };
+
+  // WhatsApp mesajı insana yöneliktir; yalnızca gclid satırı eklenir
+  const whatsappRows = clickIds.gclid ? [...rows, ["Reklam (gclid)", clickIds.gclid] as [string, string]] : rows;
+  const message = `Merhaba, web sitenizden talep bırakıyorum.\n${whatsappRows.map(([k, v]) => `${k}: ${v}`).join("\n")}`;
   const whatsapp = whatsappLink(message);
 
   // Bot: başarı gibi davran, hiçbir yere gönderme
@@ -58,6 +78,7 @@ export async function submitLead(input: LeadInput): Promise<LeadResult> {
           from_name: `${site.name} web sitesi`,
           botcheck: "",
           ...Object.fromEntries(rows),
+          ...attribution,
         }),
       });
       emailed = res.ok;

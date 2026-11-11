@@ -48,11 +48,14 @@ export function Header() {
                   </Link>
                   {item.children && (
                     <div className="invisible absolute left-1/2 top-full w-[34rem] -translate-x-1/2 translate-y-1 pt-3 opacity-0 transition-all duration-200 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                      <ul className="glass grid grid-cols-2 gap-1 rounded-2xl p-2 shadow-2xl">
+                      <ul className="grid grid-cols-2 gap-1 rounded-2xl border border-border bg-surface p-2 shadow-2xl shadow-black/25 ring-1 ring-black/5 dark:ring-white/10">
                         {item.children.map((c) => (
                           <li key={c.href}>
-                            <Link href={c.href} className="block rounded-xl p-3 transition-colors hover:bg-surface-2">
-                              <span className="block text-sm font-semibold">{c.label}</span>
+                            <Link
+                              href={c.href}
+                              className="block rounded-xl p-3 transition-colors hover:bg-surface-2 focus-visible:bg-surface-2 focus-visible:outline-none"
+                            >
+                              <span className="block text-sm font-semibold text-fg">{c.label}</span>
                               <span className="mt-0.5 line-clamp-2 block text-xs leading-snug text-muted">{c.description}</span>
                             </Link>
                           </li>

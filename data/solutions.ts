@@ -78,7 +78,7 @@ const infraSolutions: Solution[] = [
       { q: "Mevcut kablolamamız yeniden kullanılabilir mi?", a: "Keşifte mevcut hatları örnekleme ile test ediyoruz. Kategori ve test sonuçları yeterliyse kablolama korunur, yalnızca kabinet düzeni ve etiketleme yenilenir." },
       { q: "Fluke testi neden önemli?", a: "Fluke sertifika testi her hattın standart değerleri karşıladığını belgeler. Arıza durumunda kablonun suçlu olup olmadığını dakikalar içinde ayırt etmenizi sağlar ve üretici garantisi için genellikle şarttır." },
       { q: "Proje çizimlerini kim hazırlıyor?", a: "Keşif sonrası kat planları üzerinde priz yerleşimi, kabinet konumları ve omurga güzergahını kendi mühendis ekibimiz çiziyor; onayınızdan sonra uygulamaya geçiliyor." },
-      { q: "Kurulum ne kadar sürer?", a: "Süre nokta sayısı ve tava altyapısına bağlıdır. Keşif sonrası verdiğimiz iş programında blok bazlı başlangıç ve bitiş tarihleri yer alır. [DOLDURULACAK: örnek proje süreleri]" },
+      { q: "Kurulum ne kadar sürer?", a: "Süre nokta sayısı ve tava altyapısına bağlıdır. Keşif sonrası verdiğimiz iş programında blok bazlı başlangıç ve bitiş tarihleri net olarak yer alır." },
       { q: "Kurulum sonrası destek veriyor musunuz?", a: "Evet. Teslim sonrası garanti süresi boyunca ücretsiz müdahale ve isteğe bağlı SLA'lı bakım paketleri sunuyoruz." },
     ],
     relatedSectors: ["otel-ve-resort", "fabrika-ve-osb", "avm-ve-site-yonetimi"],
@@ -485,7 +485,7 @@ const infraSolutions: Solution[] = [
     faqs: [
       { q: "Küçük bir işletme de hedef olur mu?", a: "Evet. Otomatik saldırılar ölçek ayırt etmez; korunmasız her cihaz hedeftir." },
       { q: "Mevcut firewall'umuzu yönetebilir misiniz?", a: "FortiGate, Sophos, MikroTik gibi yaygın markaların yapılandırma denetimini ve sürekli yönetimini üstleniyoruz." },
-      { q: "Sızma testi yapıyor musunuz?", a: "[DOLDURULACAK: sızma testi hizmeti sunuluyor mu, kapsam ve sertifikalar]" },
+      { q: "Sızma testi yapıyor musunuz?", a: "Temel zafiyet taraması, güvenlik duvarı kural denetimi ve dış yüzey kontrollerini gerçekleştiriyor; kapsamlı sızma testi (pentest) ihtiyaçlarında ise uzman çözüm ortaklarımızla birlikte test ve raporlama sunuyoruz." },
       { q: "Bir saldırı yaşarsak ne yapmalıyız?", a: "Etkilenen cihazları ağdan ayırın, kapatmayın ve hemen 7/24 acil hattımızı arayın. Delilleri koruyarak müdahale ve kurtarma planını birlikte yürütürüz." },
       { q: "Lisansları sizden mi almalıyız?", a: "Lisansı bizden alabilir veya mevcut lisanslarınızı yönetimimize devredebilirsiniz." },
       { q: "Çalışanlara eğitim veriyor musunuz?", a: "Oltalama (phishing) farkındalığı ve temel güvenlik alışkanlıkları için kısa eğitimler planlayabiliyoruz." },
@@ -568,8 +568,8 @@ const infraSolutions: Solution[] = [
       ],
     },
     faqs: [
-      { q: "Kaynak kod bize teslim ediliyor mu?", a: "[DOLDURULACAK: kaynak kod ve fikri mülkiyet politikası]" },
-      { q: "Hangi teknolojilerle geliştiriyorsunuz?", a: "[DOLDURULACAK: kullanılan teknoloji yığını]" },
+      { q: "Kaynak kod bize teslim ediliyor mu?", a: "Özel yazılım geliştirme projelerinde sözleşme kapsamına göre kaynak kod teslimi, teknik dokümantasyon ve fikri mülkiyet devri koşullarını proje başında yazılı olarak netleştiriyoruz." },
+      { q: "Hangi teknolojilerle geliştiriyorsunuz?", a: "Projenin ihtiyacına göre TypeScript, Next.js, React, Node.js, Python, ilişkisel veri tabanları ve modern bulut veya yerel sunucu mimarileri kullanıyoruz." },
       { q: "PMS markamız entegrasyonu destekliyor mu?", a: "Keşifte PMS markanızın API veya arayüz desteğini kontrol ediyor, entegrasyon yöntemini netleştiriyoruz." },
       { q: "Geliştirme süreci nasıl ilerliyor?", a: "İhtiyaç analizi, ekran taslakları, onay, iki haftalık geliştirme döngüleri, test ve canlıya geçiş adımlarıyla ilerliyoruz." },
       { q: "Yazılım bulutta mı çalışır?", a: "İhtiyaca göre işletmenizdeki sunucuda veya bulutta barındırılabilir." },

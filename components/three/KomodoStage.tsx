@@ -129,9 +129,13 @@ export function KomodoStage() {
     const io = new IntersectionObserver(([e]) => setInView(e.isIntersecting), { threshold: 0.05 });
     io.observe(el);
     const onMove = (e: PointerEvent) => {
-      pointer.current.x = (e.clientX / window.innerWidth) * 2 - 1;
-      pointer.current.y = (e.clientY / window.innerHeight) * 2 - 1;
+      // İmleç takibi yalnızca farede (parmak kalkınca ejder son dokunuşa bakılı kalmasın)
+      if (e.pointerType === "mouse") {
+        pointer.current.x = (e.clientX / window.innerWidth) * 2 - 1;
+        pointer.current.y = (e.clientY / window.innerHeight) * 2 - 1;
+      }
       // Sürükleme: yatay hareket ejderi döndürür, hız bırakınca ataletle sürer
+      // (dokunmatikte touch-pan-y sayesinde dikey kaydırma sayfaya kalır)
       const p = press.current;
       if (p) {
         const dx = e.clientX - p.lastX;
@@ -150,29 +154,39 @@ export function KomodoStage() {
       press.current = null;
       setInteracted(true);
       if (p.moved <= 5) {
-        // Tıklama: taramayı başlat
+        // Tıklama: ateş püskürt + taramayı başlat
         setScanSignal((n) => n + 1);
         setFlash(true);
         setTimeout(() => setFlash(false), 1600);
       }
       drag.current.dragging = false;
     };
+    // Dokunmatikte parmak dikey kaydırmaya geçerse tarayıcı hareketi devralır: tıklama sayılmaz
+    const onCancel = () => {
+      press.current = null;
+      drag.current.dragging = false;
+    };
     // Kaçış ilerlemesi: sahnenin ortası ekranın ortasını geçince başlar, ~sahne boyu kadar kaydırmada tamamlanır.
-    // Mobilde sahne önce görünür, kullanıcı aşağı devam ettikçe komodo kaçar.
+    // Mobilde (sahne metnin altında) kaçış, sahnenin üstü header'a dayanınca başlar; böylece ejder tam görünürken çevrilebilir.
     const onScroll = () => {
       const r = el.getBoundingClientRect();
-      const v = (window.innerHeight * 0.5 - (r.top + r.height * 0.5)) / (r.height * 0.85);
+      const v =
+        window.innerWidth < 1024
+          ? (80 - r.top) / (r.height * 0.85)
+          : (window.innerHeight * 0.5 - (r.top + r.height * 0.5)) / (r.height * 0.85);
       scroll.current = Math.min(1, Math.max(0, v));
       setAway(scroll.current > 0.6);
     };
     onScroll();
     window.addEventListener("pointermove", onMove, { passive: true });
     window.addEventListener("pointerup", onUp, { passive: true });
+    window.addEventListener("pointercancel", onCancel, { passive: true });
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => {
       io.disconnect();
       window.removeEventListener("pointermove", onMove);
       window.removeEventListener("pointerup", onUp);
+      window.removeEventListener("pointercancel", onCancel);
       window.removeEventListener("scroll", onScroll);
     };
   }, []);
@@ -184,7 +198,7 @@ export function KomodoStage() {
       ref={wrap}
       data-cursor={show3d && finePointer && !reduce ? "Sürükle" : undefined}
       onPointerDown={(e) => {
-        if (e.pointerType !== "mouse" || reduce || !show3d) return;
+        if (!e.isPrimary || (e.pointerType === "mouse" && e.button !== 0) || reduce || !show3d) return;
         press.current = { x: e.clientX, y: e.clientY, lastX: e.clientX, moved: 0 };
         drag.current.velocity = 0;
       }}
@@ -221,9 +235,9 @@ export function KomodoStage() {
 
       <Hud reduce={reduce} away={away && show3d && !reduce} />
 
-      {/* Etkileşim ipuçları (yalnızca fare kullanan cihazlarda) */}
+      {/* Etkileşim ipuçları (fareye veya dokunmatiğe göre) */}
       <AnimatePresence>
-        {show3d && finePointer && !reduce && !interacted && !away && (
+        {show3d && !reduce && !interacted && !away && (
           <m.p
             key="hint"
             aria-hidden
@@ -233,7 +247,7 @@ export function KomodoStage() {
             exit={{ opacity: 0 }}
             transition={{ delay: 2.2, duration: 2.4 }}
           >
-            ⟲ Sürükleyerek çevirin · Tıklayıp tarayın
+            {finePointer ? "⟲ Sürükleyerek çevirin · Tıklayın, ateş püskürtsün" : "⟲ Yana kaydırıp çevirin · Dokunun, ateş püskürtsün"}
           </m.p>
         )}
         {flash && (
@@ -245,7 +259,7 @@ export function KomodoStage() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
           >
-            ● Tarama başlatıldı — tehdit yok
+            ● Alev püskürtüldü — tehdit uzaklaştırıldı
           </m.p>
         )}
       </AnimatePresence>

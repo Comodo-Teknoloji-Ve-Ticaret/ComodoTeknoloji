@@ -3,6 +3,7 @@
  * - full: masaüstü (5,6 MB)  - lite: mobil / yavaş bağlantı / düşük bellek (2,8 MB)
  * - fallback: WebGL yok veya veri tasarrufu açık → 3D yüklenmez
  */
+import { asset } from "@/lib/base-path";
 export type Mode = "pending" | "full" | "lite" | "fallback";
 
 export function hasWebGL() {
@@ -24,4 +25,4 @@ export function pickMode(): Mode {
   return slow || small || lowMem ? "lite" : "full";
 }
 
-export const modelUrl = (mode: Mode) => (mode === "lite" ? "/models/komodo-lite.glb" : "/models/komodo.glb");
+export const modelUrl = (mode: Mode) => asset(mode === "lite" ? "/models/komodo-lite.glb" : "/models/komodo.glb");

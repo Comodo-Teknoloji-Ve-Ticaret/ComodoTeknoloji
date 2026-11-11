@@ -9,6 +9,8 @@ import type { NextConfig } from "next";
  */
 const nextConfig: NextConfig = {
   output: "export",
+  // Önizleme yayını için (ör. NEXT_PUBLIC_BASE_PATH=/ComodoTeknoloji); alan adında boş bırakılır
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || undefined,
   reactStrictMode: true,
   poweredByHeader: false,
   images: {

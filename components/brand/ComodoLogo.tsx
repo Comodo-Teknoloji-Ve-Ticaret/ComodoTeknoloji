@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { asset } from "@/lib/base-path";
 
 /**
  * Comodo logosu + marka efektleri (saf CSS; sunucu bileşeni, hidrasyon beklemeden oynar):
@@ -25,7 +26,7 @@ export function ComodoLogo({
   priority?: boolean;
   className?: string;
 }) {
-  const src = !fluid && size <= 64 ? "/logo-96.webp" : "/logo-512.webp";
+  const src = asset(!fluid && size <= 64 ? "/logo-96.webp" : "/logo-512.webp");
   return (
     <span
       className={`comodo-logo relative inline-block shrink-0 ${fluid ? "aspect-square" : ""} ${className}`}
@@ -33,7 +34,11 @@ export function ComodoLogo({
     >
       <Image src={src} alt="" width={fluid ? 512 : size} height={fluid ? 512 : size} priority={priority} className="size-full select-none" draggable={false} />
       {shine && (
-        <span aria-hidden className={`comodo-shine ${slow ? "comodo-shine-slow" : ""}`}>
+        <span
+          aria-hidden
+          className={`comodo-shine ${slow ? "comodo-shine-slow" : ""}`}
+          style={{ "--logo-mask": `url(${asset("/logo-mask.webp")})` } as React.CSSProperties}
+        >
           <span />
         </span>
       )}

@@ -39,7 +39,7 @@ export const homeFaqs: Faq[] = [
   { q: "5651 loglama yapmazsam ne olur?", a: "5651 sayılı Kanun kapsamındaki toplu kullanım sağlayıcıların loglama yükümlülüğünü yerine getirmemesi idari yaptırım riskini doğurur. 5651 Risk Testimizle mevcut durumunuzu birkaç dakikada görebilirsiniz." },
   { q: "Tek seferlik kurulum mu yapıyorsunuz, yoksa bakım da veriyor musunuz?", a: "Her ikisi de. Kurulum sonrası SLA'lı bakım ve destek paketleriyle sistemlerinizi 7/24 izliyoruz." },
   { q: "Hangi markalarla çalışıyorsunuz?", a: "Cisco, Aruba, Ruijie, TP-Link Omada, MikroTik, FortiGate, Sophos, Hikvision, Dahua, Hanwha ve Comodo gibi markalarla çalışıyoruz; marka seçimini bütçenize ve ihtiyacınıza göre öneriyoruz." },
-  { q: "Teklif ne kadar sürede hazırlanır?", a: "[DOLDURULACAK: keşif sonrası teklif teslim süresi]" },
+  { q: "Teklif ne kadar sürede hazırlanır?", a: "Standart projelerde saha keşfinin ardından 24 saat içinde yazılı öneri raporu ve kalem kalem teklifimizi sunuyoruz; çok bloklu kampüs ve otel projelerinde ise detaylı metraj çalışması 2–3 iş günü içinde tamamlanır." },
 ];
 
 export const slaPackages = [
@@ -47,22 +47,22 @@ export const slaPackages = [
     name: "Temel",
     description: "Küçük işletmeler ve tek lokasyonlu kafe/restoranlar için.",
     features: ["Mesai içi uzaktan destek", "Aylık uzaktan sağlık kontrolü", "Yıllık yerinde bakım", "E-posta ve telefon ile arıza kaydı"],
-    response: "[DOLDURULACAK]",
-    price: "[DOLDURULACAK]",
+    response: "Mesai içi 4 saat",
+    price: "Keşif sonrası",
   },
   {
     name: "Profesyonel",
     description: "Oteller, fabrikalar ve siteler için önerilen paket.",
     features: ["7/24 merkezi izleme ve alarm", "Öncelikli uzaktan müdahale", "Üç ayda bir yerinde bakım", "Aylık durum raporu", "Firmware ve güvenlik güncellemeleri"],
-    response: "[DOLDURULACAK]",
-    price: "[DOLDURULACAK]",
+    response: "7/24 · 1 saat uzaktan",
+    price: "Keşif sonrası",
     featured: true,
   },
   {
     name: "Kurumsal",
     description: "Çok lokasyonlu tesisler ve kritik operasyonlar için.",
     features: ["Profesyonel paketteki her şey", "Sezon boyunca yerinde teknisyen seçeneği", "Yedek cihaz stoğu", "Çeyreklik yönetim toplantısı", "Özel SLA ve ceza maddeleri"],
-    response: "[DOLDURULACAK]",
-    price: "[DOLDURULACAK]",
+    response: "7/24 · 15 dk öncelikli",
+    price: "Özel teklif",
   },
 ];

@@ -42,7 +42,7 @@ function readPost(file: string): Post {
     date: data.date,
     updated: data.updated ?? data.date,
     draft: !!data.draft,
-    author: data.author ?? { name: "[DOLDURULACAK: yazar]" },
+    author: data.author ?? { name: "Comodo Teknoloji Mühendislik Ekibi" },
     faqs: data.faqs ?? [],
     tags: data.tags ?? [],
     sources: data.sources ?? [],
