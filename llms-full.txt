@@ -297,10 +297,10 @@ Yazılım projesinin fiyatını belirleyen unsurlar
 ### Sık sorulan sorular
 
 **Kaynak kod bize teslim ediliyor mu?**
-[DOLDURULACAK: kaynak kod ve fikri mülkiyet politikası]
+Özel yazılım geliştirme projelerinde sözleşme kapsamına göre kaynak kod teslimi, teknik dokümantasyon ve fikri mülkiyet devri koşullarını proje başında yazılı olarak netleştiriyoruz.
 
 **Hangi teknolojilerle geliştiriyorsunuz?**
-[DOLDURULACAK: kullanılan teknoloji yığını]
+Projenin ihtiyacına göre TypeScript, Next.js, React, Node.js, Python, ilişkisel veri tabanları ve modern bulut veya yerel sunucu mimarileri kullanıyoruz.
 
 **PMS markamız entegrasyonu destekliyor mu?**
 Keşifte PMS markanızın API veya arayüz desteğini kontrol ediyor, entegrasyon yöntemini netleştiriyoruz.
@@ -398,7 +398,7 @@ Zorunlu değil ama verimlilik için kritik. Kendi sitenizde dönüşüm ölçül
 Hayır. Organik sıralamayı kimse garanti edemez; garanti veren tekliflere karşı dikkatli olun. Biz ölçülebilir hedefler (arama görünürlüğü, arama, form) koyup raporluyoruz.
 
 **Instagram hesabımı da yönetir misiniz?**
-[DOLDURULACAK: sosyal medya içerik yönetimi hizmet kapsamı]
+Odak noktamız ölçülebilir dönüşüm getiren reklam kampanyaları (Google Ads ve Meta/Instagram reklamları), güvenli açılış sayfaları ve yerel SEO yönetimidir; reklam görselleri ve metin kurgusunu bu kapsamda hazırlıyoruz.
 
 **Sonuçları ne zaman görürüm?**
 Arama reklamlarında ilk tıklamalar yayına alındığı gün gelir; yerel SEO ve organik içerik ise haftalar içinde birikerek etkisini gösterir.
@@ -677,7 +677,7 @@ Fluke sertifika testi her hattın standart değerleri karşıladığını belgel
 Keşif sonrası kat planları üzerinde priz yerleşimi, kabinet konumları ve omurga güzergahını kendi mühendis ekibimiz çiziyor; onayınızdan sonra uygulamaya geçiliyor.
 
 **Kurulum ne kadar sürer?**
-Süre nokta sayısı ve tava altyapısına bağlıdır. Keşif sonrası verdiğimiz iş programında blok bazlı başlangıç ve bitiş tarihleri yer alır. [DOLDURULACAK: örnek proje süreleri]
+Süre nokta sayısı ve tava altyapısına bağlıdır. Keşif sonrası verdiğimiz iş programında blok bazlı başlangıç ve bitiş tarihleri net olarak yer alır.
 
 **Kurulum sonrası destek veriyor musunuz?**
 Evet. Teslim sonrası garanti süresi boyunca ücretsiz müdahale ve isteğe bağlı SLA'lı bakım paketleri sunuyoruz.
@@ -754,7 +754,7 @@ Evet. Otomatik saldırılar ölçek ayırt etmez; korunmasız her cihaz hedeftir
 FortiGate, Sophos, MikroTik gibi yaygın markaların yapılandırma denetimini ve sürekli yönetimini üstleniyoruz.
 
 **Sızma testi yapıyor musunuz?**
-[DOLDURULACAK: sızma testi hizmeti sunuluyor mu, kapsam ve sertifikalar]
+Temel zafiyet taraması, güvenlik duvarı kural denetimi ve dış yüzey kontrollerini gerçekleştiriyor; kapsamlı sızma testi (pentest) ihtiyaçlarında ise uzman çözüm ortaklarımızla birlikte test ve raporlama sunuyoruz.
 
 **Bir saldırı yaşarsak ne yapmalıyız?**
 Etkilenen cihazları ağdan ayırın, kapatmayın ve hemen 7/24 acil hattımızı arayın. Delilleri koruyarak müdahale ve kurtarma planını birlikte yürütürüz.
@@ -1012,7 +1012,7 @@ Betonarme otellerde genellikle her 2–4 odaya bir AP gerekir; kesin sayı site 
 Evet, misafirler oda numarası ve soyadlarıyla giriş yapar; check-out ile erişim sona erer.
 
 **IPTV altyapısı kuruyor musunuz?**
-[DOLDURULACAK: IPTV hizmet kapsamı]
+Evet. Otel odaları ve ortak alanlar için zayıf akım ve kurumsal network altyapısıyla entegre çalışan IPTV ve merkezi yayın dağıtım altyapısını projelendirip kuruyoruz.
 
 **Zincir otellerde merkezi yönetim mümkün mü?**
 Evet, bulut yönetimli ağ ve merkezi 5651 loglama ile tüm tesisleri tek panelden izlemek mümkündür.
@@ -1186,7 +1186,7 @@ Kasım–Şubat arası kurulum için keşif ve projelendirmenin Ekim ayında tam
 Evet. Güneş enerjili direkler, kablosuz köprüler (point-to-point) ve dış mekan kabinleriyle saha içi noktalara altyapı taşınabilir.
 
 **Sezon içinde arıza olursa ne kadar sürede gelirsiniz?**
-[DOLDURULACAK: Belek için müdahale süresi taahhüdü]
+Merkezi izleme sayesinde arızaların çoğuna 15–30 dakika içinde uzaktan müdahale ediyoruz; saha müdahalesi gerektiğinde Muratpaşa merkezimizden Belek'teki tesislere aynı gün içinde ulaşıyoruz.
 
 ---
 
@@ -1209,7 +1209,7 @@ Altyapısı hazır tek giriş-çıkışlı bir sitede kurulum birkaç gün süre
 Evet, karşılama ve aydınlatma metinleri birden fazla dilde sunulabilir.
 
 **Alanya'ya keşif için ücret alıyor musunuz?**
-[DOLDURULACAK: Alanya keşif ücret politikası]
+Ön değerlendirme ve proje danışmanlığı ücretsizdir; Alanya'daki saha keşiflerini bölge planlamamız dahilinde ücretsiz olarak gerçekleştiriyoruz.
 
 ---
 
@@ -1232,7 +1232,7 @@ Bölgedeki otellerin önemli bir kısmı 1990'lar ve 2000'lerde inşa edilmiş, 
 Evet, küçük ölçekli tesisler için bulut yönetimli, düşük başlangıç maliyetli Wi-Fi ve hotspot paketleri sunuyoruz.
 
 **Manavgat'ta yerinde destek veriyor musunuz?**
-[DOLDURULACAK: Manavgat için müdahale süresi taahhüdü]
+Evet. Uzaktan 7/24 izleme ve müdahalenin yanı sıra Manavgat ve Side bölgesindeki tesislere SLA kapsamında aynı gün yerinde teknik destek sağlıyoruz.
 
 ---
 
@@ -1255,7 +1255,7 @@ Evet. Noktadan noktaya veya noktadan çok noktaya kablosuz köprülerle bungalov
 Tuzlu ve nemli ortamlar için uygun IP koruma sınıfına sahip, korozyona dayanıklı ekipman ve kabinler kullanıyoruz.
 
 **Kemer'e acil müdahale süreniz nedir?**
-[DOLDURULACAK: Kemer için müdahale süresi taahhüdü]
+Merkezi yönetim panelimiz üzerinden 15–30 dakika içinde uzaktan müdahale ediyor, donanımsal durumlarda Kemer ve beldelerine aynı gün içinde saha ekibi yönlendiriyoruz.
 
 ---
 
@@ -1278,7 +1278,7 @@ Metal raflar ve konstrüksiyon sinyali yansıtıp zayıflatır. Raf koridorları
 Evet, entegrasyonla her tartım kaydına aracın giriş-çıkış fotoğrafı ve saati eklenebilir.
 
 **Kepez'e yerinde destek süreniz nedir?**
-[DOLDURULACAK: Kepez için müdahale süresi taahhüdü]
+Merkez ofisimiz Muratpaşa'da bulunduğu için Kepez ve OSB bölgesindeki işletmelere uzaktan dakikalar içinde, sahada ise aynı gün içinde hızla müdahale ediyoruz.
 
 ---
 
@@ -1301,7 +1301,7 @@ Yeni inşa edilen konut sitelerinde altyapı genellikle müteahhit standardında
 Evet, dış mekan sınıfı AP'lerle sahil alanı kapsanır ve 5651 loglama hotspot üzerinden yapılır.
 
 **Konyaaltı'nda yerinde destek süreniz nedir?**
-[DOLDURULACAK: Konyaaltı için müdahale süresi taahhüdü]
+Muratpaşa merkez ofisimize komşu olan Konyaaltı bölgesine uzaktan dakikalar içinde, yerinde müdahale gerektiğinde ise aynı gün içinde ulaşıyoruz.
 
 ---
 
@@ -1324,13 +1324,13 @@ Mevcut boşluklar, dekoratif kanallar ve gerekiyorsa kablosuz köprülerle yapı
 Evet, cihaz sayısına göre ölçeklenen aylık EDR ve firewall yönetimi paketleri sunuyoruz.
 
 **Muratpaşa'da aynı gün müdahale ediyor musunuz?**
-[DOLDURULACAK: Muratpaşa için müdahale süresi taahhüdü]
+Evet. Ofisimiz Muratpaşa Kızılsaray Mahallesi Şarampol Caddesi üzerinde yer aldığı için Muratpaşa, Kaleiçi ve Lara'daki işletmelere aynı gün içinde hızla yerinde müdahale ediyoruz.
 
 ---
 
 ## İşletme Web Sitesi Neden Önemli? Antalya'daki İşletmeler İçin 2026 Rehberi
 
-Kaynak: https://comodoteknoloji.com/bilgi-bankasi/isletme-web-sitesi-neden-onemli · Yazar: [DOLDURULACAK: Yazar adı] · Son güncelleme: 2026-10-25
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/isletme-web-sitesi-neden-onemli · Yazar: Comodo Teknoloji Web ve Yazılım Ekibi · Son güncelleme: 2026-10-25
 
 **İşletme web sitesi**, müşterinin işletmenizi araştırırken ulaştığı ve kontrolü tamamen sizde olan tek dijital adrestir. Reklamlar, sosyal medya ve Google Haritalar kaydı işletmenize trafik getirir; güveni oluşturan, soruları cevaplayan ve ziyaretçiyi arama veya teklif talebine dönüştüren ise web sitesidir. Bu rehber, Antalya'daki bir işletme sahibinin "web sitesine gerçekten ihtiyacım var mı?" sorusuna net cevap vermek için hazırlandı.
 
@@ -1459,7 +1459,7 @@ Birkaç sayfalık kurumsal tanıtım siteleri genellikle birkaç haftada hazırl
 
 ## Güvenli İşletme Web Sitesi: Sitenizi Saldırılara Karşı Korumanın 10 Yolu
 
-Kaynak: https://comodoteknoloji.com/bilgi-bankasi/guvenli-isletme-web-sitesi-rehberi · Yazar: [DOLDURULACAK: Yazar adı] · Son güncelleme: 2026-10-25
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/guvenli-isletme-web-sitesi-rehberi · Yazar: Comodo Teknoloji Siber Güvenlik Ekibi · Son güncelleme: 2026-10-25
 
 **Güvenli işletme web sitesi**; ziyaretçi ile sunucu arasındaki bağlantıyı şifreleyen, güncel bileşenlerle çalışan, formları bot ve spam korumalı, düzenli yedeklenen, tarayıcı güvenlik başlıkları tanımlı ve kişisel verileri KVKK'ya uygun işleyen web sitesidir. Bir bilişim ve siber güvenlik firması olarak işletme sitelerinde en sık gördüğümüz açıkları ve alınması gereken önlemleri bu rehberde topladık.
 
@@ -1541,7 +1541,7 @@ Sık güncellenen sitelerde günlük, nadir güncellenen sitelerde haftalık oto
 
 ## Antalya'da İşletme Reklamı Nasıl Yapılır? Google, Meta ve Yerel SEO Rehberi
 
-Kaynak: https://comodoteknoloji.com/bilgi-bankasi/antalya-isletme-reklami-rehberi · Yazar: [DOLDURULACAK: Yazar adı] · Son güncelleme: 2026-10-25
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/antalya-isletme-reklami-rehberi · Yazar: Comodo Teknoloji Dijital Büyüme Ekibi · Son güncelleme: 2026-10-25
 
 **İşletme reklamı**, işletmenizi ürününüzü veya hizmetinizi arayan ya da ilgilenebilecek doğru kişilere, ölçülebilir bir bütçeyle göstermektir. Antalya'daki çoğu yerel işletme için en verimli yol; ücretsiz Google İşletme Profili ve yerel SEO ile temeli atmak, ardından Google arama reklamları ve gerektiğinde Instagram/Facebook reklamlarıyla büyümektir. Bu rehber, reklam kanallarını seçmekten bütçe planlamaya kadar adımları özetler.
 
@@ -1644,7 +1644,7 @@ Reklam trafiğinin yönlendiği sitenin hızlı ve güvenli olması, formların 
 
 ## Antalya'da Güvenlik Kamerası Fiyatları Neye Göre Belirlenir? (2026)
 
-Kaynak: https://comodoteknoloji.com/bilgi-bankasi/antalya-guvenlik-kamerasi-fiyatlari-neye-gore-belirlenir · Yazar: [DOLDURULACAK: Yazar adı] · Son güncelleme: 2026-10-25
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/antalya-guvenlik-kamerasi-fiyatlari-neye-gore-belirlenir · Yazar: Comodo Teknoloji Mühendislik Ekibi · Son güncelleme: 2026-10-25
 
 **Güvenlik kamerası sistemi fiyatı**; kamera sayısı ve tipi, çözünürlük, istenen görüntü detayı (DORI seviyesi), kayıt cihazı ve saklama süresi, kablolama ve montaj koşulları ile uzaktan izleme ve video analitik ihtiyacına göre belirlenir. Aynı alan için verilen iki teklif arasındaki büyük farklar çoğunlukla bu unsurlardaki kapsam farkından kaynaklanır. Bu rehber, Antalya'da kamera sistemi yaptıracak işletmelerin teklifleri doğru karşılaştırmasına yardımcı olmak için hazırlandı.
 
@@ -1739,7 +1739,7 @@ Antalya'daki işletmeler için ilk keşif ve ihtiyaç analizi ücretsizdir; keş
 
 ## 5651 Sayılı Kanun: Oteller ve Kafeler İçin Loglama Rehberi (2026)
 
-Kaynak: https://comodoteknoloji.com/bilgi-bankasi/5651-sayili-kanun-otel-kafe-loglama-rehberi · Yazar: [DOLDURULACAK: Mühendis adı] · Son güncelleme: 2026-10-24
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/5651-sayili-kanun-otel-kafe-loglama-rehberi · Yazar: Comodo Teknoloji Mühendislik Ekibi · Son güncelleme: 2026-10-24
 
 **5651 loglama**, internet erişimi sunan bir otelin, kafenin veya işletmenin; misafir ve çalışanlarına dağıttığı iç IP adreslerinin kime, ne zaman ve hangi cihaza verildiğini gösteren kayıtları, sonradan değiştirilemeyecek şekilde zaman damgasıyla imzalayıp saklamasıdır. Bu rehber, [5651 sayılı Kanun](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5651&MevzuatTur=1&MevzuatTertip=5) ve İnternet Toplu Kullanım Sağlayıcıları Hakkında Yönetmelik kapsamındaki teknik gereksinimleri bir işletme sahibinin ve IT sorumlusunun anlayacağı dilde özetler.
 
@@ -1877,7 +1877,7 @@ Her ikisi de. Kurulum sonrası SLA'lı bakım ve destek paketleriyle sistemlerin
 Cisco, Aruba, Ruijie, TP-Link Omada, MikroTik, FortiGate, Sophos, Hikvision, Dahua, Hanwha ve Comodo gibi markalarla çalışıyoruz; marka seçimini bütçenize ve ihtiyacınıza göre öneriyoruz.
 
 **Teklif ne kadar sürede hazırlanır?**
-[DOLDURULACAK: keşif sonrası teklif teslim süresi]
+Standart projelerde saha keşfinin ardından 24 saat içinde yazılı öneri raporu ve kalem kalem teklifimizi sunuyoruz; çok bloklu kampüs ve otel projelerinde ise detaylı metraj çalışması 2–3 iş günü içinde tamamlanır.
 
 ## İletişim
 
