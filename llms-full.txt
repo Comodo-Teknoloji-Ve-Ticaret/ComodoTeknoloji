@@ -1,6 +1,6 @@
 # Comodo Teknoloji
 
-> Antalya merkezli teknoloji firması: kurumsal web sitesi, güvenlik kamerası, yazılım, bilişim altyapısı (network, zayıf akım, 5651) ve danışmanlık hizmetlerini işletmelere tek elden sunar. Hizmet bölgesi: Antalya ve tüm ilçeleri (Antalya Merkez, Muratpaşa, Kepez, Konyaaltı, Lara, Belek, Serik, Manavgat, Side, Alanya, Kemer, Kaş, Kumluca).
+> Antalya merkezli teknoloji firması: kurumsal web sitesi ve SEO, güvenlik kamerası, yazılım, RFID ve görüntü işleme, bilişim altyapısı (network, zayıf akım, 5651) ve danışmanlık hizmetlerini işletmelere tek elden sunar. Hizmet bölgesi: Antalya ve tüm ilçeleri (Antalya Merkez, Muratpaşa, Kepez, Konyaaltı, Lara, Belek, Serik, Manavgat, Side, Alanya, Kemer, Kaş, Kumluca).
 
 - Adres: Kızılsaray, Şarampol Cd Burak Apt, 07000 Muratpaşa/Antalya, Türkiye
 - Telefon: 0507 850 52 87
@@ -116,7 +116,7 @@ Alan adı ve barındırma hesabı işletmeniz adına açılır; erişim bilgiler
 Doğru yönlendirmeler (301), korunan URL yapısı ve Search Console takibiyle geçiş planlandığında sıralama kaybı en aza indirilir.
 
 **Daha önce hangi siteleri yaptınız?**
-Hukuk bürosu, diş kliniği, radyoloji merkezi, rafting işletmesi ve e-ticaret projelerimizi Projeler sayfasında inceleyebilirsiniz.
+Rafting işletmesi, oto bakım ve PPF stüdyoları ile klinik, emlak ve hukuk bürosu tasarımlarımızı Projeler sayfasında inceleyebilirsiniz.
 
 ### Kaynaklar
 
@@ -258,13 +258,12 @@ API, veri tabanı veya dosya aktarımı sunan hemen her sistem entegre edilebili
 
 ### Comodo Teknoloji hangi yazılımları geliştirdi?
 
-Turizm, enerji ve perakende alanlarında yapay zekâ destekli analiz platformları, IoT tabanlı ölçüm sistemleri, iş zekâsı raporlamalı anket sistemleri ve e-ticaret platformları geliştirdik.
+Turizm ve enerji alanlarında yapay zekâ destekli analiz platformları, IoT tabanlı ölçüm sistemleri ve iş zekâsı raporlamalı anket sistemleri geliştirdik; RFID ve görüntü işleme projeleri için de özel takip yazılımları geliştiriyoruz.
 
 - Hotalyze: otel yorumlarını yapay zekâyla duygu ve departman bazında analiz eden platform (hotalyze.com)
 - Uzaktan elektrik sayacı okuma: IoT tabanlı tüketim izleme sistemi
 - Enerji ve karbon ayak izi hesaplama: otel ve işletmeler için misafir başına tüketim raporlaması
 - Müşteri anket sistemi: iş zekâsı (BI) raporlamalı memnuniyet analizi
-- E-ticaret platformları: Comodo Bee (arıcılık ürünleri) ve Comodo Print (dijital baskı, tasarım editörü ve baskı hesaplama)
 
 ### Hazır yazılım mı, özel geliştirme mi?
 
@@ -319,6 +318,252 @@ Evet, aylık bakım ve destek paketleriyle hata giderme ve küçük geliştirmel
 1. [Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) — OWASP Foundation
 2. [OWASP Top 10 — en kritik web uygulaması güvenlik riskleri](https://owasp.org/www-project-top-ten/) — OWASP Foundation
 3. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Antalya RFID Çözümleri: Envanter, Demirbaş, Tekstil ve Personel Takibi
+
+Kaynak: https://comodoteknoloji.com/cozumler/rfid-cozumleri · Son güncelleme: 2026-11-23
+
+RFID (Radyo Frekanslı Tanımlama); bir nesneye yerleştirilen etiketin, görüş hattı gerektirmeden radyo dalgalarıyla okunarak kimliğinin ve konumunun otomatik kaydedilmesidir. Antalya'daki otel, çamaşırhane, fabrika, depo ve perakende işletmelerine etiket seçimi, okuyucu ve anten yerleşimi, takip yazılımı ve ERP/PMS entegrasyonunu kapsayan uçtan uca RFID sistemleri kuruyoruz.
+
+### Kimin için?
+
+- Oteller ve resortlar (tekstil, üniforma, demirbaş)
+- Endüstriyel çamaşırhaneler
+- Fabrika, depo ve lojistik işletmeleri
+- Perakende mağazalar ve AVM'ler
+- Hastane ve klinikler (tekstil, cihaz takibi)
+
+### Hangi sorunu çözer?
+
+- **Sayım günler sürüyor:** Barkodu tek tek okutmak veya elle saymak; depo ve tekstil sayımlarını işletmeyi durduran günlere çevirir.
+- **Nerede olduğu bilinmeyen demirbaş:** Hangi cihazın, el arabasının veya ekipmanın hangi bölümde olduğu kayıt altında olmadığında kayıp ve mükerrer satın alma artar.
+- **Kayıtla gerçek stok uyuşmuyor:** Elle tutulan listeler gerçeği yansıtmaz; yanlış sipariş, eksik ürün ve değer kaybı oluşur.
+
+### RFID nasıl çalışır?
+
+RFID sisteminde okuyucu, anten aracılığıyla radyo sinyali yayar; bu alana giren pasif etiket sinyalden aldığı enerjiyle uyanır ve içindeki benzersiz kimlik numarasını okuyucuya geri gönderir, yazılım da bu okumayı yer ve zaman bilgisiyle kaydeder.
+
+- Etiket (tag): çip + anten; nesneye yapıştırılır, dikilir, gömülür veya askı/kart şeklinde takılır
+- Okuyucu (reader): sabit (kapı, tünel, raf) veya el tipi (mobil sayım)
+- Anten: okuma alanının şeklini ve menzilini belirler
+- Ara katman yazılımı: tekrar eden okumaları ayıklar, okumayı olaya çevirir (giriş, çıkış, sayım)
+- İş yazılımı / entegrasyon: stok, PMS, ERP veya özel panel
+
+### LF, HF, NFC ve UHF RFID arasındaki fark nedir?
+
+Fark çalışma frekansı ve dolayısıyla okuma menzili ile toplu okuma kabiliyetidir: LF ve HF birkaç santimetreden yaklaşık bir metreye kadar yakın okuma yaparken, UHF RFID pasif etiketleri metrelerce mesafeden ve aynı anda çok sayıda okuyabilir.
+
+RFID frekans bantlarının karşılaştırması
+
+| Özellik | LF (125–134 kHz) | HF / NFC (13,56 MHz) | UHF (Avrupa: 865–868 MHz) |
+| --- | --- | --- | --- |
+| Tipik okuma mesafesi | Birkaç cm | Birkaç cm – ~1 m | Birkaç metre (ortama bağlı) |
+| Toplu okuma | Sınırlı | Orta | Yüksek (çoklu etiket) |
+| Metal ve sıvı yakınında | İyi | İyi | Özel etiket gerekir |
+| Yaygın standartlar | ISO 11784/11785 (hayvan) | ISO 14443, ISO 15693, NFC | EPC Gen2 / ISO/IEC 18000-63 |
+| Tipik kullanım | Hayvan kimliği, eski kartlar | Kartlı geçiş, otel kapı kartı, kütüphane | Envanter, tekstil, lojistik, araç |
+
+
+### RFID mi, barkod mu, QR kod mu?
+
+Az sayıda ürünü tek tek okutmak yetiyorsa barkod ve QR kod en ekonomik çözümdür; çok sayıda nesnenin görüş hattı olmadan, toplu ve otomatik sayılması gerekiyorsa RFID tercih edilir.
+
+Barkod her okutmada etiketin görünmesini ve kişinin okutmasını gerektirir; RFID ise bir arabadaki, koliden veya raftaki birçok etiketi aynı anda okuyabilir. Bu nedenle RFID'nin değeri ürün başına etiket maliyetinden çok, ortadan kalkan elle sayım emeğinde ve kayıp oranındaki düşüşte aranmalıdır. Hangi senaryoda geri dönüş sağlayacağını keşifte, sizin sayım sıklığınız ve kayıp verinizle birlikte hesaplıyoruz.
+
+### RFID projesinde en sık yapılan hatalar nelerdir?
+
+En sık hatalar; ortam testi yapmadan etiket seçmek, metal ve sıvı etkisini hesaba katmamak, okuyucu alanlarını gereğinden geniş kurup yanlış okumalara yol açmak ve okumayı iş sürecine bağlayan yazılımı planlamadan donanım almaktır.
+
+- Pilot uygulama (PoC) olmadan tüm tesise yayılmak
+- Etiketin yıkama, ısı, darbe gibi çevre koşullarına uygunluğunu üretici dokümanından doğrulamamak
+- Kapı geçişlerinde yön tespiti (giriş mi çıkış mı) kurgulamamak
+- Mevcut ERP, PMS veya stok yazılımıyla entegrasyonu sonraya bırakmak
+- Etiketleme (ilk kodlama) iş yükünü ve sorumlusunu planlamamak
+
+### RFID kişisel verilerle ilgili mi?
+
+Etiket yalnızca bir nesneyi tanımlıyorsa genellikle kişisel veri değildir; ancak personel kartı, üniforma veya araç gibi bir kişiyle eşleşen etiketlerin okumaları kişisel veri sayılabilir ve KVKK kapsamında aydınlatma, yetkilendirme ve saklama süresi kurgusu gerektirir.
+
+### RFID projesi nasıl ilerler?
+
+1. **Keşif ve süreç analizi:** Neyin, nerede, ne sıklıkla sayıldığını ve kayıp noktalarını birlikte çıkarıyoruz.
+2. **Ortam ve etiket testi:** Gerçek ürünleriniz üzerinde farklı etiket ve anten kombinasyonlarıyla okuma testi yapılır.
+3. **Pilot uygulama:** Tek bölüm veya tek süreçte sınırlı kurulum; okuma başarısı ve iş akışı doğrulanır.
+4. **Yazılım ve entegrasyon:** Takip paneli, raporlar ve ERP/PMS/stok entegrasyonu geliştirilir.
+5. **Yaygınlaştırma:** Etiketleme, okuyucu kurulumu, kablolama ve network tüm alana yayılır.
+6. **Eğitim ve destek:** Kullanıcı eğitimi, bakım ve yazılım güncellemeleri.
+
+### Karşılaştırma
+
+Takip yöntemlerinin karşılaştırması: manuel, barkod/QR, BLE ve RFID
+
+| Özellik | Manuel kayıt | Barkod / QR | BLE beacon | UHF RFID |
+| --- | --- | --- | --- | --- |
+| Görüş hattı gerekir mi? | Evet | Evet | Hayır | Hayır |
+| Toplu okuma | Yok | Tek tek | Var (pilli) | Var (pilsiz etiket) |
+| Etiket maliyeti | Yok | En düşük | Yüksek (pil + cihaz) | Düşük–orta |
+| Pil / bakım | Yok | Yok | Pil değişimi gerekir | Pasif etikette yok |
+| Konum hassasiyeti | Kişiye bağlı | Okutulan nokta | Oda/bölge seviyesi | Okuyucu/kapı/bölge seviyesi |
+| En uygun kullanım | Çok küçük envanter | Düşük hacim, perakende kasa | Kişi ve yüksek değerli ekipman konumu | Yüksek hacimli tekstil, stok, demirbaş |
+
+### Fiyatı belirleyen unsurlar
+
+RFID projesinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Etiket adedi ve tipi | Yüksek | Yıkanabilir tekstil, metal üstü, sert kasa veya kağıt etiket |
+| Okuma noktası sayısı | Yüksek | Kapı, tünel, raf, masa üstü ve el terminali adedi |
+| Yazılım kapsamı | Orta | Hazır modül veya özel takip paneli, raporlar, mobil uygulama |
+| Entegrasyon | Orta | ERP, PMS, stok veya muhasebe sistemleriyle bağlantı |
+| Altyapı | Orta | Kablolama, PoE switch, Wi-Fi kapsaması |
+| İlk etiketleme iş gücü | Değişken | Mevcut envanterin kodlanıp sisteme alınması |
+
+### Sık sorulan sorular
+
+**RFID etiketi kaç metreden okunur?**
+Frekansa, etiket tipine, okuyucu gücüne ve ortama bağlıdır. LF ve HF etiketler genellikle santimetreler mertebesinde, pasif UHF etiketler ise uygun anten ve ortamda birkaç metreden okunur. Kesin değer ancak sizin ortamınızda yapılan testle belirlenir.
+
+**Metal ürünlerde RFID çalışır mı?**
+Standart UHF etiketler metal yüzeyde verimsiz çalışır; metal üstü (on-metal) için tasarlanmış özel etiketlerle metal demirbaşlar da takip edilebilir.
+
+**Mevcut stok programımızla çalışır mı?**
+Stok, ERP veya PMS yazılımınız API, veri tabanı veya dosya aktarımına izin veriyorsa RFID okumalarını bu sisteme aktaran entegrasyonu geliştiriyoruz.
+
+**Önce küçük bir deneme yapabilir miyiz?**
+Evet, önerdiğimiz yöntem budur. Tek bölüm veya tek süreçte pilot uygulama yapıp okuma başarısını ve iş akışını doğruladıktan sonra yaygınlaştırıyoruz.
+
+**RFID etiketleri kopyalanabilir mi?**
+Basit etiketlerin kimlik numarası okunabilir; güvenlik gereken senaryolarda (kartlı geçiş, ödeme) şifreleme destekleyen kart teknolojileri ve yazılım tarafında doğrulama kullanılır.
+
+**RFID sistemi kurmak ne kadar sürer?**
+Kapsama bağlıdır. Ortam testi ve pilot uygulama genellikle birkaç hafta içinde tamamlanır; tüm tesise yaygınlaştırma takvimi pilot sonuçlarına göre iş planında yazılır.
+
+### Kaynaklar
+
+1. EPC UHF Gen2 Air Interface Protocol (EPC Radio-Frequency Identity Protocols Generation-2 UHF RFID) — GS1
+2. ISO/IEC 18000-63: Parameters for air interface communications at 860 MHz to 960 MHz Type C — ISO / IEC
+3. ETSI EN 302 208: Radio Frequency Identification Equipment operating in the band 865 MHz to 868 MHz — European Telecommunications Standards Institute (ETSI)
+4. [NFC Forum — NFC teknolojisi ve standartları](https://nfc-forum.org/) — NFC Forum
+5. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Antalya Görüntü İşleme ve Yapay Zekâ: Sayım, Kalite Kontrol, İSG ve Video Analitiği
+
+Kaynak: https://comodoteknoloji.com/cozumler/goruntu-isleme · Son güncelleme: 2026-11-23
+
+Görüntü işleme; kamera veya fotoğraf görüntülerinin yapay zekâ ve bilgisayarlı görü algoritmalarıyla analiz edilerek nesne, kişi, araç, hata veya olayın otomatik tespit edilip sayılmasıdır. Antalya'daki fabrika, otel, AVM, tarım ve hayvancılık işletmelerine mevcut kameralarla çalışan, sahada (edge) veya sunucuda koşan, raporları panele ve alarm sistemlerine aktaran özel görüntü işleme çözümleri geliştiriyoruz.
+
+### Kimin için?
+
+- Üretim tesisleri ve fabrikalar (kalite kontrol, İSG)
+- AVM, mağaza ve restoranlar (ziyaretçi sayımı, doluluk)
+- Oteller (havuz, restoran, giriş yoğunluğu)
+- Tarım ve hayvancılık işletmeleri
+- Otopark ve site yönetimleri
+
+### Hangi sorunu çözer?
+
+- **Kameralar kaydediyor ama kimse izlemiyor:** Yüzlerce saatlik kayıt yalnızca olaydan sonra açılır; anlık uyarı ve ölçülebilir veri üretmez.
+- **Kalite kontrol göze bağlı:** Bandın hızında yorulan göz, hatalı ürünü kaçırır; hata oranı ve nedeni kayıt altına alınmaz.
+- **Yoğunluk tahminle yönetiliyor:** Kasa, restoran veya giriş yoğunluğu ölçülmediği için personel planı deneyime dayanır.
+
+### Görüntü işleme hangi işlerde kullanılır?
+
+Görüntü işleme; kişi ve araç sayımı, alan ihlali ve kalabalık uyarısı, üretim hattında hata ve eksik parça tespiti, baret ve yelek gibi iş güvenliği ekipmanı kontrolü, plaka ve metin okuma (OCR), doluluk ölçümü ve hayvan davranışı takibi gibi işlerde kullanılır.
+
+Sektöre göre görüntü işleme kullanım örnekleri
+
+| Sektör | Kullanım | Çıktı |
+| --- | --- | --- |
+| Fabrika | Hata / eksik parça tespiti, İSG ekipman kontrolü | Hatalı ürün uyarısı, vardiya raporu |
+| AVM / mağaza | Ziyaretçi sayımı, ısı haritası, kuyruk uzunluğu | Saatlik trafik ve dönüşüm raporu |
+| Otel / restoran | Havuz, restoran ve lobi doluluğu | Anlık doluluk, personel planı |
+| Otopark / site | Plaka okuma, boş yer sayımı | Geçiş kaydı, doluluk bilgisi |
+| Hayvancılık | Hayvan sayımı, hareketlilik, yemlik/suluk ziyareti | Davranış değişikliği uyarısı |
+
+
+### Mevcut güvenlik kameralarıyla görüntü işleme yapılabilir mi?
+
+Çoğu durumda evet; RTSP/ONVIF görüntü akışı veren IP kameralar analiz yazılımına bağlanabilir, ancak açı, çözünürlük, ışık ve kare hızı analiz için yetersizse ilgili noktaya ek veya farklı kamera önerilir.
+
+Analizin başarısını en çok kamera yerleşimi belirler. Kalite kontrolde sabit ışık ve sabit mesafe, sayımda tepeden veya çapraz açı, plaka okumada doğru açı ve deklanşör hızı gerekir. Keşifte örnek görüntü alıp analize uygunluğu birlikte değerlendiriyoruz.
+
+### Görüntü işleme sahada mı, bulutta mı çalışmalı?
+
+Anlık tepki gereken ve görüntünün tesis dışına çıkmaması istenen senaryolarda sahada (edge) çalışan cihazlar; çok noktalı raporlama ve model güncellemesi önemli olan senaryolarda merkezi sunucu veya bulut tercih edilir, çoğu projede ikisi birlikte kullanılır.
+
+### Görüntü işleme projeleri nasıl doğrulanır?
+
+Her proje sizin gerçek görüntülerinizle yapılan bir pilot ölçümle doğrulanır; modelin doğru ve hatalı tespitleri elle kontrol edilen örneklerle karşılaştırılır ve kabul kriteri baştan yazılı olarak belirlenir.
+
+Görüntü işlemede genel geçer bir başarı oranı yoktur; aynı model farklı ışık, açı ve ürünlerde farklı sonuç verir. Bu nedenle teklif aşamasında oran vaat etmiyor, pilot sonucunu birlikte ölçüyoruz.
+
+### Kamera analitiği KVKK açısından neye dikkat etmeli?
+
+Kişi tespiti ve sayımı yapan sistemlerde aydınlatma levhaları, amaçla sınırlı işleme, erişim yetkileri ve saklama süresi belirlenmeli; mümkün olan senaryolarda yüz bulanıklaştırma ve yalnızca sayısal veri saklama tercih edilmelidir. Yüz tanıma gibi biyometrik işleme ise özel nitelikli kişisel veri kapsamındadır ve ayrıca hukuki değerlendirme gerektirir.
+
+### Görüntü işleme projesi nasıl ilerler?
+
+1. **Kullanım senaryosu:** Neyin tespit edileceği, hangi kararın bu veriye bağlanacağı ve başarı kriteri yazılır.
+2. **Örnek görüntü toplama:** Mevcut veya geçici kameralarla gerçek koşullarda görüntü alınır.
+3. **Model ve kural geliştirme:** Hazır modeller uyarlanır veya etiketlenen verilerle özel model eğitilir.
+4. **Pilot ölçüm:** Sonuçlar elle kontrol edilen örneklerle karşılaştırılır; kabul kriteri doğrulanır.
+5. **Entegrasyon:** Panel, alarm, e-posta/WhatsApp bildirimi ve ERP/MES bağlantısı.
+6. **İzleme ve iyileştirme:** Mevsim, ürün ve ışık değişimlerine göre model güncellenir.
+
+### Karşılaştırma
+
+Görüntü işleme çözüm seçeneklerinin karşılaştırması
+
+| Özellik | Kameranın yerleşik analitiği | Hazır bulut yazılımı | Özel görüntü işleme (Comodo) |
+| --- | --- | --- | --- |
+| Kurulum hızı | Hızlı | Hızlı | Pilot gerektirir |
+| Senaryoya özel uyarlama | Sınırlı | Sınırlı | Tam |
+| Farklı marka kameralar | Yalnızca o marka | Desteklenenler | RTSP/ONVIF ile geniş |
+| Veri nerede kalır | Kamera / NVR | Sağlayıcının bulutu | Sizin sunucunuz veya seçtiğiniz bulut |
+| İş sistemlerine entegrasyon | Alarm çıkışı | API'ye bağlı | ERP, PMS, MES, özel panel |
+
+### Fiyatı belirleyen unsurlar
+
+Görüntü işleme projesinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Kamera / analiz noktası sayısı | Yüksek | Eş zamanlı işlenecek görüntü akışı |
+| Model ihtiyacı | Yüksek | Hazır model uyarlaması veya özel eğitim ve veri etiketleme |
+| İşlem donanımı | Orta | Edge cihaz, GPU'lu sunucu veya bulut |
+| Entegrasyon ve panel | Orta | Raporlama, alarm ve iş sistemleri bağlantısı |
+| Ek kamera ve aydınlatma | Değişken | Analize uygun açı ve ışık için |
+
+### Sık sorulan sorular
+
+**Görüntü işleme ile video analitiği aynı şey mi?**
+Video analitiği, görüntü işlemenin güvenlik ve operasyon kameralarına uygulanmış hâlidir. Görüntü işleme daha geniş bir kavramdır; üretim hattındaki tek kare fotoğraftan dron görüntüsüne kadar her türlü görüntüyü kapsar.
+
+**Hangi teknolojileri kullanıyorsunuz?**
+Projenin ihtiyacına göre güncel nesne algılama ve sınıflandırma modelleri, bilgisayarlı görü kütüphaneleri ve Python tabanlı servisler kullanıyoruz; sonuçları web paneli ve bildirim sistemleriyle sunuyoruz.
+
+**Yüz tanıma sistemi kuruyor musunuz?**
+Yüz tanıma biyometrik veri işlediği için KVKK kapsamında özel nitelikli kişisel veridir ve ancak hukuki dayanağı netleşmiş senaryolarda değerlendirilir. Çoğu operasyonel ihtiyaç (sayım, doluluk, İSG) yüz tanımaya gerek olmadan karşılanabilir.
+
+**Gece veya düşük ışıkta çalışır mı?**
+Kızılötesi aydınlatmalı veya düşük ışık performansı yüksek kameralarla çalışabilir; termal kamera gerektiren senaryolar keşifte belirlenir.
+
+**Sonuçları telefondan görebilir miyiz?**
+Evet. Raporlar web paneli üzerinden mobilde görüntülenir; kritik olaylar e-posta veya WhatsApp bildirimiyle iletilebilir.
+
+**Pilot uygulama ücretli mi?**
+İlk keşif ve senaryo değerlendirmesi ücretsizdir. Pilot ölçümün kapsamı ve ücreti, örnek görüntüler incelendikten sonra yazılı olarak belirlenir.
+
+### Kaynaklar
+
+1. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+2. [Kişisel Verileri Koruma Kurumu](https://www.kvkk.gov.tr/) — KVKK
+3. IEC 62676-4: Video surveillance systems for use in security applications — Part 4: Application guidelines (DORI piksel yoğunlukları) — International Electrotechnical Commission (IEC), 2014
 
 ---
 
@@ -398,7 +643,7 @@ Zorunlu değil ama verimlilik için kritik. Kendi sitenizde dönüşüm ölçül
 Hayır. Organik sıralamayı kimse garanti edemez; garanti veren tekliflere karşı dikkatli olun. Biz ölçülebilir hedefler (arama görünürlüğü, arama, form) koyup raporluyoruz.
 
 **Instagram hesabımı da yönetir misiniz?**
-Odak noktamız ölçülebilir dönüşüm getiren reklam kampanyaları (Google Ads ve Meta/Instagram reklamları), güvenli açılış sayfaları ve yerel SEO yönetimidir; reklam görselleri ve metin kurgusunu bu kapsamda hazırlıyoruz.
+Reklam kampanyalarını yönetiyor, reklam görselleri ve metinlerini hazırlıyoruz. Fotoğraf-video çekimi ve sosyal medya içerik planı için SEO, İçerik & Çekim hizmetimizi inceleyebilirsiniz.
 
 **Sonuçları ne zaman görürüm?**
 Arama reklamlarında ilk tıklamalar yayına alındığı gün gelir; yerel SEO ve organik içerik ise haftalar içinde birikerek etkisini gösterir.
@@ -416,6 +661,451 @@ Hesaplar işletmeniz adına açılır, biz yönetici olarak eklenir; hesap ve ve
 3. [Consent Mode (izin modu) kurulumu](https://developers.google.com/tag-platform/security/guides/consent?hl=tr) — Google for Developers
 4. [Arama Motoru Optimizasyonu (SEO) Başlangıç Rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr) — Google Search Central
 5. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Antalya SEO Hizmeti, İçerik Pazarlaması ve Profesyonel Fotoğraf-Video Çekimi
+
+Kaynak: https://comodoteknoloji.com/cozumler/seo-icerik-pazarlama · Son güncelleme: 2026-11-23
+
+SEO ve içerik pazarlaması; web sitenizin Google'da ve ChatGPT gibi yapay zekâ cevap motorlarında bulunabilmesi için teknik altyapının düzeltilmesi, müşterilerinizin sorularını yanıtlayan içeriklerin yazılması ve işletmenizi gerçek fotoğraf ve videolarla anlatan görsel içerik üretimidir. Antalya'daki işletmeler için SEO, blog, ürün ve mekân çekimi ile sosyal medya içerik planını tek ekipte yürütüyoruz.
+
+### Kimin için?
+
+- Google'da rakiplerinin gerisinde kalan yerel işletmeler
+- Otel, restoran, kafe ve turizm işletmeleri
+- Klinik, hukuk bürosu ve danışmanlık ofisleri
+- E-ticaret yapan üretici ve markalar
+
+### Hangi sorunu çözer?
+
+- **Siteniz var ama aramada yok:** Hizmet sayfası olmayan, soruları cevaplamayan ve teknik hatalı siteler arama sonuçlarında görünmez.
+- **Stok görsel güven vermiyor:** Her rakipte görülen hazır fotoğraflar işletmenizi ayırt etmez; gerçek mekân ve ekip görüntüsü güven oluşturur.
+- **İçerik düzensiz ve plansız:** Ara sıra yapılan paylaşımlar ve bloglar ölçülmediği için hangi içeriğin müşteri getirdiği bilinmez.
+
+### SEO hizmeti neleri kapsar?
+
+SEO hizmeti; sitenin taranma ve hız sorunlarını gideren teknik SEO, her hizmet ve bölge için arama niyetine uygun sayfalar oluşturan içerik SEO'su, Google İşletme Profili ile yerel SEO ve yapay zekâ cevap motorları için GEO çalışmalarını kapsar.
+
+- Teknik SEO: hız (Core Web Vitals), mobil uyum, site haritası, yönlendirmeler, yapılandırılmış veri
+- Anahtar kelime ve soru araştırması: müşterilerinizin gerçekten ne aradığı
+- Hizmet, ilçe ve sektör sayfaları; soru-cevap yapılı içerik
+- Blog ve rehber yazıları: uzmanlığı gösteren, kaynak gösterilen içerik
+- Yerel SEO: Google İşletme Profili, NAP tutarlılığı, yorum yönetimi
+- GEO: llms.txt, net tanım paragrafları, alıntılanabilir tablolar
+- Aylık raporlama: Search Console, analitik ve dönüşüm verisi
+
+### Fotoğraf ve video çekimi SEO'ya katkı sağlar mı?
+
+Evet; işletmeye özgün, doğru dosya adı, alternatif metin ve yapılandırılmış veriyle yayımlanan fotoğraf ve videolar Google Görseller ve video sonuçlarında ek görünürlük sağlar, sayfada kalma süresini ve güveni artırır.
+
+Çekimleri yalnızca sosyal medya için değil, web sitesi ve Google İşletme Profili için de planlıyoruz: hizmet sayfasına uygun yatay kareler, sosyal medya için dikey kısa videolar ve haritada görünen mekân fotoğrafları aynı çekim gününde üretilir.
+
+### Hangi çekimleri yapıyorsunuz?
+
+İşletme tanıtım videosu, mekân ve oda fotoğrafları, ürün fotoğrafları, ekip ve hizmet anı çekimleri ile sosyal medya için dikey kısa videolar (Reels/Shorts) üretiyoruz.
+
+Çekim türleri ve kullanım alanları
+
+| Çekim türü | Nerede kullanılır | Amaç |
+| --- | --- | --- |
+| Mekân / oda fotoğrafı | Web sitesi, Google İşletme Profili, rezervasyon siteleri | İlk izlenim ve güven |
+| Ürün fotoğrafı | E-ticaret, katalog, reklam | Satış ve dönüşüm |
+| Tanıtım videosu | Ana sayfa, YouTube, reklam | Marka hikâyesi |
+| Dikey kısa video | Instagram, TikTok, YouTube Shorts | Erişim ve etkileşim |
+| Ekip ve süreç çekimi | Hakkımızda, hizmet sayfaları | Uzmanlığı gösterme |
+
+
+### SEO sonuçları ne zaman görülür?
+
+Teknik düzeltmeler ve Google İşletme Profili iyileştirmelerinin etkisi genellikle haftalar içinde, yeni içeriklerin sıralama kazanması ise rekabete bağlı olarak aylar içinde görülür; SEO kısa vadeli kampanya değil birikimli bir yatırımdır.
+
+Hiçbir firma Google'da belirli bir sırayı garanti edemez. Biz görünürlük, tıklama ve form/telefon dönüşümü gibi ölçülebilir hedefler koyup aylık raporluyoruz.
+
+### SEO ve içerik çalışması nasıl ilerler?
+
+1. **SEO denetimi:** Teknik hatalar, mevcut sıralamalar ve rakip görünürlüğü çıkarılır.
+2. **Kelime ve soru haritası:** Hizmet, ilçe ve sektör bazında hedef aramalar belirlenir.
+3. **Teknik düzeltmeler:** Hız, şema, site haritası, yönlendirme ve mobil sorunlar giderilir.
+4. **Çekim günü:** Mekân, ürün ve ekip fotoğrafları ile kısa videolar üretilir.
+5. **İçerik üretimi:** Sayfalar ve blog yazıları yazılır, görsellerle yayımlanır.
+6. **Ölçüm ve rapor:** Search Console, analitik ve dönüşüm verisiyle aylık rapor.
+
+### Karşılaştırma
+
+Dijital görünürlük yöntemlerinin karşılaştırması
+
+| Özellik | Yalnızca reklam | Yalnızca sosyal medya | SEO + içerik + çekim |
+| --- | --- | --- | --- |
+| Bütçe bitince | Görünürlük durur | Erişim düşer | İçerik çalışmaya devam eder |
+| Kullanıcı niyeti | Aktif arayan | Keşfeden | Aktif arayan + keşfeden |
+| Güven etkisi | Orta | Orta | Yüksek (özgün görsel + uzman içerik) |
+| Yapay zekâ aramalarında görünürlük | Yok | Sınırlı | Hedeflenir (GEO) |
+| Sonuç hızı | Hemen | Hızlı | Birikimli (haftalar–aylar) |
+
+### Fiyatı belirleyen unsurlar
+
+SEO, içerik ve çekim hizmetinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Rekabet düzeyi | Yüksek | Hedeflenen aramalardaki rakip sayısı ve gücü |
+| Aylık içerik adedi | Yüksek | Sayfa, blog ve sosyal medya içerik sayısı |
+| Çekim kapsamı | Orta | Çekim günü sayısı, lokasyon, video kurgu adedi |
+| Teknik düzeltme ihtiyacı | Orta | Mevcut sitenin durumu; yeniden yapım gerekip gerekmediği |
+| Raporlama sıklığı | Düşük | Aylık rapor ve toplantı |
+
+### Sık sorulan sorular
+
+**SEO ile Google'da ilk sırayı garanti ediyor musunuz?**
+Hayır. Organik sıralamayı kimse garanti edemez; garanti veren tekliflere dikkat edin. Ölçülebilir hedefler koyup ilerlemeyi aylık raporluyoruz.
+
+**Mevcut sitemde SEO yapabilir misiniz?**
+Evet. Önce teknik denetim yapıyoruz; mevcut altyapı yeterliyse üzerine çalışıyor, ciddi sınırlamalar varsa yeniden yapım seçeneğini gerekçesiyle sunuyoruz.
+
+**Çekimleri nerede yapıyorsunuz?**
+Antalya merkez ve ilçelerde işletmenizin kendi mekânında çekim yapıyoruz; ürün çekimleri için ürünlerin bize ulaştırılması da mümkün.
+
+**Çekilen fotoğraf ve videoların hakları kimde olur?**
+Teslim edilen içeriklerin işletmeniz tarafından kullanım hakları ve kapsamı sözleşmede yazılı olarak belirlenir.
+
+**Sosyal medya hesaplarımızı yönetir misiniz?**
+İçerik planı, çekim ve kurgu tarafını üstleniyoruz; paylaşım takvimi ve reklam yönetimi ihtiyaca göre aynı pakete eklenebilir.
+
+**Blog yazıları kim tarafından yazılıyor?**
+İçerikler sektörünüzü araştıran ekibimiz tarafından yazılır ve yayından önce sizin onayınıza sunulur; teknik konularda sizden kısa bir uzman görüşü almak içeriğin güvenilirliğini artırır.
+
+### Kaynaklar
+
+1. [Arama Motoru Optimizasyonu (SEO) Başlangıç Rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr) — Google Search Central
+2. [Kullanıcı odaklı, faydalı ve güvenilir içerikler oluşturma](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr) — Google Search Central
+3. [Resim SEO en iyi uygulamaları](https://developers.google.com/search/docs/appearance/google-images?hl=tr) — Google Search Central
+4. [Video SEO en iyi uygulamaları](https://developers.google.com/search/docs/appearance/video?hl=tr) — Google Search Central
+5. [Google'da yerel sıralamanızı iyileştirme ipuçları](https://support.google.com/business/answer/7091?hl=tr) — Google İşletme Profili Yardım
+6. [GEO: Generative Engine Optimization (Aggarwal, Murahari, Rajpurohit, Kalyan, Narasimhan, Deshpande)](https://arxiv.org/abs/2311.09735) — KDD 2024 / arXiv:2311.09735, 2024
+
+---
+
+## Otel RFID Çözümleri: Havlu, Çarşaf, Üniforma, Demirbaş ve Kartlı Geçiş Takibi
+
+Kaynak: https://comodoteknoloji.com/cozumler/otel-rfid · Son güncelleme: 2026-11-23
+
+Otel RFID çözümleri; havuz ve plaj havlusu, çarşaf, nevresim, personel üniforması ve demirbaşların RFID etiketlerle otomatik sayılması, personel ve misafir kartlı geçişlerinin yönetilmesi ve bu verilerin PMS ile ilişkilendirilmesidir. Antalya'daki otel ve resortlar için kat, havuz, çamaşırhane ve depo noktalarında okuma altyapısı, yazılım ve raporlama kuruyoruz.
+
+### Kimin için?
+
+- Her şey dahil resortlar ve büyük oteller
+- Havuz ve plaj havlusu kaybı yaşayan tesisler
+- Üniforma dağıtımı yapan insan kaynakları ve housekeeping ekipleri
+- Çok bloklu tesisler ve otel zincirleri
+
+### Hangi sorunu çözer?
+
+- **Havuz havluları sezon sonunda eksik:** Havlu kartı veya elle kayıt, kalabalık havuz başında işlemez; kayıp dönem sonunda fark edilir.
+- **Üniforma dağıtımı kontrolsüz:** Hangi personelde kaç parça üniforma olduğu bilinmez; ayrılan personelin iadesi takip edilemez.
+- **Demirbaş sayımı haftalar sürüyor:** Oda, mutfak ve teknik servis demirbaşlarının yıllık sayımı yoğun emek ister ve sonuç çabuk eskir.
+
+### Otelde RFID hangi alanlarda kullanılır?
+
+Otellerde RFID en çok havuz ve plaj havlusu takibi, oda tekstili ve çamaşırhane mutabakatı, personel üniforma dağıtımı, demirbaş envanteri ve personel ile misafir kartlı geçişlerinde kullanılır.
+
+- Havuz/plaj havlusu: misafir kartı veya oda numarasıyla eşleşen havlu verme ve iade
+- Oda tekstili: kata çıkan ve dönen çarşaf, nevresim ve havlu sayımı
+- Üniforma: personel bazında zimmet, yıkama ve iade
+- Demirbaş: TV, minibar, mobilya, mutfak ve teknik ekipman envanteri
+- Kartlı geçiş: personel alanları, depo, kasa ve teknik odalar
+- Otopark: personel ve misafir araçlarında RFID etiket veya plaka tanıma ile geçiş
+
+### Havuz havlusu takibi RFID ile nasıl yapılır?
+
+Her havluya yıkanabilir RFID etiketi takılır; havlu verilirken misafirin oda kartı veya bilekliği okutulup havluyla eşleştirilir, iade noktasında okuyucu havluyu otomatik düşer ve gün sonunda iade edilmeyen havlular oda bazında listelenir.
+
+Bu yaklaşım misafire ek iş çıkarmaz ve havlu kartı dağıtma ihtiyacını ortadan kaldırabilir. İade edilmeyen havlular için uygulanacak politika (hatırlatma, ücretlendirme) otel yönetiminin kararıdır; sistem yalnızca güvenilir veriyi sunar.
+
+### Otel RFID sistemi PMS ile entegre olur mu?
+
+PMS'iniz API veya arayüz desteği sunuyorsa misafir ve oda bilgisi RFID yazılımına aktarılabilir; böylece havlu ve geçiş kayıtları oda ve konaklama dönemiyle eşleşir.
+
+### Otel kapı kartları da RFID midir?
+
+Yaygın otel kapı kilidi sistemleri çoğunlukla 13,56 MHz HF RFID/NFC kartlarla çalışır; aynı kart, uyumlu sistemlerde havuz havlusu, personel alanı veya otopark geçişi gibi ek senaryolarda da kullanılabilir.
+
+Kapı kilidi sisteminizin kart teknolojisini keşifte kontrol ediyoruz. Uyumlu değilse havlu ve geçiş senaryoları için ayrı bileklik veya kart tipi önerilir.
+
+### Karşılaştırma
+
+Otel havlu ve tekstil takip yöntemlerinin karşılaştırması
+
+| Özellik | Havlu kartı / fiş | Elle liste | RFID |
+| --- | --- | --- | --- |
+| Misafir başına kayıt | Kart bazında | Personele bağlı | Oda/kart bazında otomatik |
+| Yoğun saatlerde hız | Orta | Düşük | Yüksek |
+| Kayıp raporu | Dönem sonunda | Güvenilir değil | Günlük, oda bazında |
+| Çamaşırhane mutabakatı | Yok | Elle | Parça bazında |
+| Personel iş yükü | Orta | Yüksek | Düşük |
+
+### Fiyatı belirleyen unsurlar
+
+Otel RFID projesinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Takip edilecek ürün grupları | Yüksek | Havlu, oda tekstili, üniforma, demirbaş |
+| Etiket adedi | Yüksek | Envanter büyüklüğü ve yıllık yenileme |
+| Okuma noktaları | Yüksek | Havuz, plaj, kat ofisi, çamaşırhane, depo, personel girişi |
+| PMS ve kapı kilidi entegrasyonu | Orta | Marka ve arayüz desteğine göre |
+| Dış mekân altyapısı | Orta | Havuz ve plaj noktalarında enerji, network ve koruma kutusu |
+
+### Sık sorulan sorular
+
+**Mevcut otel kartlarımızla havlu takibi yapılabilir mi?**
+Kart teknolojisi ve kilit sisteminin izin verdiği ölçüde evet. Keşifte kart tipini kontrol edip mevcut kartla mı yoksa ek bileklikle mi ilerleneceğini netleştiriyoruz.
+
+**Havuz başında kurulum hava koşullarına dayanır mı?**
+Dış mekân noktalarında uygun koruma sınıfında kutular, gölgelik altı yerleşim ve kablolama planlanır; Antalya'nın nemli ve tuzlu kıyı havası ekipman seçiminde dikkate alınır.
+
+**Çamaşırhanemiz dış firma; yine de kullanabilir miyiz?**
+Evet. Otel tarafında çıkış ve dönüş sayımı yapılarak dış çamaşırhaneyle mutabakat raporu oluşturulabilir; çamaşırhane de RFID kullanıyorsa veriler eşleştirilebilir.
+
+**Personel üniforma takibi KVKK açısından sorun olur mu?**
+Üniforma zimmeti kişiyle eşleştiği için kişisel veri işlenir; aydınlatma metni, erişim yetkileri ve saklama süresi hukuk danışmanınızla birlikte belirlenmelidir. Teknik tarafını biz kurgularız.
+
+**Sezon başlamadan kurulum yetişir mi?**
+Pilot ve kurulum takvimi kapsamına göre değişir; sezon öncesi devreye almak için keşfin kış aylarında yapılması önerilir.
+
+**Otel Wi-Fi ve network altyapısı yeterli mi?**
+Okuyucular kablolu network veya Wi-Fi ile çalışır. Mevcut altyapıyı keşifte kontrol ediyor, gerekiyorsa network iyileştirmesini aynı projede planlıyoruz.
+
+### Kaynaklar
+
+1. EPC UHF Gen2 Air Interface Protocol (EPC Radio-Frequency Identity Protocols Generation-2 UHF RFID) — GS1
+2. [NFC Forum — NFC teknolojisi ve standartları](https://nfc-forum.org/) — NFC Forum
+3. ETSI EN 302 208: Radio Frequency Identification Equipment operating in the band 865 MHz to 868 MHz — European Telecommunications Standards Institute (ETSI)
+4. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## Çamaşırhane RFID Sistemi: Otel ve Hastane Tekstilinde Yıkama, Sayım ve Kayıp Takibi
+
+Kaynak: https://comodoteknoloji.com/cozumler/camasirhane-rfid · Son güncelleme: 2026-11-23
+
+Çamaşırhane RFID sistemi; çarşaf, havlu, nevresim, masa örtüsü ve üniforma gibi tekstil ürünlerine dikilen veya ısıyla yapıştırılan yıkanabilir UHF RFID etiketlerin, araba veya torba içindeyken tünel okuyucularla toplu sayılmasıdır. Endüstriyel çamaşırhanelere ve kendi çamaşırhanesi olan otellere; kirli-temiz teslim kayıtları, yıkama döngüsü, kayıp ve müşteri bazlı raporlama sağlayan sistemler kuruyoruz.
+
+### Kimin için?
+
+- Otellere hizmet veren endüstriyel çamaşırhaneler
+- Kendi çamaşırhanesi olan oteller ve resortlar
+- Hastaneler ve sağlık kuruluşları
+- Tekstil kiralama firmaları
+
+### Hangi sorunu çözer?
+
+- **Teslim edilen ile geri gelen tutmuyor:** Otel ve çamaşırhane arasında "kaç parça gönderildi, kaç parça döndü" tartışması tartılarak veya elle sayılarak çözülemez.
+- **Tekstil kaybı fark edilmiyor:** Havlu ve çarşaf kayıpları dönem sonu sayımında toplu fark olarak çıkar; hangi noktada kaybolduğu bilinmez.
+- **Ürün ömrü ölçülmüyor:** Bir parçanın kaç kez yıkandığı bilinmediği için yenileme alımı tahminle yapılır.
+
+### Çamaşırhanede RFID nasıl çalışır?
+
+Her tekstil parçasına benzersiz numaralı yıkanabilir bir RFID etiketi takılır; kirli kabulde, yıkama sonrası ve sevkiyatta araba veya torba tünel okuyucudan geçirildiğinde içindeki tüm parçalar tek tek açılmadan sayılır ve yazılım her parçanın hareketini kaydeder.
+
+- Kirli kabul: otelden gelen araba tünelden geçer, parça ve tür bazında sayım otomatik çıkar
+- Yıkama: her parçanın yıkama döngüsü sayacı artar
+- Ütü / katlama sonrası: temiz stok güncellenir
+- Sevkiyat: teslim irsaliyesi okumadan otomatik oluşturulur
+- Raporlama: müşteri, ürün tipi ve dönem bazında kayıp, fire ve stok
+
+### Çamaşırhane RFID etiketleri yıkamaya ve ütüye dayanır mı?
+
+Evet; çamaşırhane için üretilen tekstil tipi UHF etiketler endüstriyel yıkama, yüksek sıcaklık, kimyasal, kurutma ve pres ütüye dayanacak biçimde tasarlanır, ancak dayanım değerleri modelden modele değiştiği için seçim üretici teknik dokümanı ve sizin proses koşullarınızla yapılan testle doğrulanmalıdır.
+
+Etiketin dikilerek mi, ısıyla mı (heat-seal) yoksa cep içine yerleştirilerek mi takılacağı ürün tipine göre belirlenir. Havlu ve bornozda etiket yerinin standart olması, okuma başarısını ve misafirin etiketi fark etmemesini sağlar.
+
+### Otel ile çamaşırhane arasında RFID ne değiştirir?
+
+RFID, teslim ve iadeyi tartı veya tahmin yerine parça bazında kayda bağlar; böylece hangi parçanın hangi tarihte kime teslim edildiği ve geri dönmediği raporlanabilir, iki tarafın mutabakatı ortak veriye dayanır.
+
+### Çamaşırhane RFID sisteminde hangi donanımlar kullanılır?
+
+Temel donanımlar; yıkanabilir tekstil etiketleri, tünel veya kabin tipi toplu okuyucular, masa üstü okuyucular, el terminalleri ve bunları yazılıma bağlayan network altyapısıdır.
+
+Çamaşırhane RFID donanımları ve kullanım yerleri
+
+| Donanım | Nerede kullanılır | Ne sağlar |
+| --- | --- | --- |
+| Tekstil RFID etiketi | Her parçada | Benzersiz kimlik, yıkama sayacı |
+| Tünel / kabin okuyucu | Kirli kabul, sevkiyat | Araba veya torbanın toplu sayımı |
+| Masa üstü okuyucu | Katlama, paketleme | Paket içeriği doğrulama |
+| El terminali | Otel katları, depo | Yerinde sayım ve arama |
+| Yazılım + panel | Yönetim, müşteri | Stok, kayıp, döngü ve fatura raporu |
+
+
+### Karşılaştırma
+
+Çamaşırhane tekstil takip yöntemlerinin karşılaştırması
+
+| Özellik | Tartı / ağırlıkla | Elle sayım | Barkodlu etiket | UHF RFID |
+| --- | --- | --- | --- | --- |
+| Parça bazında kayıt | Yok | Yok | Var | Var |
+| Sayım hızı | Hızlı ama yaklaşık | Yavaş | Yavaş (tek tek) | Hızlı (toplu) |
+| Yıkama döngüsü takibi | Yok | Yok | Okutulursa | Otomatik |
+| Kayıp noktası tespiti | Yok | Zor | Sınırlı | Parça ve nokta bazında |
+| İş gücü | Düşük | Yüksek | Yüksek | Düşük |
+
+### Fiyatı belirleyen unsurlar
+
+Çamaşırhane RFID projesinin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Etiketlenecek parça sayısı | Yüksek | Toplam tekstil envanteri ve yıllık yenileme adedi |
+| Etiket tipi ve takma yöntemi | Orta | Dikme, heat-seal, cep; ürün tipine göre |
+| Okuma noktası sayısı | Yüksek | Tünel, masa üstü ve el terminali adedi |
+| Müşteri / otel sayısı | Orta | Çok müşterili yapıda müşteri bazlı raporlama ve portal |
+| Entegrasyon | Orta | Faturalama, ERP veya otel sistemleriyle bağlantı |
+
+### Sık sorulan sorular
+
+**Mevcut tekstillere etiket takılabilir mi?**
+Evet. Mevcut envantere dikme veya ısıyla yapıştırma yöntemiyle etiket takılabilir; yeni alımlarda etiketin tedarikçi tarafından üretimde takılması da planlanabilir.
+
+**Etiket misafir tarafından fark edilir mi?**
+Tekstil etiketleri küçük ve yumuşaktır; genellikle dikiş payına veya bakım etiketinin yanına yerleştirilir.
+
+**Bir araba dolusu tekstil gerçekten tek seferde sayılır mı?**
+Tünel okuyucular toplu okuma için tasarlanmıştır; okuma başarısı etiket yerleşimi, yoğunluk ve tünel tasarımına bağlıdır ve pilot uygulamada sizin ürünlerinizle doğrulanır.
+
+**Otel tarafının da donanım alması gerekir mi?**
+Zorunlu değil. Sayım çamaşırhanede yapılıp rapor otele portal veya e-posta ile sunulabilir; otel katlarında sayım istenirse el terminali eklenir.
+
+**Hastane tekstili için de uygun mu?**
+Evet. Hastane tekstilinde de aynı yaklaşım kullanılır; hijyen süreçleri ve bölüm bazlı dağıtım raporları ihtiyaca göre kurgulanır.
+
+**RFID etiketinin ömrü ne kadar?**
+Etiket ömrü modele ve yıkama koşullarına bağlıdır; üretici dokümanında belirtilen yıkama döngüsü değerini sizin proses koşullarınızla karşılaştırarak seçim yapıyoruz.
+
+### Kaynaklar
+
+1. EPC UHF Gen2 Air Interface Protocol (EPC Radio-Frequency Identity Protocols Generation-2 UHF RFID) — GS1
+2. ISO/IEC 18000-63: Parameters for air interface communications at 860 MHz to 960 MHz Type C — ISO / IEC
+3. ETSI EN 302 208: Radio Frequency Identification Equipment operating in the band 865 MHz to 868 MHz — European Telecommunications Standards Institute (ETSI)
+
+---
+
+## İnek ve Büyükbaş Takip Sistemi: RFID Küpe, Kamera ve Görüntü İşleme ile Akıllı Çiftlik
+
+Kaynak: https://comodoteknoloji.com/cozumler/buyukbas-hayvan-takip · Son güncelleme: 2026-11-23
+
+Büyükbaş takip sistemi; ineklerin RFID kulak küpesi veya boyun tasmasıyla tanımlanması, ahır ve padok kameralarının görüntü işlemeyle analiz edilmesi ve hareketlilik, yemlik-suluk ziyareti, doğum yaklaşması gibi davranış değişikliklerinin sürü yönetim panelinde izlenmesidir. Antalya ve çevresindeki çiftliklere kamera, RFID, network ve yazılımı birlikte kuruyoruz.
+
+### Kimin için?
+
+- Süt sığırcılığı işletmeleri
+- Besi çiftlikleri
+- Kooperatifler ve üretici birlikleri
+- Tarım ve hayvancılık yatırımı yapan girişimler
+
+### Hangi sorunu çözer?
+
+- **Davranış değişikliği geç fark ediliyor:** Hareketi azalan, yeme gelmeyen veya topallayan hayvan, bakıcının o hayvanı görmesine kadar fark edilmez.
+- **Doğum ve gece olayları kaçırılıyor:** Ahırın gece sürekli izlenmesi mümkün değildir; doğuma yaklaşan hayvan için uzaktan görüntü ihtiyacı vardır.
+- **Kayıtlar defterde:** Aşı, tohumlama, süt ve tartı kayıtları farklı yerlerde tutulur; hayvan bazında geçmişe ulaşmak zorlaşır.
+
+### İnek takip sistemi nasıl çalışır?
+
+Her hayvan RFID kulak küpesi veya sensörlü tasmayla tanımlanır; sağım odası, yemlik, suluk ve geçiş noktalarındaki okuyucular hayvanın ne zaman nerede olduğunu kaydeder, kameralar ve görüntü işleme hareket ve davranış verisi üretir, yazılım da bu verileri hayvan bazında birleştirip olağan dışı değişikliklerde bildirim gönderir.
+
+- Kimlik: RFID kulak küpesi (LF veya UHF) ile otomatik hayvan tanıma
+- Geçiş ve konum: sağım odası, padok ve bölme geçişlerinde okuma
+- Kamera: ahır, padok ve doğum bölmesinin uzaktan canlı izlenmesi
+- Görüntü işleme: hayvan sayımı, hareketlilik ve yemlik/suluk ziyaret süresi analizi
+- Panel: hayvan kartı, aşı-tohumlama-tartı kayıtları, bildirimler
+
+### Görüntü işleme büyükbaş hayvancılıkta ne işe yarar?
+
+Görüntü işleme; ahırdaki hayvanların sayılmasını, hayvan veya bölme bazında hareketliliğin ölçülmesini, yemlik ve suluk başında geçirilen sürenin izlenmesini ve normalden sapan davranışların erken uyarı olarak bakıcıya bildirilmesini sağlar.
+
+Kameradan vücut kondisyonu veya canlı ağırlık tahmini gibi ileri analizler araştırma ve ticari ürünlerde uygulanmaktadır; ancak doğruluğu ırk, kamera konumu ve kalibrasyona bağlı olduğu için bu tür analizleri ancak sizin çiftliğinizde yapılan pilot ölçümle doğrulandıktan sonra karar desteği olarak öneriyoruz. Sistem veteriner muayenesinin yerini almaz; neyi önce kontrol etmeniz gerektiğini gösterir.
+
+### Mevcut resmi kulak küpeleri RFID ile okunabilir mi?
+
+Küpenin elektronik (RFID) olup olmadığına bağlıdır; yalnızca görsel numaralı küpeler okuyucuyla okunamaz, bu durumda resmi küpeye ek olarak işletme içi kullanım için RFID küpe veya tasma eklenir ve hayvan kimlik numarasıyla eşleştirilir.
+
+Resmi hayvan kayıt ve küpeleme yükümlülükleri Tarım ve Orman Bakanlığı mevzuatına tabidir; sistemimiz bu kayıtların yerine geçmez, işletme içi takibi kolaylaştırır.
+
+### Çiftlikte hangi altyapı gerekir?
+
+Ahır ve padoku kapsayan kamera noktaları, okuma noktalarında RFID okuyucu, bunları bağlayan dış mekâna dayanıklı kablolama veya kablosuz köprü, kesintisiz güç kaynağı ve internet bağlantısı temel altyapıdır.
+
+Büyükbaş takip sistemi bileşenleri
+
+| Bileşen | Nerede | Ne sağlar |
+| --- | --- | --- |
+| RFID küpe / tasma | Her hayvanda | Otomatik kimlik |
+| RFID okuyucu | Sağım odası, geçişler, yemlik | Hayvan bazında ziyaret kaydı |
+| IP kamera (gece görüşlü) | Ahır, padok, doğum bölmesi | Uzaktan izleme, görüntü işleme verisi |
+| Kablosuz köprü / fiber | Binalar arası | Uzak ahırların ağa bağlanması |
+| Sunucu / edge cihaz | Çiftlik ofisi | Görüntü analizi ve kayıt |
+| Yönetim paneli | Telefon, bilgisayar | Hayvan kartları, bildirimler, raporlar |
+
+
+### Çiftlik takip sistemi nasıl kurulur?
+
+1. **Çiftlik keşfi:** Ahır yerleşimi, hayvan sayısı, sağım düzeni ve mevcut kayıt yöntemi incelenir.
+2. **Öncelik belirleme:** Doğum izleme, hareketlilik, yemlik takibi veya kimlik otomasyonu: önce hangisi?
+3. **Altyapı kurulumu:** Kamera, okuyucu, kablolama/kablosuz köprü ve enerji.
+4. **Pilot bölme:** Bir bölmede görüntü işleme ve RFID okuma doğrulanır.
+5. **Panel ve bildirimler:** Hayvan kartları, kayıtlar ve uyarılar telefona taşınır.
+6. **Yaygınlaştırma ve destek:** Tüm sürüye yayılır, periyodik bakım yapılır.
+
+### Karşılaştırma
+
+Büyükbaş takip yöntemlerinin karşılaştırması
+
+| Özellik | Defter / gözlem | Yalnızca kamera | Sensörlü tasma / pedometre | RFID + kamera + görüntü işleme |
+| --- | --- | --- | --- | --- |
+| Hayvan bazında otomatik kimlik | Yok | Yok | Var | Var |
+| Uzaktan canlı izleme | Yok | Var | Yok | Var |
+| Hareketlilik verisi | Gözleme bağlı | Sınırlı (elle izleme) | Var (hayvan başı sensör) | Var (kamera + okuma noktaları) |
+| Hayvan başı donanım maliyeti | Yok | Yok | Yüksek | Düşük (küpe) + nokta başı kamera |
+| Kayıtların tek panelde birleşmesi | Yok | Yok | Üretici yazılımında | Özel panelde, entegrasyona açık |
+
+### Fiyatı belirleyen unsurlar
+
+Büyükbaş takip sisteminin fiyatını belirleyen unsurlar
+
+| Faktör | Etkisi | Açıklama |
+| --- | --- | --- |
+| Hayvan sayısı | Yüksek | Küpe/tasma adedi |
+| Ahır ve padok büyüklüğü | Yüksek | Kamera ve okuma noktası sayısı |
+| Binalar arası mesafe | Orta | Fiber veya kablosuz köprü ihtiyacı |
+| Görüntü işleme kapsamı | Orta | Sayım, hareketlilik, yemlik/suluk analizi |
+| Enerji altyapısı | Değişken | UPS, solar destek ihtiyacı |
+
+### Sık sorulan sorular
+
+**İnek takip sistemi küçük çiftlikler için uygun mu?**
+Evet; ölçek küçüldükçe kurgu sadeleşir. Küçük işletmelerde genellikle doğum bölmesi kamerası, uzaktan izleme ve basit hayvan kayıt paneliyle başlanır.
+
+**Kızgınlık (östrus) tespiti yapabiliyor mu?**
+Kızgınlık tespitinde yaygın yöntem hayvan başına takılan aktivite sensörleridir. Kamera tabanlı hareketlilik analizi destekleyici veri sunabilir; ihtiyacınıza göre sensör tabanlı ürünleri de panelimize entegre edebiliriz.
+
+**Ahırda internet yok, sistem çalışır mı?**
+Kayıt ve analiz çiftlikteki cihazda yerel olarak çalışabilir; uzaktan izleme için mobil hat veya kablosuz köprüyle internet bağlantısı kurulur.
+
+**Ahırın tozu ve nemi kameraya zarar verir mi?**
+Dış mekân ve tarım ortamına uygun koruma sınıfında kameralar, koruma kutuları ve periyodik temizlik planıyla kurulum yapılır.
+
+**Sistem veterinerin yerini alır mı?**
+Hayır. Sistem, normalden sapan hayvanları erken fark etmenizi sağlayan bir karar destek aracıdır; teşhis ve tedavi veteriner hekimin işidir.
+
+**Mevcut sürü yönetim yazılımımızla birleşir mi?**
+Yazılımınız veri aktarımına izin veriyorsa RFID ve kamera verilerini bu yazılıma aktaran entegrasyonu geliştirebiliriz.
+
+### Kaynaklar
+
+1. ISO 11784 / ISO 11785: Radio frequency identification of animals — Code structure and technical concept — ISO
+2. EPC UHF Gen2 Air Interface Protocol (EPC Radio-Frequency Identity Protocols Generation-2 UHF RFID) — GS1
+3. [T.C. Tarım ve Orman Bakanlığı](https://www.tarimorman.gov.tr/) — Tarım ve Orman Bakanlığı
 
 ---
 
@@ -1325,6 +2015,635 @@ Evet, cihaz sayısına göre ölçeklenen aylık EDR ve firewall yönetimi paket
 
 **Muratpaşa'da aynı gün müdahale ediyor musunuz?**
 Evet. Ofisimiz Muratpaşa Kızılsaray Mahallesi Şarampol Caddesi üzerinde yer aldığı için Muratpaşa, Kaleiçi ve Lara'daki işletmelere aynı gün içinde hızla yerinde müdahale ediyoruz.
+
+---
+
+## RFID Nedir, Nasıl Çalışır? LF, HF, NFC ve UHF Farkı (2026 Rehberi)
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/rfid-nedir-uhf-hf-nfc-farki · Yazar: Comodo Teknoloji Mühendislik Ekibi · Son güncelleme: 2026-11-23
+
+**RFID (Radyo Frekanslı Tanımlama)**, bir nesneye takılan küçük bir etiketin, okuyucunun yaydığı radyo dalgalarıyla görüş hattı gerekmeden okunarak kimliğinin otomatik kaydedilmesidir. Barkoddan farklı olarak etiketin görünmesi gerekmez ve uygun teknolojide çok sayıda etiket aynı anda okunabilir. Bu rehber; RFID'nin nasıl çalıştığını, frekans bantları arasındaki farkları ve bir işletmenin hangi senaryoda hangi teknolojiyi seçmesi gerektiğini özetler.
+
+## RFID sistemi hangi parçalardan oluşur?
+
+**Her RFID sistemi dört temel parçadan oluşur: etiket, okuyucu, anten ve okumayı anlamlı veriye çeviren yazılım.**
+
+- **Etiket (tag):** Bir mikroçip ve antenden oluşur. Kağıt etiket, yıkanabilir tekstil etiketi, sert kasa, kart, bileklik veya küpe şeklinde olabilir.
+- **Okuyucu (reader):** Radyo sinyalini üretir ve etiketten gelen cevabı çözer. Sabit (kapı, tünel, raf) veya el tipi olabilir.
+- **Anten:** Okuma alanının yönünü, şeklini ve menzilini belirler.
+- **Yazılım:** Aynı etiketin tekrarlanan okumalarını ayıklar, okumayı "giriş", "çıkış", "sayım" gibi olaylara çevirir ve stok, ERP veya PMS gibi iş sistemlerine aktarır.
+
+Projelerde en çok gözden kaçan parça yazılımdır. Donanım bir okumayı üretir; o okumanın hangi iş kararına dönüşeceğini yazılım belirler.
+
+## Pasif ve aktif RFID arasındaki fark nedir?
+
+**Pasif etiketlerde pil yoktur ve okuyucunun sinyalinden enerji alırlar; aktif etiketlerde pil bulunur, kendi sinyallerini yayarlar ve daha uzun mesafeden okunurlar.**
+
+| Özellik | Pasif RFID | Aktif RFID |
+| --- | --- | --- |
+| Güç kaynağı | Yok (okuyucudan enerji alır) | Dahili pil |
+| Etiket maliyeti | Düşük | Yüksek |
+| Ömür | Pil sınırı yok | Pil ömrüyle sınırlı |
+| Menzil | Santimetre – birkaç metre | Daha uzun |
+| Tipik kullanım | Envanter, tekstil, kart, küpe | Konteyner, araç, yüksek değerli ekipman |
+
+İşletme projelerinin büyük çoğunluğunda pasif etiketler kullanılır; çünkü binlerce nesneyi düşük maliyetle ve bakım gerektirmeden etiketlemek mümkündür.
+
+## LF, HF, NFC ve UHF RFID arasındaki fark nedir?
+
+**Temel fark çalışma frekansıdır; frekans, okuma mesafesini, toplu okuma kabiliyetini ve metal-sıvı yakınındaki performansı belirler.**
+
+| Bant | Frekans | Tipik mesafe | Güçlü yanı | Yaygın kullanım |
+| --- | --- | --- | --- | --- |
+| LF | 125–134 kHz | Birkaç cm | Sıvı ve doku yakınında kararlı | Hayvan kimliği (ISO 11784/11785), eski kartlar |
+| HF | 13,56 MHz | Birkaç cm – ~1 m | Güvenli kart teknolojileri | Kartlı geçiş, otel kapı kartı, kütüphane |
+| NFC | 13,56 MHz | Birkaç cm | Telefonla okunabilir | Temassız ödeme, akıllı etiket |
+| UHF | 865–868 MHz (Avrupa) | Birkaç metre | Toplu ve hızlı okuma | Envanter, tekstil, lojistik, araç |
+
+UHF RFID için yaygın kullanılan hava arayüzü standardı GS1 tarafından yayımlanan **EPC Gen2**'dir; uluslararası karşılığı **ISO/IEC 18000-63**'tür. Avrupa ve Türkiye'de kullanılan 865–868 MHz bandı **ETSI EN 302 208** standardıyla tanımlanır. Okuyucu alırken bu banda uygun bölgesel sürüm seçmek gerekir.
+
+## Hangi işletme hangi RFID teknolojisini seçmeli?
+
+**Kural basit: tek tek ve yakından okutulacaksa HF/NFC, çok sayıda nesne toplu ve uzaktan sayılacaksa UHF seçilir.**
+
+- **Otel ve çamaşırhane tekstili:** Yıkanabilir UHF etiketler; araba veya torba içinde toplu sayım için. Ayrıntı: [Çamaşırhane RFID](/cozumler/camasirhane-rfid).
+- **Kartlı geçiş ve otel kapı kartı:** HF / NFC kartlar; kısa mesafe ve şifreleme destekli kart teknolojileri.
+- **Depo, raf ve demirbaş:** UHF; metal yüzeyler için metal üstü (on-metal) etiketler.
+- **Hayvan kimliği:** LF küpeler yaygındır; işletme içi geçiş noktalarında UHF küpeler de kullanılabilir. Ayrıntı: [İnek ve büyükbaş takip sistemi](/cozumler/buyukbas-hayvan-takip).
+- **Araç geçişi:** Ön cama yapıştırılan UHF etiketler veya plaka tanıma. Ayrıntı: [Plaka tanıma sistemi](/cozumler/plaka-tanima-sistemi).
+
+## RFID okuma performansını neler etkiler?
+
+**Okuma başarısını en çok metal ve sıvı yakınlığı, etiketin nesne üzerindeki konumu, anten yerleşimi ve etiket yoğunluğu belirler.**
+
+1. **Metal yüzeyler** UHF sinyalini yansıtır; standart etiket yerine metal üstü etiket gerekir.
+2. **Su ve sıvılar** sinyali emer; ıslak tekstil veya sıvı dolu ürünlerde okuma mesafesi kısalır.
+3. **Etiket yönü ve konumu** önemlidir; aynı ürün tipinde etiketin hep aynı yere takılması okuma başarısını artırır.
+4. **Anten alanı** gereğinden geniş kurulursa yandaki rafın veya koridordaki arabanın etiketleri de okunur; bu "yanlış okuma" yazılımda filtrelenmeli veya anten ayarıyla önlenmelidir.
+5. **Etiket yoğunluğu** çok yüksek olduğunda tüm etiketlerin okunması için daha uzun okuma süresi veya farklı anten yerleşimi gerekebilir.
+
+Bu nedenle her RFID projesinde, gerçek ürünlerinizle yapılan bir ortam testi ve küçük bir pilot uygulama, tüm tesise yayılmadan önce yapılması gereken adımdır.
+
+## RFID projesi nasıl başlatılır?
+
+**Donanım seçmeden önce süreç tanımlanmalıdır: neyi, nerede, ne sıklıkla saymak istediğinizi ve bu verinin hangi kararı değiştireceğini yazın.**
+
+1. Takip edilecek nesneleri ve mevcut sayım yöntemini listeleyin.
+2. Kayıp veya zaman kaybı yaşanan noktaları belirleyin.
+3. Gerçek ürünlerle etiket ve okuma testi yapın.
+4. Tek bölümde pilot uygulayın ve sonuçları ölçün.
+5. Yazılım ve entegrasyonu pilotla birlikte geliştirin.
+6. Pilot başarılıysa yaygınlaştırın.
+
+## Sonuç
+
+**RFID'nin değeri etiketin kendisinde değil, elle yapılan sayımın ve kaybın ortadan kalkmasındadır.** Antalya'daki otel, çamaşırhane, fabrika ve depolar için [RFID takip sistemlerimizi](/cozumler/rfid-cozumleri) inceleyebilir, RFID ile barkodun ayrıntılı karşılaştırması için [RFID mi barkod mu?](/bilgi-bankasi/rfid-mi-barkod-mu-karsilastirma) rehberini okuyabilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.
+
+### Sık sorulan sorular
+
+**RFID ne demek?**
+RFID, Radio Frequency Identification yani Radyo Frekanslı Tanımlama demektir. Bir nesneye takılan etiketin radyo dalgalarıyla, görüş hattı gerekmeden okunarak tanımlanmasını sağlar.
+
+**RFID etiketi pil gerektirir mi?**
+Pasif RFID etiketleri pil gerektirmez; okuyucunun yaydığı sinyalden aldığı enerjiyle çalışır. Aktif etiketlerde ise pil bulunur ve daha uzun menzil sağlanır.
+
+**NFC ile RFID aynı şey mi?**
+NFC, 13,56 MHz HF RFID teknolojisine dayanan ve birkaç santimetrelik yakın mesafede çalışan bir alt türdür. Telefonlarla temassız ödeme ve kartlı geçiş NFC'nin yaygın kullanım alanlarıdır.
+
+**UHF RFID Türkiye'de hangi frekansta çalışır?**
+Avrupa ve Türkiye'de UHF RFID için 865–868 MHz bandı kullanılır; bu bant ETSI EN 302 208 standardıyla tanımlanır. Okuyucu seçerken bu banda uygun bölgesel sürüm seçilmelidir.
+
+**RFID etiketi kaç metreden okunur?**
+LF ve NFC birkaç santimetre, HF yaklaşık bir metreye kadar, pasif UHF ise ortam ve anten koşullarına bağlı olarak birkaç metreden okunabilir. Kesin değer ancak gerçek ortamda yapılan testle belirlenir.
+
+### Kaynaklar
+
+1. EPC UHF Gen2 Air Interface Protocol (EPC Radio-Frequency Identity Protocols Generation-2 UHF RFID) — GS1
+2. ISO/IEC 18000-63: Parameters for air interface communications at 860 MHz to 960 MHz Type C — ISO / IEC
+3. ETSI EN 302 208: Radio Frequency Identification Equipment operating in the band 865 MHz to 868 MHz — European Telecommunications Standards Institute (ETSI)
+4. [NFC Forum — NFC teknolojisi ve standartları](https://nfc-forum.org/) — NFC Forum
+5. ISO 11784 / ISO 11785: Radio frequency identification of animals — Code structure and technical concept — ISO
+
+---
+
+## RFID mi, Barkod mu, QR mı, BLE mi? Takip Sistemlerinin Karşılaştırması
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/rfid-mi-barkod-mu-karsilastirma · Yazar: Comodo Teknoloji Mühendislik Ekibi · Son güncelleme: 2026-11-23
+
+**Takip sistemi seçimi**, bir işletmenin neyi, ne sıklıkla ve ne kadar hızlı sayması gerektiğine göre yapılır. Barkod ve QR kod ucuz ve yaygındır ancak her nesnenin tek tek okutulmasını gerektirir; RFID görüş hattı olmadan toplu okuma yapar; BLE beacon ise pilli cihazlarla sürekli konum izler. Bu rehber, en yaygın beş yöntemi aynı ölçütlerle karşılaştırır ve hangi senaryoda hangisinin mantıklı olduğunu açıklar.
+
+## Takip yöntemleri arasındaki temel farklar nelerdir?
+
+**Farkı belirleyen dört ölçüt vardır: görüş hattı gereksinimi, toplu okuma kabiliyeti, etiket maliyeti ve iş gücü.**
+
+| Ölçüt | Manuel kayıt | Barkod | QR kod | BLE beacon | UHF RFID |
+| --- | --- | --- | --- | --- | --- |
+| Görüş hattı | Gerekir | Gerekir | Gerekir | Gerekmez | Gerekmez |
+| Toplu okuma | Yok | Tek tek | Tek tek | Var | Var |
+| Etiket maliyeti | Yok | En düşük | En düşük | Yüksek | Düşük–orta |
+| Pil / bakım | Yok | Yok | Yok | Pil değişimi | Pasif etikette yok |
+| Okuyucu | İnsan | Barkod okuyucu | Telefon kamerası | Ağ geçidi / telefon | RFID okuyucu + anten |
+| Hasar toleransı | — | Çizik ve kir okumayı bozar | Kısmi hasara dayanıklı | Kasa içinde korunur | Etiket içinde korunur |
+| En uygun | Çok küçük envanter | Kasa, düşük hacim | Müşteri etkileşimi, bilgi | Kişi ve ekipman konumu | Yüksek hacim, tekstil, stok |
+
+## Barkod ne zaman yeterlidir?
+
+**Ürün sayısı düşükse, okutma zaten bir iş adımının doğal parçasıysa (kasada satış gibi) ve kayıp sorunu yoksa barkod en ekonomik çözümdür.**
+
+Barkodun sınırı, her okumanın bir kişi tarafından yapılmasıdır. Bir arabada yüzlerce havlu, bir rafta yüzlerce ürün veya bir depoda binlerce koli olduğunda tek tek okutma hem zaman alır hem de atlanan ürünler nedeniyle hatalı sonuç verir.
+
+## QR kod hangi durumda mantıklı?
+
+**QR kod, okumanın akıllı telefonla yapılması gereken ve nesne hakkında bilgi veya işlem sayfasına yönlendirme yapılan senaryolarda mantıklıdır.**
+
+Demirbaş üzerindeki QR kodla arıza kaydı açmak, ekipmanın bakım geçmişine ulaşmak veya misafirin menüye erişmesi bu senaryolara örnektir. QR kodu, RFID etiketinin üzerine basarak iki teknolojiyi birlikte kullanmak da yaygın ve akıllıca bir yöntemdir.
+
+## BLE beacon ne zaman RFID'nin yerine geçer?
+
+**Bir kişinin veya yüksek değerli ekipmanın binadaki anlık konumu sürekli izlenmek isteniyorsa BLE beacon daha uygundur.**
+
+BLE cihazları pilli olduğu için kendi sinyalini yayar ve ağ geçitleri sayesinde oda veya bölge seviyesinde sürekli konum verir. Ancak cihaz başı maliyet ve pil değişimi, binlerce düşük değerli nesnede (havlu, kutu, ürün) BLE'yi pratik olmaktan çıkarır. Pasif RFID ise sürekli konum değil, **okuma noktasından geçiş** kaydı üretir.
+
+## RFID ne zaman açık ara en iyi seçenektir?
+
+**Çok sayıda nesnenin düzenli sayıldığı, görüş hattının olmadığı (araba, torba, koli içi) ve kaybın maliyetli olduğu her senaryoda RFID öne çıkar.**
+
+- Otel ve hastane tekstili: [çamaşırhane RFID](/cozumler/camasirhane-rfid) ile kirli-temiz teslim mutabakatı
+- Havuz ve plaj havlusu: [otel RFID](/cozumler/otel-rfid) ile oda bazında havlu takibi
+- Depo ve mağaza envanteri: raf veya kapı okuyucularla periyodik sayım
+- Demirbaş sayımı: el terminaliyle oda oda dolaşarak hızlı envanter
+- Hayvan takibi: sağım odası ve geçişlerde otomatik kimlik
+
+## Hazır sistem mi, özel kurulum mu?
+
+**Standart bir süreç için hazır RFID yazılımı hızlı başlangıç sağlar; mevcut ERP, PMS veya stok sisteminizle derin entegrasyon ve size özel raporlar gerekiyorsa özel kurulum daha uygundur.**
+
+| Ölçüt | Hazır bulut RFID yazılımı | Özel kurulum ve yazılım |
+| --- | --- | --- |
+| Başlangıç hızı | Hızlı | Pilot ve geliştirme gerekir |
+| Süreç uyumu | Yazılımın sunduğu kadar | Sürecinize göre |
+| Donanım seçimi | Desteklenen markalar | Marka bağımsız |
+| Entegrasyon | Sağlayıcının API'si kadar | ERP, PMS, stok, muhasebe |
+| Veri | Sağlayıcının bulutunda | Sizin sunucunuzda veya seçtiğiniz bulutta |
+
+Hangi yolun sizin için mantıklı olduğunu keşifte, mevcut yazılımlarınızı ve süreçlerinizi görerek birlikte değerlendiriyoruz; uygun bir hazır çözüm varsa onu öneriyoruz.
+
+## Sonuç
+
+**Doğru takip teknolojisi, nesne sayısına, okuma ortamına ve kaybın maliyetine göre seçilir; çoğu işletmede en iyi sonuç birden fazla teknolojinin birlikte kullanılmasıyla elde edilir.** RFID'nin temellerini [RFID nedir?](/bilgi-bankasi/rfid-nedir-uhf-hf-nfc-farki) rehberinde okuyabilir, [RFID takip sistemlerimizi](/cozumler/rfid-cozumleri) inceleyebilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.
+
+### Sık sorulan sorular
+
+**RFID barkoddan daha mı iyi?**
+Her senaryoda değil. Az sayıda ürünü tek tek okutmak yetiyorsa barkod daha ekonomiktir. Çok sayıda nesnenin görüş hattı olmadan ve toplu sayılması gerekiyorsa RFID daha verimlidir.
+
+**RFID ve barkod birlikte kullanılabilir mi?**
+Evet, çoğu projede birlikte kullanılır. Etiketin üzerine barkod veya QR kod da basılarak RFID okuyucunun olmadığı noktalarda telefonla okuma imkânı korunur.
+
+**BLE beacon ile RFID arasındaki fark nedir?**
+BLE beacon pilli bir cihazdır ve kendi sinyalini yayar; kişi veya yüksek değerli ekipmanın oda seviyesinde konumunu sürekli izlemek için uygundur. Pasif RFID etiketleri pilsizdir, ucuzdur ve okuma noktasından geçişte kayıt üretir.
+
+**RFID'ye geçmek için mevcut barkod sistemimizi atmamız gerekir mi?**
+Hayır. Mevcut ürün kodları RFID etiketine yazılabilir veya etiket numarası mevcut kodla eşleştirilebilir; stok yazılımınız değişmeden okuma yöntemi değişir.
+
+### Kaynaklar
+
+1. EPC UHF Gen2 Air Interface Protocol (EPC Radio-Frequency Identity Protocols Generation-2 UHF RFID) — GS1
+2. ETSI EN 302 208: Radio Frequency Identification Equipment operating in the band 865 MHz to 868 MHz — European Telecommunications Standards Institute (ETSI)
+3. [NFC Forum — NFC teknolojisi ve standartları](https://nfc-forum.org/) — NFC Forum
+
+---
+
+## Otel ve Çamaşırhanede RFID ile Tekstil Takibi: Havlu, Çarşaf ve Üniforma Rehberi
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/otel-camasirhane-rfid-tekstil-takibi · Yazar: Comodo Teknoloji Mühendislik Ekibi · Son güncelleme: 2026-11-23
+
+**Otel ve çamaşırhanede RFID tekstil takibi**; çarşaf, nevresim, havlu, bornoz ve personel üniformalarına yıkanabilir RFID etiketler takılarak her parçanın kirli kabulden temiz sevkiyata, kat ofisinden havuz başına kadar parça bazında kayıt altına alınmasıdır. Tartıya veya elle sayıma dayanan yöntemlerin aksine, kaybın hangi noktada oluştuğunu ve her parçanın kaç kez yıkandığını gösterir. Bu rehber Antalya'daki oteller ve çamaşırhaneler için kurulum adımlarını ve dikkat edilmesi gerekenleri özetler.
+
+## Otelde tekstil kaybı neden fark edilmez?
+
+**Tekstil kaybı tek tek değil, dönem sonu sayımında toplu bir eksik olarak ortaya çıkar; bu nedenle hangi noktada, hangi süreçte ve kimin sorumluluğunda oluştuğu bilinmez.**
+
+Tipik kayıp noktaları şunlardır:
+
+- Havuz ve plaj havlularının iade edilmemesi
+- Kat arabalarından ve kat ofislerinden kayıplar
+- Otel ile çamaşırhane arasında gönderilen ve geri dönen adet farkı
+- Lekeli veya hasarlı ürünlerin kayıt dışı ayrılması
+- Personel üniformalarının iade edilmemesi
+
+Tartı ile yapılan teslimat, kaç kilo gittiğini gösterir ama kaç parça gittiğini ve hangi parçanın dönmediğini göstermez.
+
+## RFID tekstil takibi nasıl çalışır?
+
+**Her parçaya benzersiz numaralı bir etiket takılır ve parça, belirlenen kontrol noktalarından geçtiğinde araba veya torba açılmadan toplu olarak okunur.**
+
+| Kontrol noktası | Okuma ekipmanı | Üretilen kayıt |
+| --- | --- | --- |
+| Otel kirli çıkışı | Kapı veya masa üstü okuyucu | Otelden çıkan parça listesi |
+| Çamaşırhane kirli kabul | Tünel / kabin okuyucu | Müşteri bazında teslim alınan adet |
+| Yıkama sonrası | — (yazılım) | Parça başına yıkama döngüsü |
+| Temiz sevkiyat | Tünel / kabin okuyucu | Otomatik irsaliye |
+| Otel temiz kabul | Okuyucu veya el terminali | Mutabakat ve eksik listesi |
+| Havuz / plaj | Masa üstü okuyucu + kart okuyucu | Oda bazında havlu verme ve iade |
+
+## Hangi etiket seçilmeli?
+
+**Çamaşırhane ortamında yalnızca yıkama, kurutma ve ütü proseslerine dayanacak şekilde üretilmiş tekstil tipi UHF etiketler kullanılmalıdır.**
+
+Seçim yaparken şunları kontrol edin:
+
+1. **Proses uyumu:** Yıkama sıcaklığı, kimyasallar, tünel tipi yıkama makinesi, pres ve kurutucu koşulları üretici dokümanındaki değerlerle uyumlu mu?
+2. **Takma yöntemi:** Havlu ve bornozda dikiş, çarşafta heat-seal veya cep; ürün tipine göre değişir.
+3. **Konum standardı:** Her ürün tipinde etiket aynı noktada olmalı; okuma başarısı ve misafir konforu için önemlidir.
+4. **Frekans uyumu:** Avrupa/Türkiye bandı olan 865–868 MHz'de çalışan etiket ve okuyucu seçilmelidir.
+
+Etiket ömrü konusunda genel geçer bir rakam vermek doğru değildir; üretici dokümanındaki yıkama döngüsü değeri, sizin proses koşullarınızla birlikte değerlendirilmelidir.
+
+## Havuz havlusu takibi nasıl kurulur?
+
+**Havlu verme noktasında misafirin oda kartı veya bilekliği okutulup havluyla eşleştirilir; iade noktasında okuyucu havluyu otomatik düşer ve gün sonunda iade edilmeyen havlular oda bazında raporlanır.**
+
+Kurulumda dikkat edilmesi gerekenler:
+
+- Havuz başındaki okuma noktası için enerji, network ve dış mekâna uygun koruma kutusu
+- Kalabalık saatlerde tek okutmayla birden fazla havlu verilebilmesi
+- Mevcut otel kapı kartlarının okunabilirliği (çoğunlukla 13,56 MHz HF kartlardır)
+- PMS entegrasyonuyla oda ve konaklama dönemi eşleşmesi
+- İade edilmeyen havlular için otelin uygulayacağı politika (sistem yalnızca veriyi sunar)
+
+Detaylı kapsam için [otel RFID çözümlerimize](/cozumler/otel-rfid) bakabilirsiniz.
+
+## Çamaşırhane ile otel arasındaki mutabakat nasıl değişir?
+
+**RFID ile mutabakat tartı veya tahmine değil, iki tarafın da gördüğü parça bazında veriye dayanır.** Çamaşırhane her müşteriye teslim aldığı ve gönderdiği parçaların listesini otomatik raporlar; otel de kendi kontrol noktasındaki okumayla bu listeyi karşılaştırır. Eksik parçalar numarasıyla görülür; tartışma yerini veriye bırakır.
+
+Çok müşterili endüstriyel çamaşırhaneler için müşteri bazında portal, faturalama entegrasyonu ve kiralık tekstil yönetimi de aynı sisteme eklenebilir. Ayrıntılar: [Çamaşırhane RFID](/cozumler/camasirhane-rfid).
+
+## Üniforma takibinde KVKK'ya dikkat edilmeli mi?
+
+**Evet; üniforma zimmeti bir personelle eşleştiği için okumalar kişisel veri sayılabilir.** Aydınlatma metni, yetkili erişim, amaçla sınırlı kullanım ve saklama süresi hukuk danışmanınızla birlikte belirlenmelidir. Teknik tarafta rol bazlı yetki ve erişim kayıtları kurgulanır.
+
+## Kurulum hangi adımlarla yapılır?
+
+1. **Keşif:** Tekstil envanteri, akış ve kayıp noktaları çıkarılır.
+2. **Etiket testi:** Gerçek ürünlerinizle yıkama ve okuma testi yapılır.
+3. **Pilot:** Tek ürün grubu (örneğin havuz havlusu) veya tek müşteriyle başlanır.
+4. **Yazılım:** Panel, raporlar, PMS veya faturalama entegrasyonu geliştirilir.
+5. **Etiketleme:** Mevcut envantere etiket takılır; yeni alımlarda tedarikçiyle etiketli üretim planlanır.
+6. **Yaygınlaştırma ve eğitim.**
+
+## Sonuç
+
+**RFID, otel ve çamaşırhanede tekstil yönetimini tahminden ölçüme taşır.** Kaybın nerede oluştuğunu görmek, ürün ömrünü bilmek ve mutabakatı veriye bağlamak için [otel RFID](/cozumler/otel-rfid) ve [çamaşırhane RFID](/cozumler/camasirhane-rfid) çözümlerimizi inceleyebilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.
+
+### Sık sorulan sorular
+
+**Çamaşırhane RFID etiketleri yıkamaya dayanır mı?**
+Çamaşırhane için üretilen tekstil tipi UHF etiketler endüstriyel yıkama, yüksek sıcaklık, kimyasal ve pres ütüye dayanacak şekilde tasarlanır. Dayanım değerleri modele göre değiştiği için seçim üretici dokümanı ve sizin proses koşullarınızla yapılan testle doğrulanmalıdır.
+
+**Otel kendi çamaşırhanesi değilse RFID kullanabilir mi?**
+Evet. Otel tarafında çıkış ve dönüş sayımı yapılarak dış çamaşırhaneyle parça bazında mutabakat raporu oluşturulabilir.
+
+**Havuz havlusu takibi misafire ek iş çıkarır mı?**
+Hayır. Havlu verilirken oda kartı veya bileklik okutulur, iade noktasında havlu otomatik düşülür. Misafir yalnızca havluyu alıp bırakır.
+
+**Etiketler havluya nasıl takılır?**
+Ürün tipine göre dikilerek, ısıyla yapıştırılarak (heat-seal) veya küçük bir cep içine yerleştirilerek takılır. Aynı ürün tipinde etiketin hep aynı noktada olması okuma başarısını artırır.
+
+**Antalya'da sezon öncesi kurulum yapılabilir mi?**
+Evet. Sezon öncesi devreye almak için keşif ve pilot uygulamanın kış aylarında planlanması önerilir.
+
+### Kaynaklar
+
+1. EPC UHF Gen2 Air Interface Protocol (EPC Radio-Frequency Identity Protocols Generation-2 UHF RFID) — GS1
+2. ISO/IEC 18000-63: Parameters for air interface communications at 860 MHz to 960 MHz Type C — ISO / IEC
+3. ETSI EN 302 208: Radio Frequency Identification Equipment operating in the band 865 MHz to 868 MHz — European Telecommunications Standards Institute (ETSI)
+4. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+
+---
+
+## İnek Takip Sistemi Nasıl Çalışır? RFID Küpe, Kamera ve Görüntü İşleme ile Akıllı Çiftlik
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/inek-takip-sistemi-nasil-calisir · Yazar: Comodo Teknoloji Mühendislik Ekibi · Son güncelleme: 2026-11-23
+
+**İnek takip sistemi**, büyükbaş hayvanların RFID kulak küpesi veya sensörlü tasmayla otomatik tanınması, ahır ve padok kameralarının görüntü işlemeyle analiz edilmesi ve hareketlilik, yemlik-suluk ziyareti, doğum yaklaşması gibi davranış değişikliklerinin tek bir panelde izlenmesidir. Amacı, bakıcının her hayvanı her an görememesinden kaynaklanan gecikmeyi azaltmak ve kayıtları defterden çıkarıp hayvan bazında dijital geçmişe dönüştürmektir. Bu rehber, sistemin bileşenlerini ve bir çiftliğin hangi adımla başlaması gerektiğini anlatır.
+
+## İnek takip sisteminde hangi veriler toplanır?
+
+**Temel veriler hayvan kimliği, konum ve geçişler, hareketlilik, yemlik-suluk ziyaretleri, görüntü kayıtları ve elle girilen sağlık-üreme kayıtlarıdır.**
+
+| Veri | Nasıl toplanır | Ne işe yarar |
+| --- | --- | --- |
+| Hayvan kimliği | RFID küpe veya tasma | Tüm kayıtların doğru hayvana yazılması |
+| Geçiş ve konum | Sağım odası, bölme ve padok okuyucuları | Hayvan nerede, ne zaman geçti |
+| Hareketlilik | Aktivite sensörü veya kamera analizi | Normalden az/çok hareket eden hayvan |
+| Yemlik-suluk ziyareti | Kamera analizi veya yemlik okuyucusu | Yeme ve suya gelmeyen hayvan |
+| Canlı görüntü | Gece görüşlü IP kamera | Doğum bölmesi ve gece kontrolü |
+| Sağlık ve üreme | Panelden elle giriş | Aşı, tohumlama, tedavi, tartı geçmişi |
+
+## RFID küpe nasıl çalışır?
+
+**Hayvanın kulağındaki elektronik küpe, sağım odası veya geçiş noktasındaki okuyucunun alanına girdiğinde kimlik numarasını gönderir ve yazılım bu geçişi zaman bilgisiyle kaydeder.**
+
+Hayvan kimliği için en yaygın teknoloji LF (134,2 kHz) bandında çalışan ve ISO 11784/11785 standartlarına uyan küpelerdir. Bu küpeler yakın mesafeden okunur; bu nedenle okuyucular hayvanın tek tek geçtiği dar noktalara (sağım odası girişi, geçit) yerleştirilir. Daha uzun mesafeden okuma gereken bazı senaryolarda UHF küpeler de kullanılabilir.
+
+Resmi küpeleme ve hayvan kayıt yükümlülükleri Tarım ve Orman Bakanlığı mevzuatına tabidir. İşletme içi takip sistemi bu kayıtların yerine geçmez; mevcut küpe elektronik değilse resmi küpeye ek olarak RFID küpe veya tasma takılır.
+
+## Görüntü işleme çiftlikte ne yapar?
+
+**Görüntü işleme, ahır kameralarının görüntüsünden hayvanları sayar, hareketliliği ölçer, yemlik ve suluk başında geçirilen süreyi izler ve olağan dışı durumları bakıcıya bildirir.**
+
+- **Sayım:** Bölmedeki veya padoktaki hayvan sayısının otomatik kontrolü
+- **Hareketlilik:** Uzun süre yatan veya az hareket eden hayvanların işaretlenmesi
+- **Yemlik/suluk:** Yeme ve suya gelme sıklığının izlenmesi
+- **Doğum bölmesi:** Uzaktan canlı izleme ve hareket bazlı bildirim
+
+Vücut kondisyon puanı veya canlı ağırlık tahmini gibi ileri analizler araştırmalarda ve bazı ticari ürünlerde uygulanmaktadır; ancak doğrulukları ırka, kamera konumuna ve kalibrasyona bağlıdır. Bu tür analizlerin sizin çiftliğinizde pilot ölçümle doğrulanmadan karar aracı olarak kullanılmaması gerekir.
+
+## Sensörlü tasma mı, kamera mı?
+
+**Hayvan başına sürekli ve ayrıntılı aktivite verisi gerekiyorsa sensörlü tasma veya pedometre, ahırın genel izlenmesi, sayım ve uzaktan kontrol gerekiyorsa kamera ve görüntü işleme daha uygundur; birçok çiftlikte ikisi birlikte kullanılır.**
+
+| Ölçüt | Sensörlü tasma / pedometre | Kamera + görüntü işleme |
+| --- | --- | --- |
+| Hayvan başı donanım | Gerekir | Gerekmez (küpe yeterli) |
+| Sürekli aktivite verisi | Hayvan başına ayrıntılı | Kamera görüş alanında |
+| Uzaktan görüntü | Yok | Var |
+| Pil / bakım | Pil değişimi | Kamera temizliği |
+| Ölçeklenme maliyeti | Hayvan sayısıyla artar | Alan büyüklüğüyle artar |
+
+## Çiftlikte hangi altyapı gerekir?
+
+**Kamera ve okuyucuları bağlayan kablolu veya kablosuz network, kesintisiz enerji, internet bağlantısı ve verileri işleyen bir yerel cihaz veya sunucu temel altyapıdır.**
+
+1. **Network:** Binalar arası fiber veya noktadan noktaya kablosuz köprü; ahır içinde dış mekâna uygun kablolama.
+2. **Enerji:** Kesintisiz güç kaynağı (UPS); elektrik altyapısı zayıf noktalarda solar destek.
+3. **Kamera:** Gece görüşlü, toz ve neme dayanıklı koruma sınıfında IP kameralar.
+4. **İnternet:** Uzaktan izleme için sabit hat veya mobil hat.
+5. **Yerel işlem:** Görüntü analizi ve kayıt için çiftlik ofisinde edge cihaz veya küçük sunucu.
+
+## Küçük bir çiftlik nereden başlamalı?
+
+**En hızlı fayda genellikle doğum bölmesi ve ahır kamerasıyla telefondan uzaktan izlemeden gelir; ardından hayvan kayıt paneli, RFID okuma ve görüntü işleme kademeli eklenir.**
+
+1. Ahır ve doğum bölmesine gece görüşlü kamera, telefondan izleme
+2. Hayvan kartları: aşı, tohumlama, tedavi ve tartı kayıtları
+3. Sağım odası veya geçitte RFID okuma
+4. Görüntü işleme ile sayım, hareketlilik ve yemlik analizi
+5. Mevcut sürü yönetim yazılımı veya sensör ürünleriyle entegrasyon
+
+## Sonuç
+
+**İnek takip sistemi, bakıcının gözünü ve defterini dijital bir karar destek sistemiyle güçlendirir; doğru başlangıç noktası çiftliğin en çok zaman kaybettiği veya en çok risk taşıdığı süreçtir.** [Büyükbaş takip sistemi](/cozumler/buyukbas-hayvan-takip) sayfasını inceleyebilir, görüntü işlemenin diğer kullanım alanları için [görüntü işleme rehberini](/bilgi-bankasi/goruntu-isleme-nedir-isletmelerde-kullanim) okuyabilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.
+
+### Sık sorulan sorular
+
+**İnek takip sistemi ne işe yarar?**
+Hayvanların otomatik tanınmasını, ahırın uzaktan izlenmesini ve hareketlilik ile yemlik-suluk ziyareti gibi davranış değişikliklerinin erken fark edilmesini sağlar. Aşı, tohumlama ve tartı kayıtları da hayvan bazında tek panelde toplanır.
+
+**Kızgınlık tespiti kamerayla yapılabilir mi?**
+Kızgınlık tespitinde yaygın ve olgun yöntem hayvan başına takılan aktivite sensörleridir. Kamera tabanlı hareketlilik analizi destekleyici veri sunar; ikisi aynı panelde birlikte kullanılabilir.
+
+**Küçük bir çiftlik için takip sistemi gerekli mi?**
+Küçük çiftliklerde genellikle doğum bölmesi kamerası, telefondan uzaktan izleme ve basit hayvan kayıt paneliyle başlamak en mantıklı adımdır. Sürü büyüdükçe RFID okuma ve görüntü işleme eklenir.
+
+**Sistem veterinerin yerini alır mı?**
+Hayır. Sistem, normalden sapan hayvanları erken fark etmenizi sağlayan bir karar destek aracıdır. Teşhis ve tedavi veteriner hekimin işidir.
+
+**Resmi kulak küpesi yerine RFID küpe kullanılabilir mi?**
+Resmi hayvan kayıt ve küpeleme yükümlülükleri Tarım ve Orman Bakanlığı mevzuatına tabidir. İşletme içi RFID küpe veya tasma, resmi küpeye ek olarak kullanılır ve hayvan kimlik numarasıyla eşleştirilir.
+
+### Kaynaklar
+
+1. ISO 11784 / ISO 11785: Radio frequency identification of animals — Code structure and technical concept — ISO
+2. EPC UHF Gen2 Air Interface Protocol (EPC Radio-Frequency Identity Protocols Generation-2 UHF RFID) — GS1
+3. [T.C. Tarım ve Orman Bakanlığı](https://www.tarimorman.gov.tr/) — Tarım ve Orman Bakanlığı
+
+---
+
+## Görüntü İşleme Nedir? Fabrika, AVM, Otel ve Çiftlikte Yapay Zekâ ile Kamera Analizi
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/goruntu-isleme-nedir-isletmelerde-kullanim · Yazar: Comodo Teknoloji Mühendislik Ekibi · Son güncelleme: 2026-11-23
+
+**Görüntü işleme**, kamera veya fotoğraf görüntülerinin bilgisayarlı görü ve yapay zekâ modelleriyle analiz edilerek kişi, araç, ürün, hata veya olayların otomatik tespit edilip sayılmasıdır. Güvenlik kameraları çoğu işletmede yalnızca kayıt yapar ve kayıtlar olaydan sonra izlenir; görüntü işleme bu görüntüleri anlık uyarıya ve ölçülebilir veriye dönüştürür. Bu rehber, görüntü işlemenin işletmelerdeki kullanım alanlarını, kurulum adımlarını ve dikkat edilmesi gereken noktaları anlatır.
+
+## Görüntü işleme hangi işletmelerde ne işe yarar?
+
+**Görüntü işleme; üretimde kalite kontrol ve iş güvenliği, perakendede ziyaretçi sayımı, turizmde doluluk ölçümü, otoparkta plaka okuma ve hayvancılıkta davranış takibi için kullanılır.**
+
+| Sektör | Senaryo | Ne ölçülür / tespit edilir |
+| --- | --- | --- |
+| Fabrika | Kalite kontrol | Eksik parça, yanlış etiket, yüzey hatası |
+| Fabrika | İş sağlığı ve güvenliği | Baret, yelek, yasak alana giriş |
+| AVM / mağaza | Ziyaretçi analizi | Giriş sayısı, saatlik yoğunluk, ısı haritası |
+| Restoran | Doluluk | Masa doluluğu, kuyruk uzunluğu |
+| Otel | Operasyon | Havuz, restoran ve lobi doluluğu |
+| Otopark / site | Geçiş | Plaka okuma, boş park yeri |
+| Çiftlik | Hayvan takibi | Sayım, hareketlilik, yemlik/suluk ziyareti |
+
+## Görüntü işleme nasıl çalışır?
+
+**Kameradan gelen görüntü karelere ayrılır, bir yapay zekâ modeli her karede aranan nesneleri bulur ve sınıflandırır, kural katmanı da bu tespitleri iş olayına (sayım, ihlal, hata) çevirir.**
+
+1. **Görüntü alma:** IP kamera, endüstriyel kamera veya dron.
+2. **Ön işleme:** Kırpma, ışık düzeltme, ilgilenilen bölgenin seçilmesi.
+3. **Tespit ve sınıflandırma:** Nesne algılama modelleri kişiyi, aracı, ürünü veya hatayı bulur.
+4. **Takip:** Aynı nesne kareler arasında izlenir; böylece bir kişi iki kez sayılmaz.
+5. **Kurallar:** "Çizgiyi geçti", "baretsiz", "10 dakikadır kuyrukta" gibi olaylar üretilir.
+6. **Çıktı:** Panel, rapor, alarm, e-posta veya WhatsApp bildirimi, ERP/MES kaydı.
+
+## Mevcut kameralarla görüntü işleme yapılabilir mi?
+
+**Çoğu durumda evet; ancak analizin başarısını kamera modelinden çok kameranın açısı, mesafesi ve ışık koşulu belirler.**
+
+- **Sayım** için tepeden veya çapraz açı, kalabalıkta üst üste binmeyi azaltır.
+- **Kalite kontrol** için sabit mesafe, sabit ve gölgesiz aydınlatma gerekir.
+- **Plaka okuma** için doğru açı, yeterli piksel yoğunluğu ve hızlı deklanşör gerekir.
+- **Gece senaryoları** için kızılötesi aydınlatma veya termal kamera değerlendirilir.
+
+Güvenlik kameralarında detay seviyesi IEC 62676-4 standardındaki piksel yoğunluğu (DORI) kavramıyla ifade edilir. Görüntü işleme için gereken detay, senaryoya göre bu seviyelerle birlikte planlanmalıdır. Kamera planlaması için [CCTV Planlayıcı](/araclar/cctv-planlayici) aracını kullanabilirsiniz.
+
+## Görüntü işleme projesinin başarısı nasıl ölçülür?
+
+**Başarı, sizin gerçek görüntülerinizle yapılan pilot ölçümde, modelin tespitlerinin elle kontrol edilen örneklerle karşılaştırılmasıyla ölçülür.**
+
+Teklif aşamasında "yüzde 99 doğruluk" gibi genel vaatlere temkinli yaklaşın; aynı model farklı ışıkta ve farklı üründe farklı sonuç verir. Doğru yaklaşım şudur:
+
+1. Kabul kriterini yazılı belirleyin (örneğin hangi hata tipi, hangi koşulda).
+2. Gerçek koşullarda örnek görüntü toplayın.
+3. Pilot sonuçlarını elle sayımla karşılaştırın.
+4. Kriter sağlanıyorsa yaygınlaştırın; sağlanmıyorsa kamera, ışık veya modeli iyileştirin.
+
+## Edge mi, sunucu mu, bulut mu?
+
+**Anlık tepki gereken ve görüntünün tesis dışına çıkmaması istenen senaryolarda edge cihazlar; çok noktalı raporlama ve merkezi yönetim için sunucu veya bulut uygundur.**
+
+| Ölçüt | Edge (sahada) | Yerel sunucu | Bulut |
+| --- | --- | --- | --- |
+| Gecikme | En düşük | Düşük | İnternete bağlı |
+| Görüntünün tesisten çıkması | Hayır | Hayır | Evet (yalnızca seçilen veri de gönderilebilir) |
+| Çok noktalı yönetim | Zor | Orta | Kolay |
+| Donanım yatırımı | Nokta başı | Merkezi | Düşük, aylık maliyet |
+
+## KVKK açısından nelere dikkat edilmeli?
+
+**Kişileri tespit eden her sistem kişisel veri işler; aydınlatma, amaçla sınırlılık, erişim yetkileri ve saklama süresi belirlenmelidir.**
+
+- Mümkünse yüzleri bulanıklaştırın ve yalnızca sayısal sonuçları (adet, süre) saklayın.
+- Yüz tanıma biyometrik veridir; özel nitelikli kişisel veri kapsamına girer ve ayrıca hukuki değerlendirme gerektirir.
+- Görüntülere erişimi rol bazında sınırlandırın ve erişim kayıtlarını tutun.
+
+Bu bölüm hukuki görüş değildir; yükümlülüklerinizi hukuk danışmanınızla doğrulayın.
+
+## Sonuç
+
+**Görüntü işleme, kameraları kayıt cihazından ölçüm ve uyarı sistemine dönüştürür; başarısı doğru senaryo, doğru kamera yerleşimi ve gerçek görüntülerle yapılan pilot ölçüme bağlıdır.** [Görüntü işleme çözümlerimizi](/cozumler/goruntu-isleme) inceleyebilir, çiftlikler için [inek takip sistemi](/cozumler/buyukbas-hayvan-takip) sayfasına bakabilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.
+
+### Sık sorulan sorular
+
+**Görüntü işleme nedir?**
+Görüntü işleme, kamera veya fotoğraf görüntülerinin bilgisayarlı görü ve yapay zekâ algoritmalarıyla analiz edilerek nesne, kişi, araç, hata veya olayların otomatik tespit edilip sayılmasıdır.
+
+**Mevcut güvenlik kameralarım görüntü işleme için uygun mu?**
+RTSP veya ONVIF ile görüntü akışı veren IP kameralar genellikle bağlanabilir. Ancak açı, çözünürlük ve ışık analiz için yetersizse ilgili noktaya ek kamera gerekebilir; bunu örnek görüntülerle değerlendirmek gerekir.
+
+**Görüntü işlemenin doğruluk oranı nedir?**
+Genel geçer bir oran yoktur. Aynı model farklı ışık, açı ve ürünlerde farklı sonuç verir. Doğruluk, sizin görüntülerinizle yapılan pilot ölçümle ve önceden yazılı kabul kriteriyle belirlenmelidir.
+
+**Yüz tanıma kullanmak serbest mi?**
+Yüz tanıma biyometrik veri işler ve KVKK kapsamında özel nitelikli kişisel veridir. Hukuki dayanağı netleşmeden kullanılmamalıdır. Sayım, doluluk ve İSG gibi çoğu operasyonel ihtiyaç yüz tanıma olmadan karşılanabilir.
+
+**Görüntü işleme bulutta mı çalışır?**
+Her ikisi de mümkündür. Anlık tepki ve verinin tesiste kalması gerekiyorsa sahada (edge) cihazlar, çok noktalı raporlama için merkezi sunucu veya bulut kullanılır.
+
+### Kaynaklar
+
+1. [6698 sayılı Kişisel Verilerin Korunması Kanunu](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5) — Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı), 2016
+2. [Kişisel Verileri Koruma Kurumu](https://www.kvkk.gov.tr/) — KVKK
+3. IEC 62676-4: Video surveillance systems for use in security applications — Part 4: Application guidelines (DORI piksel yoğunlukları) — International Electrotechnical Commission (IEC), 2014
+
+---
+
+## Antalya'daki İşletmeler İçin SEO Rehberi: İçerik, Fotoğraf-Video Çekimi ve Yapay Zekâ Aramaları
+
+Kaynak: https://comodoteknoloji.com/bilgi-bankasi/antalya-seo-rehberi-icerik-ve-cekim · Yazar: Comodo Teknoloji Mühendislik Ekibi · Son güncelleme: 2026-11-23
+
+**Yerel SEO**, Antalya'daki bir işletmenin "Antalya diş kliniği", "Konyaaltı restoran" veya "Kepez güvenlik kamerası" gibi aramalarda Google'ın harita ve organik sonuçlarında, ayrıca ChatGPT ve Google AI Overviews gibi yapay zekâ cevaplarında görünmesi için yapılan teknik, içerik ve güven çalışmalarının bütünüdür. Bu rehber, bir işletme sahibinin SEO'yu hangi sırayla ele alması gerektiğini; içerik, fotoğraf-video çekimi ve ölçümün bu süreçteki yerini anlatır.
+
+## SEO çalışması hangi sırayla yapılmalı?
+
+**Doğru sıra: önce Google İşletme Profili ve teknik altyapı, sonra hizmet sayfaları, ardından düzenli içerik ve görsel üretimi, en son ölçüm ve iyileştirme döngüsü.**
+
+| Adım | Ne yapılır | Neden önce |
+| --- | --- | --- |
+| 1. Google İşletme Profili | Kategori, saat, fotoğraf, hizmet bölgesi | Haritada görünmenin temeli, ücretsiz |
+| 2. Teknik SEO | Hız, mobil uyum, site haritası, şema | İçerik ne kadar iyi olsa da taranmayan sayfa sıralanmaz |
+| 3. Hizmet sayfaları | Her hizmet ve önemli ilçe için ayrı sayfa | Aramayla birebir eşleşen sayfa |
+| 4. İçerik ve blog | Müşteri sorularını yanıtlayan rehberler | Uzmanlık ve uzun kuyruklu aramalar |
+| 5. Fotoğraf-video | Özgün mekân, ürün ve ekip görselleri | Güven, görsel arama, sosyal medya |
+| 6. Ölçüm | Search Console, analitik, dönüşüm | Neyin işe yaradığını görmek |
+
+## Google İşletme Profili neden bu kadar önemli?
+
+**"Yakınımdaki" ve ilçe adı içeren aramalarda Google'ın harita sonuçları organik sonuçların üstünde gösterilir; bu alanda görünmek doğru kategori, tutarlı firma bilgisi, gerçek fotoğraflar ve yanıtlanan yorumlara bağlıdır.**
+
+Google'ın kendi yardım sayfası yerel sıralamada alaka düzeyi, mesafe ve öne çıkma faktörlerini belirtir. İşletmenin adı, adresi ve telefonunun (NAP) web sitesi ve tüm dizinlerde birebir aynı yazılması bu güvenin temelidir.
+
+## Teknik SEO'da en sık görülen hatalar nelerdir?
+
+**En sık hatalar: mobilde yavaş açılan sayfalar, her hizmetin tek sayfaya sıkıştırılması, eksik başlık ve açıklama etiketleri, yapılandırılmış verinin olmaması ve site taşımada yönlendirme yapılmamasıdır.**
+
+- Core Web Vitals değerleri zayıf; özellikle büyük görseller ve gereksiz eklentiler
+- Hizmet sayfası yok; tüm hizmetler ana sayfada bir paragraf
+- Başlık (title) ve meta açıklamalar her sayfada aynı
+- LocalBusiness, Service ve FAQ şemaları yok
+- Eski site kapatılırken 301 yönlendirme yapılmamış
+- Site haritası Search Console'a eklenmemiş
+
+## Nasıl bir içerik Google'da ve yapay zekâ aramalarında öne çıkar?
+
+**Kullanıcının sorusuna ilk cümlede doğrudan cevap veren, deneyim ve uzmanlık gösteren, kaynak belirten ve tablo-liste gibi yapılarla kolay alıntılanabilen içerik öne çıkar.**
+
+Google'ın faydalı içerik rehberi, içeriğin arama motoru için değil insanlar için yazılmasını ve özgün bilgi ya da deneyim sunmasını öne çıkarır. Yapay zekâ cevap motorları için de benzer bir yaklaşım geçerlidir: net tanımlar, soru formatındaki başlıklar ve tutarlı firma bilgisi kaynak gösterilme olasılığını artırır. Bu yaklaşım akademik literatürde **GEO (Generative Engine Optimization)** olarak adlandırılır.
+
+Pratik bir içerik planı:
+
+1. Müşterilerinizin telefonda en sık sorduğu 20 soruyu listeleyin.
+2. Her soruyu bir blog başlığına veya hizmet sayfasındaki SSS'ye dönüştürün.
+3. Fiyatı etkileyen unsurları dürüstçe anlatın (rakam vermeden de olur).
+4. Kendi fotoğraflarınızı ve gerçek proje anlatımlarınızı ekleyin.
+5. Her yazının sonunda ilgili hizmet sayfasına bağlantı verin.
+
+## Fotoğraf ve video çekimi SEO'ya nasıl katkı sağlar?
+
+**Özgün görseller, Google Görseller ve video sonuçlarında ek trafik kapısı açar, sayfada kalma süresini ve güveni artırır, Google İşletme Profili'nde ve sosyal medyada aynı anda kullanılabilir.**
+
+Google'ın resim ve video SEO rehberlerinde öne çıkan uygulamalar:
+
+- Görseli ilgili metnin yakınına yerleştirmek
+- Açıklayıcı dosya adı ve alternatif metin (alt) yazmak
+- Modern formatlar (WebP gibi) ve doğru boyutla hızlı yükleme sağlamak
+- Videolar için ayrı izleme sayfası, küçük resim ve yapılandırılmış veri kullanmak
+
+| Çekim | Web sitesi | Google İşletme Profili | Sosyal medya |
+| --- | --- | --- | --- |
+| Mekân / dış cephe | Ana sayfa, iletişim | Kapak ve dış mekân | Tanıtım gönderisi |
+| Ekip ve hizmet anı | Hakkımızda, hizmet sayfası | Ekip fotoğrafları | Hikâye ve Reels |
+| Ürün | Ürün ve kategori sayfaları | Ürünler bölümü | Ürün tanıtımı |
+| Kısa dikey video | Hizmet sayfasına gömülü | Video bölümü | Reels, Shorts, TikTok |
+
+Stok fotoğraflar her rakipte görülebildiği için güven oluşturmaz; tek bir planlı çekim günü, web sitesi, harita profili ve sosyal medya için aylarca kullanılabilecek içerik üretebilir.
+
+## SEO sonuçları nasıl ölçülür?
+
+**Sıralama tek başına yeterli ölçüt değildir; görünürlük (gösterim), tıklama, telefon araması, WhatsApp mesajı ve form gibi dönüşümler birlikte izlenmelidir.**
+
+- **Google Search Console:** Hangi aramalarda göründüğünüz, tıklama ve ortalama pozisyon
+- **Analitik:** Hangi sayfaların ziyaretçi getirdiği ve dönüşüm sağladığı
+- **Google İşletme Profili istatistikleri:** Arama, yol tarifi ve web sitesi tıklamaları
+- **Dönüşüm takibi:** Telefon, WhatsApp ve form tıklamaları
+
+## SEO hizmeti alırken nelere dikkat edilmeli?
+
+**"Garantili ilk sıra" vaadi veren tekliflerden kaçının; Google'da belirli bir sırayı kimse garanti edemez.** Bunun yerine şunları sorun:
+
+- Teknik denetim raporu verilecek mi?
+- Hangi aramalar hedeflenecek ve neden?
+- Aylık kaç içerik üretilecek, kim yazacak, onay süreci nasıl?
+- Hesaplar (Search Console, analitik, işletme profili) kimin adına açılacak?
+- Rapor hangi ölçütleri içerecek?
+
+## Sonuç
+
+**Antalya'da yerel aramalarda öne çıkmak; tutarlı firma bilgisi, hızlı ve doğru kurulmuş bir site, müşteri sorularını yanıtlayan içerik ve özgün fotoğraf-videoların birlikte çalışmasıyla mümkündür.** [SEO, içerik ve çekim hizmetimizi](/cozumler/seo-icerik-pazarlama) inceleyebilir, reklam tarafı için [işletme reklamı ve yerel SEO](/cozumler/dijital-reklam) sayfasına bakabilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.
+
+### Sık sorulan sorular
+
+**SEO nedir?**
+SEO (arama motoru optimizasyonu), web sitenizin Google gibi arama motorlarında, hizmetinizi arayan kişilere üst sıralarda gösterilmesi için teknik altyapının, içeriğin ve güven sinyallerinin iyileştirilmesidir.
+
+**Antalya'da yerel SEO için ilk adım ne olmalı?**
+İlk adım Google İşletme Profili'ni eksiksiz doldurmak ve ad, adres, telefon bilgisinin web sitesi ve tüm profillerde birebir aynı olmasını sağlamaktır.
+
+**Fotoğraf ve video SEO'ya etki eder mi?**
+Özgün, doğru isimlendirilmiş, alternatif metni yazılmış ve yapılandırılmış veriyle sunulan görseller Google Görseller ve video sonuçlarında ek görünürlük sağlar ve sayfanın güvenilirliğini artırır.
+
+**SEO ne kadar sürede sonuç verir?**
+Teknik düzeltmelerin ve Google İşletme Profili iyileştirmelerinin etkisi genellikle haftalar içinde, yeni içeriklerin sıralama kazanması ise rekabete bağlı olarak aylar içinde görülür.
+
+**ChatGPT gibi yapay zekâ araçlarında nasıl görünürüm?**
+Net tanım paragrafları, soru-cevap başlıkları, kaynak gösterilen içerik, yapılandırılmış veri ve tutarlı firma bilgisi, yapay zekâ cevap motorlarının sitenizi kaynak gösterme olasılığını artırır. Garanti edilemez ama hedeflenebilir.
+
+### Kaynaklar
+
+1. [Arama Motoru Optimizasyonu (SEO) Başlangıç Rehberi](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=tr) — Google Search Central
+2. [Kullanıcı odaklı, faydalı ve güvenilir içerikler oluşturma](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr) — Google Search Central
+3. [Resim SEO en iyi uygulamaları](https://developers.google.com/search/docs/appearance/google-images?hl=tr) — Google Search Central
+4. [Video SEO en iyi uygulamaları](https://developers.google.com/search/docs/appearance/video?hl=tr) — Google Search Central
+5. [Google'da yerel sıralamanızı iyileştirme ipuçları](https://support.google.com/business/answer/7091?hl=tr) — Google İşletme Profili Yardım
+6. [Yapılandırılmış veri işaretlemesinin işleyiş şekline giriş](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=tr) — Google Search Central
+7. [GEO: Generative Engine Optimization (Aggarwal, Murahari, Rajpurohit, Kalyan, Narasimhan, Deshpande)](https://arxiv.org/abs/2311.09735) — KDD 2024 / arXiv:2311.09735, 2024
 
 ---
 
