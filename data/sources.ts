@@ -152,6 +152,50 @@ export const sources = {
     publisher: "USOM (BTK)",
     url: "https://www.usom.gov.tr/",
   },
+  // RFID
+  "epc-gen2": {
+    title: "EPC UHF Gen2 Air Interface Protocol (EPC Radio-Frequency Identity Protocols Generation-2 UHF RFID)",
+    publisher: "GS1",
+  },
+  "iso-18000-63": {
+    title: "ISO/IEC 18000-63: Parameters for air interface communications at 860 MHz to 960 MHz Type C",
+    publisher: "ISO / IEC",
+  },
+  "etsi-302208": {
+    title: "ETSI EN 302 208: Radio Frequency Identification Equipment operating in the band 865 MHz to 868 MHz",
+    publisher: "European Telecommunications Standards Institute (ETSI)",
+  },
+  "nfc-forum": {
+    title: "NFC Forum — NFC teknolojisi ve standartları",
+    publisher: "NFC Forum",
+    url: "https://nfc-forum.org/",
+  },
+  "iso-11784": {
+    title: "ISO 11784 / ISO 11785: Radio frequency identification of animals — Code structure and technical concept",
+    publisher: "ISO",
+  },
+  // Tarım ve hayvancılık
+  "tarim-orman": {
+    title: "T.C. Tarım ve Orman Bakanlığı",
+    publisher: "Tarım ve Orman Bakanlığı",
+    url: "https://www.tarimorman.gov.tr/",
+  },
+  // İçerik ve görsel SEO
+  "google-helpful-content": {
+    title: "Kullanıcı odaklı, faydalı ve güvenilir içerikler oluşturma",
+    publisher: "Google Search Central",
+    url: "https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=tr",
+  },
+  "google-image-seo": {
+    title: "Resim SEO en iyi uygulamaları",
+    publisher: "Google Search Central",
+    url: "https://developers.google.com/search/docs/appearance/google-images?hl=tr",
+  },
+  "google-video-seo": {
+    title: "Video SEO en iyi uygulamaları",
+    publisher: "Google Search Central",
+    url: "https://developers.google.com/search/docs/appearance/video?hl=tr",
+  },
 } satisfies Record<string, Source>;
 
 export type SourceId = keyof typeof sources;
@@ -168,6 +212,12 @@ export const solutionSources: Record<string, SourceId[]> = {
   "siber-guvenlik": ["nist-csf", "cisa-ransomware", "usom", "kvkk-6698"],
   "5651-loglama-hotspot": ["kanun-5651", "yonetmelik-toplu-kullanim", "btk", "kvkk-6698"],
   "plaka-tanima-sistemi": ["kvkk-6698", "kvkk-kurum", "iec-62676-4"],
+  "rfid-cozumleri": ["epc-gen2", "iso-18000-63", "etsi-302208", "nfc-forum", "kvkk-6698"],
+  "camasirhane-rfid": ["epc-gen2", "iso-18000-63", "etsi-302208"],
+  "otel-rfid": ["epc-gen2", "nfc-forum", "etsi-302208", "kvkk-6698"],
+  "goruntu-isleme": ["kvkk-6698", "kvkk-kurum", "iec-62676-4"],
+  "buyukbas-hayvan-takip": ["iso-11784", "epc-gen2", "tarim-orman"],
+  "seo-icerik-pazarlama": ["google-seo-starter", "google-helpful-content", "google-image-seo", "google-video-seo", "gbp-local-ranking", "geo-paper"],
 };
 
 export const getSources = (ids: readonly string[] = []) =>

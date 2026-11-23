@@ -1,0 +1,96 @@
+---
+title: "İnek Takip Sistemi Nasıl Çalışır? RFID Küpe, Kamera ve Görüntü İşleme ile Akıllı Çiftlik"
+description: "Büyükbaş çiftliklerde RFID küpe, ahır kamerası, görüntü işleme ve sensörlerle inek takibi: hangi veri toplanır, hangi altyapı gerekir, küçük çiftlikler nereden başlamalı?"
+date: "2026-11-23"
+updated: "2026-11-23"
+draft: false
+tags: ["inek takip sistemi", "büyükbaş", "akıllı çiftlik", "RFID küpe", "görüntü işleme"]
+sources: ["iso-11784", "epc-gen2", "tarim-orman"]
+author:
+  name: "Comodo Teknoloji Mühendislik Ekibi"
+  jobTitle: "Yazılım ve Saha Sistemleri Ekibi"
+  certifications: []
+  linkedin: ""
+  knowsAbout: ["RFID", "Görüntü işleme", "IoT", "Akıllı tarım"]
+faqs:
+  - q: "İnek takip sistemi ne işe yarar?"
+    a: "Hayvanların otomatik tanınmasını, ahırın uzaktan izlenmesini ve hareketlilik ile yemlik-suluk ziyareti gibi davranış değişikliklerinin erken fark edilmesini sağlar. Aşı, tohumlama ve tartı kayıtları da hayvan bazında tek panelde toplanır."
+  - q: "Kızgınlık tespiti kamerayla yapılabilir mi?"
+    a: "Kızgınlık tespitinde yaygın ve olgun yöntem hayvan başına takılan aktivite sensörleridir. Kamera tabanlı hareketlilik analizi destekleyici veri sunar; ikisi aynı panelde birlikte kullanılabilir."
+  - q: "Küçük bir çiftlik için takip sistemi gerekli mi?"
+    a: "Küçük çiftliklerde genellikle doğum bölmesi kamerası, telefondan uzaktan izleme ve basit hayvan kayıt paneliyle başlamak en mantıklı adımdır. Sürü büyüdükçe RFID okuma ve görüntü işleme eklenir."
+  - q: "Sistem veterinerin yerini alır mı?"
+    a: "Hayır. Sistem, normalden sapan hayvanları erken fark etmenizi sağlayan bir karar destek aracıdır. Teşhis ve tedavi veteriner hekimin işidir."
+  - q: "Resmi kulak küpesi yerine RFID küpe kullanılabilir mi?"
+    a: "Resmi hayvan kayıt ve küpeleme yükümlülükleri Tarım ve Orman Bakanlığı mevzuatına tabidir. İşletme içi RFID küpe veya tasma, resmi küpeye ek olarak kullanılır ve hayvan kimlik numarasıyla eşleştirilir."
+---
+
+**İnek takip sistemi**, büyükbaş hayvanların RFID kulak küpesi veya sensörlü tasmayla otomatik tanınması, ahır ve padok kameralarının görüntü işlemeyle analiz edilmesi ve hareketlilik, yemlik-suluk ziyareti, doğum yaklaşması gibi davranış değişikliklerinin tek bir panelde izlenmesidir. Amacı, bakıcının her hayvanı her an görememesinden kaynaklanan gecikmeyi azaltmak ve kayıtları defterden çıkarıp hayvan bazında dijital geçmişe dönüştürmektir. Bu rehber, sistemin bileşenlerini ve bir çiftliğin hangi adımla başlaması gerektiğini anlatır.
+
+## İnek takip sisteminde hangi veriler toplanır?
+
+**Temel veriler hayvan kimliği, konum ve geçişler, hareketlilik, yemlik-suluk ziyaretleri, görüntü kayıtları ve elle girilen sağlık-üreme kayıtlarıdır.**
+
+| Veri | Nasıl toplanır | Ne işe yarar |
+| --- | --- | --- |
+| Hayvan kimliği | RFID küpe veya tasma | Tüm kayıtların doğru hayvana yazılması |
+| Geçiş ve konum | Sağım odası, bölme ve padok okuyucuları | Hayvan nerede, ne zaman geçti |
+| Hareketlilik | Aktivite sensörü veya kamera analizi | Normalden az/çok hareket eden hayvan |
+| Yemlik-suluk ziyareti | Kamera analizi veya yemlik okuyucusu | Yeme ve suya gelmeyen hayvan |
+| Canlı görüntü | Gece görüşlü IP kamera | Doğum bölmesi ve gece kontrolü |
+| Sağlık ve üreme | Panelden elle giriş | Aşı, tohumlama, tedavi, tartı geçmişi |
+
+## RFID küpe nasıl çalışır?
+
+**Hayvanın kulağındaki elektronik küpe, sağım odası veya geçiş noktasındaki okuyucunun alanına girdiğinde kimlik numarasını gönderir ve yazılım bu geçişi zaman bilgisiyle kaydeder.**
+
+Hayvan kimliği için en yaygın teknoloji LF (134,2 kHz) bandında çalışan ve ISO 11784/11785 standartlarına uyan küpelerdir. Bu küpeler yakın mesafeden okunur; bu nedenle okuyucular hayvanın tek tek geçtiği dar noktalara (sağım odası girişi, geçit) yerleştirilir. Daha uzun mesafeden okuma gereken bazı senaryolarda UHF küpeler de kullanılabilir.
+
+Resmi küpeleme ve hayvan kayıt yükümlülükleri Tarım ve Orman Bakanlığı mevzuatına tabidir. İşletme içi takip sistemi bu kayıtların yerine geçmez; mevcut küpe elektronik değilse resmi küpeye ek olarak RFID küpe veya tasma takılır.
+
+## Görüntü işleme çiftlikte ne yapar?
+
+**Görüntü işleme, ahır kameralarının görüntüsünden hayvanları sayar, hareketliliği ölçer, yemlik ve suluk başında geçirilen süreyi izler ve olağan dışı durumları bakıcıya bildirir.**
+
+- **Sayım:** Bölmedeki veya padoktaki hayvan sayısının otomatik kontrolü
+- **Hareketlilik:** Uzun süre yatan veya az hareket eden hayvanların işaretlenmesi
+- **Yemlik/suluk:** Yeme ve suya gelme sıklığının izlenmesi
+- **Doğum bölmesi:** Uzaktan canlı izleme ve hareket bazlı bildirim
+
+Vücut kondisyon puanı veya canlı ağırlık tahmini gibi ileri analizler araştırmalarda ve bazı ticari ürünlerde uygulanmaktadır; ancak doğrulukları ırka, kamera konumuna ve kalibrasyona bağlıdır. Bu tür analizlerin sizin çiftliğinizde pilot ölçümle doğrulanmadan karar aracı olarak kullanılmaması gerekir.
+
+## Sensörlü tasma mı, kamera mı?
+
+**Hayvan başına sürekli ve ayrıntılı aktivite verisi gerekiyorsa sensörlü tasma veya pedometre, ahırın genel izlenmesi, sayım ve uzaktan kontrol gerekiyorsa kamera ve görüntü işleme daha uygundur; birçok çiftlikte ikisi birlikte kullanılır.**
+
+| Ölçüt | Sensörlü tasma / pedometre | Kamera + görüntü işleme |
+| --- | --- | --- |
+| Hayvan başı donanım | Gerekir | Gerekmez (küpe yeterli) |
+| Sürekli aktivite verisi | Hayvan başına ayrıntılı | Kamera görüş alanında |
+| Uzaktan görüntü | Yok | Var |
+| Pil / bakım | Pil değişimi | Kamera temizliği |
+| Ölçeklenme maliyeti | Hayvan sayısıyla artar | Alan büyüklüğüyle artar |
+
+## Çiftlikte hangi altyapı gerekir?
+
+**Kamera ve okuyucuları bağlayan kablolu veya kablosuz network, kesintisiz enerji, internet bağlantısı ve verileri işleyen bir yerel cihaz veya sunucu temel altyapıdır.**
+
+1. **Network:** Binalar arası fiber veya noktadan noktaya kablosuz köprü; ahır içinde dış mekâna uygun kablolama.
+2. **Enerji:** Kesintisiz güç kaynağı (UPS); elektrik altyapısı zayıf noktalarda solar destek.
+3. **Kamera:** Gece görüşlü, toz ve neme dayanıklı koruma sınıfında IP kameralar.
+4. **İnternet:** Uzaktan izleme için sabit hat veya mobil hat.
+5. **Yerel işlem:** Görüntü analizi ve kayıt için çiftlik ofisinde edge cihaz veya küçük sunucu.
+
+## Küçük bir çiftlik nereden başlamalı?
+
+**En hızlı fayda genellikle doğum bölmesi ve ahır kamerasıyla telefondan uzaktan izlemeden gelir; ardından hayvan kayıt paneli, RFID okuma ve görüntü işleme kademeli eklenir.**
+
+1. Ahır ve doğum bölmesine gece görüşlü kamera, telefondan izleme
+2. Hayvan kartları: aşı, tohumlama, tedavi ve tartı kayıtları
+3. Sağım odası veya geçitte RFID okuma
+4. Görüntü işleme ile sayım, hareketlilik ve yemlik analizi
+5. Mevcut sürü yönetim yazılımı veya sensör ürünleriyle entegrasyon
+
+## Sonuç
+
+**İnek takip sistemi, bakıcının gözünü ve defterini dijital bir karar destek sistemiyle güçlendirir; doğru başlangıç noktası çiftliğin en çok zaman kaybettiği veya en çok risk taşıdığı süreçtir.** [Büyükbaş takip sistemi](/cozumler/buyukbas-hayvan-takip) sayfasını inceleyebilir, görüntü işlemenin diğer kullanım alanları için [görüntü işleme rehberini](/bilgi-bankasi/goruntu-isleme-nedir-isletmelerde-kullanim) okuyabilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.

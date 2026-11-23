@@ -77,7 +77,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border">
-        <div className="container-page flex flex-col gap-3 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
+        <div className="container-page flex flex-col gap-3 pt-6 pb-24 text-xs md:pb-6 text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {year} {site.legalName}. Tüm hakları saklıdır. Sitede adı geçen üçüncü taraf marka ve ürün adları sahiplerine aittir.
           </p>

@@ -1,0 +1,100 @@
+---
+title: "Görüntü İşleme Nedir? Fabrika, AVM, Otel ve Çiftlikte Yapay Zekâ ile Kamera Analizi"
+description: "Görüntü işleme ve yapay zekâ ile kişi-araç sayımı, üretim hata tespiti, İSG ekipman kontrolü ve doluluk analizi. Mevcut kameralarla nasıl kurulur, KVKK'da nelere dikkat edilir?"
+date: "2026-11-23"
+updated: "2026-11-23"
+draft: false
+tags: ["görüntü işleme", "yapay zekâ", "video analitiği", "kalite kontrol", "İSG"]
+sources: ["kvkk-6698", "kvkk-kurum", "iec-62676-4"]
+author:
+  name: "Comodo Teknoloji Mühendislik Ekibi"
+  jobTitle: "Yazılım ve Yapay Zekâ Ekibi"
+  certifications: []
+  linkedin: ""
+  knowsAbout: ["Görüntü işleme", "Bilgisayarlı görü", "Video analitiği"]
+faqs:
+  - q: "Görüntü işleme nedir?"
+    a: "Görüntü işleme, kamera veya fotoğraf görüntülerinin bilgisayarlı görü ve yapay zekâ algoritmalarıyla analiz edilerek nesne, kişi, araç, hata veya olayların otomatik tespit edilip sayılmasıdır."
+  - q: "Mevcut güvenlik kameralarım görüntü işleme için uygun mu?"
+    a: "RTSP veya ONVIF ile görüntü akışı veren IP kameralar genellikle bağlanabilir. Ancak açı, çözünürlük ve ışık analiz için yetersizse ilgili noktaya ek kamera gerekebilir; bunu örnek görüntülerle değerlendirmek gerekir."
+  - q: "Görüntü işlemenin doğruluk oranı nedir?"
+    a: "Genel geçer bir oran yoktur. Aynı model farklı ışık, açı ve ürünlerde farklı sonuç verir. Doğruluk, sizin görüntülerinizle yapılan pilot ölçümle ve önceden yazılı kabul kriteriyle belirlenmelidir."
+  - q: "Yüz tanıma kullanmak serbest mi?"
+    a: "Yüz tanıma biyometrik veri işler ve KVKK kapsamında özel nitelikli kişisel veridir. Hukuki dayanağı netleşmeden kullanılmamalıdır. Sayım, doluluk ve İSG gibi çoğu operasyonel ihtiyaç yüz tanıma olmadan karşılanabilir."
+  - q: "Görüntü işleme bulutta mı çalışır?"
+    a: "Her ikisi de mümkündür. Anlık tepki ve verinin tesiste kalması gerekiyorsa sahada (edge) cihazlar, çok noktalı raporlama için merkezi sunucu veya bulut kullanılır."
+---
+
+**Görüntü işleme**, kamera veya fotoğraf görüntülerinin bilgisayarlı görü ve yapay zekâ modelleriyle analiz edilerek kişi, araç, ürün, hata veya olayların otomatik tespit edilip sayılmasıdır. Güvenlik kameraları çoğu işletmede yalnızca kayıt yapar ve kayıtlar olaydan sonra izlenir; görüntü işleme bu görüntüleri anlık uyarıya ve ölçülebilir veriye dönüştürür. Bu rehber, görüntü işlemenin işletmelerdeki kullanım alanlarını, kurulum adımlarını ve dikkat edilmesi gereken noktaları anlatır.
+
+## Görüntü işleme hangi işletmelerde ne işe yarar?
+
+**Görüntü işleme; üretimde kalite kontrol ve iş güvenliği, perakendede ziyaretçi sayımı, turizmde doluluk ölçümü, otoparkta plaka okuma ve hayvancılıkta davranış takibi için kullanılır.**
+
+| Sektör | Senaryo | Ne ölçülür / tespit edilir |
+| --- | --- | --- |
+| Fabrika | Kalite kontrol | Eksik parça, yanlış etiket, yüzey hatası |
+| Fabrika | İş sağlığı ve güvenliği | Baret, yelek, yasak alana giriş |
+| AVM / mağaza | Ziyaretçi analizi | Giriş sayısı, saatlik yoğunluk, ısı haritası |
+| Restoran | Doluluk | Masa doluluğu, kuyruk uzunluğu |
+| Otel | Operasyon | Havuz, restoran ve lobi doluluğu |
+| Otopark / site | Geçiş | Plaka okuma, boş park yeri |
+| Çiftlik | Hayvan takibi | Sayım, hareketlilik, yemlik/suluk ziyareti |
+
+## Görüntü işleme nasıl çalışır?
+
+**Kameradan gelen görüntü karelere ayrılır, bir yapay zekâ modeli her karede aranan nesneleri bulur ve sınıflandırır, kural katmanı da bu tespitleri iş olayına (sayım, ihlal, hata) çevirir.**
+
+1. **Görüntü alma:** IP kamera, endüstriyel kamera veya dron.
+2. **Ön işleme:** Kırpma, ışık düzeltme, ilgilenilen bölgenin seçilmesi.
+3. **Tespit ve sınıflandırma:** Nesne algılama modelleri kişiyi, aracı, ürünü veya hatayı bulur.
+4. **Takip:** Aynı nesne kareler arasında izlenir; böylece bir kişi iki kez sayılmaz.
+5. **Kurallar:** "Çizgiyi geçti", "baretsiz", "10 dakikadır kuyrukta" gibi olaylar üretilir.
+6. **Çıktı:** Panel, rapor, alarm, e-posta veya WhatsApp bildirimi, ERP/MES kaydı.
+
+## Mevcut kameralarla görüntü işleme yapılabilir mi?
+
+**Çoğu durumda evet; ancak analizin başarısını kamera modelinden çok kameranın açısı, mesafesi ve ışık koşulu belirler.**
+
+- **Sayım** için tepeden veya çapraz açı, kalabalıkta üst üste binmeyi azaltır.
+- **Kalite kontrol** için sabit mesafe, sabit ve gölgesiz aydınlatma gerekir.
+- **Plaka okuma** için doğru açı, yeterli piksel yoğunluğu ve hızlı deklanşör gerekir.
+- **Gece senaryoları** için kızılötesi aydınlatma veya termal kamera değerlendirilir.
+
+Güvenlik kameralarında detay seviyesi IEC 62676-4 standardındaki piksel yoğunluğu (DORI) kavramıyla ifade edilir. Görüntü işleme için gereken detay, senaryoya göre bu seviyelerle birlikte planlanmalıdır. Kamera planlaması için [CCTV Planlayıcı](/araclar/cctv-planlayici) aracını kullanabilirsiniz.
+
+## Görüntü işleme projesinin başarısı nasıl ölçülür?
+
+**Başarı, sizin gerçek görüntülerinizle yapılan pilot ölçümde, modelin tespitlerinin elle kontrol edilen örneklerle karşılaştırılmasıyla ölçülür.**
+
+Teklif aşamasında "yüzde 99 doğruluk" gibi genel vaatlere temkinli yaklaşın; aynı model farklı ışıkta ve farklı üründe farklı sonuç verir. Doğru yaklaşım şudur:
+
+1. Kabul kriterini yazılı belirleyin (örneğin hangi hata tipi, hangi koşulda).
+2. Gerçek koşullarda örnek görüntü toplayın.
+3. Pilot sonuçlarını elle sayımla karşılaştırın.
+4. Kriter sağlanıyorsa yaygınlaştırın; sağlanmıyorsa kamera, ışık veya modeli iyileştirin.
+
+## Edge mi, sunucu mu, bulut mu?
+
+**Anlık tepki gereken ve görüntünün tesis dışına çıkmaması istenen senaryolarda edge cihazlar; çok noktalı raporlama ve merkezi yönetim için sunucu veya bulut uygundur.**
+
+| Ölçüt | Edge (sahada) | Yerel sunucu | Bulut |
+| --- | --- | --- | --- |
+| Gecikme | En düşük | Düşük | İnternete bağlı |
+| Görüntünün tesisten çıkması | Hayır | Hayır | Evet (yalnızca seçilen veri de gönderilebilir) |
+| Çok noktalı yönetim | Zor | Orta | Kolay |
+| Donanım yatırımı | Nokta başı | Merkezi | Düşük, aylık maliyet |
+
+## KVKK açısından nelere dikkat edilmeli?
+
+**Kişileri tespit eden her sistem kişisel veri işler; aydınlatma, amaçla sınırlılık, erişim yetkileri ve saklama süresi belirlenmelidir.**
+
+- Mümkünse yüzleri bulanıklaştırın ve yalnızca sayısal sonuçları (adet, süre) saklayın.
+- Yüz tanıma biyometrik veridir; özel nitelikli kişisel veri kapsamına girer ve ayrıca hukuki değerlendirme gerektirir.
+- Görüntülere erişimi rol bazında sınırlandırın ve erişim kayıtlarını tutun.
+
+Bu bölüm hukuki görüş değildir; yükümlülüklerinizi hukuk danışmanınızla doğrulayın.
+
+## Sonuç
+
+**Görüntü işleme, kameraları kayıt cihazından ölçüm ve uyarı sistemine dönüştürür; başarısı doğru senaryo, doğru kamera yerleşimi ve gerçek görüntülerle yapılan pilot ölçüme bağlıdır.** [Görüntü işleme çözümlerimizi](/cozumler/goruntu-isleme) inceleyebilir, çiftlikler için [inek takip sistemi](/cozumler/buyukbas-hayvan-takip) sayfasına bakabilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.

@@ -1,6 +1,7 @@
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import { MultiStepForm } from "@/components/forms/MultiStepForm";
 import { Reveal } from "@/components/motion/Reveal";
+import { QuickContact } from "@/components/sections/QuickContact";
 import { fullAddress, site, telLink } from "@/lib/site";
 
 export function ContactBlock({ source = "ana-sayfa-iletisim" }: { source?: string }) {
@@ -11,7 +12,8 @@ export function ContactBlock({ source = "ana-sayfa-iletisim" }: { source?: strin
           <h2 id="iletisim-baslik" className="text-[length:var(--text-h2)]">
             Projenizi anlatın, 24 saat içinde arayalım
           </h2>
-          <p className="mt-4 text-lg text-muted">Üç kısa adım. Serbest metin yazmanız gerekmiyor.</p>
+          <p className="mt-4 text-lg text-muted">Hemen arayın, WhatsApp&apos;tan yazın ya da üç kısa adımlık formu doldurun.</p>
+          <QuickContact location={`${source}_block`} className="mt-6" />
           <address className="mt-8 space-y-4 not-italic">
             <p className="flex gap-3"><MapPin className="mt-0.5 size-5 shrink-0 text-accent" aria-hidden /> {fullAddress}</p>
             <p className="flex gap-3"><Phone className="mt-0.5 size-5 shrink-0 text-accent" aria-hidden /> <a href={telLink()} className="hover:text-accent">{site.phone}</a></p>

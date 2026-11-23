@@ -3,6 +3,7 @@ import {
   Cable,
   Camera,
   Car,
+  Clapperboard,
   Code2,
   Compass,
   Factory,
@@ -11,10 +12,14 @@ import {
   Hotel,
   Megaphone,
   Network,
+  Nfc,
+  PawPrint,
+  ScanEye,
   ShieldCheck,
   ShoppingBag,
   Stethoscope,
   UtensilsCrossed,
+  WashingMachine,
   Wifi,
   type LucideIcon,
 } from "lucide-react";
@@ -37,6 +42,11 @@ export const icons = {
   megaphone: Megaphone,
   compass: Compass,
   clinic: Stethoscope,
+  rfid: Nfc,
+  laundry: WashingMachine,
+  vision: ScanEye,
+  livestock: PawPrint,
+  video: Clapperboard,
 } satisfies Record<string, LucideIcon>;
 
 export type IconName = keyof typeof icons;

@@ -1,0 +1,103 @@
+---
+title: "RFID Nedir, Nasıl Çalışır? LF, HF, NFC ve UHF Farkı (2026 Rehberi)"
+description: "RFID'nin çalışma prensibi, pasif ve aktif etiketler, LF-HF-NFC-UHF frekans farkları, okuma mesafesi ve işletmeler için doğru teknoloji seçimi."
+date: "2026-11-23"
+updated: "2026-11-23"
+draft: false
+tags: ["RFID", "UHF RFID", "NFC", "envanter", "takip sistemi"]
+sources: ["epc-gen2", "iso-18000-63", "etsi-302208", "nfc-forum", "iso-11784"]
+author:
+  name: "Comodo Teknoloji Mühendislik Ekibi"
+  jobTitle: "Yazılım ve Saha Sistemleri Ekibi"
+  certifications: []
+  linkedin: ""
+  knowsAbout: ["RFID", "IoT", "Sistem entegrasyonu"]
+faqs:
+  - q: "RFID ne demek?"
+    a: "RFID, Radio Frequency Identification yani Radyo Frekanslı Tanımlama demektir. Bir nesneye takılan etiketin radyo dalgalarıyla, görüş hattı gerekmeden okunarak tanımlanmasını sağlar."
+  - q: "RFID etiketi pil gerektirir mi?"
+    a: "Pasif RFID etiketleri pil gerektirmez; okuyucunun yaydığı sinyalden aldığı enerjiyle çalışır. Aktif etiketlerde ise pil bulunur ve daha uzun menzil sağlanır."
+  - q: "NFC ile RFID aynı şey mi?"
+    a: "NFC, 13,56 MHz HF RFID teknolojisine dayanan ve birkaç santimetrelik yakın mesafede çalışan bir alt türdür. Telefonlarla temassız ödeme ve kartlı geçiş NFC'nin yaygın kullanım alanlarıdır."
+  - q: "UHF RFID Türkiye'de hangi frekansta çalışır?"
+    a: "Avrupa ve Türkiye'de UHF RFID için 865–868 MHz bandı kullanılır; bu bant ETSI EN 302 208 standardıyla tanımlanır. Okuyucu seçerken bu banda uygun bölgesel sürüm seçilmelidir."
+  - q: "RFID etiketi kaç metreden okunur?"
+    a: "LF ve NFC birkaç santimetre, HF yaklaşık bir metreye kadar, pasif UHF ise ortam ve anten koşullarına bağlı olarak birkaç metreden okunabilir. Kesin değer ancak gerçek ortamda yapılan testle belirlenir."
+---
+
+**RFID (Radyo Frekanslı Tanımlama)**, bir nesneye takılan küçük bir etiketin, okuyucunun yaydığı radyo dalgalarıyla görüş hattı gerekmeden okunarak kimliğinin otomatik kaydedilmesidir. Barkoddan farklı olarak etiketin görünmesi gerekmez ve uygun teknolojide çok sayıda etiket aynı anda okunabilir. Bu rehber; RFID'nin nasıl çalıştığını, frekans bantları arasındaki farkları ve bir işletmenin hangi senaryoda hangi teknolojiyi seçmesi gerektiğini özetler.
+
+## RFID sistemi hangi parçalardan oluşur?
+
+**Her RFID sistemi dört temel parçadan oluşur: etiket, okuyucu, anten ve okumayı anlamlı veriye çeviren yazılım.**
+
+- **Etiket (tag):** Bir mikroçip ve antenden oluşur. Kağıt etiket, yıkanabilir tekstil etiketi, sert kasa, kart, bileklik veya küpe şeklinde olabilir.
+- **Okuyucu (reader):** Radyo sinyalini üretir ve etiketten gelen cevabı çözer. Sabit (kapı, tünel, raf) veya el tipi olabilir.
+- **Anten:** Okuma alanının yönünü, şeklini ve menzilini belirler.
+- **Yazılım:** Aynı etiketin tekrarlanan okumalarını ayıklar, okumayı "giriş", "çıkış", "sayım" gibi olaylara çevirir ve stok, ERP veya PMS gibi iş sistemlerine aktarır.
+
+Projelerde en çok gözden kaçan parça yazılımdır. Donanım bir okumayı üretir; o okumanın hangi iş kararına dönüşeceğini yazılım belirler.
+
+## Pasif ve aktif RFID arasındaki fark nedir?
+
+**Pasif etiketlerde pil yoktur ve okuyucunun sinyalinden enerji alırlar; aktif etiketlerde pil bulunur, kendi sinyallerini yayarlar ve daha uzun mesafeden okunurlar.**
+
+| Özellik | Pasif RFID | Aktif RFID |
+| --- | --- | --- |
+| Güç kaynağı | Yok (okuyucudan enerji alır) | Dahili pil |
+| Etiket maliyeti | Düşük | Yüksek |
+| Ömür | Pil sınırı yok | Pil ömrüyle sınırlı |
+| Menzil | Santimetre – birkaç metre | Daha uzun |
+| Tipik kullanım | Envanter, tekstil, kart, küpe | Konteyner, araç, yüksek değerli ekipman |
+
+İşletme projelerinin büyük çoğunluğunda pasif etiketler kullanılır; çünkü binlerce nesneyi düşük maliyetle ve bakım gerektirmeden etiketlemek mümkündür.
+
+## LF, HF, NFC ve UHF RFID arasındaki fark nedir?
+
+**Temel fark çalışma frekansıdır; frekans, okuma mesafesini, toplu okuma kabiliyetini ve metal-sıvı yakınındaki performansı belirler.**
+
+| Bant | Frekans | Tipik mesafe | Güçlü yanı | Yaygın kullanım |
+| --- | --- | --- | --- | --- |
+| LF | 125–134 kHz | Birkaç cm | Sıvı ve doku yakınında kararlı | Hayvan kimliği (ISO 11784/11785), eski kartlar |
+| HF | 13,56 MHz | Birkaç cm – ~1 m | Güvenli kart teknolojileri | Kartlı geçiş, otel kapı kartı, kütüphane |
+| NFC | 13,56 MHz | Birkaç cm | Telefonla okunabilir | Temassız ödeme, akıllı etiket |
+| UHF | 865–868 MHz (Avrupa) | Birkaç metre | Toplu ve hızlı okuma | Envanter, tekstil, lojistik, araç |
+
+UHF RFID için yaygın kullanılan hava arayüzü standardı GS1 tarafından yayımlanan **EPC Gen2**'dir; uluslararası karşılığı **ISO/IEC 18000-63**'tür. Avrupa ve Türkiye'de kullanılan 865–868 MHz bandı **ETSI EN 302 208** standardıyla tanımlanır. Okuyucu alırken bu banda uygun bölgesel sürüm seçmek gerekir.
+
+## Hangi işletme hangi RFID teknolojisini seçmeli?
+
+**Kural basit: tek tek ve yakından okutulacaksa HF/NFC, çok sayıda nesne toplu ve uzaktan sayılacaksa UHF seçilir.**
+
+- **Otel ve çamaşırhane tekstili:** Yıkanabilir UHF etiketler; araba veya torba içinde toplu sayım için. Ayrıntı: [Çamaşırhane RFID](/cozumler/camasirhane-rfid).
+- **Kartlı geçiş ve otel kapı kartı:** HF / NFC kartlar; kısa mesafe ve şifreleme destekli kart teknolojileri.
+- **Depo, raf ve demirbaş:** UHF; metal yüzeyler için metal üstü (on-metal) etiketler.
+- **Hayvan kimliği:** LF küpeler yaygındır; işletme içi geçiş noktalarında UHF küpeler de kullanılabilir. Ayrıntı: [İnek ve büyükbaş takip sistemi](/cozumler/buyukbas-hayvan-takip).
+- **Araç geçişi:** Ön cama yapıştırılan UHF etiketler veya plaka tanıma. Ayrıntı: [Plaka tanıma sistemi](/cozumler/plaka-tanima-sistemi).
+
+## RFID okuma performansını neler etkiler?
+
+**Okuma başarısını en çok metal ve sıvı yakınlığı, etiketin nesne üzerindeki konumu, anten yerleşimi ve etiket yoğunluğu belirler.**
+
+1. **Metal yüzeyler** UHF sinyalini yansıtır; standart etiket yerine metal üstü etiket gerekir.
+2. **Su ve sıvılar** sinyali emer; ıslak tekstil veya sıvı dolu ürünlerde okuma mesafesi kısalır.
+3. **Etiket yönü ve konumu** önemlidir; aynı ürün tipinde etiketin hep aynı yere takılması okuma başarısını artırır.
+4. **Anten alanı** gereğinden geniş kurulursa yandaki rafın veya koridordaki arabanın etiketleri de okunur; bu "yanlış okuma" yazılımda filtrelenmeli veya anten ayarıyla önlenmelidir.
+5. **Etiket yoğunluğu** çok yüksek olduğunda tüm etiketlerin okunması için daha uzun okuma süresi veya farklı anten yerleşimi gerekebilir.
+
+Bu nedenle her RFID projesinde, gerçek ürünlerinizle yapılan bir ortam testi ve küçük bir pilot uygulama, tüm tesise yayılmadan önce yapılması gereken adımdır.
+
+## RFID projesi nasıl başlatılır?
+
+**Donanım seçmeden önce süreç tanımlanmalıdır: neyi, nerede, ne sıklıkla saymak istediğinizi ve bu verinin hangi kararı değiştireceğini yazın.**
+
+1. Takip edilecek nesneleri ve mevcut sayım yöntemini listeleyin.
+2. Kayıp veya zaman kaybı yaşanan noktaları belirleyin.
+3. Gerçek ürünlerle etiket ve okuma testi yapın.
+4. Tek bölümde pilot uygulayın ve sonuçları ölçün.
+5. Yazılım ve entegrasyonu pilotla birlikte geliştirin.
+6. Pilot başarılıysa yaygınlaştırın.
+
+## Sonuç
+
+**RFID'nin değeri etiketin kendisinde değil, elle yapılan sayımın ve kaybın ortadan kalkmasındadır.** Antalya'daki otel, çamaşırhane, fabrika ve depolar için [RFID takip sistemlerimizi](/cozumler/rfid-cozumleri) inceleyebilir, RFID ile barkodun ayrıntılı karşılaştırması için [RFID mi barkod mu?](/bilgi-bankasi/rfid-mi-barkod-mu-karsilastirma) rehberini okuyabilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.

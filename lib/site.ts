@@ -14,7 +14,7 @@ export const site = {
   shortName: "Comodo Teknoloji",
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://comodoteknoloji.com").replace(/\/$/, ""),
   description:
-    "Antalya merkezli teknoloji firması: kurumsal web sitesi, güvenlik kamerası, yazılım, bilişim altyapısı (network, zayıf akım, 5651) ve danışmanlık hizmetlerini işletmelere tek elden sunar.",
+    "Antalya merkezli teknoloji firması: kurumsal web sitesi ve SEO, güvenlik kamerası, yazılım, RFID ve görüntü işleme, bilişim altyapısı (network, zayıf akım, 5651) ve danışmanlık hizmetlerini işletmelere tek elden sunar.",
   slogan: "Ağınızın bekçisi. Tek muhatap, sıfır kesinti.",
   locale: "tr_TR",
   address: {

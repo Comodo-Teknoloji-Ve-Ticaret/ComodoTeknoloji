@@ -39,7 +39,7 @@ export function Header() {
                     href={item.href}
                     aria-current={active ? "page" : undefined}
                     className={cn(
-                      "flex items-center gap-1 rounded-lg px-3 py-2 text-[0.92rem] font-medium transition-colors hover:text-fg",
+                      "flex items-center gap-1 whitespace-nowrap rounded-lg px-3 py-2 text-[0.92rem] font-medium transition-colors hover:text-fg",
                       active ? "text-fg" : "text-muted",
                     )}
                   >
@@ -47,8 +47,18 @@ export function Header() {
                     {item.children && <ChevronDown aria-hidden className="size-3.5 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" />}
                   </Link>
                   {item.children && (
-                    <div className="invisible absolute left-1/2 top-full w-[34rem] -translate-x-1/2 translate-y-1 pt-3 opacity-0 transition-all duration-200 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                      <ul className="grid grid-cols-2 gap-1 rounded-2xl border border-border bg-surface p-2 shadow-2xl shadow-black/25 ring-1 ring-black/5 dark:ring-white/10">
+                    <div
+                      className={cn(
+                        "invisible absolute top-full translate-y-1 pt-3 opacity-0 transition-all duration-200 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100",
+                        item.children.length > 8 ? "left-0 w-[min(50rem,calc(100vw-18rem))]" : "left-1/2 w-[34rem] -translate-x-1/2",
+                      )}
+                    >
+                      <ul
+                        className={cn(
+                          "grid gap-1 rounded-2xl border border-border bg-surface p-2 shadow-2xl shadow-black/25 ring-1 ring-black/5 dark:ring-white/10",
+                          item.children.length > 8 ? "grid-cols-3" : "grid-cols-2",
+                        )}
+                      >
                         {item.children.map((c) => (
                           <li key={c.href}>
                             <Link
@@ -56,7 +66,7 @@ export function Header() {
                               className="block rounded-xl p-3 transition-colors hover:bg-surface-2 focus-visible:bg-surface-2 focus-visible:outline-none"
                             >
                               <span className="block text-sm font-semibold text-fg">{c.label}</span>
-                              <span className="mt-0.5 line-clamp-2 block text-xs leading-snug text-muted">{c.description}</span>
+                              <span className="mt-0.5 line-clamp-2 text-xs leading-snug text-muted">{c.description}</span>
                             </Link>
                           </li>
                         ))}
@@ -73,6 +83,13 @@ export function Header() {
           <a href={telLink()} className="hidden items-center gap-2 rounded-lg px-3 py-2 text-sm text-muted hover:text-fg xl:flex">
             <Phone className="size-4" aria-hidden />
             {site.phone}
+          </a>
+          <a
+            href={telLink()}
+            aria-label={`Hemen arayın: ${site.phone}`}
+            className="grid size-10 place-items-center rounded-xl text-accent hover:bg-surface-2 lg:hidden"
+          >
+            <Phone className="size-5" aria-hidden />
           </a>
           <ThemeToggle />
           <Button asChild size="sm" className="hidden sm:inline-flex">

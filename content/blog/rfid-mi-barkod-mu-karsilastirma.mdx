@@ -1,0 +1,86 @@
+---
+title: "RFID mi, Barkod mu, QR mı, BLE mi? Takip Sistemlerinin Karşılaştırması"
+description: "Envanter, tekstil ve demirbaş takibinde RFID, barkod, QR kod, BLE beacon ve manuel sayım yöntemlerinin karşılaştırması; hangi işletme hangisini seçmeli?"
+date: "2026-11-23"
+updated: "2026-11-23"
+draft: false
+tags: ["RFID", "barkod", "QR kod", "BLE", "envanter", "karşılaştırma"]
+sources: ["epc-gen2", "etsi-302208", "nfc-forum"]
+author:
+  name: "Comodo Teknoloji Mühendislik Ekibi"
+  jobTitle: "Yazılım ve Saha Sistemleri Ekibi"
+  certifications: []
+  linkedin: ""
+  knowsAbout: ["RFID", "Barkod sistemleri", "Envanter yönetimi"]
+faqs:
+  - q: "RFID barkoddan daha mı iyi?"
+    a: "Her senaryoda değil. Az sayıda ürünü tek tek okutmak yetiyorsa barkod daha ekonomiktir. Çok sayıda nesnenin görüş hattı olmadan ve toplu sayılması gerekiyorsa RFID daha verimlidir."
+  - q: "RFID ve barkod birlikte kullanılabilir mi?"
+    a: "Evet, çoğu projede birlikte kullanılır. Etiketin üzerine barkod veya QR kod da basılarak RFID okuyucunun olmadığı noktalarda telefonla okuma imkânı korunur."
+  - q: "BLE beacon ile RFID arasındaki fark nedir?"
+    a: "BLE beacon pilli bir cihazdır ve kendi sinyalini yayar; kişi veya yüksek değerli ekipmanın oda seviyesinde konumunu sürekli izlemek için uygundur. Pasif RFID etiketleri pilsizdir, ucuzdur ve okuma noktasından geçişte kayıt üretir."
+  - q: "RFID'ye geçmek için mevcut barkod sistemimizi atmamız gerekir mi?"
+    a: "Hayır. Mevcut ürün kodları RFID etiketine yazılabilir veya etiket numarası mevcut kodla eşleştirilebilir; stok yazılımınız değişmeden okuma yöntemi değişir."
+---
+
+**Takip sistemi seçimi**, bir işletmenin neyi, ne sıklıkla ve ne kadar hızlı sayması gerektiğine göre yapılır. Barkod ve QR kod ucuz ve yaygındır ancak her nesnenin tek tek okutulmasını gerektirir; RFID görüş hattı olmadan toplu okuma yapar; BLE beacon ise pilli cihazlarla sürekli konum izler. Bu rehber, en yaygın beş yöntemi aynı ölçütlerle karşılaştırır ve hangi senaryoda hangisinin mantıklı olduğunu açıklar.
+
+## Takip yöntemleri arasındaki temel farklar nelerdir?
+
+**Farkı belirleyen dört ölçüt vardır: görüş hattı gereksinimi, toplu okuma kabiliyeti, etiket maliyeti ve iş gücü.**
+
+| Ölçüt | Manuel kayıt | Barkod | QR kod | BLE beacon | UHF RFID |
+| --- | --- | --- | --- | --- | --- |
+| Görüş hattı | Gerekir | Gerekir | Gerekir | Gerekmez | Gerekmez |
+| Toplu okuma | Yok | Tek tek | Tek tek | Var | Var |
+| Etiket maliyeti | Yok | En düşük | En düşük | Yüksek | Düşük–orta |
+| Pil / bakım | Yok | Yok | Yok | Pil değişimi | Pasif etikette yok |
+| Okuyucu | İnsan | Barkod okuyucu | Telefon kamerası | Ağ geçidi / telefon | RFID okuyucu + anten |
+| Hasar toleransı | — | Çizik ve kir okumayı bozar | Kısmi hasara dayanıklı | Kasa içinde korunur | Etiket içinde korunur |
+| En uygun | Çok küçük envanter | Kasa, düşük hacim | Müşteri etkileşimi, bilgi | Kişi ve ekipman konumu | Yüksek hacim, tekstil, stok |
+
+## Barkod ne zaman yeterlidir?
+
+**Ürün sayısı düşükse, okutma zaten bir iş adımının doğal parçasıysa (kasada satış gibi) ve kayıp sorunu yoksa barkod en ekonomik çözümdür.**
+
+Barkodun sınırı, her okumanın bir kişi tarafından yapılmasıdır. Bir arabada yüzlerce havlu, bir rafta yüzlerce ürün veya bir depoda binlerce koli olduğunda tek tek okutma hem zaman alır hem de atlanan ürünler nedeniyle hatalı sonuç verir.
+
+## QR kod hangi durumda mantıklı?
+
+**QR kod, okumanın akıllı telefonla yapılması gereken ve nesne hakkında bilgi veya işlem sayfasına yönlendirme yapılan senaryolarda mantıklıdır.**
+
+Demirbaş üzerindeki QR kodla arıza kaydı açmak, ekipmanın bakım geçmişine ulaşmak veya misafirin menüye erişmesi bu senaryolara örnektir. QR kodu, RFID etiketinin üzerine basarak iki teknolojiyi birlikte kullanmak da yaygın ve akıllıca bir yöntemdir.
+
+## BLE beacon ne zaman RFID'nin yerine geçer?
+
+**Bir kişinin veya yüksek değerli ekipmanın binadaki anlık konumu sürekli izlenmek isteniyorsa BLE beacon daha uygundur.**
+
+BLE cihazları pilli olduğu için kendi sinyalini yayar ve ağ geçitleri sayesinde oda veya bölge seviyesinde sürekli konum verir. Ancak cihaz başı maliyet ve pil değişimi, binlerce düşük değerli nesnede (havlu, kutu, ürün) BLE'yi pratik olmaktan çıkarır. Pasif RFID ise sürekli konum değil, **okuma noktasından geçiş** kaydı üretir.
+
+## RFID ne zaman açık ara en iyi seçenektir?
+
+**Çok sayıda nesnenin düzenli sayıldığı, görüş hattının olmadığı (araba, torba, koli içi) ve kaybın maliyetli olduğu her senaryoda RFID öne çıkar.**
+
+- Otel ve hastane tekstili: [çamaşırhane RFID](/cozumler/camasirhane-rfid) ile kirli-temiz teslim mutabakatı
+- Havuz ve plaj havlusu: [otel RFID](/cozumler/otel-rfid) ile oda bazında havlu takibi
+- Depo ve mağaza envanteri: raf veya kapı okuyucularla periyodik sayım
+- Demirbaş sayımı: el terminaliyle oda oda dolaşarak hızlı envanter
+- Hayvan takibi: sağım odası ve geçişlerde otomatik kimlik
+
+## Hazır sistem mi, özel kurulum mu?
+
+**Standart bir süreç için hazır RFID yazılımı hızlı başlangıç sağlar; mevcut ERP, PMS veya stok sisteminizle derin entegrasyon ve size özel raporlar gerekiyorsa özel kurulum daha uygundur.**
+
+| Ölçüt | Hazır bulut RFID yazılımı | Özel kurulum ve yazılım |
+| --- | --- | --- |
+| Başlangıç hızı | Hızlı | Pilot ve geliştirme gerekir |
+| Süreç uyumu | Yazılımın sunduğu kadar | Sürecinize göre |
+| Donanım seçimi | Desteklenen markalar | Marka bağımsız |
+| Entegrasyon | Sağlayıcının API'si kadar | ERP, PMS, stok, muhasebe |
+| Veri | Sağlayıcının bulutunda | Sizin sunucunuzda veya seçtiğiniz bulutta |
+
+Hangi yolun sizin için mantıklı olduğunu keşifte, mevcut yazılımlarınızı ve süreçlerinizi görerek birlikte değerlendiriyoruz; uygun bir hazır çözüm varsa onu öneriyoruz.
+
+## Sonuç
+
+**Doğru takip teknolojisi, nesne sayısına, okuma ortamına ve kaybın maliyetine göre seçilir; çoğu işletmede en iyi sonuç birden fazla teknolojinin birlikte kullanılmasıyla elde edilir.** RFID'nin temellerini [RFID nedir?](/bilgi-bankasi/rfid-nedir-uhf-hf-nfc-farki) rehberinde okuyabilir, [RFID takip sistemlerimizi](/cozumler/rfid-cozumleri) inceleyebilir veya [ücretsiz keşif](/ucretsiz-kesif) planlayabilirsiniz.

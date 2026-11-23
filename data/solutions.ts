@@ -1,4 +1,5 @@
 import { digitalSolutions } from "./solutions-digital";
+import { rfidAiSolutions } from "./solutions-rfid-ai";
 import type { Solution } from "./types";
 
 const UPDATED = "2026-10-24";
@@ -530,13 +531,12 @@ const infraSolutions: Solution[] = [
       {
         h2: "Comodo Teknoloji hangi yazılımları geliştirdi?",
         answer:
-          "Turizm, enerji ve perakende alanlarında yapay zekâ destekli analiz platformları, IoT tabanlı ölçüm sistemleri, iş zekâsı raporlamalı anket sistemleri ve e-ticaret platformları geliştirdik.",
+          "Turizm ve enerji alanlarında yapay zekâ destekli analiz platformları, IoT tabanlı ölçüm sistemleri ve iş zekâsı raporlamalı anket sistemleri geliştirdik; RFID ve görüntü işleme projeleri için de özel takip yazılımları geliştiriyoruz.",
         bullets: [
           "Hotalyze: otel yorumlarını yapay zekâyla duygu ve departman bazında analiz eden platform (hotalyze.com)",
           "Uzaktan elektrik sayacı okuma: IoT tabanlı tüketim izleme sistemi",
           "Enerji ve karbon ayak izi hesaplama: otel ve işletmeler için misafir başına tüketim raporlaması",
           "Müşteri anket sistemi: iş zekâsı (BI) raporlamalı memnuniyet analizi",
-          "E-ticaret platformları: Comodo Bee (arıcılık ürünleri) ve Comodo Print (dijital baskı, tasarım editörü ve baskı hesaplama)",
         ],
       },
       {
@@ -587,7 +587,13 @@ const order = [
   "web-tasarim",
   "guvenlik-kameralari",
   "yazilim",
+  "rfid-cozumleri",
+  "goruntu-isleme",
   "dijital-reklam",
+  "seo-icerik-pazarlama",
+  "otel-rfid",
+  "camasirhane-rfid",
+  "buyukbas-hayvan-takip",
   "bilisim-danismanligi",
   "kurumsal-network",
   "zayif-akim",
@@ -596,7 +602,7 @@ const order = [
   "plaka-tanima-sistemi",
 ];
 
-export const solutions: Solution[] = [...infraSolutions, ...digitalSolutions].sort((a, b) => order.indexOf(a.slug) - order.indexOf(b.slug));
+export const solutions: Solution[] = [...infraSolutions, ...digitalSolutions, ...rfidAiSolutions].sort((a, b) => order.indexOf(a.slug) - order.indexOf(b.slug));
 
 export function getSolution(slug: string) {
   return solutions.find((s) => s.slug === slug);

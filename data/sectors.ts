@@ -20,7 +20,7 @@ export const sectors: Sector[] = [
       { title: "5651 ve KVKK baskısı", text: "Misafir bağlantılarının kişiyle eşleşmemesi denetimde ciddi risk yaratır." },
       { title: "Her sisteme ayrı firma", text: "Kamera, Wi-Fi ve IPTV için ayrı tedarikçi; arızada herkes birbirini işaret eder." },
     ],
-    solutions: ["kurumsal-network", "5651-loglama-hotspot", "guvenlik-kameralari", "zayif-akim", "siber-guvenlik", "yazilim"],
+    solutions: ["kurumsal-network", "5651-loglama-hotspot", "guvenlik-kameralari", "otel-rfid", "camasirhane-rfid", "zayif-akim", "siber-guvenlik", "yazilim"],
     sections: [
       {
         h2: "Otel Wi-Fi'si ne zaman yenilenmeli?",
@@ -65,7 +65,7 @@ export const sectors: Sector[] = [
       { title: "Üretim ağı ofisle aynı", text: "Ofisteki bir fidye yazılımı üretim hattındaki sistemlere sıçrayabilir." },
       { title: "Kamyon ve personel girişi kontrolsüz", text: "Kantar, yükleme ve personel girişlerinde kayıt eksikliği." },
     ],
-    solutions: ["zayif-akim", "kurumsal-network", "guvenlik-kameralari", "plaka-tanima-sistemi", "siber-guvenlik"],
+    solutions: ["zayif-akim", "kurumsal-network", "guvenlik-kameralari", "goruntu-isleme", "rfid-cozumleri", "plaka-tanima-sistemi", "siber-guvenlik"],
     sections: [
       {
         h2: "Fabrikada fiber mi bakır mı kullanılmalı?",
@@ -109,7 +109,7 @@ export const sectors: Sector[] = [
       { title: "Olay sonrası kayıt bulunamıyor", text: "Yetersiz depolama ve kötü kamera konumu nedeniyle olay görüntüsü yoktur." },
       { title: "Ortak alanlarda bağlantı yok", text: "Havuz, spor salonu ve otopark gibi alanlarda Wi-Fi ve kamera altyapısı eksiktir." },
     ],
-    solutions: ["plaka-tanima-sistemi", "guvenlik-kameralari", "zayif-akim", "kurumsal-network", "yazilim"],
+    solutions: ["plaka-tanima-sistemi", "guvenlik-kameralari", "goruntu-isleme", "zayif-akim", "kurumsal-network", "yazilim"],
     sections: [
       {
         h2: "Sitelerde plaka tanıma sistemi ne kazandırır?",
@@ -146,7 +146,7 @@ export const sectors: Sector[] = [
       { title: "5651 cezası riski", text: "Şifreyi masaya yazmak, bağlantıyı kişiyle eşleştirmez." },
       { title: "Kasa farkları ve mutfak hijyeni", text: "Kasa ve mutfak alanları net görüntülenmediğinde anlaşmazlıklar çözülemez." },
     ],
-    solutions: ["5651-loglama-hotspot", "kurumsal-network", "guvenlik-kameralari"],
+    solutions: ["5651-loglama-hotspot", "kurumsal-network", "guvenlik-kameralari", "seo-icerik-pazarlama", "dijital-reklam"],
     sections: [
       {
         h2: "Kafede müşteri Wi-Fi'si için şifre yeterli mi?",
@@ -183,7 +183,7 @@ export const sectors: Sector[] = [
       { title: "Hassas veriler korumasız", text: "Hasta ve müvekkil dosyaları yedeksiz, şifresiz bilgisayarlarda tutulduğunda tek bir fidye yazılımı işi durdurur." },
       { title: "Kamera var ama KVKK belirsiz", text: "Bekleme salonu kayıtları için aydınlatma, saklama süresi ve erişim yetkisi tanımlanmamıştır." },
     ],
-    solutions: ["web-tasarim", "dijital-reklam", "siber-guvenlik", "guvenlik-kameralari", "bilisim-danismanligi"],
+    solutions: ["web-tasarim", "seo-icerik-pazarlama", "dijital-reklam", "siber-guvenlik", "guvenlik-kameralari", "bilisim-danismanligi"],
     sections: [
       {
         h2: "Bir klinik veya hukuk bürosu için web sitesi neden önemli?",
